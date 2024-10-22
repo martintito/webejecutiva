@@ -2066,3 +2066,18 @@
 .slick-dots li.slick-active button {
   background-color: #333; /* Color del punto activo */
 }
+
+.overlap-9, .overlap-10, .overlap-11, .overlap-12, .overlap-13  
+  {
+  transition: all 0.3s ease; /* Suaviza la transición de todos los estilos */
+  padding: 20px; /* Añade un poco de espacio alrededor */
+  border-radius: 10px; /* Bordes redondeados */
+  background-color: #f9f9f9; /* Color de fondo inicial */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra inicial */
+}
+
+.overlap-9:hover, .overlap-10:hover, .overlap-11:hover, .overlap-12:hover, .overlap-13:hover {
+  background-color: #eaeaea; /* Color de fondo al pasar el cursor */
+  transform: scale(1.05); /* Escala ligeramente el cuadro */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al pasar el cursor */
+}
