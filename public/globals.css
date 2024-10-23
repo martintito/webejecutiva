@@ -1,5 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Inter:500,400,600|Manrope:700,800");
+@import url("https://fonts.googleapis.com/css?family=Inter:500,400|Manrope:800");
 * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
@@ -24,19 +24,7 @@ a {
 }
 
 @font-face {
-  font-family: "Font Awesome 5 Brands-Regular";
-  src: url("https://anima-uploads.s3.amazonaws.com/5b59ac6041bb8600090b709d/Font Awesome 5 Brands-Regular-400.otf")
-    format("opentype");
-}
-
-@font-face {
-  font-family: "Gotham Rounded-Book";
-  src: url("https://anima-uploads.s3.amazonaws.com/5b59ac6041bb8600090b709d/Gotham-Rounded-Book_21018.ttf")
+  font-family: "Gotham Rounded-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/625691dae1c7b20e8da59442/fonts/gothambook.ttf")
     format("truetype");
-}
-
-@font-face {
-  font-family: "Font Awesome 5 Free-Solid";
-  src: url("https://anima-uploads.s3.amazonaws.com/5aa4ed775d7c3d000ce877fc/Font Awesome 5 Free-Solid-900.otf")
-    format("opentype");
 }

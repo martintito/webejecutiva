@@ -1,4 +1,4 @@
-.catalogo {
+.catalogo-PRINCIPAL {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -6,1165 +6,285 @@
   width: 100%;
 }
 
-.catalogo .div {
+.catalogo-PRINCIPAL .div {
   background-color: #ffffff;
+  overflow-x: hidden;
   width: 1920px;
-  height: 3796px;
+  height: 3216px;
   position: relative;
 }
 
-.catalogo .overlap {
+.catalogo-PRINCIPAL .overlap {
   position: absolute;
-  width: 1920px;
-  height: 675px;
-  top: 1826px;
-  left: 0;
-}
-
-.catalogo .rectangle {
-  position: absolute;
-  width: 1920px;
-  height: 647px;
+  width: 1995px;
+  height: 1221px;
   top: 0;
-  left: 0;
-  background-color: #f7f7f7;
+  left: -66px;
 }
 
-.catalogo .section {
-  top: 18px;
-  left: 300px;
-  position: absolute;
-  width: 1320px;
-  height: 657px;
-}
-
-.catalogo .overlap-group {
-  position: absolute;
-  width: 279px;
-  height: 34px;
-  top: -1px;
-  left: 15px;
-}
-
-.catalogo .heading-weekly {
-  position: absolute;
-  width: 279px;
-  height: 34px;
-  top: 0;
-  left: 0;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #0059a9;
-  font-size: 28px;
-  letter-spacing: 0;
-  line-height: 33.6px;
-  white-space: nowrap;
-}
-
-.catalogo .border {
-  position: absolute;
-  width: 1290px;
-  height: 5px;
-  top: 51px;
-  left: 15px;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-color: #dfdfdf;
-}
-
-.catalogo .overlap-group-2 {
-  position: relative;
-  width: 46px;
-  height: 6px;
-}
-
-.catalogo .background {
-  position: absolute;
-  width: 40px;
-  height: 5px;
-  top: 0;
-  left: 0;
-  background-color: #0059a9;
-}
-
-.catalogo .mask-group {
-  position: absolute;
-  width: 10px;
-  height: 6px;
-  top: 0;
-  left: 36px;
-}
-
-.catalogo .image {
-  width: 651px;
-  height: 467px;
-  top: 112px;
-  left: 0;
+.catalogo-PRINCIPAL .rectangle {
+  width: 1932px;
+  height: 383px;
+  top: 838px;
+  left: 63px;
   position: absolute;
   object-fit: cover;
 }
 
-.catalogo .image-wrapper {
+.catalogo-PRINCIPAL .vector {
   position: absolute;
-  width: 293px;
-  height: 222px;
-  top: 112px;
-  left: 680px;
-  background-color: #ffffff;
-  border-radius: 20px;
-  border: 1px solid;
-  border-color: #bbbbbb;
-}
-
-.catalogo .img {
-  width: 67px;
-  height: 67px;
-  top: 31px;
-  left: 112px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.catalogo .img-wrapper {
-  position: absolute;
-  width: 293px;
-  height: 222px;
-  top: 112px;
-  left: 998px;
-  background-color: #ffffff;
-  border-radius: 20px;
-  border: 1px solid;
-  border-color: #bbbbbb;
-}
-
-.catalogo .rectangle-2 {
-  position: absolute;
-  width: 293px;
-  height: 222px;
-  top: 357px;
-  left: 680px;
-  background-color: #ffffff;
-  border-radius: 20px;
-  border: 1px solid;
-  border-color: #bbbbbb;
-}
-
-.catalogo .rectangle-3 {
-  position: absolute;
-  width: 293px;
-  height: 222px;
-  top: 357px;
-  left: 998px;
-  background-color: #ffffff;
-  border-radius: 20px;
-  border: 1px solid;
-  border-color: #bbbbbb;
-}
-
-.catalogo .text-wrapper {
-  width: 279px;
-  height: 94px;
-  top: 240px;
-  left: 980px;
-  font-size: 25px;
-  position: absolute;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #0059a9;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 33.6px;
-}
-
-.catalogo .heading-weekly-2 {
-  width: 236px;
-  height: 94px;
-  top: 224px;
-  left: 1327px;
-  font-size: 25px;
-  position: absolute;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #0059a9;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 33.6px;
-}
-
-.catalogo .heading-weekly-3 {
-  width: 236px;
-  height: 94px;
-  top: 466px;
-  left: 1010px;
-  font-size: 25px;
-  position: absolute;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #0059a9;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 33.6px;
-}
-
-.catalogo .heading-weekly-4 {
-  width: 236px;
-  height: 94px;
-  top: 466px;
-  left: 1327px;
-  font-size: 25px;
-  position: absolute;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #0059a9;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 33.6px;
-}
-
-.catalogo .image-2 {
-  width: 64px;
-  height: 64px;
-  top: 413px;
-  left: 1407px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.catalogo .image-3 {
-  width: 55px;
-  height: 55px;
-  top: 417px;
-  left: 1100px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.catalogo .overlap-2 {
-  position: absolute;
-  width: 1320px;
-  height: 657px;
-  top: 2501px;
-  left: 300px;
-}
-
-.catalogo .section-2 {
-  top: 0;
-  left: 0;
-  position: absolute;
-  width: 1320px;
-  height: 657px;
-}
-
-.catalogo .p {
-  width: 943px;
-  height: 34px;
-  top: 1px;
-  left: 188px;
-  font-size: 28px;
-  white-space: nowrap;
-  position: absolute;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #0059a9;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 33.6px;
-}
-
-.catalogo .overlap-3 {
-  position: absolute;
-  width: 446px;
-  height: 66px;
-  top: 565px;
-  left: 241px;
-  background-color: #005390;
-  border-radius: 33px;
-}
-
-.catalogo .VER-TODOS-LOS {
-  position: absolute;
-  height: 34px;
-  top: 17px;
-  left: 34px;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 23px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 33.6px;
-  white-space: nowrap;
-}
-
-.catalogo .capa {
-  position: absolute;
-  width: 25px;
-  height: 21px;
-  top: 24px;
-  left: 394px;
-}
-
-.catalogo .capa-2 {
-  position: absolute;
-  width: 360px;
-  height: 525px;
-  top: 87px;
-  left: 751px;
-}
-
-.catalogo .image-4 {
-  width: 434px;
-  height: 392px;
-  top: 149px;
-  left: 246px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.catalogo .overlap-4 {
-  position: absolute;
-  width: 1920px;
-  height: 1749px;
+  width: 864px;
+  height: 162px;
   top: 0;
   left: 0;
 }
 
-.catalogo .header {
+.catalogo-PRINCIPAL .container {
   position: absolute;
-  width: 1920px;
-  height: 225px;
-  top: 0;
-  left: 0;
-  background-color: transparent;
-}
-
-.catalogo .background-2 {
-  position: absolute;
-  width: 1920px;
-  height: 39px;
-  top: 0;
-  left: 0;
-  background-color: #d1d1d1;
-}
-
-.catalogo .list {
-  position: absolute;
-  width: 630px;
-  height: 28px;
-  top: 11px;
-  left: 315px;
-}
-
-.catalogo .item-link {
-  position: relative;
-  width: 264px;
-  height: 28px;
-  top: -5px;
-}
-
-.catalogo .text-wrapper-2 {
-  position: absolute;
-  width: 676px;
-  height: 28px;
-  top: -1px;
-  left: 52px;
-  font-family: "Inter", Helvetica;
-  font-weight: 600;
-  color: #ffffff;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 28px;
-  white-space: nowrap;
-}
-
-.catalogo .list-2 {
-  position: absolute;
-  width: 96px;
-  height: 28px;
-  top: 6px;
-  left: 1448px;
-}
-
-.catalogo .symbol-wrapper {
-  position: absolute;
-  width: 10px;
-  height: 20px;
-  top: 4px;
-  left: 0;
-}
-
-.catalogo .symbol {
-  width: 10px;
-  height: 16px;
-  top: 1px;
-  left: 0;
-  font-family: "Font Awesome 5 Brands-Regular", Helvetica;
-  font-size: 16px;
-  position: absolute;
-  font-weight: 400;
-  color: #ffffff;
-  letter-spacing: 0;
-  line-height: 16px;
-  white-space: nowrap;
-}
-
-.catalogo .div-wrapper {
-  position: absolute;
-  width: 16px;
-  height: 20px;
-  top: 4px;
-  left: 24px;
-}
-
-.catalogo .symbol-2 {
-  width: 16px;
-  height: 16px;
-  top: 1px;
-  left: 0;
-  font-family: "Font Awesome 5 Brands-Regular", Helvetica;
-  font-size: 16px;
-  position: absolute;
-  font-weight: 400;
-  color: #ffffff;
-  letter-spacing: 0;
-  line-height: 16px;
-  white-space: nowrap;
-}
-
-.catalogo .item-link-2 {
-  position: absolute;
-  width: 14px;
-  height: 20px;
-  top: 4px;
-  left: 54px;
-}
-
-.catalogo .symbol-3 {
-  width: 14px;
-  height: 16px;
-  top: 1px;
-  left: 0;
-  font-family: "Font Awesome 5 Brands-Regular", Helvetica;
-  font-size: 16px;
-  position: absolute;
-  font-weight: 400;
-  color: #ffffff;
-  letter-spacing: 0;
-  line-height: 16px;
-  white-space: nowrap;
-}
-
-.catalogo .item-link-3 {
-  position: absolute;
-  width: 14px;
-  height: 20px;
-  top: 4px;
-  left: 82px;
-}
-
-.catalogo .overlap-5 {
-  position: absolute;
-  width: 1383px;
-  height: 90px;
-  top: 41px;
-  left: 340px;
-}
-
-.catalogo .item {
-  position: absolute;
-  width: 1383px;
-  height: 78px;
-  top: 0;
-  left: 0;
-}
-
-.catalogo .link {
-  position: absolute;
-  width: 828px;
-  height: 90px;
-  top: 0;
-  left: 245px;
-}
-
-.catalogo .overlap-6 {
-  position: relative;
-  width: 1114px;
-  height: 90px;
-  left: -5px;
-}
-
-.catalogo .link-wrapper {
-  position: absolute;
-  width: 1114px;
-  height: 90px;
-  top: 0;
-  left: 0;
-}
-
-.catalogo .overlap-group-wrapper {
-  height: 90px;
-}
-
-.catalogo .overlap-group-3 {
-  position: relative;
-  width: 1097px;
-  height: 30px;
-  top: 33px;
-  left: -24px;
-}
-
-.catalogo .programa-nacional-de {
-  position: absolute;
-  width: 1097px;
-  height: 30px;
-  top: 0;
-  left: 0;
-  font-family: "Manrope", Helvetica;
-  font-weight: 700;
-  color: #686868;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: 16px;
-}
-
-.catalogo .vector {
-  position: absolute;
-  width: 8px;
-  height: 13px;
-  top: 11px;
-  left: 866px;
-}
-
-.catalogo .modo-de-aislamiento {
-  position: absolute;
-  width: 8px;
-  height: 13px;
-  top: 44px;
-  left: 409px;
-}
-
-.catalogo .container {
   width: 1920px;
   height: 1059px;
-  top: 114px;
-  position: absolute;
-  left: 0;
+  top: 0;
+  left: 66px;
   overflow: hidden;
 }
 
-.catalogo .overlap-7 {
-  position: relative;
-  height: 1223px;
-  top: -96px;
-  background-image: url(https://c.animaapp.com/nKT6Alyc/img/-shv2931-1.png);
-  background-size: 100% 100%;
+.catalogo-PRINCIPAL .OBJECTS {
+  position: absolute;
+  width: 1461px;
+  height: 932px;
+  top: -126px;
+  left: 503px;
 }
 
-.catalogo .background-shadow {
+.catalogo-PRINCIPAL .background-shadow {
   position: absolute;
   width: 1920px;
-  height: 49px;
-  top: 67px;
+  height: 1px;
+  top: -155px;
   left: 0;
   background-color: #ffffff;
   box-shadow: 0px 10px 15px #1919191a;
 }
 
-.catalogo .overlap-group-4 {
+.catalogo-PRINCIPAL .overlap-group {
   position: relative;
-  width: 2314px;
-  height: 2119px;
-  top: -297px;
-  left: -299px;
-  background-image: url(https://c.animaapp.com/nKT6Alyc/img/vector-2.svg);
-  background-size: 100% 100%;
+  width: 2037px;
+  height: 1447px;
+  top: -134px;
+  left: -67px;
 }
 
-.catalogo .ellipse {
+.catalogo-PRINCIPAL .group {
   position: absolute;
-  width: 13px;
-  height: 13px;
-  top: 1014px;
-  left: 1596px;
-  background-color: #d9d9d9;
-  border-radius: 6.5px;
+  width: 104px;
+  height: 14px;
+  top: 1055px;
+  left: 1480px;
 }
 
-.catalogo .ellipse-2 {
+.catalogo-PRINCIPAL .ellipse {
   position: absolute;
-  width: 12px;
-  height: 13px;
-  top: 1014px;
-  left: 1613px;
-  background-color: #d9d9d9;
-  border-radius: 6px / 6.5px;
-}
-
-.catalogo .ellipse-3 {
-  position: absolute;
-  width: 12px;
-  height: 13px;
-  top: 1014px;
-  left: 1631px;
-  background-color: #d9d9d9;
-  border-radius: 6px / 6.5px;
-}
-
-.catalogo .ellipse-4 {
-  position: absolute;
-  width: 12px;
-  height: 13px;
-  top: 1014px;
-  left: 1648px;
-  background-color: #d9d9d9;
-  border-radius: 6px / 6.5px;
-}
-
-.catalogo .ellipse-5 {
-  position: absolute;
-  width: 12px;
-  height: 13px;
-  top: 1014px;
-  left: 1666px;
-  background-color: #d9d9d9;
-  border-radius: 6px / 6.5px;
-}
-
-.catalogo .ellipse-6 {
-  position: absolute;
-  width: 13px;
-  height: 13px;
-  top: 1014px;
-  left: 1682px;
-  background-color: #d9d9d9;
-  border-radius: 6.5px;
-}
-
-.catalogo .line {
-  position: absolute;
-  width: 1px;
-  height: 69px;
-  top: 226px;
-  left: 656px;
-}
-
-.catalogo .especializados-para {
-  position: absolute;
-  width: 474px;
-  top: 221px;
-  left: 691px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 35px;
-  letter-spacing: 0;
-  line-height: 39.7px;
-}
-
-.catalogo .SISTEMAS-MODULARES {
-  position: absolute;
-  width: 293px;
-  top: 221px;
-  left: 349px;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: 38.0px;
-}
-
-.catalogo .overlap-8 {
-  position: absolute;
-  width: 413px;
-  height: 303px;
-  top: 815px;
-  left: 445px;
-}
-
-.catalogo .ellipse-7 {
-  position: absolute;
-  width: 303px;
-  height: 303px;
+  width: 14px;
+  height: 14px;
   top: 0;
   left: 0;
-  object-fit: cover;
+  background-color: #d9d9d9;
+  border-radius: 7px;
 }
 
-.catalogo .aulas {
+.catalogo-PRINCIPAL .ellipse-2 {
   position: absolute;
-  width: 319px;
-  height: 199px;
-  top: 63px;
-  left: 94px;
-  object-fit: cover;
+  width: 12px;
+  height: 14px;
+  top: 0;
+  left: 18px;
+  background-color: #d9d9d9;
+  border-radius: 6px / 7px;
 }
 
-.catalogo .element {
+.catalogo-PRINCIPAL .ellipse-3 {
   position: absolute;
-  width: 168px;
-  height: 47px;
-  top: 65px;
-  left: 349px;
-  object-fit: cover;
+  width: 12px;
+  height: 14px;
+  top: 0;
+  left: 37px;
+  background-color: #d9d9d9;
+  border-radius: 6px / 7px;
 }
 
-.catalogo .text-wrapper-3 {
+.catalogo-PRINCIPAL .ellipse-4 {
   position: absolute;
-  width: 478px;
-  top: 966px;
-  left: 923px;
-  font-family: "Gotham Rounded-Book", Helvetica;
+  width: 12px;
+  height: 14px;
+  top: 0;
+  left: 55px;
+  background-color: #d9d9d9;
+  border-radius: 6px / 7px;
+}
+
+.catalogo-PRINCIPAL .ellipse-5 {
+  position: absolute;
+  width: 12px;
+  height: 14px;
+  top: 0;
+  left: 74px;
+  background-color: #d9d9d9;
+  border-radius: 6px / 7px;
+}
+
+.catalogo-PRINCIPAL .ellipse-6 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 0;
+  left: 90px;
+  background-color: #d9d9d9;
+  border-radius: 7px;
+}
+
+.catalogo-PRINCIPAL .overlap-group-wrapper {
+  position: absolute;
+  width: 1881px;
+  height: 1177px;
+  top: 135px;
+  left: 78px;
+  overflow: hidden;
+  transform: rotate(-8.68deg);
+}
+
+.catalogo-PRINCIPAL .overlap-group-2 {
+  position: relative;
+  width: 1718px;
+  height: 1355px;
+  top: -134px;
+  left: 286px;
+}
+
+.catalogo-PRINCIPAL .img {
+  position: absolute;
+  width: 1497px;
+  height: 1142px;
+  top: 106px;
+  left: 144px;
+  transform: rotate(8.68deg);
+}
+
+.catalogo-PRINCIPAL .cat-logos-PRONIED {
+  position: absolute;
+  width: 537px;
+  top: 671px;
+  left: 47px;
+  transform: rotate(8.68deg);
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #005bab;
+  font-size: 61px;
+  letter-spacing: 0;
+  line-height: 57.9px;
+}
+
+.catalogo-PRINCIPAL .son-herramientas-que {
+  position: absolute;
+  width: 509px;
+  top: 821px;
+  left: 15px;
+  transform: rotate(8.68deg);
+  font-family: "Gotham Rounded-Regular", Helvetica;
   font-weight: 400;
-  color: #4b4b4b;
-  font-size: 17px;
+  color: #494949;
+  font-size: 19px;
   text-align: justify;
   letter-spacing: 0;
-  line-height: 21.2px;
+  line-height: 24.7px;
 }
 
-.catalogo .qu-son-los-sistemas {
-  position: absolute;
-  width: 547px;
-  top: 871px;
-  left: 918px;
+.catalogo-PRINCIPAL .text-wrapper {
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: #494949;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: 24.7px;
+}
+
+.catalogo-PRINCIPAL .span {
   font-family: "Gotham Rounded-Bold", Helvetica;
   font-weight: 700;
-  color: #005bab;
-  font-size: 34px;
-  letter-spacing: 0;
-  line-height: 32.3px;
 }
 
-.catalogo .group {
+.catalogo-PRINCIPAL .en-qu-consiste-hemos {
   position: absolute;
-  width: 1333px;
-  height: 586px;
-  top: 1163px;
-  left: 305px;
-}
-
-.catalogo .text-wrapper-4 {
-  position: absolute;
-  width: 1286px;
-  top: 0;
-  left: 0;
+  width: 504px;
+  top: 919px;
+  left: 416px;
   font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #005bab;
-  font-size: 28px;
-  text-align: center;
+  font-weight: 400;
+  color: transparent;
+  font-size: 32px;
+  text-align: justify;
   letter-spacing: 0;
-  line-height: 26.6px;
-  white-space: nowrap;
+  line-height: 41.6px;
 }
 
-.catalogo .overlap-9 {
+.catalogo-PRINCIPAL .text-wrapper-2 {
+  font-weight: 700;
+  color: #0059aa;
+}
+
+.catalogo-PRINCIPAL .text-wrapper-3 {
+  font-weight: 700;
+  color: #0059aa;
+  font-size: 25px;
+  line-height: 32.5px;
+}
+
+.catalogo-PRINCIPAL .text-wrapper-4 {
+  font-weight: 700;
+  color: #494949;
+  font-size: 19px;
+  line-height: 24.7px;
+}
+
+.catalogo-PRINCIPAL .text-wrapper-5 {
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  color: #494949;
+  font-size: 19px;
+  line-height: 24.7px;
+}
+
+.catalogo-PRINCIPAL .s-mate-los-invitamos {
   position: absolute;
-  width: 224px;
-  height: 437px;
-  top: 66px;
-  left: 20px;
+  width: 582px;
+  top: 919px;
+  left: 1047px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 32px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 41.6px;
 }
 
-.catalogo .container-2 {
-  width: 224px;
-  height: 400px;
-  top: 0;
-  border-radius: 6px;
+.catalogo-PRINCIPAL .element {
   position: absolute;
-  left: 0;
-  overflow: hidden;
-}
-
-.catalogo .featured-jpg-wrapper {
-  height: 400px;
-}
-
-.catalogo .featured-jpg {
-  width: 224px;
-  position: relative;
-  height: 400px;
-  overflow: hidden;
-  background-image: url(https://c.animaapp.com/nKT6Alyc/img/featured-post02-jpg-2@2x.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.catalogo .image-5 {
-  width: 566px;
-  height: 421px;
-  top: -8px;
-  left: -85px;
-  position: absolute;
+  width: 226px;
+  height: 62px;
+  top: 299px;
+  left: 419px;
   object-fit: cover;
 }
 
-.catalogo .ellipse-8 {
-  position: absolute;
-  width: 78px;
-  height: 78px;
-  top: 359px;
-  left: 78px;
-  background-color: #005bab;
-  border-radius: 39px;
-}
-
-.catalogo .capa-3 {
-  position: absolute;
-  width: 52px;
-  height: 34px;
-  top: 377px;
-  left: 91px;
-}
-
-.catalogo .overlap-10 {
-  position: absolute;
-  width: 231px;
-  height: 437px;
-  top: 66px;
-  left: 273px;
-}
-
-.catalogo .container-3 {
-  width: 231px;
-  height: 400px;
-  top: 0;
-  border-radius: 6px;
-  position: absolute;
-  left: 0;
-  overflow: hidden;
-}
-
-.catalogo .featured-post-jpg {
-  position: relative;
-  width: 231px;
-  height: 400px;
-  overflow: hidden;
-  background-image: url(https://c.animaapp.com/nKT6Alyc/img/featured-post03-jpg@2x.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.catalogo .image-6 {
-  width: 715px;
-  height: 413px;
-  top: -13px;
-  left: -259px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.catalogo .ellipse-9 {
-  background-color: #a4ab1c;
-  position: absolute;
-  width: 78px;
-  height: 78px;
-  top: 359px;
-  left: 80px;
-  border-radius: 39px;
-}
-
-.catalogo .capa-4 {
-  position: absolute;
-  width: 52px;
-  height: 34px;
-  top: 377px;
-  left: 93px;
-}
-
-.catalogo .overlap-11 {
-  position: absolute;
-  width: 231px;
-  height: 437px;
-  top: 66px;
-  left: 527px;
-}
-
-.catalogo .featured-jpg-2 {
-  position: relative;
-  width: 231px;
-  height: 400px;
-  overflow: hidden;
-  background-image: url(https://c.animaapp.com/nKT6Alyc/img/featured-post04-jpg@2x.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.catalogo .image-7 {
-  width: 514px;
-  height: 439px;
-  top: 0;
-  left: -112px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.catalogo .ellipse-10 {
-  background-color: #444243;
-  position: absolute;
-  width: 78px;
-  height: 78px;
-  top: 359px;
-  left: 80px;
-  border-radius: 39px;
-}
-
-.catalogo .overlap-12 {
-  position: absolute;
-  width: 231px;
-  height: 437px;
-  top: 66px;
-  left: 780px;
-}
-
-.catalogo .featured-jpg-3 {
-  width: 231px;
-  position: relative;
-  height: 400px;
-  overflow: hidden;
-  background-image: url(https://c.animaapp.com/nKT6Alyc/img/featured-post02-jpg-2@2x.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.catalogo .image-8 {
-  width: 312px;
-  height: 653px;
-  top: -17px;
-  left: -4px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.catalogo .ellipse-11 {
-  background-color: #6ab4a9;
-  position: absolute;
-  width: 78px;
-  height: 78px;
-  top: 359px;
-  left: 80px;
-  border-radius: 39px;
-}
-
-.catalogo .overlap-13 {
-  position: absolute;
-  width: 231px;
-  height: 437px;
-  top: 66px;
-  left: 1038px;
-}
-
-.catalogo .image-9 {
-  width: 245px;
-  height: 513px;
-  top: -17px;
-  left: -4px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.catalogo .ellipse-12 {
-  background-color: #005bab;
-  position: absolute;
-  width: 78px;
-  height: 78px;
-  top: 359px;
-  left: 80px;
-  border-radius: 39px;
-}
-
-.catalogo .destinado-a {
-  position: absolute;
-  width: 233px;
-  height: 15px;
-  top: 571px;
-  left: 19px;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #6d757f;
-  font-size: 13px;
-  text-align: center;
-  letter-spacing: 0.52px;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.catalogo .text-wrapper-5 {
-  position: absolute;
-  width: 247px;
-  height: 58px;
-  top: 504px;
-  left: 11px;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #0059a9;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 28.8px;
-}
-
-.catalogo .destinado-a-2 {
-  width: 232px;
-  left: 272px;
-  position: absolute;
-  height: 15px;
-  top: 571px;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #6d757f;
-  font-size: 13px;
-  text-align: center;
-  letter-spacing: 0.52px;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.catalogo .text-wrapper-6 {
-  position: absolute;
-  width: 247px;
-  height: 58px;
-  top: 504px;
-  left: 264px;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #a6ab1c;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 28.8px;
-}
-
-.catalogo .destinado-a-3 {
-  width: 233px;
-  left: 525px;
-  position: absolute;
-  height: 15px;
-  top: 571px;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #6d757f;
-  font-size: 13px;
-  text-align: center;
-  letter-spacing: 0.52px;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.catalogo .destinado-a-4 {
-  width: 233px;
-  left: 779px;
-  position: absolute;
-  height: 15px;
-  top: 571px;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #6d757f;
-  font-size: 13px;
-  text-align: center;
-  letter-spacing: 0.52px;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.catalogo .overlap-14 {
-  position: absolute;
-  width: 539px;
-  height: 58px;
-  top: 504px;
-  left: 772px;
-}
-
-.catalogo .kits-parrarrayo {
-  position: absolute;
-  width: 247px;
-  height: 58px;
-  top: 0;
-  left: 0;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #6bb4a9;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 28.8px;
-}
-
-.catalogo .mobiliario-y {
-  position: absolute;
-  width: 315px;
-  height: 58px;
-  top: 0;
-  left: 224px;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #005bab;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 28.8px;
-}
-
-.catalogo .servicios-higi-nicos {
-  position: absolute;
-  width: 247px;
-  height: 58px;
-  top: 504px;
-  left: 517px;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #444243;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 28.8px;
-}
-
-.catalogo .destinado-a-5 {
-  width: 233px;
-  left: 1037px;
-  position: absolute;
-  height: 15px;
-  top: 571px;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #6d757f;
-  font-size: 13px;
-  text-align: center;
-  letter-spacing: 0.52px;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.catalogo .modo-de-aislamiento-2 {
-  position: absolute;
-  width: 22px;
-  height: 36px;
-  top: 1405px;
-  left: 1605px;
-}
-
-.catalogo .modo-de-aislamiento-3 {
-  position: absolute;
-  width: 22px;
-  height: 36px;
-  top: 1405px;
-  left: 278px;
-}
-
-.catalogo .footer {
+.catalogo-PRINCIPAL .footer {
   position: absolute;
   width: 1920px;
   height: 536px;
-  top: 3245px;
+  top: 2680px;
   left: 0;
   background-color: #0057a7;
 }
 
-.catalogo .horizontal-border {
+.catalogo-PRINCIPAL .horizontal-border {
   position: absolute;
   width: 1920px;
   height: 99px;
@@ -1175,7 +295,7 @@
   border-color: #202e3f;
 }
 
-.catalogo .list-3 {
+.catalogo-PRINCIPAL .list {
   position: absolute;
   width: 630px;
   height: 28px;
@@ -1183,7 +303,7 @@
   left: 315px;
 }
 
-.catalogo .div-2 {
+.catalogo-PRINCIPAL .div-2 {
   position: absolute;
   width: 171px;
   height: 28px;
@@ -1191,7 +311,7 @@
   left: 0;
 }
 
-.catalogo .background-3 {
+.catalogo-PRINCIPAL .background {
   position: absolute;
   width: 4px;
   height: 4px;
@@ -1201,7 +321,7 @@
   border-radius: 2px;
 }
 
-.catalogo .privacy-policy-terms {
+.catalogo-PRINCIPAL .privacy-policy-terms {
   position: absolute;
   width: 171px;
   height: 28px;
@@ -1216,7 +336,7 @@
   white-space: nowrap;
 }
 
-.catalogo .item-link-4 {
+.catalogo-PRINCIPAL .item-link {
   position: absolute;
   width: 88px;
   height: 28px;
@@ -1224,7 +344,7 @@
   left: 196px;
 }
 
-.catalogo .text-wrapper-7 {
+.catalogo-PRINCIPAL .text-wrapper-6 {
   position: absolute;
   width: 88px;
   height: 28px;
@@ -1239,7 +359,7 @@
   white-space: nowrap;
 }
 
-.catalogo .text-wrapper-8 {
+.catalogo-PRINCIPAL .p {
   position: absolute;
   width: 209px;
   height: 28px;
@@ -1255,7 +375,7 @@
   white-space: nowrap;
 }
 
-.catalogo .browned-butter-and {
+.catalogo-PRINCIPAL .browned-butter-and {
   position: absolute;
   width: 265px;
   height: 112px;
@@ -1269,7 +389,7 @@
   line-height: 28px;
 }
 
-.catalogo .heading {
+.catalogo-PRINCIPAL .heading {
   position: absolute;
   width: 190px;
   height: 44px;
@@ -1277,7 +397,7 @@
   left: 645px;
 }
 
-.catalogo .mask-group-2 {
+.catalogo-PRINCIPAL .mask-group {
   position: absolute;
   width: 32px;
   height: 5px;
@@ -1285,7 +405,7 @@
   left: 0;
 }
 
-.catalogo .text-wrapper-9 {
+.catalogo-PRINCIPAL .text-wrapper-7 {
   position: absolute;
   width: 94px;
   height: 24px;
@@ -1300,23 +420,23 @@
   white-space: nowrap;
 }
 
-.catalogo .list-4 {
-  position: absolute;
+.catalogo-PRINCIPAL .list-2 {
   width: 190px;
+  left: 645px;
+  position: absolute;
   height: 173px;
   top: 164px;
-  left: 645px;
 }
 
-.catalogo .item-link-5 {
-  position: absolute;
+.catalogo-PRINCIPAL .div-wrapper {
   width: 66px;
-  height: 26px;
   top: 1px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .text-wrapper-10 {
+.catalogo-PRINCIPAL .text-wrapper-8 {
   position: absolute;
   width: 67px;
   height: 26px;
@@ -1331,15 +451,15 @@
   white-space: nowrap;
 }
 
-.catalogo .item-link-6 {
-  position: absolute;
+.catalogo-PRINCIPAL .item-link-2 {
   width: 122px;
-  height: 26px;
   top: 38px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .text-wrapper-11 {
+.catalogo-PRINCIPAL .text-wrapper-9 {
   position: absolute;
   width: 122px;
   height: 26px;
@@ -1354,15 +474,15 @@
   white-space: nowrap;
 }
 
-.catalogo .item-link-7 {
-  position: absolute;
+.catalogo-PRINCIPAL .item-link-3 {
   width: 59px;
-  height: 26px;
   top: 74px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .text-wrapper-12 {
+.catalogo-PRINCIPAL .text-wrapper-10 {
   position: absolute;
   width: 59px;
   height: 26px;
@@ -1377,15 +497,15 @@
   white-space: nowrap;
 }
 
-.catalogo .item-link-8 {
-  position: absolute;
+.catalogo-PRINCIPAL .item-link-4 {
   width: 49px;
-  height: 26px;
   top: 110px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .text-wrapper-13 {
+.catalogo-PRINCIPAL .text-wrapper-11 {
   position: absolute;
   width: 49px;
   height: 26px;
@@ -1400,15 +520,15 @@
   white-space: nowrap;
 }
 
-.catalogo .item-link-9 {
-  position: absolute;
+.catalogo-PRINCIPAL .item-link-5 {
   width: 35px;
-  height: 26px;
   top: 146px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .text-wrapper-14 {
+.catalogo-PRINCIPAL .text-wrapper-12 {
   position: absolute;
   width: 35px;
   height: 26px;
@@ -1423,7 +543,7 @@
   white-space: nowrap;
 }
 
-.catalogo .heading-2 {
+.catalogo-PRINCIPAL .heading-2 {
   width: 245px;
   left: 920px;
   position: absolute;
@@ -1431,7 +551,7 @@
   top: 100px;
 }
 
-.catalogo .text-wrapper-15 {
+.catalogo-PRINCIPAL .text-wrapper-13 {
   position: absolute;
   width: 85px;
   height: 24px;
@@ -1446,23 +566,23 @@
   white-space: nowrap;
 }
 
-.catalogo .list-5 {
-  position: absolute;
+.catalogo-PRINCIPAL .list-3 {
   width: 245px;
+  left: 920px;
+  position: absolute;
   height: 173px;
   top: 164px;
-  left: 920px;
 }
 
-.catalogo .contact-faq-wrapper {
-  position: absolute;
+.catalogo-PRINCIPAL .contact-faq-wrapper {
   width: 102px;
-  height: 26px;
   top: 1px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .contact-faq {
+.catalogo-PRINCIPAL .contact-faq {
   position: absolute;
   width: 102px;
   height: 26px;
@@ -1477,15 +597,15 @@
   white-space: nowrap;
 }
 
-.catalogo .oders-returns-wrapper {
-  position: absolute;
+.catalogo-PRINCIPAL .oders-returns-wrapper {
   width: 117px;
-  height: 26px;
   top: 38px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .oders-returns {
+.catalogo-PRINCIPAL .oders-returns {
   position: absolute;
   width: 117px;
   height: 26px;
@@ -1500,15 +620,15 @@
   white-space: nowrap;
 }
 
-.catalogo .item-link-10 {
-  position: absolute;
+.catalogo-PRINCIPAL .item-link-6 {
   width: 73px;
-  height: 26px;
   top: 74px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .text-wrapper-16 {
+.catalogo-PRINCIPAL .text-wrapper-14 {
   position: absolute;
   width: 73px;
   height: 26px;
@@ -1523,15 +643,15 @@
   white-space: nowrap;
 }
 
-.catalogo .item-link-11 {
-  position: absolute;
+.catalogo-PRINCIPAL .item-link-7 {
   width: 59px;
-  height: 26px;
   top: 110px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .text-wrapper-17 {
+.catalogo-PRINCIPAL .text-wrapper-15 {
   position: absolute;
   width: 60px;
   height: 26px;
@@ -1546,15 +666,15 @@
   white-space: nowrap;
 }
 
-.catalogo .item-link-12 {
-  position: absolute;
+.catalogo-PRINCIPAL .item-link-8 {
   width: 56px;
-  height: 26px;
   top: 146px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .text-wrapper-18 {
+.catalogo-PRINCIPAL .text-wrapper-16 {
   position: absolute;
   width: 56px;
   height: 26px;
@@ -1569,7 +689,7 @@
   white-space: nowrap;
 }
 
-.catalogo .heading-3 {
+.catalogo-PRINCIPAL .heading-3 {
   width: 190px;
   left: 1195px;
   position: absolute;
@@ -1577,7 +697,7 @@
   top: 100px;
 }
 
-.catalogo .text-wrapper-19 {
+.catalogo-PRINCIPAL .text-wrapper-17 {
   position: absolute;
   width: 75px;
   height: 24px;
@@ -1592,23 +712,23 @@
   white-space: nowrap;
 }
 
-.catalogo .list-6 {
-  position: absolute;
+.catalogo-PRINCIPAL .list-4 {
   width: 190px;
+  left: 1195px;
+  position: absolute;
   height: 173px;
   top: 164px;
-  left: 1195px;
 }
 
-.catalogo .item-link-13 {
-  position: absolute;
+.catalogo-PRINCIPAL .item-link-9 {
   width: 69px;
-  height: 26px;
   top: 1px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .text-wrapper-20 {
+.catalogo-PRINCIPAL .text-wrapper-18 {
   position: absolute;
   width: 69px;
   height: 26px;
@@ -1623,15 +743,15 @@
   white-space: nowrap;
 }
 
-.catalogo .item-link-14 {
-  position: absolute;
+.catalogo-PRINCIPAL .item-link-10 {
   width: 57px;
-  height: 26px;
   top: 38px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .text-wrapper-21 {
+.catalogo-PRINCIPAL .text-wrapper-19 {
   position: absolute;
   width: 57px;
   height: 26px;
@@ -1646,15 +766,15 @@
   white-space: nowrap;
 }
 
-.catalogo .item-link-15 {
-  position: absolute;
+.catalogo-PRINCIPAL .item-link-11 {
   width: 36px;
-  height: 26px;
   top: 74px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .text-wrapper-22 {
+.catalogo-PRINCIPAL .text-wrapper-20 {
   position: absolute;
   width: 36px;
   height: 26px;
@@ -1669,15 +789,15 @@
   white-space: nowrap;
 }
 
-.catalogo .item-link-16 {
-  position: absolute;
+.catalogo-PRINCIPAL .item-link-12 {
   width: 44px;
-  height: 26px;
   top: 110px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .text-wrapper-23 {
+.catalogo-PRINCIPAL .text-wrapper-21 {
   position: absolute;
   width: 44px;
   height: 26px;
@@ -1692,15 +812,15 @@
   white-space: nowrap;
 }
 
-.catalogo .item-link-17 {
-  position: absolute;
+.catalogo-PRINCIPAL .item-link-13 {
   width: 51px;
-  height: 26px;
   top: 146px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .text-wrapper-24 {
+.catalogo-PRINCIPAL .text-wrapper-22 {
   position: absolute;
   width: 52px;
   height: 26px;
@@ -1715,7 +835,7 @@
   white-space: nowrap;
 }
 
-.catalogo .heading-4 {
+.catalogo-PRINCIPAL .heading-4 {
   width: 190px;
   left: 1415px;
   position: absolute;
@@ -1723,7 +843,7 @@
   top: 100px;
 }
 
-.catalogo .follow-us-on {
+.catalogo-PRINCIPAL .follow-us-on {
   position: absolute;
   width: 125px;
   height: 24px;
@@ -1738,23 +858,23 @@
   white-space: nowrap;
 }
 
-.catalogo .list-7 {
-  position: absolute;
+.catalogo-PRINCIPAL .list-5 {
   width: 190px;
+  left: 1415px;
+  position: absolute;
   height: 173px;
   top: 164px;
-  left: 1415px;
 }
 
-.catalogo .facebook-wrapper {
-  position: absolute;
+.catalogo-PRINCIPAL .facebook-wrapper {
   width: 70px;
-  height: 26px;
   top: 1px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .facebook {
+.catalogo-PRINCIPAL .facebook {
   position: absolute;
   width: 71px;
   height: 26px;
@@ -1769,15 +889,15 @@
   white-space: nowrap;
 }
 
-.catalogo .item-link-18 {
-  position: absolute;
+.catalogo-PRINCIPAL .item-link-14 {
   width: 51px;
-  height: 26px;
   top: 38px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .text-wrapper-25 {
+.catalogo-PRINCIPAL .text-wrapper-23 {
   position: absolute;
   width: 51px;
   height: 26px;
@@ -1792,15 +912,15 @@
   white-space: nowrap;
 }
 
-.catalogo .item-link-19 {
-  position: absolute;
+.catalogo-PRINCIPAL .item-link-15 {
   width: 72px;
-  height: 26px;
   top: 74px;
+  position: absolute;
+  height: 26px;
   left: 0;
 }
 
-.catalogo .text-wrapper-26 {
+.catalogo-PRINCIPAL .text-wrapper-24 {
   position: absolute;
   width: 72px;
   height: 26px;
@@ -1815,23 +935,23 @@
   white-space: nowrap;
 }
 
-.catalogo .item-link-20 {
-  position: absolute;
+.catalogo-PRINCIPAL .item-link-16 {
   width: 60px;
-  height: 26px;
   top: 110px;
-  left: 0;
-}
-
-.catalogo .item-link-21 {
   position: absolute;
-  width: 64px;
   height: 26px;
-  top: 146px;
   left: 0;
 }
 
-.catalogo .text-wrapper-27 {
+.catalogo-PRINCIPAL .item-link-17 {
+  width: 64px;
+  top: 146px;
+  position: absolute;
+  height: 26px;
+  left: 0;
+}
+
+.catalogo-PRINCIPAL .text-wrapper-25 {
   position: absolute;
   width: 65px;
   height: 26px;
@@ -1846,238 +966,465 @@
   white-space: nowrap;
 }
 
-.catalogo .background-shadow-2 {
-  position: fixed;
-  width: 36px;
-  height: 36px;
-  top: 3678px;
-  left: 1851px;
-  background-color: #1b1128;
-  border-radius: 18px;
-  overflow: hidden;
-  box-shadow: 0px 6px 32px -1px #00000014;
-}
-
-.catalogo .symbol-4 {
-  width: 15px;
-  height: 14px;
-  top: 10px;
-  left: 11px;
-  font-family: "Font Awesome 5 Free-Solid", Helvetica;
-  font-size: 14.2px;
+.catalogo-PRINCIPAL .overlap-2 {
   position: absolute;
-  font-weight: 400;
-  color: #ffffff;
-  letter-spacing: 0;
-  line-height: 16px;
-  white-space: nowrap;
+  width: 1245px;
+  height: 682px;
+  top: 1302px;
+  left: 347px;
 }
 
-.catalogo .button {
-  all: unset;
-  box-sizing: border-box;
-  position: fixed;
-  width: 40px;
-  height: 40px;
-  top: 3756px;
-  left: 1850px;
-  background-color: #f4796c;
-  border-radius: 6px;
-}
-
-.catalogo .gradient {
+.catalogo-PRINCIPAL .group-2 {
   position: absolute;
-  width: 36px;
-  height: 10px;
-  top: 40px;
-  left: 2px;
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    rgba(0, 0, 0, 0.25) 0%,
-    rgba(0, 0, 0, 0) 80%
-  );
+  width: 1245px;
+  height: 682px;
+  top: 0;
+  left: 0;
 }
 
-.catalogo .symbol-5 {
-  width: 10px;
-  height: 16px;
-  top: 12px;
-  left: 15px;
-  font-family: "Font Awesome 5 Free-Solid", Helvetica;
-  font-size: 16px;
+.catalogo-PRINCIPAL .text-wrapper-26 {
+  position: absolute;
+  width: 349px;
+  top: 0;
+  left: 435px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #005bab;
+  font-size: 28px;
   text-align: center;
-  position: absolute;
-  font-weight: 400;
-  color: #ffffff;
   letter-spacing: 0;
-  line-height: 16px;
+  line-height: 26.6px;
   white-space: nowrap;
 }
 
-/************************************************************************************SLIDES****/
-/* Ajuste de los botones para que sean visibles */
-.slick-prev, .slick-next {
+.catalogo-PRINCIPAL .mobiliario-y {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  border: none;
-  color: white;
-  font-size: 30px;
-  padding: 10px;
-  cursor: pointer;
-  z-index: 100; /* Asegura que los botones estén delante */
-  display: block;
+  width: 247px;
+  height: 58px;
+  top: 502px;
+  left: 946px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #a4ac1c;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
 }
 
-.slick-prev {
-  left: 10px;
-}
-
-.slick-next {
-  right: 10px;
-}
-
-/* Cambia la apariencia del botón cuando se hace hover */
-.slick-prev:hover, .slick-next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Estilo para que las imágenes no sean demasiado grandes */
-.slider img {
-  width: 100%;
-  height: 100%; /* Limitar la altura de las imágenes */
-  object-fit: cover; /* Asegura que las imágenes se ajusten sin deformarse */
-}
-
-/* Ocultar los botones por defecto */
-.slick-prev.slick-disabled, .slick-next.slick-disabled {
-  display: none !important;
-}
-/* Estilo de los puntos de navegación (dots) */
-.slick-dots {
+.catalogo-PRINCIPAL .escuela-modular {
   position: absolute;
-  bottom: 15px; /* Colocamos los dots en la parte inferior */
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 247px;
+  height: 58px;
+  top: 502px;
+  left: 14px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #6bb4a9;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
 }
 
-.slick-dots li {
-  margin: 0 5px; /* Espacio entre los puntos */
+.catalogo-PRINCIPAL .overlap-3 {
+  position: absolute;
+  width: 294px;
+  height: 437px;
+  top: 60px;
+  left: 0;
 }
 
-.slick-dots li button {
-  font-size: 0; /* Ocultamos el texto dentro del botón */
-  width: 15px; /* Ancho del círculo */
-  height: 15px; /* Alto del círculo */
-  border-radius: 50%; /* Convertimos en círculo */
-  background-color: rgba(0, 0, 0, 0.3); /* Color del punto inactivo */
-  border: none;
-  cursor: pointer;
-}
-
-.slick-dots li.slick-active button {
-  background-color: rgba(0, 0, 0, 0.8); /* Color del punto activo */
-}
-
-/* Estilo de las imágenes */
-.slider img {
-  width: 100%;
-  max-height: 100%;
+.catalogo-PRINCIPAL .rectangle-2 {
+  width: 294px;
+  height: 400px;
+  top: 0;
+  left: 0;
+  position: absolute;
   object-fit: cover;
 }
 
-
-
-/* Estilos para el contenedor de overlap-7 
-.overlap-7 {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}*/
-
-/* Ajuste del slide para que ocupe todo el espacio */
-.slider {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  overflow: hidden;
+.catalogo-PRINCIPAL .ellipse-7 {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  top: 359px;
+  left: 99px;
+  background-color: #6bb4a9;
+  border-radius: 39px;
 }
 
-.slide {
-  min-width: 100%;
-  transition: transform 0.5s ease-in-out;
+.catalogo-PRINCIPAL .vector-2 {
+  position: absolute;
+  width: 53px;
+  height: 37px;
+  top: 379px;
+  left: 108px;
 }
 
-.slide img {
-  width: 100%;
-  height: auto;
+.catalogo-PRINCIPAL .overlap-4 {
+  position: absolute;
+  width: 294px;
+  height: 437px;
+  top: 60px;
+  left: 311px;
+}
+
+.catalogo-PRINCIPAL .ellipse-8 {
+  left: 99px;
+  background-color: #444242;
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  top: 359px;
+  border-radius: 39px;
+}
+
+.catalogo-PRINCIPAL .AULA-MODULAR {
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  top: 377px;
+  left: 119px;
   object-fit: cover;
 }
 
-/* Estilos para los círculos */
-.dots {
+.catalogo-PRINCIPAL .overlap-5 {
   position: absolute;
-  bottom: 10px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
+  width: 294px;
+  height: 437px;
+  top: 60px;
+  left: 622px;
 }
 
-.dots div {
-  width: 12px;
-  height: 12px;
-  margin: 0 5px;
-  border-radius: 50%;
-  background-color: #ccc;
-  cursor: pointer;
+.catalogo-PRINCIPAL .ellipse-9 {
+  left: 108px;
+  background-color: #99c4cb;
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  top: 359px;
+  border-radius: 39px;
 }
 
-.dots div.active {
-  background-color: #333;
+.catalogo-PRINCIPAL .group-3 {
+  position: absolute;
+  width: 58px;
+  height: 31px;
+  top: 377px;
+  left: 118px;
 }
 
-.slick-dots {
-  bottom: 10px; /* Ajusta la posición vertical de los dots */
+.catalogo-PRINCIPAL .overlap-6 {
+  position: absolute;
+  width: 294px;
+  height: 437px;
+  top: 60px;
+  left: 933px;
 }
 
-.slick-dots li {
-  margin: 0 5px; /* Espaciado entre los dots */
+.catalogo-PRINCIPAL .ellipse-10 {
+  left: 98px;
+  background-color: #a4ac1c;
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  top: 359px;
+  border-radius: 39px;
 }
 
-.slick-dots li button {
-  font-size: 0; /* Oculta el texto del botón */
-  width: 10px; /* Ancho del punto */
-  height: 10px; /* Alto del punto */
-  border-radius: 50%; /* Hace el punto circular */
-  background-color: #bbb; /* Color del punto inactivo */
-  border: none; /* Sin borde */
-  outline: none; /* Sin outline */
+.catalogo-PRINCIPAL .son-aulas-educativas {
+  position: absolute;
+  width: 269px;
+  height: 112px;
+  top: 570px;
+  left: 317px;
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.52px;
+  line-height: normal;
 }
 
-.slick-dots li.slick-active button {
-  background-color: #333; /* Color del punto activo */
+.catalogo-PRINCIPAL .text-wrapper-27 {
+  letter-spacing: 0.07px;
 }
 
-.overlap-9, .overlap-10, .overlap-11, .overlap-12, .overlap-13  
-  {
-  transition: all 0.3s ease; /* Suaviza la transición de todos los estilos */
-  padding: 20px; /* Añade un poco de espacio alrededor */
-  border-radius: 10px; /* Bordes redondeados */
-  background-color: #f9f9f9; /* Color de fondo inicial */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra inicial */
+.catalogo-PRINCIPAL .text-wrapper-28 {
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0.07px;
 }
 
-.overlap-9:hover, .overlap-10:hover, .overlap-11:hover, .overlap-12:hover, .overlap-13:hover {
-  background-color: #eaeaea; /* Color de fondo al pasar el cursor */
-  transform: scale(1.05); /* Escala ligeramente el cuadro */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al pasar el cursor */
+.catalogo-PRINCIPAL .son-estructuras-que {
+  width: 293px;
+  left: 623px;
+  position: absolute;
+  height: 112px;
+  top: 570px;
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.52px;
+  line-height: normal;
+}
+
+.catalogo-PRINCIPAL .es-un-conjunto-de {
+  position: absolute;
+  width: 225px;
+  height: 112px;
+  top: 570px;
+  left: 957px;
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.52px;
+  line-height: normal;
+}
+
+.catalogo-PRINCIPAL .aulas-modular-tipo {
+  position: absolute;
+  width: 247px;
+  height: 58px;
+  top: 502px;
+  left: 645px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #99c4cb;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.catalogo-PRINCIPAL .son-estructuras {
+  width: 215px;
+  left: 30px;
+  position: absolute;
+  height: 112px;
+  top: 570px;
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.52px;
+  line-height: normal;
+}
+
+.catalogo-PRINCIPAL .aulas-modulares {
+  position: absolute;
+  width: 247px;
+  height: 58px;
+  top: 502px;
+  left: 326px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #444242;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.catalogo-PRINCIPAL .capa {
+  position: absolute;
+  width: 36px;
+  height: 50px;
+  top: 437px;
+  left: 1052px;
+}
+
+.catalogo-PRINCIPAL .group-4 {
+  position: absolute;
+  width: 930px;
+  height: 613px;
+  top: 2036px;
+  left: 500px;
+}
+
+.catalogo-PRINCIPAL .servicios-higi-nicos {
+  position: absolute;
+  width: 247px;
+  height: 58px;
+  top: 442px;
+  left: 16px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #4380b7;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.catalogo-PRINCIPAL .overlap-7 {
+  position: absolute;
+  width: 294px;
+  height: 437px;
+  top: 0;
+  left: 2px;
+}
+
+.catalogo-PRINCIPAL .ellipse-11 {
+  left: 99px;
+  background-color: #4380b7;
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  top: 359px;
+  border-radius: 39px;
+}
+
+.catalogo-PRINCIPAL .SERVICIOS-HIGINICOS {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 373px;
+  left: 111px;
+  object-fit: cover;
+}
+
+.catalogo-PRINCIPAL .overlap-8 {
+  position: absolute;
+  width: 294px;
+  height: 437px;
+  top: 0;
+  left: 313px;
+}
+
+.catalogo-PRINCIPAL .ellipse-12 {
+  left: 99px;
+  background-color: #e86b45;
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  top: 359px;
+  border-radius: 39px;
+}
+
+.catalogo-PRINCIPAL .PARARRAYO {
+  position: absolute;
+  width: 36px;
+  height: 55px;
+  top: 372px;
+  left: 120px;
+  object-fit: cover;
+}
+
+.catalogo-PRINCIPAL .overlap-9 {
+  position: absolute;
+  width: 294px;
+  height: 437px;
+  top: 0;
+  left: 624px;
+}
+
+.catalogo-PRINCIPAL .ellipse-13 {
+  left: 108px;
+  background-color: #214286;
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  top: 359px;
+  border-radius: 39px;
+}
+
+.catalogo-PRINCIPAL .capa-2 {
+  position: absolute;
+  width: 42px;
+  height: 51px;
+  top: 370px;
+  left: 126px;
+}
+
+.catalogo-PRINCIPAL .dise-ados-para {
+  width: 207px;
+  left: 350px;
+  position: absolute;
+  height: 112px;
+  top: 501px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.52px;
+  line-height: normal;
+}
+
+.catalogo-PRINCIPAL .text-wrapper-29 {
+  font-weight: 700;
+  letter-spacing: 0.07px;
+}
+
+.catalogo-PRINCIPAL .text-wrapper-30 {
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  letter-spacing: 0.07px;
+}
+
+.catalogo-PRINCIPAL .dise-ados-para-2 {
+  width: 245px;
+  left: 649px;
+  position: absolute;
+  height: 112px;
+  top: 501px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.52px;
+  line-height: normal;
+}
+
+.catalogo-PRINCIPAL .los-m-dulos-de-ba-os {
+  position: absolute;
+  width: 279px;
+  height: 112px;
+  top: 501px;
+  left: 0;
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.52px;
+  line-height: normal;
+}
+
+.catalogo-PRINCIPAL .kit-de-pararrayos {
+  position: absolute;
+  width: 247px;
+  height: 58px;
+  top: 442px;
+  left: 328px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #e86b45;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.catalogo-PRINCIPAL .text-wrapper-31 {
+  position: absolute;
+  width: 247px;
+  height: 58px;
+  top: 442px;
+  left: 647px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #214286;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
 }
