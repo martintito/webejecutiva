@@ -2388,7 +2388,7 @@
 
   /* Efecto hover para todas las elipses: cambio de color instantáneo */
   .ellipse-7:hover, .ellipse-8:hover, .ellipse-9:hover, .ellipse-10:hover {
-    background-color: green; /* Color cuando el cursor está sobre el div */
+    background-color: orange; /* Color cuando el cursor está sobre el div */
   }
 
   /* Efecto al pasar el cursor sobre el vector */
