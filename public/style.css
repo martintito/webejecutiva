@@ -10,24 +10,24 @@
   background-color: #ffffff;
   overflow-x: hidden;
   width: 1920px;
-  height: 3216px;
+  height: 3066px;
   position: relative;
 }
 
 .catalogo-PRINCIPAL .overlap {
   position: absolute;
   width: 1995px;
-  height: 1221px;
+  height: 1059px;
   top: 0;
   left: -66px;
 }
 
 .catalogo-PRINCIPAL .rectangle {
-  width: 1932px;
-  height: 383px;
-  top: 838px;
-  left: 63px;
   position: absolute;
+  width: 1932px;
+  height: 323px;
+  top: 710px;
+  left: 63px;
   object-fit: cover;
 }
 
@@ -48,38 +48,91 @@
   overflow: hidden;
 }
 
+.catalogo-PRINCIPAL .overlap-group {
+  position: relative;
+  width: 2037px;
+  height: 1447px;
+  top: -567px;
+  left: -67px;
+}
+
 .catalogo-PRINCIPAL .OBJECTS {
   position: absolute;
   width: 1461px;
   height: 932px;
-  top: -126px;
-  left: 503px;
+  top: 310px;
+  left: 573px;
 }
 
 .catalogo-PRINCIPAL .background-shadow {
   position: absolute;
   width: 1920px;
   height: 1px;
-  top: -155px;
-  left: 0;
+  top: 412px;
+  left: 67px;
   background-color: #ffffff;
   box-shadow: 0px 10px 15px #1919191a;
 }
 
-.catalogo-PRINCIPAL .overlap-group {
-  position: relative;
-  width: 2037px;
-  height: 1447px;
-  top: -134px;
-  left: -67px;
+.catalogo-PRINCIPAL .OBJECTS-2 {
+  position: absolute;
+  width: 1881px;
+  height: 1177px;
+  top: 135px;
+  left: 78px;
+  transform: rotate(-8.68deg);
+}
+
+.catalogo-PRINCIPAL .cat-logos-PRONIED {
+  position: absolute;
+  width: 537px;
+  top: 731px;
+  left: 370px;
+  transform: rotate(8.68deg);
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #005bab;
+  font-size: 58px;
+  letter-spacing: 0;
+  line-height: 55.1px;
+}
+
+.catalogo-PRINCIPAL .son-herramientas-que {
+  position: absolute;
+  width: 509px;
+  top: 882px;
+  left: 337px;
+  transform: rotate(8.68deg);
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.catalogo-PRINCIPAL .text-wrapper {
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.catalogo-PRINCIPAL .span {
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
 }
 
 .catalogo-PRINCIPAL .group {
   position: absolute;
   width: 104px;
   height: 14px;
-  top: 1055px;
-  left: 1480px;
+  top: 1127px;
+  left: 1325px;
+  transform: rotate(8.68deg);
 }
 
 .catalogo-PRINCIPAL .ellipse {
@@ -142,88 +195,18 @@
   border-radius: 7px;
 }
 
-.catalogo-PRINCIPAL .overlap-group-wrapper {
-  position: absolute;
-  width: 1881px;
-  height: 1177px;
-  top: 135px;
-  left: 78px;
-  overflow: hidden;
-  transform: rotate(-8.68deg);
-}
-
-.catalogo-PRINCIPAL .overlap-group-2 {
-  position: relative;
-  width: 1718px;
-  height: 1355px;
-  top: -134px;
-  left: 286px;
-}
-
-.catalogo-PRINCIPAL .img {
-  position: absolute;
-  width: 1497px;
-  height: 1142px;
-  top: 106px;
-  left: 144px;
-  transform: rotate(8.68deg);
-}
-
-.catalogo-PRINCIPAL .cat-logos-PRONIED {
-  position: absolute;
-  width: 537px;
-  top: 671px;
-  left: 47px;
-  transform: rotate(8.68deg);
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  color: #005bab;
-  font-size: 61px;
-  letter-spacing: 0;
-  line-height: 57.9px;
-}
-
-.catalogo-PRINCIPAL .son-herramientas-que {
-  position: absolute;
-  width: 509px;
-  top: 821px;
-  left: 15px;
-  transform: rotate(8.68deg);
-  font-family: "Gotham Rounded-Regular", Helvetica;
-  font-weight: 400;
-  color: #494949;
-  font-size: 19px;
-  text-align: justify;
-  letter-spacing: 0;
-  line-height: 24.7px;
-}
-
-.catalogo-PRINCIPAL .text-wrapper {
-  font-family: "Gotham Rounded-Regular", Helvetica;
-  font-weight: 400;
-  color: #494949;
-  font-size: 19px;
-  letter-spacing: 0;
-  line-height: 24.7px;
-}
-
-.catalogo-PRINCIPAL .span {
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-}
-
 .catalogo-PRINCIPAL .en-qu-consiste-hemos {
   position: absolute;
-  width: 504px;
-  top: 919px;
-  left: 416px;
+  width: 461px;
+  top: 764px;
+  left: 507px;
   font-family: "Gotham Rounded-Bold", Helvetica;
   font-weight: 400;
   color: transparent;
-  font-size: 32px;
+  font-size: 28px;
   text-align: justify;
   letter-spacing: 0;
-  line-height: 41.6px;
+  line-height: 36.4px;
 }
 
 .catalogo-PRINCIPAL .text-wrapper-2 {
@@ -240,38 +223,38 @@
 
 .catalogo-PRINCIPAL .text-wrapper-4 {
   font-weight: 700;
-  color: #494949;
-  font-size: 19px;
-  line-height: 24.7px;
+  color: #020101;
+  font-size: 17px;
+  line-height: 22.1px;
 }
 
 .catalogo-PRINCIPAL .text-wrapper-5 {
   font-family: "Gotham Rounded-Regular", Helvetica;
-  color: #494949;
-  font-size: 19px;
-  line-height: 24.7px;
+  color: #020101;
+  font-size: 17px;
+  line-height: 22.1px;
 }
 
 .catalogo-PRINCIPAL .s-mate-los-invitamos {
   position: absolute;
-  width: 582px;
-  top: 919px;
-  left: 1047px;
+  width: 489px;
+  top: 764px;
+  left: 1040px;
   font-family: "Gotham Rounded-Bold", Helvetica;
   font-weight: 400;
   color: transparent;
-  font-size: 32px;
+  font-size: 28px;
   text-align: justify;
   letter-spacing: 0;
-  line-height: 41.6px;
+  line-height: 36.4px;
 }
 
 .catalogo-PRINCIPAL .element {
   position: absolute;
-  width: 226px;
-  height: 62px;
-  top: 299px;
-  left: 419px;
+  width: 192px;
+  height: 54px;
+  top: 242px;
+  left: 497px;
   object-fit: cover;
 }
 
@@ -279,7 +262,7 @@
   position: absolute;
   width: 1920px;
   height: 536px;
-  top: 2680px;
+  top: 2530px;
   left: 0;
   background-color: #0057a7;
 }
@@ -970,7 +953,7 @@
   position: absolute;
   width: 1245px;
   height: 682px;
-  top: 1302px;
+  top: 1101px;
   left: 347px;
 }
 
@@ -1035,13 +1018,12 @@
   left: 0;
 }
 
-.catalogo-PRINCIPAL .rectangle-2 {
+.catalogo-PRINCIPAL .img {
+  position: absolute;
   width: 294px;
   height: 400px;
   top: 0;
   left: 0;
-  position: absolute;
-  object-fit: cover;
 }
 
 .catalogo-PRINCIPAL .ellipse-7 {
@@ -1057,8 +1039,8 @@
 .catalogo-PRINCIPAL .vector-2 {
   position: absolute;
   width: 53px;
-  height: 37px;
-  top: 379px;
+  height: 36px;
+  top: 381px;
   left: 108px;
 }
 
@@ -1068,6 +1050,15 @@
   height: 437px;
   top: 60px;
   left: 311px;
+}
+
+.catalogo-PRINCIPAL .rectangle-2 {
+  position: absolute;
+  width: 294px;
+  height: 400px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 
 .catalogo-PRINCIPAL .ellipse-8 {
@@ -1110,8 +1101,8 @@
 .catalogo-PRINCIPAL .group-3 {
   position: absolute;
   width: 58px;
-  height: 31px;
-  top: 377px;
+  height: 30px;
+  top: 379px;
   left: 118px;
 }
 
@@ -1237,7 +1228,7 @@
   position: absolute;
   width: 36px;
   height: 50px;
-  top: 437px;
+  top: 433px;
   left: 1052px;
 }
 
@@ -1245,7 +1236,7 @@
   position: absolute;
   width: 930px;
   height: 613px;
-  top: 2036px;
+  top: 1841px;
   left: 500px;
 }
 
@@ -1428,3 +1419,993 @@
   letter-spacing: 0;
   line-height: 25px;
 }
+
+/**************ESCUELA MODULAR***************************/
+.escuela-modular {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.escuela-modular .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 3317px;
+  position: relative;
+}
+
+.escuela-modular .overlap {
+  position: absolute;
+  width: 975px;
+  height: 649px;
+  top: 1435px;
+  left: 460px;
+}
+
+.escuela-modular .overlap-group {
+  position: absolute;
+  width: 975px;
+  height: 649px;
+  top: 0;
+  left: 0;
+}
+
+.escuela-modular .overlap-2 {
+  position: absolute;
+  width: 261px;
+  height: 46px;
+  top: 61px;
+  left: 0;
+}
+
+.escuela-modular .rectangle {
+  position: absolute;
+  width: 239px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.escuela-modular .text-wrapper {
+  position: absolute;
+  width: 235px;
+  top: 7px;
+  left: 26px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 23.7px;
+}
+
+.escuela-modular .overlap-3 {
+  position: absolute;
+  width: 523px;
+  height: 362px;
+  top: 118px;
+  left: 0;
+}
+
+.escuela-modular .rectangle-2 {
+  position: absolute;
+  width: 185px;
+  height: 40px;
+  top: 316px;
+  left: 0;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.escuela-modular .m-dulo-prefabricado {
+  position: absolute;
+  width: 495px;
+  top: 0;
+  left: 28px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.escuela-modular .text-wrapper-2 {
+  top: 0;
+  position: absolute;
+  width: 18px;
+  left: 0;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #444242;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.escuela-modular .text-wrapper-3 {
+  position: absolute;
+  width: 178px;
+  top: 323px;
+  left: 26px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 23.7px;
+}
+
+.escuela-modular .overlap-4 {
+  position: absolute;
+  width: 947px;
+  height: 649px;
+  top: 0;
+  left: 28px;
+}
+
+.escuela-modular .evaluaci-n-de {
+  position: absolute;
+  width: 688px;
+  top: 494px;
+  left: 0;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.escuela-modular .capa {
+  position: absolute;
+  width: 36px;
+  height: 50px;
+  top: 550px;
+  left: 911px;
+}
+
+.escuela-modular .img {
+  position: absolute;
+  width: 431px;
+  height: 634px;
+  top: 0;
+  left: 514px;
+}
+
+.escuela-modular .text-wrapper-4 {
+  position: absolute;
+  width: 254px;
+  top: 3px;
+  left: 0;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffc000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 38.0px;
+  white-space: nowrap;
+}
+
+.escuela-modular .text-wrapper-5 {
+  top: 494px;
+  position: absolute;
+  width: 18px;
+  left: 0;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #444242;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.escuela-modular .overlap-5 {
+  position: absolute;
+  width: 1920px;
+  height: 566px;
+  top: 2574px;
+  left: 0;
+  background-image: url(https://c.animaapp.com/1Rk9u5Me/img/rectangle-8.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.escuela-modular .text-wrapper-6 {
+  position: absolute;
+  width: 407px;
+  top: 41px;
+  left: 803px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #3f3d3e;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 26.6px;
+  white-space: nowrap;
+}
+
+.escuela-modular .group {
+  position: absolute;
+  width: 1486px;
+  height: 438px;
+  top: 100px;
+  left: 231px;
+}
+
+.escuela-modular .text-wrapper-7 {
+  position: absolute;
+  width: 240px;
+  top: 417px;
+  left: 656px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+  white-space: nowrap;
+}
+
+.escuela-modular .text-wrapper-8 {
+  position: absolute;
+  width: 240px;
+  top: 270px;
+  left: 656px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+  white-space: nowrap;
+}
+
+.escuela-modular .text-wrapper-9 {
+  position: absolute;
+  width: 104px;
+  top: 270px;
+  left: 11px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+  white-space: nowrap;
+}
+
+.escuela-modular .p {
+  position: absolute;
+  width: 181px;
+  top: 270px;
+  left: 981px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.escuela-modular .text-wrapper-10 {
+  position: absolute;
+  width: 216px;
+  top: 270px;
+  left: 1242px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.escuela-modular .text-wrapper-11 {
+  position: absolute;
+  width: 240px;
+  top: 105px;
+  left: 656px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.escuela-modular .div-wrapper {
+  position: absolute;
+  width: 128px;
+  height: 92px;
+  top: 165px;
+  left: 0;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.escuela-modular .text-wrapper-12 {
+  position: absolute;
+  width: 101px;
+  top: 30px;
+  left: 14px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+}
+
+.escuela-modular .gerencia-general-wrapper {
+  position: absolute;
+  width: 128px;
+  height: 92px;
+  top: 165px;
+  left: 188px;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.escuela-modular .gerencia-de-wrapper {
+  position: absolute;
+  width: 232px;
+  height: 92px;
+  top: 165px;
+  left: 367px;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.escuela-modular .gerencia-de {
+  position: absolute;
+  width: 202px;
+  top: 20px;
+  left: 14px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+}
+
+.escuela-modular .overlap-6 {
+  position: absolute;
+  width: 232px;
+  height: 92px;
+  top: 165px;
+  left: 664px;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.escuela-modular .overlap-7 {
+  position: absolute;
+  width: 204px;
+  height: 92px;
+  top: 165px;
+  left: 969px;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.escuela-modular .text-wrapper-13 {
+  position: absolute;
+  width: 167px;
+  height: 57px;
+  top: 20px;
+  left: 19px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+}
+
+.escuela-modular .overlap-8 {
+  position: absolute;
+  width: 205px;
+  height: 92px;
+  top: 165px;
+  left: 1248px;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.escuela-modular .text-wrapper-14 {
+  position: absolute;
+  width: 168px;
+  height: 57px;
+  top: 20px;
+  left: 18px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+}
+
+.escuela-modular .overlap-9 {
+  position: absolute;
+  width: 232px;
+  height: 92px;
+  top: 315px;
+  left: 664px;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.escuela-modular .gerencia-de-2 {
+  position: absolute;
+  width: 202px;
+  top: 18px;
+  left: 14px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+}
+
+.escuela-modular .overlap-10 {
+  position: absolute;
+  width: 232px;
+  height: 92px;
+  top: 0;
+  left: 664px;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.escuela-modular .text-wrapper-15 {
+  position: absolute;
+  width: 202px;
+  top: 28px;
+  left: 14px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+}
+
+.escuela-modular .vector {
+  position: absolute;
+  width: 35px;
+  height: 29px;
+  top: 194px;
+  left: 612px;
+}
+
+.escuela-modular .vector-2 {
+  left: 916px;
+  position: absolute;
+  width: 35px;
+  height: 29px;
+  top: 194px;
+}
+
+.escuela-modular .vector-3 {
+  left: 141px;
+  position: absolute;
+  width: 35px;
+  height: 29px;
+  top: 194px;
+}
+
+.escuela-modular .vector-4 {
+  left: 322px;
+  position: absolute;
+  width: 35px;
+  height: 29px;
+  top: 194px;
+}
+
+.escuela-modular .vector-5 {
+  left: 1191px;
+  position: absolute;
+  width: 35px;
+  height: 29px;
+  top: 194px;
+}
+
+.escuela-modular .text-wrapper-16 {
+  position: absolute;
+  width: 407px;
+  top: 2181px;
+  left: 803px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #3f3d3e;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 26.6px;
+  white-space: nowrap;
+}
+
+.escuela-modular .overlap-11 {
+  position: absolute;
+  width: 1920px;
+  height: 1344px;
+  top: 0;
+  left: 0;
+}
+
+.escuela-modular .container {
+  position: absolute;
+  width: 1920px;
+  height: 1059px;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.escuela-modular .overlap-12 {
+  position: absolute;
+  width: 1920px;
+  height: 769px;
+  top: -322px;
+  left: 0;
+  background-image: url(https://c.animaapp.com/1Rk9u5Me/img/rectangle-14.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.escuela-modular .background-shadow {
+  position: absolute;
+  width: 1920px;
+  height: 1px;
+  top: 293px;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 15px #1919191a;
+}
+
+.escuela-modular .modo-de-aislamiento {
+  position: absolute;
+  width: 8px;
+  height: 13px;
+  top: 519px;
+  left: 1073px;
+}
+
+.escuela-modular .overlap-group-2 {
+  position: absolute;
+  width: 1969px;
+  height: 293px;
+  top: 447px;
+  left: 0;
+  background-image: url(https://c.animaapp.com/1Rk9u5Me/img/rectangle-24.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.escuela-modular .text-wrapper-17 {
+  width: 336px;
+  top: 132px;
+  left: 551px;
+  font-size: 45px;
+  line-height: 42.7px;
+  position: absolute;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.escuela-modular .text-wrapper-18 {
+  width: 405px;
+  top: 118px;
+  left: 895px;
+  font-size: 17px;
+  line-height: 22.1px;
+  position: absolute;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.escuela-modular .overlap-13 {
+  position: absolute;
+  width: 376px;
+  height: 30px;
+  top: 39px;
+  left: 895px;
+}
+
+.escuela-modular .cat-logos-pronied {
+  position: absolute;
+  width: 376px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  font-family: "Manrope", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.escuela-modular .modo-de-aislamiento-2 {
+  position: absolute;
+  width: 8px;
+  height: 13px;
+  top: 10px;
+  left: 171px;
+}
+
+.escuela-modular .AULA-MODULAR-wrapper {
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  top: 137px;
+  left: 442px;
+  background-color: #ffffff;
+  border-radius: 45.5px;
+}
+
+.escuela-modular .AULA-MODULAR {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  top: 21px;
+  left: 23px;
+  object-fit: cover;
+}
+
+.escuela-modular .text-wrapper-19 {
+  position: absolute;
+  width: 1094px;
+  top: 793px;
+  left: 417px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.escuela-modular .text-wrapper-20 {
+  position: absolute;
+  width: 407px;
+  top: 925px;
+  left: 757px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #3f3d3e;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 26.6px;
+  white-space: nowrap;
+}
+
+.escuela-modular .rectangle-3 {
+  position: absolute;
+  width: 288px;
+  height: 261px;
+  top: 1083px;
+  left: 360px;
+  background-color: #ffc000;
+  border-radius: 18px;
+}
+
+.escuela-modular .rectangle-4 {
+  position: absolute;
+  width: 288px;
+  height: 261px;
+  top: 1083px;
+  left: 673px;
+  background-color: #c0504d;
+  border-radius: 18px;
+}
+
+.escuela-modular .rectangle-5 {
+  position: absolute;
+  width: 288px;
+  height: 261px;
+  top: 1083px;
+  left: 985px;
+  background-color: #00b050;
+  border-radius: 18px;
+}
+
+.escuela-modular .rectangle-6 {
+  position: absolute;
+  width: 288px;
+  height: 261px;
+  top: 1083px;
+  left: 1299px;
+  background-color: #558ed5;
+  border-radius: 18px;
+}
+
+.escuela-modular .aula-modular-tipo {
+  left: 377px;
+  position: absolute;
+  width: 254px;
+  top: 1283px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20.9px;
+}
+
+.escuela-modular .aula-modular-tipo-2 {
+  left: 690px;
+  position: absolute;
+  width: 254px;
+  top: 1283px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20.9px;
+}
+
+.escuela-modular .aula-modular-tipo-3 {
+  left: 1002px;
+  position: absolute;
+  width: 254px;
+  top: 1283px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20.9px;
+}
+
+.escuela-modular .rectangle-7 {
+  position: absolute;
+  width: 288px;
+  height: 261px;
+  top: 1003px;
+  left: 360px;
+  object-fit: cover;
+}
+
+.escuela-modular .aula-modular-tipo-4 {
+  left: 1316px;
+  position: absolute;
+  width: 254px;
+  top: 1283px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20.9px;
+}
+
+.escuela-modular .rectangle-8 {
+  position: absolute;
+  width: 288px;
+  height: 261px;
+  top: 1003px;
+  left: 674px;
+  object-fit: cover;
+}
+
+.escuela-modular .border {
+  position: absolute;
+  width: 1227px;
+  height: 5px;
+  top: 968px;
+  left: 360px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dfdfdf;
+}
+
+.escuela-modular .overlap-14 {
+  position: relative;
+  width: 46px;
+  height: 6px;
+}
+
+.escuela-modular .background {
+  position: absolute;
+  width: 40px;
+  height: 5px;
+  top: 0;
+  left: 0;
+  background-color: #363636;
+}
+
+.escuela-modular .mask-group {
+  position: absolute;
+  width: 10px;
+  height: 6px;
+  top: 0;
+  left: 36px;
+}
+
+.escuela-modular .rectangle-9 {
+  position: absolute;
+  width: 288px;
+  height: 261px;
+  top: 1003px;
+  left: 985px;
+  object-fit: cover;
+}
+
+.escuela-modular .rectangle-10 {
+  position: absolute;
+  width: 288px;
+  height: 261px;
+  top: 1003px;
+  left: 1299px;
+  object-fit: cover;
+}
+
+.escuela-modular .ventilaci-n-cruzada {
+  position: absolute;
+  width: 127px;
+  top: 2326px;
+  left: 664px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.0px;
+}
+
+.escuela-modular .element {
+  position: absolute;
+  width: 59px;
+  height: 58px;
+  top: 2256px;
+  left: 698px;
+}
+
+.escuela-modular .text-wrapper-21 {
+  position: absolute;
+  width: 127px;
+  top: 2326px;
+  left: 857px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.0px;
+}
+
+.escuela-modular .text-wrapper-22 {
+  position: absolute;
+  width: 127px;
+  top: 2326px;
+  left: 1050px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 26.0px;
+}
+
+.escuela-modular .group-2 {
+  position: absolute;
+  width: 62px;
+  height: 56px;
+  top: 2259px;
+  left: 890px;
+}
+
+.escuela-modular .element-2 {
+  position: absolute;
+  width: 59px;
+  height: 58px;
+  top: 2256px;
+  left: 1084px;
+}
+
+.escuela-modular .text-wrapper-23 {
+  position: absolute;
+  width: 127px;
+  top: 2326px;
+  left: 1243px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.0px;
+}
+
+.escuela-modular .group-3 {
+  position: absolute;
+  width: 62px;
+  height: 56px;
+  top: 2259px;
+  left: 1276px;
+}
+
+/*************************************************HOVER*********************/
+/* Estilo para la imagen normal */
+  .rectangle-2 {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  /* Efecto al pasar el cursor sobre la imagen */
+  .rectangle-2:hover {
+    transform: scale(1.1); /* Aumenta la imagen en un 10% */
+    opacity: 0.8; /* Cambia la opacidad */
+  }
+
+  
+  /* Estilo normal para la elipse */
+  .ellipse-7, .ellipse-8, .ellipse-9, .ellipse-10 {
+    width: 100px;
+    height: 100px;
+    background-color: blue; /* Color inicial */
+    border-radius: 50%;
+  }
+
+  /* Efecto hover para todas las elipses: cambio de color instantáneo */
+  .ellipse-7:hover, .ellipse-8:hover, .ellipse-9:hover, .ellipse-10:hover {
+    background-color: green; /* Color cuando el cursor está sobre el div */
+  }
+
+  /* Efecto al pasar el cursor sobre el vector */
+  .vector-2 {
+    transition: filter 0.3s ease;
+  }
+
+  .vector-2:hover {
+    filter: brightness(1.2); /* Aumenta el brillo del vector */
+  }
+  .rectangle-7, .rectangle-8, .rectangle-9, .rectangle-10 {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+  }
+
+  /* Efecto al pasar el cursor sobre el .rectangle-7 */
+  .tipo-region:hover .rectangle-7, .tipo-region:hover .rectangle-8, .tipo-region:hover .rectangle-9, .tipo-region:hover .rectangle-10 {
+    transform: scale(1.1); /* Escala la imagen al 110% */
+  }
