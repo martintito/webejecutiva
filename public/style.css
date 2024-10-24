@@ -2409,3 +2409,19 @@
   .tipo-region:hover .rectangle-7, .tipo-region:hover .rectangle-8, .tipo-region:hover .rectangle-9, .tipo-region:hover .rectangle-10 {
     transform: scale(1.1); /* Escala la imagen al 110% */
   }
+  
+  /* Estilo normal para los enlaces */
+        a {
+            color: white; /* Color normal */
+            text-decoration: none; /* Sin subrayado */
+        }
+
+        /* Estilo cuando el cursor está sobre el enlace */
+        a:hover {
+            color: white; /* Mantiene el mismo color */
+        }
+
+        /* Estilo cuando se hace clic en el enlace (estado activo) */
+        a:active {
+            color: white; /* Mantiene el mismo color al hacer clic */
+        }
