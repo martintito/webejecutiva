@@ -5,6 +5,89 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" href="globals.css" />
   <link rel="stylesheet" href="style.css" />
+  <style>
+  /* Estructura básica de contenedores */
+.catalogo-PRINCIPAL {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container, .group-2, .group-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.group-2 a, .group-4 a {
+  flex: 1 1 45%;
+  max-width: 400px;
+  min-width: 200px;
+  text-align: center;
+}
+
+.group-2 img, .group-4 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Títulos y textos */
+h3 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+}
+
+p, a div {
+  font-size: 1em;
+  text-align: justify;
+}
+
+/* Responsivo para tablets */
+@media (max-width: 768px) {
+  .group-2 a, .group-4 a {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .container, .group-2, .group-4 {
+    flex-direction: column;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  p, a div {
+    font-size: 0.9em;
+  }
+}
+
+/* Responsivo para móviles */
+@media (max-width: 480px) {
+  .catalogo-PRINCIPAL {
+    padding: 10px;
+  }
+
+  .container, .group-2, .group-4 {
+    gap: 10px;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  p, a div {
+    font-size: 0.8em;
+  }
+}
+
+  </style>
 </head>
 
 <body>
