@@ -1,373 +1,305 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Estilos generales para pantallas más grandes */
+body {
+  font-family: Arial, sans-serif;
+}
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" href="globals.css" />
-  <link rel="stylesheet" href="style.css" />
-  <style>
-  /* Estructura básica de contenedores */
 .catalogo-PRINCIPAL {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.container, .group-2, .group-4 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.group-2 a, .group-4 a {
-  flex: 1 1 45%;
-  max-width: 400px;
-  min-width: 200px;
-  text-align: center;
-}
-
-.group-2 img, .group-4 img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-/* Títulos y textos */
-h3 {
-  font-size: 1.5em;
-  text-align: center;
-  margin: 0;
-}
-
-p, a div {
-  font-size: 1em;
-  text-align: justify;
-}
-
-/* Responsivo para tablets */
+/* Tablet (768px y menor) */
 @media (max-width: 768px) {
-  .group-2 a, .group-4 a {
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
-
-  .container, .group-2, .group-4 {
-    flex-direction: column;
-  }
-
-  h3 {
-    font-size: 1.3em;
-  }
-
-  p, a div {
-    font-size: 0.9em;
-  }
-}
-
-/* Responsivo para móviles */
-@media (max-width: 480px) {
   .catalogo-PRINCIPAL {
     padding: 10px;
   }
 
-  .container, .group-2, .group-4 {
-    gap: 10px;
+  .overlap, .overlap-group, .overlap-3, .overlap-wrapper {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
   }
 
-  h3 {
-    font-size: 1.2em;
+  .overlap-group {
+    text-align: center;
   }
 
-  p, a div {
-    font-size: 0.8em;
+  .text-wrapper-2 {
+    font-size: 1.5rem;
+  }
+
+  .es-una-herramienta {
+    font-size: 1rem;
+  }
+
+  .footer, .horizontal-border, .list-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .p {
+    text-align: center;
+    font-size: 0.875rem;
+    padding: 10px;
   }
 }
 
-  </style>
-</head>
+/* Celular (480px y menor) */
+@media (max-width: 480px) {
+  .catalogo-PRINCIPAL {
+    padding: 5px;
+  }
 
-<body>
-  <div class="catalogo-PRINCIPAL">
-    <div class="div">
-      <div class="overlap">
-        <img class="rectangle" src="https://c.animaapp.com/ylaadf7j/img/rectangle-8.png" />
-        <img class="vector" src="https://c.animaapp.com/ylaadf7j/img/vector-3.svg" />
-        <div class="container">
-          <div class="overlap-group">
-            <img class="OBJECTS" src="https://c.animaapp.com/ylaadf7j/img/objects.svg" />
-            <div class="background-shadow"></div>
-            <div class="OBJECTS-2">
-              <div class="cat-logos-PRONIED">Catálogos<br />PRONIED</div>
-              <p class="son-herramientas-que">
-                <span class="text-wrapper">Son herramientas que contienen la información, a través de la experiencia del
-                  Pronied, que todo
-                  gobernador o alcalde necesita para la
-                </span>
-                <span class="span">adquisición de bienes que les permitan la atención temporal de emergencias en
-                  infraestructura
-                  educativa</span>
-                <span class="text-wrapper"> en sus respectivas jurisdicciones.</span>
-              </p>
-              <div class="group">
-                <div class="ellipse"></div>
-                <div class="ellipse-2"></div>
-                <div class="ellipse-3"></div>
-                <div class="ellipse-4"></div>
-                <div class="ellipse-5"></div>
-                <div class="ellipse-6"></div>
-              </div>
+  .text-wrapper-2 {
+    font-size: 1.25rem;
+  }
+
+  .es-una-herramienta {
+    font-size: 0.875rem;
+  }
+
+  .group, .footer, .list, .list-2 {
+    flex-direction: column;
+  }
+
+  .conoce-nuestra {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .footer p {
+    font-size: 0.75rem;
+    padding: 5px;
+  }
+
+  .overlap-3, .group-2, .group-4, .group-3 {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .vector, .vector-2, .capa, .img {
+    width: 100%;
+  }
+
+  .text-wrapper-8, .text-wrapper-9, .text-wrapper-10, .text-wrapper-11 {
+    font-size: 0.75rem;
+    line-height: 1.2;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="catalogo-PRINCIPAL">
+      <div class="div">
+        <div class="overlap">
+          <div class="group">
+            <div class="ellipse"></div>
+            <div class="ellipse-2"></div>
+            <div class="ellipse-3"></div>
+            <div class="ellipse-4"></div>
+            <div class="ellipse-5"></div>
+            <div class="ellipse-6"></div>
+          </div>
+          <p class="es-una-herramienta">
+            <span class="text-wrapper">Es una herramienta que detalla los bienes que los </span>
+            <span class="span">Gobiernos Regionales y Locales</span>
+            <span class="text-wrapper">
+              pueden adquirir e implementar, con recursos propios, para atender de manera temporal las necesidades de
+              infraestructura en su territorio. <br /><br />El
+            </span>
+            <span class="span">Pronied</span>
+            <span class="text-wrapper">, a través de su experiencia, </span>
+            <span class="span">brindará la asistencia técnica</span>
+            <span class="text-wrapper"> y la información necesaria para una implementación exitosa.</span>
+          </p>
+        </div>
+        <div class="overlap-group">
+          <div class="overlap-2">
+            <div class="rectangle"></div>
+            <div class="text-wrapper-2">Catálogo PRONIED</div>
+          </div>
+          <div class="overlap-group-wrapper">
+            <div class="overlap-group-2">
+              <div class="ver-video">Ver Video</div>
+              <img class="vector" src="https://c.animaapp.com/j3in5dLk/img/vector.svg" />
             </div>
           </div>
+          <div class="bienes-temporales">bienes temporales para<br />soluciones inmediatas.</div>
         </div>
-        <p class="en-qu-consiste-hemos">
-          <span class="text-wrapper-2">¿En qué consiste?<br /></span>
-          <span class="text-wrapper-3"><br /></span>
-          <span class="text-wrapper-4">Hemos preparado un catálogo que detalla los recursos disponibles que pueden
-            gestionar en sus respectivas
-            instituciones</span>
-          <span class="text-wrapper-5">.  esta herramienta facilitará la gestión eficiente de recursos y la toma de
-            decisiones en
-            territorio.</span>
-        </p>
-        <p class="s-mate-los-invitamos">
-          <span class="text-wrapper-2">¡Súmate!<br /></span>
-          <span class="text-wrapper-3"><br /></span>
-          <span class="text-wrapper-4">Los invitamos a revisar este catálogo y sumarse a esta importante causa para
-            mejorar la calidad de la
-            educación en nuestro país!</span>
-          <span class="text-wrapper-5">
-            Juntos, podemos transformar el futuro de nuestras escuelas y ofrecer a los estudiantes un entorno de
-            aprendizaje seguro y adecuado.</span>
-        </p>
-        <img class="element" src="https://c.animaapp.com/ylaadf7j/img/1-1@2x.png" />
-      </div>
-      <footer class="footer">
-        <div class="horizontal-border">
-          <div class="list">
-            <div class="div-2">
-              <div class="background"></div>
+        <div class="conoce-nuestra">CONOCE NUESTRA EXPERIENCIA</div>
+        <footer class="footer">
+          <div class="horizontal-border">
+            <div class="list">
               <div class="div-2">
-                <div class="privacy-policy-terms">Privacy Policy &amp; Terms</div>
+                <div class="background"></div>
+                <div class="div-2"><div class="privacy-policy-terms">Privacy Policy &amp; Terms</div></div>
               </div>
+              <div class="item-link"><div class="text-wrapper-3">Site Credits</div></div>
             </div>
-            <div class="item-link">
-              <div class="text-wrapper-6">Site Credits</div>
-            </div>
+            <p class="p">© 2024 Derechos Reservados Pronied</p>
           </div>
-          <p class="p">© 2023 All Rights Reserved</p>
-        </div>
-        <p class="browned-butter-and">
-          Browned Butter And Brown Sugar<br />caramelly Goodness, Crispy Edges<br />thick And Soft Centers And
-          Melty<br />little Puddles Of Chocolate.
-        </p>
-        <div class="heading">
-          <img class="mask-group" src="https://c.animaapp.com/ylaadf7j/img/mask-group.svg" />
-          <div class="text-wrapper-7">Company</div>
-        </div>
-        <div class="list-2">
-          <div class="div-wrapper">
-            <div class="text-wrapper-8">About Us</div>
+          <div class="list-2">
+            <div class="facebook-wrapper"><div class="facebook">Facebook</div></div>
+            <div class="div-wrapper"><div class="text-wrapper-4">Twitter</div></div>
+            <div class="item-link-2"><div class="text-wrapper-5">Instagram</div></div>
+            <div class="item-link-3"><div class="text-wrapper-6">Youtube</div></div>
+            <div class="item-link-4"><div class="text-wrapper-7">Pinterest</div></div>
           </div>
-          <div class="item-link-2">
-            <div class="text-wrapper-9">The Test Kitchen</div>
-          </div>
-          <div class="item-link-3">
-            <div class="text-wrapper-10">Podcast</div>
-          </div>
-          <div class="item-link-4">
-            <div class="text-wrapper-11">Events</div>
-          </div>
-          <div class="item-link-5">
-            <div class="text-wrapper-12">Jobs</div>
-          </div>
-        </div>
-        <div class="heading-2">
-          <img class="mask-group" src="https://c.animaapp.com/ylaadf7j/img/mask-group-1.svg" />
-          <div class="text-wrapper-13">Get Help</div>
-        </div>
-        <div class="list-3">
-          <div class="contact-faq-wrapper">
-            <div class="contact-faq">Contact &amp; Faq</div>
-          </div>
-          <div class="oders-returns-wrapper">
-            <div class="oders-returns">Oders &amp; Returns</div>
-          </div>
-          <div class="item-link-6">
-            <div class="text-wrapper-14">Gift Cards</div>
-          </div>
-          <div class="item-link-7">
-            <div class="text-wrapper-15">Register</div>
-          </div>
-          <div class="item-link-8">
-            <div class="text-wrapper-16">Catalog</div>
-          </div>
-        </div>
-        <div class="heading-3">
-          <img class="mask-group" src="https://c.animaapp.com/ylaadf7j/img/mask-group-2.svg" />
-          <div class="text-wrapper-17">Explore</div>
-        </div>
-        <div class="list-4">
-          <div class="item-link-9">
-            <div class="text-wrapper-18">The Shop</div>
-          </div>
-          <div class="item-link-10">
-            <div class="text-wrapper-19">Recipes</div>
-          </div>
-          <div class="item-link-11">
-            <div class="text-wrapper-20">Food</div>
-          </div>
-          <div class="item-link-12">
-            <div class="text-wrapper-21">Travel</div>
-          </div>
-          <div class="item-link-13">
-            <div class="text-wrapper-22">Hotline</div>
-          </div>
-        </div>
-        <div class="heading-4">
-          <img class="mask-group" src="https://c.animaapp.com/ylaadf7j/img/mask-group-3.svg" />
-          <div class="follow-us-on">Follow Us On</div>
-        </div>
-        <div class="list-5">
-          <div class="facebook-wrapper">
-            <div class="facebook">Facebook</div>
-          </div>
-          <div class="item-link-14">
-            <div class="text-wrapper-23">Twitter</div>
-          </div>
-          <div class="item-link-15">
-            <div class="text-wrapper-24">Instagram</div>
-          </div>
-          <div class="item-link-16">
-            <div class="text-wrapper-15">Youtube</div>
-          </div>
-          <div class="item-link-17">
-            <div class="text-wrapper-25">Pinterest</div>
-          </div>
-        </div>
-      </footer>
-      <div class="overlap-2">
-        <div class="group-2">
-          <div class="text-wrapper-26">Tipos de Catálogos</div>
-
-
-          <a href="escuela_modular.html">
-            <div class="overlap-3">
-              <img class="rectangle-2" src="https://c.animaapp.com/ylaadf7j/img/rectangle-10@2x.png" />
-              <div class="ellipse-7"></div>
-              <img class="vector-2" src="https://c.animaapp.com/ylaadf7j/img/vector.svg" />
-            </div>
+          <p class="gestionamos-la">
+            Gestionamos la infraestructura educativa pública en beneficio de la comunidad, de manera concertada,
+            planificada, regulada y eficiente.<br /><br />Nuestro objetivo es ampliar, mejorar, sustituir, rehabilitar
+            y/o construir infraestructura educativa pública de educación básica y de educación superior pedagógica,
+            tecnológica y técnico-productiva, incluyendo el mantenimiento y/o equipamiento de la misma, cuando
+            corresponda.<br />Tenemos como visión ser la organización líder en la gestión de la infraestructura
+            educativa pública, altamente técnica y eficiente, que contribuya a la calidad de la educación del país,
+            brindando asistencia técnica a los actores involucrados.
+          </p>
+          <img class="capa" src="https://c.animaapp.com/j3in5dLk/img/capa-1.svg" />
+          <img class="img" src="https://c.animaapp.com/j3in5dLk/img/capa-1-1.svg" />
+        </footer>
+        <div class="overlap-3">
+          <div class="group-2">
+            <p class="tipos-de-bienes-que">TIPOS DE BIENES QUE PUEDES ADQUIRIR E IMPLEMENTAR</p>
+            <div class="mobiliario-y">Mobiliario y&nbsp;&nbsp;equipamiento</div>
             <div class="escuela-modular">Escuela<br />modular</div>
-            <p class="son-estructuras">
-              <span class="text-wrapper-27">Son estructuras educativas <br />prefabricadas montables y desarmables,
-                diseñadas de acuerdo a
-              </span>
-              <span class="text-wrapper-28">cuatro zonas <br />bioclimáticas: costa, sierra, selva y heladas.</span>
-            </p>
-          </a>
-          <a href="aulas_modulares.html">
             <div class="overlap-4">
-              <img class="rectangle-2" src="https://c.animaapp.com/ylaadf7j/img/rectangle-11@2x.png" />
-              <div class="ellipse-8"></div>
-              <img class="AULA-MODULAR" src="https://c.animaapp.com/ylaadf7j/img/aula-modular--1--1@2x.png" />
+              <img class="rectangle-2" src="https://c.animaapp.com/j3in5dLk/img/rectangle-10@2x.png" />
+              <div class="ellipse-7"></div>
+              <img class="vector-2" src="https://c.animaapp.com/j3in5dLk/img/vector-1.svg" />
             </div>
-            <div class="aulas-modulares">Aulas<br />modulares</div>
-            <p class="son-aulas-educativas">
-              <span class="text-wrapper-27">Son aulas educativas prefabricadas montables y desmontables, diseñadas de
-                acuerdo a
-              </span>
-              <span class="text-wrapper-28">cuatro zonas bioclimáticas: costa, sierra, selva y heladas. </span>
-              <span class="text-wrapper-27">Para atenciones a mediano plazo.</span>
-            </p>
-          </a>
-          <a href="aula-modular-tipo-domo.html">
             <div class="overlap-5">
-              <img class="rectangle-2" src="https://c.animaapp.com/ylaadf7j/img/rectangle-12@2x.png" />
-              <div class="ellipse-9"></div>
-              <img class="group-3" src="https://c.animaapp.com/ylaadf7j/img/group-4@2x.png" />
+              <img class="rectangle-2" src="https://c.animaapp.com/j3in5dLk/img/rectangle-11@2x.png" />
+              <div class="ellipse-8"></div>
+              <img class="AULA-MODULAR" src="https://c.animaapp.com/j3in5dLk/img/aula-modular--1--1@2x.png" />
             </div>
-            <div class="aulas-modular-tipo">Aulas modular<br />tipo domo</div>
-            <p class="son-estructuras-que">
-              <span class="text-wrapper-27">Son estructuras que se ensamblan de forma rápida y han sido diseñadas para
-                atender emergencias de
-                infraestructura educativa en corto plazo.
-              </span>
-              <span class="text-wrapper-28">Son resistentes al viento, lluvia, frío, calor y sismos.</span>
-            </p>
-          </a>
-          <a href="mobiliario.html">
             <div class="overlap-6">
-              <img class="rectangle-2" src="https://c.animaapp.com/ylaadf7j/img/rectangle-13@2x.png" />
+              <img class="rectangle-2" src="https://c.animaapp.com/j3in5dLk/img/rectangle-12@2x.png" />
+              <div class="ellipse-9"></div>
+              <img class="group-3" src="https://c.animaapp.com/j3in5dLk/img/group-4@2x.png" />
+            </div>
+            <div class="overlap-7">
+              <img class="rectangle-2" src="https://c.animaapp.com/j3in5dLk/img/rectangle-13@2x.png" />
               <div class="ellipse-10"></div>
             </div>
-            <div class="mobiliario-y">Mobiliario y&nbsp;&nbsp;equipamiento</div>
-            <p class="es-un-conjunto-de">
-              <span class="text-wrapper-27">Es un conjunto de mobiliario y equipamiento que</span>
-              <span class="text-wrapper-28"> se proveen a las instituciones educativas a nivel nacional</span>
-              <span class="text-wrapper-27"> para mejorar y adecuar los espacios de aprendizaje</span>
+            <p class="son-aulas-educativas">
+              <span class="text-wrapper-8"
+                >Son aulas educativas prefabricadas montables y desmontables, diseñadas de acuerdo a
+              </span>
+              <span class="text-wrapper-9">cuatro zonas bioclimáticas: costa, sierra, selva y heladas. </span>
+              <span class="text-wrapper-8">Para atenciones a mediano plazo.</span>
             </p>
-          </a>
-
-
+            <p class="son-estructuras-que">
+              <span class="text-wrapper-8"
+                >Son estructuras que se ensamblan de forma rápida y han sido diseñadas para atender emergencias de
+                infraestructura educativa en corto plazo.
+              </span>
+              <span class="text-wrapper-9">Son resistentes al viento, lluvia, frío, calor y sismos.</span>
+            </p>
+            <p class="es-un-conjunto-de">
+              <span class="text-wrapper-8">Es un conjunto de mobiliario y equipamiento que</span>
+              <span class="text-wrapper-9"> se proveen a las instituciones educativas a nivel nacional</span>
+              <span class="text-wrapper-8"> para mejorar y adecuar los espacios de aprendizaje</span>
+            </p>
+            <div class="aulas-modular-tipo">Aulas modular<br />tipo domo</div>
+            <p class="son-estructuras">
+              <span class="text-wrapper-8"
+                >Son estructuras educativas <br />prefabricadas montables y desarmables, diseñadas de acuerdo a
+              </span>
+              <span class="text-wrapper-9">cuatro zonas <br />bioclimáticas: costa, sierra, selva y heladas.</span>
+            </p>
+            <div class="aulas-modulares">Aulas<br />modulares</div>
+          </div>
+          <img class="capa-2" src="https://c.animaapp.com/j3in5dLk/img/capa-1-3.svg" />
         </div>
-        <img class="capa" src="https://c.animaapp.com/ylaadf7j/img/capa-1-1.svg" />
-      </div>
-      <div class="group-4">
-
-        <a href="servicios-higienicos.html">
-          <div class="overlap-7">
-            <img class="rectangle-2" src="https://c.animaapp.com/ylaadf7j/img/rectangle-10-1@2x.png" />
-            <div class="ellipse-11"></div>
-            <img class="SERVICIOS-HIGINICOS"
-              src="https://c.animaapp.com/ylaadf7j/img/servicios-higi-nicos--1--1@2x.png" />
-          </div>
+        <div class="group-4">
           <div class="servicios-higi-nicos">Servicios higiénicos<br />modulares</div>
-          <p class="los-m-dulos-de-ba-os">
-            <span class="text-wrapper-27">Los módulos de baños</span>
-            <span class="text-wrapper-28">
-              son unidades prefabricadas diseñadas específicamente para proporcionar instalaciones sanitarias</span>
-            <span class="text-wrapper-27"> adecuadas en instituciones educativas</span>
-          </p>
-        </a>
-        <a href="kit-pararrayos.html">
           <div class="overlap-8">
-            <img class="rectangle-2" src="https://c.animaapp.com/ylaadf7j/img/rectangle-11-1@2x.png" />
-            <div class="ellipse-12"></div>
-            <img class="PARARRAYO" src="https://c.animaapp.com/ylaadf7j/img/pararrayo--2--1@2x.png" />
+            <img class="rectangle-2" src="https://c.animaapp.com/j3in5dLk/img/rectangle-10-1@2x.png" />
+            <div class="ellipse-11"></div>
+            <img
+              class="SERVICIOS-HIGINICOS"
+              src="https://c.animaapp.com/j3in5dLk/img/servicios-higi-nicos--1--1@2x.png"
+            />
           </div>
-          <div class="kit-de-pararrayos">Kit de<br />pararrayos</div>
-          <p class="dise-ados-para">
-            <span class="text-wrapper-29">Diseñados para proteger las instalaciones educativas</span>
-            <span class="text-wrapper-30"> de los efectos de descargas eléctricas atmosféricas</span>
-          </p>
-        </a>
-        <a href="kit-agua.html">
           <div class="overlap-9">
-            <img class="rectangle-2" src="https://c.animaapp.com/ylaadf7j/img/rectangle-12-1@2x.png" />
-            <div class="ellipse-13"></div>
-            <img class="capa-2" src="https://c.animaapp.com/ylaadf7j/img/capa-1.svg" />
+            <img class="rectangle-2" src="https://c.animaapp.com/j3in5dLk/img/rectangle-11-1@2x.png" />
+            <div class="ellipse-12"></div>
+            <img class="PARARRAYO" src="https://c.animaapp.com/j3in5dLk/img/pararrayo--2--1@2x.png" />
           </div>
-          <p class="text-wrapper-31">Kit de agua y desagüe</p>
-          <p class="dise-ados-para-2">
-            <span class="text-wrapper-29">Diseñados para garantizar el suministro adecuado y seguro de agua
-              potable</span>
-            <span class="text-wrapper-30"> y disposición de residuos solidos en las instituciones educativas</span>
+          <div class="overlap-10">
+            <img class="rectangle-2" src="https://c.animaapp.com/j3in5dLk/img/rectangle-12-1@2x.png" />
+            <div class="ellipse-13"></div>
+            <img class="capa-3" src="https://c.animaapp.com/j3in5dLk/img/capa-1-2.svg" />
+          </div>
+          <p class="dise-ados-para">
+            <span class="text-wrapper-10">Diseñados para proteger las instalaciones educativas</span>
+            <span class="text-wrapper-11"> de los efectos de descargas eléctricas atmosféricas</span>
           </p>
-        </a>
-
-
-
-
-
-
-
-
+          <p class="dise-ados-para-2">
+            <span class="text-wrapper-10"
+              >Diseñados para garantizar el suministro adecuado y seguro de agua potable</span
+            >
+            <span class="text-wrapper-11"> y disposición de residuos solidos en las instituciones educativas</span>
+          </p>
+          <p class="los-m-dulos-de-ba-os">
+            <span class="text-wrapper-8">Los módulos de baños</span>
+            <span class="text-wrapper-9">
+              son unidades prefabricadas diseñadas específicamente para proporcionar instalaciones sanitarias</span
+            >
+            <span class="text-wrapper-8"> adecuadas en instituciones educativas</span>
+          </p>
+          <div class="kit-de-pararrayos">Kit de<br />pararrayos</div>
+          <p class="text-wrapper-12">Kit de agua y desagüe</p>
+        </div>
+        <img class="layer" src="https://c.animaapp.com/j3in5dLk/img/layer-1.svg" />
+        <img class="layer-2" src="https://c.animaapp.com/j3in5dLk/img/layer-1-1.svg" />
+        <img class="layer-3" src="https://c.animaapp.com/j3in5dLk/img/layer-1-2.svg" />
+        <div class="overlap-wrapper">
+          <div class="overlap-11">
+            <div class="text-wrapper-13">Gobierno Regional o Local</div>
+            <div class="overlap-12">
+              <div class="rectangle-3"></div>
+              <div class="text-wrapper-14">Necesidad</div>
+              <img class="mask-group" src="https://c.animaapp.com/j3in5dLk/img/mask-group@2x.png" />
+            </div>
+            <div class="overlap-group-3">
+              <div class="rectangle-4"></div>
+              <div class="text-wrapper-15">Bien temporal</div>
+              <div class="ellipse-14"></div>
+              <img
+                class="MODULO-COSTA-ass"
+                src="https://c.animaapp.com/j3in5dLk/img/modulo-costa-sf2-ass-copia-1@2x.png"
+              />
+            </div>
+            <div class="overlap-13">
+              <div class="rectangle-5"></div>
+              <div class="text-wrapper-16">Adquiere e Implementa</div>
+            </div>
+            <img class="vector-3" src="https://c.animaapp.com/j3in5dLk/img/vector-3.svg" />
+            <img class="vector-4" src="https://c.animaapp.com/j3in5dLk/img/vector-3.svg" />
+            <div class="overlap-14">
+              <img class="line" src="https://c.animaapp.com/j3in5dLk/img/line-15.svg" />
+              <div class="overlap-15">
+                <img class="line-2" src="https://c.animaapp.com/j3in5dLk/img/line-13.svg" />
+                <div class="rectangle-6"></div>
+                <div class="text-wrapper-17">Asistencia Técnica del Pronied</div>
+              </div>
+            </div>
+            <img class="line-3" src="https://c.animaapp.com/j3in5dLk/img/line-15.svg" />
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
