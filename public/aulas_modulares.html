@@ -2,11 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style_aulas.css" />
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	<style>
+
+
       /* Estilos básicos */
       .clickable {
         cursor: pointer; /* Cambia el cursor al pasar sobre el área clicable */
@@ -95,6 +98,37 @@
       .right-arrow {
         right: 10px; /* Posición derecha */
       }
+      
+      /* Diseño responsive para dispositivos pequeños */
+@media (max-width: 768px) {
+    .rectangle-12, .swiper-container, .carousel {
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .text-wrapper-33 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Estilo adicional para pantallas aún más pequeñas */
+    .arrow {
+        padding: 8px;
+        font-size: 18px;
+    }
+
+    .text-wrapper-33 {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
     </style>
   </head>
   <body>
@@ -211,7 +245,7 @@
               </p>
               <div class="overlap-20">
                 <div class="cat-logos-pronied">
-                  Catálogos Pronied&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aulas
+                  <a href="index.html">Catálogos Pronied</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aulas
                   Modulares
                 </div>
                 <img class="modo-de-aislamiento-2" src="https://c.animaapp.com/P25pZsOh/img/modo-de-aislamiento.svg" />

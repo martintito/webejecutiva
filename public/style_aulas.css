@@ -1,3 +1,17 @@
+a:link, a:visited {
+  color: #3498db; /* Color inicial de los enlaces */
+  text-decoration: none; /* Sin subrayado */
+}
+
+/* Opcional: Estilo de enlace cuando el mouse está sobre él */
+a:hover {
+  color: #2980b9; /* Color al pasar el cursor */
+}
+
+/* Opcional: Estilo cuando el enlace está activo */
+a:active {
+  color: #1a5a7d;
+}
 .aulas-modulares {
   background-color: #ffffff;
   display: flex;
