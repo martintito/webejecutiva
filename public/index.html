@@ -5,98 +5,17 @@
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
     <style>
-      /* Estilos generales para pantallas más grandes */
-body {
-  font-family: Arial, sans-serif;
-}
-
-.catalogo-PRINCIPAL {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Tablet (768px y menor) */
-@media (max-width: 768px) {
-  .catalogo-PRINCIPAL {
-    padding: 10px;
-  }
-
-  .overlap, .overlap-group, .overlap-3, .overlap-wrapper {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-  }
-
-  .overlap-group {
-    text-align: center;
-  }
-
-  .text-wrapper-2 {
-    font-size: 1.5rem;
-  }
-
-  .es-una-herramienta {
-    font-size: 1rem;
-  }
-
-  .footer, .horizontal-border, .list-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .p {
-    text-align: center;
-    font-size: 0.875rem;
-    padding: 10px;
-  }
-}
-
-/* Celular (480px y menor) */
-@media (max-width: 480px) {
-  .catalogo-PRINCIPAL {
-    padding: 5px;
-  }
-
-  .text-wrapper-2 {
-    font-size: 1.25rem;
-  }
-
-  .es-una-herramienta {
-    font-size: 0.875rem;
-  }
-
-  .group, .footer, .list, .list-2 {
-    flex-direction: column;
-  }
-
-  .conoce-nuestra {
-    font-size: 1rem;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  .footer p {
-    font-size: 0.75rem;
-    padding: 5px;
-  }
-
-  .overlap-3, .group-2, .group-4, .group-3 {
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  .vector, .vector-2, .capa, .img {
-    width: 100%;
-  }
-
-  .text-wrapper-8, .text-wrapper-9, .text-wrapper-10, .text-wrapper-11 {
-    font-size: 0.75rem;
-    line-height: 1.2;
-  }
-}
-
+      /* Estilo para alinear los iframes en una fila */
+      .video-row {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+      }
+      .video-row iframe {
+        width: 300px;
+        height: 200px;
+        border: none;
+      }
     </style>
   </head>
   <body>
@@ -132,10 +51,10 @@ body {
           <div class="overlap-group-wrapper">
             <div class="overlap-group-2">
               <div class="ver-video">Ver Video</div>
-              <img class="vector" src="https://c.animaapp.com/j3in5dLk/img/vector.svg" />
+              <img class="vector" src="https://c.animaapp.com/Hxq9fOl9/img/vector.svg" />
             </div>
           </div>
-          <div class="bienes-temporales">bienes temporales para<br />soluciones inmediatas.</div>
+          <div class="bienes-temporales">Bienes temporales para<br />soluciones inmediatas.</div>
         </div>
         <div class="conoce-nuestra">CONOCE NUESTRA EXPERIENCIA</div>
         <footer class="footer">
@@ -165,21 +84,20 @@ body {
             educativa pública, altamente técnica y eficiente, que contribuya a la calidad de la educación del país,
             brindando asistencia técnica a los actores involucrados.
           </p>
-          <img class="capa" src="https://c.animaapp.com/j3in5dLk/img/capa-1.svg" />
-          <img class="img" src="https://c.animaapp.com/j3in5dLk/img/capa-1-1.svg" />
+          <img class="capa" src="https://c.animaapp.com/Hxq9fOl9/img/capa-1.svg" />
+          <img class="img" src="https://c.animaapp.com/Hxq9fOl9/img/capa-1-1.svg" />
         </footer>
         <div class="overlap-3">
           <div class="group-2">
             <p class="tipos-de-bienes-que">TIPOS DE BIENES QUE PUEDES ADQUIRIR E IMPLEMENTAR</p>
-
-
+            
             <a href="escuela_modular.html">
               <div class="overlap-4">
                 <img class="rectangle-2" src="https://c.animaapp.com/j3in5dLk/img/rectangle-10@2x.png" />
                 <div class="ellipse-7"></div>
                 <img class="vector-2" src="https://c.animaapp.com/j3in5dLk/img/vector-1.svg" />
               </div>
-              <div class="escuela-modular">Escuela<br />modular</div>
+              <div class="escuela-modular">Escuela<br />modularrrr</div>
               <p class="son-estructuras">
                 <span class="text-wrapper-8"
                   >Son estructuras educativas <br />prefabricadas montables y desarmables, diseñadas de acuerdo a
@@ -231,30 +149,83 @@ body {
                 <span class="text-wrapper-8"> para mejorar y adecuar los espacios de aprendizaje</span>
               </p>
             </a>
-
             
+            
+            <!--div class="mobiliario-y">Mobiliario y&nbsp;&nbsp;equipamiento</div>
+            <div class="escuela-modular">Escuela<br />modular</div>
+            <div class="overlap-4">
+              <img class="rectangle-2" src="https://c.animaapp.com/Hxq9fOl9/img/rectangle-10@2x.png" />
+              <div class="ellipse-7"></div>
+              <img class="vector-2" src="https://c.animaapp.com/Hxq9fOl9/img/vector-1.svg" />
+            </div>
+            <div class="overlap-5">
+              <img class="rectangle-2" src="https://c.animaapp.com/Hxq9fOl9/img/rectangle-11@2x.png" />
+              <div class="ellipse-8"></div>
+              <img class="AULA-MODULAR" src="https://c.animaapp.com/Hxq9fOl9/img/aula-modular--1--1@2x.png" />
+            </div>
+            <div class="overlap-6">
+              <img class="rectangle-2" src="https://c.animaapp.com/Hxq9fOl9/img/rectangle-12@2x.png" />
+              <div class="ellipse-9"></div>
+              <img class="group-3" src="https://c.animaapp.com/Hxq9fOl9/img/group-4@2x.png" />
+            </div>
+            <div class="overlap-7">
+              <img class="rectangle-2" src="https://c.animaapp.com/Hxq9fOl9/img/rectangle-13@2x.png" />
+              <div class="ellipse-10"></div>
+            </div>
+            <p class="son-aulas-educativas">
+              <span class="text-wrapper-8"
+                >Son aulas educativas prefabricadas montables y desmontables, diseñadas de acuerdo a
+              </span>
+              <span class="text-wrapper-9">cuatro zonas bioclimáticas: costa, sierra, selva y heladas. </span>
+              <span class="text-wrapper-8">Para atenciones a mediano plazo.</span>
+            </p>
+            <p class="son-estructuras-que">
+              <span class="text-wrapper-8"
+                >Son estructuras que se ensamblan de forma rápida y han sido diseñadas para atender emergencias de
+                infraestructura educativa en corto plazo.
+              </span>
+              <span class="text-wrapper-9">Son resistentes al viento, lluvia, frío, calor y sismos.</span>
+            </p>
+            <p class="es-un-conjunto-de">
+              <span class="text-wrapper-8">Es un conjunto de mobiliario y equipamiento que</span>
+              <span class="text-wrapper-9"> se proveen a las instituciones educativas a nivel nacional</span>
+              <span class="text-wrapper-8"> para mejorar y adecuar los espacios de aprendizaje</span>
+            </p>
+            <div class="aulas-modular-tipo">Aulas modular<br />tipo domo</div>
+            <p class="son-estructuras">
+              <span class="text-wrapper-8"
+                >Son estructuras educativas <br />prefabricadas montables y desarmables, diseñadas de acuerdo a
+              </span>
+              <span class="text-wrapper-9">cuatro zonas <br />bioclimáticas: costa, sierra, selva y heladas.</span>
+            </p>
+            <div class="aulas-modulares">Aulas<br />modulares</div-->
+
+
           </div>
-          <img class="capa-2" src="https://c.animaapp.com/j3in5dLk/img/capa-1-3.svg" />
+          <img class="capa-2" src="https://c.animaapp.com/Hxq9fOl9/img/capa-1-3.svg" />
         </div>
+
+
+
         <div class="group-4">
           <div class="servicios-higi-nicos">Servicios higiénicos<br />modulares</div>
           <div class="overlap-8">
-            <img class="rectangle-2" src="https://c.animaapp.com/j3in5dLk/img/rectangle-10-1@2x.png" />
+            <img class="rectangle-2" src="https://c.animaapp.com/Hxq9fOl9/img/rectangle-10-1@2x.png" />
             <div class="ellipse-11"></div>
             <img
               class="SERVICIOS-HIGINICOS"
-              src="https://c.animaapp.com/j3in5dLk/img/servicios-higi-nicos--1--1@2x.png"
+              src="https://c.animaapp.com/Hxq9fOl9/img/servicios-higi-nicos--1--1@2x.png"
             />
           </div>
           <div class="overlap-9">
-            <img class="rectangle-2" src="https://c.animaapp.com/j3in5dLk/img/rectangle-11-1@2x.png" />
+            <img class="rectangle-2" src="https://c.animaapp.com/Hxq9fOl9/img/rectangle-11-1@2x.png" />
             <div class="ellipse-12"></div>
-            <img class="PARARRAYO" src="https://c.animaapp.com/j3in5dLk/img/pararrayo--2--1@2x.png" />
+            <img class="PARARRAYO" src="https://c.animaapp.com/Hxq9fOl9/img/pararrayo--2--1@2x.png" />
           </div>
           <div class="overlap-10">
-            <img class="rectangle-2" src="https://c.animaapp.com/j3in5dLk/img/rectangle-12-1@2x.png" />
+            <img class="rectangle-2" src="https://c.animaapp.com/Hxq9fOl9/img/rectangle-12-1@2x.png" />
             <div class="ellipse-13"></div>
-            <img class="capa-3" src="https://c.animaapp.com/j3in5dLk/img/capa-1-2.svg" />
+            <img class="capa-3" src="https://c.animaapp.com/Hxq9fOl9/img/capa-1-2.svg" />
           </div>
           <p class="dise-ados-para">
             <span class="text-wrapper-10">Diseñados para proteger las instalaciones educativas</span>
@@ -276,16 +247,15 @@ body {
           <div class="kit-de-pararrayos">Kit de<br />pararrayos</div>
           <p class="text-wrapper-12">Kit de agua y desagüe</p>
         </div>
-        <img class="layer" src="https://c.animaapp.com/j3in5dLk/img/layer-1.svg" />
-        <img class="layer-2" src="https://c.animaapp.com/j3in5dLk/img/layer-1-1.svg" />
-        <img class="layer-3" src="https://c.animaapp.com/j3in5dLk/img/layer-1-2.svg" />
+        <!--img class="group-5" src="https://c.animaapp.com/Hxq9fOl9/img/group-30.png" /-->
+        
         <div class="overlap-wrapper">
           <div class="overlap-11">
             <div class="text-wrapper-13">Gobierno Regional o Local</div>
             <div class="overlap-12">
               <div class="rectangle-3"></div>
               <div class="text-wrapper-14">Necesidad</div>
-              <img class="mask-group" src="https://c.animaapp.com/j3in5dLk/img/mask-group@2x.png" />
+              <img class="mask-group" src="https://c.animaapp.com/Hxq9fOl9/img/mask-group@2x.png" />
             </div>
             <div class="overlap-group-3">
               <div class="rectangle-4"></div>
@@ -293,24 +263,50 @@ body {
               <div class="ellipse-14"></div>
               <img
                 class="MODULO-COSTA-ass"
-                src="https://c.animaapp.com/j3in5dLk/img/modulo-costa-sf2-ass-copia-1@2x.png"
+                src="https://c.animaapp.com/Hxq9fOl9/img/modulo-costa-sf2-ass-copia-1@2x.png"
               />
             </div>
             <div class="overlap-13">
               <div class="rectangle-5"></div>
               <div class="text-wrapper-16">Adquiere e Implementa</div>
             </div>
-            <img class="vector-3" src="https://c.animaapp.com/j3in5dLk/img/vector-3.svg" />
-            <img class="vector-4" src="https://c.animaapp.com/j3in5dLk/img/vector-3.svg" />
+            <img class="vector-3" src="https://c.animaapp.com/Hxq9fOl9/img/vector-3.svg" />
+            <img class="vector-4" src="https://c.animaapp.com/Hxq9fOl9/img/vector-3.svg" />
             <div class="overlap-14">
-              <img class="line" src="https://c.animaapp.com/j3in5dLk/img/line-15.svg" />
+              <img class="line" src="static/line-15.svg" />
               <div class="overlap-15">
-                <img class="line-2" src="https://c.animaapp.com/j3in5dLk/img/line-13.svg" />
+                <img class="line-2" src="https://c.animaapp.com/Hxq9fOl9/img/line-13.svg" />
                 <div class="rectangle-6"></div>
                 <div class="text-wrapper-17">Asistencia Técnica del Pronied</div>
               </div>
             </div>
-            <img class="line-3" src="https://c.animaapp.com/j3in5dLk/img/line-15.svg" />
+            <img class="line-3" src="static/line-15.svg" />
+          </div>
+        </div>
+
+        <!-- Nueva fila de videos embebidos -->
+        <div class="overlap-video">
+          <div class="group-video">
+            <div class="video-row">
+              <iframe
+                src="https://www.youtube.com/embed/zrPDrIWh1YA"
+                title="Video de YouTube"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <iframe
+                src="https://www.youtube.com/embed/zrPDrIWh1YA"
+                title="Video de YouTube"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <iframe
+                src="https://www.youtube.com/embed/zrPDrIWh1YA"
+                title="Video de YouTube"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>

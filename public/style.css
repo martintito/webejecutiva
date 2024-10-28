@@ -1,16 +1,14 @@
-a:link, a:visited {
-  color: #3498db; /* Color inicial de los enlaces */
-  text-decoration: none; /* Sin subrayado */
+
+@font-face {
+  font-family: 'Gotham Rounded-Medium'; /* Nombre que usarás en el CSS */
+  src: url('fonts/Gotham Rounded-Medium.otf') format('opentype'); /* Ruta al archivo .otf */
+  font-weight: bold; /* Peso de la fuente (puedes ajustarlo según corresponda) */
+  font-style: normal; /* Estilo de la fuente (puedes usar 'italic' si es necesario) */
 }
 
-/* Opcional: Estilo de enlace cuando el mouse está sobre él */
-a:hover {
-  color: #2980b9; /* Color al pasar el cursor */
-}
-
-/* Opcional: Estilo cuando el enlace está activo */
-a:active {
-  color: #1a5a7d;
+/* Luego, puedes aplicar la fuente */
+body {
+  font-family: 'Gotham Rounded-Medium', Helvetica, sans-serif;
 }
 
 .catalogo-PRINCIPAL {
@@ -30,10 +28,10 @@ a:active {
 
 .catalogo-PRINCIPAL .overlap {
   position: absolute;
-  width: 1228px;
+  width: 1122px;
   height: 139px;
   top: 587px;
-  left: 346px;
+  left: 399px;
 }
 
 .catalogo-PRINCIPAL .group {
@@ -41,7 +39,7 @@ a:active {
   width: 104px;
   height: 14px;
   top: 49px;
-  left: 993px;
+  left: 940px;
 }
 
 .catalogo-PRINCIPAL .ellipse {
@@ -106,16 +104,16 @@ a:active {
 
 .catalogo-PRINCIPAL .es-una-herramienta {
   position: absolute;
-  width: 1228px;
+  width: 1122px;
   top: 0;
   left: 0;
   font-family: "Gotham Rounded-Regular", Helvetica;
   font-weight: 400;
   color: transparent;
-  font-size: 26px;
+  font-size: 24px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 33.8px;
+  line-height: 31.2px;
 }
 
 .catalogo-PRINCIPAL .text-wrapper {
@@ -134,7 +132,7 @@ a:active {
   height: 522px;
   top: 0;
   left: 0;
-  background-image: url(https://c.animaapp.com/j3in5dLk/img/collage-copia-1.pdf);
+  background-image: url(static/collage1.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -165,10 +163,10 @@ a:active {
   font-family: "Gotham Rounded-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;
-  font-size: 60px;
+  font-size: 58px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 69.0px;
+  line-height: 66.7px;
   white-space: nowrap;
 }
 
@@ -230,7 +228,7 @@ a:active {
 .catalogo-PRINCIPAL .conoce-nuestra {
   position: absolute;
   width: 715px;
-  top: 2585px;
+  top: 2537px;
   left: 603px;
   font-family: "Gotham Rounded-Bold", Helvetica;
   font-weight: 700;
@@ -246,7 +244,7 @@ a:active {
   position: absolute;
   width: 1920px;
   height: 532px;
-  top: 3020px;
+  top: 2851px;
   left: 0;
   background-color: #0057a7;
 }
@@ -504,7 +502,23 @@ a:active {
   left: 347px;
 }
 
+.catalogo-PRINCIPAL .overlap-video {
+    position: absolute;
+    width: 1245px;
+    height: 671px;
+    top: 2575px;
+    left: 347px;
+}
+
 .catalogo-PRINCIPAL .group-2 {
+  position: absolute;
+  width: 1245px;
+  height: 671px;
+  top: 0;
+  left: 0;
+}
+
+.catalogo-PRINCIPAL .group-video {
   position: absolute;
   width: 1245px;
   height: 671px;
@@ -959,28 +973,12 @@ a:active {
   line-height: 25px;
 }
 
-.catalogo-PRINCIPAL .layer {
+.catalogo-PRINCIPAL .group-5 {
   position: absolute;
-  width: 534px;
-  height: 301px;
-  top: 2638px;
-  left: 141px;
-}
-
-.catalogo-PRINCIPAL .layer-2 {
-  left: 702px;
-  position: absolute;
-  width: 534px;
-  height: 301px;
-  top: 2638px;
-}
-
-.catalogo-PRINCIPAL .layer-3 {
-  left: 1263px;
-  position: absolute;
-  width: 534px;
-  height: 301px;
-  top: 2638px;
+  width: 1227px;
+  height: 223px;
+  top: 2595px;
+  left: 347px;
 }
 
 .catalogo-PRINCIPAL .overlap-wrapper {
@@ -988,7 +986,7 @@ a:active {
   width: 1237px;
   height: 222px;
   top: 825px;
-  left: 347px;
+  left: 346px;
 }
 
 .catalogo-PRINCIPAL .overlap-11 {
@@ -1005,7 +1003,7 @@ a:active {
   position: absolute;
   width: 241px;
   top: 75px;
-  left: 500px;
+  left: 501px;
   font-family: "Gotham Rounded-Medium", Helvetica;
   font-weight: 500;
   color: #0059aa;
@@ -1020,7 +1018,7 @@ a:active {
   width: 309px;
   height: 112px;
   top: 23px;
-  left: 105px;
+  left: 106px;
 }
 
 .catalogo-PRINCIPAL .rectangle-3 {
@@ -1061,7 +1059,7 @@ a:active {
   width: 346px;
   height: 113px;
   top: 23px;
-  left: 813px;
+  left: 814px;
 }
 
 .catalogo-PRINCIPAL .rectangle-4 {
@@ -1113,7 +1111,7 @@ a:active {
   width: 240px;
   height: 32px;
   top: 38px;
-  left: 502px;
+  left: 503px;
 }
 
 .catalogo-PRINCIPAL .rectangle-5 {
@@ -1146,7 +1144,7 @@ a:active {
   width: 41px;
   height: 30px;
   top: 69px;
-  left: 767px;
+  left: 768px;
 }
 
 .catalogo-PRINCIPAL .vector-4 {
@@ -1154,7 +1152,7 @@ a:active {
   width: 41px;
   height: 30px;
   top: 69px;
-  left: 440px;
+  left: 441px;
 }
 
 .catalogo-PRINCIPAL .overlap-14 {
@@ -1162,12 +1160,12 @@ a:active {
   width: 534px;
   height: 55px;
   top: 139px;
-  left: 358px;
+  left: 359px;
 }
 
 .catalogo-PRINCIPAL .line {
   position: absolute;
-  width: 1px;
+  width: 4px;
   height: 38px;
   top: 0;
   left: 533px;
@@ -1216,8 +1214,8 @@ a:active {
 
 .catalogo-PRINCIPAL .line-3 {
   position: absolute;
-  width: 1px;
-  height: 38px;
+  width: 4px;
+  height: 35px;
   top: 138px;
-  left: 357px;
+  left: 358px;
 }
