@@ -1,3 +1,13 @@
+.aulas-modulares-tipo .rectangle-highland {
+  position: absolute;
+  width: 232px;
+  height: 66px;
+  top: 0;
+  left: 0;
+  background-color: #c0504d;
+  border-radius: 30px;
+}
+
 .aulas-modulares-tipo {
   background-color: #ffffff;
   display: flex;
@@ -133,6 +143,8 @@
   background-color: #7d4393;
   border-radius: 30px;
 }
+
+
 
 .aulas-modulares-tipo .text-wrapper {
   position: absolute;
