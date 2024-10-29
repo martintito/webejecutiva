@@ -1,24 +1,626 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      /* Estilo para alinear los iframes en una fila */
-      .video-row {
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="globals.css" />
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    /* Estilo para alinear los iframes en una fila */
+    .video-row {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px 0;
+    }
+
+    .video-row iframe {
+      width: 300px;
+      height: 200px;
+      border: none;
+    }
+
+    /* Diseño para pantallas grandes (PC y laptops) */
+    .desktop-design {
+      display: block;
+      /* Visible en pantallas grandes */
+    }
+
+    .mobile-design {
+      display: none;
+      /* Oculto en pantallas grandes */
+    }
+
+    @media screen and (max-width: 768px) {
+      .desktop-design {
+        display: none !important;
+      }
+
+      .mobile-design {
+        display: block !important;
+      }
+
+      .responsive-catalogo {
+        background-color: #ffffff;
         display: flex;
-        justify-content: space-around;
-        margin: 20px 0;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
       }
-      .video-row iframe {
-        width: 300px;
-        height: 200px;
-        border: none;
+
+      .responsive-catalogo .div {
+        background-color: #ffffff;
+        width: 440px;
+        height: 4567px;
+        position: relative;
       }
-    </style>
-  </head>
-  <body>
+
+      .responsive-catalogo .overlap {
+        position: absolute;
+        width: 368px;
+        height: 441px;
+        top: 636px;
+        left: 36px;
+      }
+
+      .responsive-catalogo .rectangle {
+        position: absolute;
+        width: 368px;
+        height: 343px;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+      }
+
+      .responsive-catalogo .text-wrapper {
+        position: absolute;
+        width: 368px;
+        height: 86px;
+        top: 355px;
+        left: 0;
+        font-family: "Gotham Rounded-Bold", Helvetica;
+        font-weight: 700;
+        color: #6bb4a9;
+        font-size: 23px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 25px;
+      }
+
+      .responsive-catalogo .ellipse {
+        width: 117px;
+        left: 126px;
+        background-color: #6bb4a9;
+        border-radius: 58.5px / 58px;
+        position: absolute;
+        height: 116px;
+        top: 255px;
+      }
+
+      .responsive-catalogo .vector {
+        position: absolute;
+        width: 68px;
+        height: 63px;
+        top: 282px;
+        left: 150px;
+      }
+
+      .responsive-catalogo .overlap-group {
+        position: absolute;
+        width: 368px;
+        height: 441px;
+        top: 1078px;
+        left: 36px;
+      }
+
+      .responsive-catalogo .aulas-modulares {
+        position: absolute;
+        width: 368px;
+        height: 86px;
+        top: 355px;
+        left: 0;
+        font-family: "Gotham Rounded-Bold", Helvetica;
+        font-weight: 700;
+        color: #444242;
+        font-size: 23px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 25px;
+      }
+
+      .responsive-catalogo .ellipse-2 {
+        width: 116px;
+        left: 126px;
+        background-color: #444242;
+        border-radius: 58px;
+        position: absolute;
+        height: 116px;
+        top: 255px;
+      }
+
+      .responsive-catalogo .AULA-MODULAR {
+        position: absolute;
+        width: 58px;
+        height: 58px;
+        top: 282px;
+        left: 155px;
+        object-fit: cover;
+      }
+
+      .responsive-catalogo .overlap-2 {
+        position: absolute;
+        width: 368px;
+        height: 441px;
+        top: 3288px;
+        left: 36px;
+      }
+
+      .responsive-catalogo .ellipse-3 {
+        width: 116px;
+        left: 126px;
+        background-color: #214286;
+        border-radius: 58px;
+        position: absolute;
+        height: 116px;
+        top: 255px;
+      }
+
+      .responsive-catalogo .capa {
+        position: absolute;
+        width: 56px;
+        height: 68px;
+        top: 279px;
+        left: 156px;
+      }
+
+      .responsive-catalogo .p {
+        position: absolute;
+        width: 368px;
+        height: 86px;
+        top: 355px;
+        left: 0;
+        font-family: "Gotham Rounded-Bold", Helvetica;
+        font-weight: 700;
+        color: #214286;
+        font-size: 23px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 25px;
+      }
+
+      .responsive-catalogo .overlap-3 {
+        position: absolute;
+        width: 440px;
+        height: 138px;
+        top: 0;
+        left: 0;
+      }
+
+      .responsive-catalogo .collage-copia {
+        position: absolute;
+        width: 440px;
+        height: 126px;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+      }
+
+      .responsive-catalogo .rectangle-2 {
+        position: absolute;
+        width: 292px;
+        height: 40px;
+        top: 98px;
+        left: 74px;
+        background-color: #005bab;
+        border-radius: 42px;
+      }
+
+      .responsive-catalogo .text-wrapper-2 {
+        position: absolute;
+        width: 293px;
+        top: 105px;
+        left: 73px;
+        font-family: "Gotham Rounded-Bold", Helvetica;
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 28.7px;
+        white-space: nowrap;
+      }
+
+      .responsive-catalogo .overlap-4 {
+        position: absolute;
+        width: 431px;
+        height: 284px;
+        top: 316px;
+        left: 5px;
+      }
+
+      .responsive-catalogo .es-una-herramienta {
+        position: absolute;
+        width: 354px;
+        top: 0;
+        left: 38px;
+        font-family: "Gotham Rounded-Regular", Helvetica;
+        font-weight: 400;
+        color: transparent;
+        font-size: 16px;
+        text-align: justify;
+        letter-spacing: 0;
+        line-height: 20.8px;
+      }
+
+      .responsive-catalogo .span {
+        color: #020101;
+      }
+
+      .responsive-catalogo .text-wrapper-3 {
+        font-family: "Gotham Rounded-Bold", Helvetica;
+        font-weight: 700;
+        color: #005bab;
+      }
+
+      .responsive-catalogo .text-wrapper-4 {
+        font-family: "Gotham Rounded-Bold", Helvetica;
+        font-weight: 700;
+        color: #0059aa;
+      }
+
+      .responsive-catalogo .tipos-de-bienes-que {
+        position: absolute;
+        width: 431px;
+        top: 260px;
+        left: 0;
+        font-family: "Gotham Rounded-Bold", Helvetica;
+        font-weight: 700;
+        color: #4f4f4f;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 19.0px;
+      }
+
+      .responsive-catalogo .group {
+        width: 168px;
+        top: 240px;
+        left: 138px;
+        position: absolute;
+        height: 46px;
+      }
+
+      .responsive-catalogo .overlap-group-2 {
+        position: relative;
+        width: 166px;
+        height: 46px;
+        background-color: #ffffff;
+        border-radius: 33px;
+        border: 2px solid;
+        border-color: #7d4393;
+      }
+
+      .responsive-catalogo .ver-video {
+        position: absolute;
+        width: 117px;
+        height: 34px;
+        top: 4px;
+        left: 8px;
+        font-family: "Gotham Rounded-Medium", Helvetica;
+        font-weight: 500;
+        color: #7d4393;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 33.6px;
+      }
+
+      .responsive-catalogo .img {
+        position: absolute;
+        width: 19px;
+        height: 14px;
+        top: 14px;
+        left: 124px;
+      }
+
+      .responsive-catalogo .overlap-5 {
+        position: absolute;
+        width: 368px;
+        height: 441px;
+        top: 1520px;
+        left: 36px;
+      }
+
+      .responsive-catalogo .text-wrapper-5 {
+        position: absolute;
+        width: 368px;
+        height: 86px;
+        top: 355px;
+        left: 0;
+        font-family: "Gotham Rounded-Bold", Helvetica;
+        font-weight: 700;
+        color: #99c4cb;
+        font-size: 23px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 25px;
+      }
+
+      .responsive-catalogo .ellipse-4 {
+        width: 116px;
+        left: 126px;
+        background-color: #99c4cb;
+        border-radius: 58px;
+        position: absolute;
+        height: 116px;
+        top: 255px;
+      }
+
+      .responsive-catalogo .group-2 {
+        width: 64px;
+        top: 284px;
+        left: 152px;
+        position: absolute;
+        height: 46px;
+      }
+
+      .responsive-catalogo .overlap-6 {
+        position: absolute;
+        width: 368px;
+        height: 441px;
+        top: 1962px;
+        left: 36px;
+      }
+
+      .responsive-catalogo .mobiliario-y {
+        position: absolute;
+        width: 368px;
+        height: 86px;
+        top: 355px;
+        left: 0;
+        font-family: "Gotham Rounded-Bold", Helvetica;
+        font-weight: 700;
+        color: #a4ac1c;
+        font-size: 23px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 25px;
+      }
+
+      .responsive-catalogo .ellipse-5 {
+        width: 116px;
+        left: 126px;
+        background-color: #a4ac1c;
+        border-radius: 58px;
+        position: absolute;
+        height: 116px;
+        top: 255px;
+      }
+
+      .responsive-catalogo .capa-2 {
+        position: absolute;
+        width: 54px;
+        height: 74px;
+        top: 276px;
+        left: 157px;
+      }
+
+      .responsive-catalogo .overlap-7 {
+        position: absolute;
+        width: 428px;
+        height: 441px;
+        top: 2404px;
+        left: 6px;
+      }
+
+      .responsive-catalogo .text-wrapper-6 {
+        position: absolute;
+        width: 428px;
+        height: 86px;
+        top: 355px;
+        left: 0;
+        font-family: "Gotham Rounded-Bold", Helvetica;
+        font-weight: 700;
+        color: #4380b7;
+        font-size: 23px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 25px;
+      }
+
+      .responsive-catalogo .rectangle-3 {
+        position: absolute;
+        width: 368px;
+        height: 343px;
+        top: 0;
+        left: 30px;
+        object-fit: cover;
+      }
+
+      .responsive-catalogo .ellipse-6 {
+        width: 117px;
+        left: 156px;
+        background-color: #4380b7;
+        border-radius: 58.5px / 58px;
+        position: absolute;
+        height: 116px;
+        top: 255px;
+      }
+
+      .responsive-catalogo .SERVICIOS-HIGINICOS {
+        position: absolute;
+        width: 71px;
+        height: 71px;
+        top: 277px;
+        left: 179px;
+        object-fit: cover;
+      }
+
+      .responsive-catalogo .overlap-8 {
+        position: absolute;
+        width: 368px;
+        height: 441px;
+        top: 2846px;
+        left: 36px;
+      }
+
+      .responsive-catalogo .text-wrapper-7 {
+        position: absolute;
+        width: 368px;
+        height: 86px;
+        top: 355px;
+        left: 0;
+        font-family: "Gotham Rounded-Bold", Helvetica;
+        font-weight: 700;
+        color: #e86b45;
+        font-size: 23px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 25px;
+      }
+
+      .responsive-catalogo .ellipse-7 {
+        width: 116px;
+        left: 126px;
+        background-color: #e86b45;
+        border-radius: 58px;
+        position: absolute;
+        height: 116px;
+        top: 255px;
+      }
+
+      .responsive-catalogo .PARARRAYO {
+        position: absolute;
+        width: 54px;
+        height: 82px;
+        top: 274px;
+        left: 157px;
+        object-fit: cover;
+      }
+
+      .responsive-catalogo .bienes-temporales {
+        position: absolute;
+        width: 319px;
+        top: 160px;
+        left: 61px;
+        font-family: "Gotham Rounded-Medium", Helvetica;
+        font-weight: 500;
+        color: #626262;
+        font-size: 22px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 27.5px;
+      }
+
+      .responsive-catalogo .conoce-nuestra {
+        position: absolute;
+        width: 379px;
+        top: 3759px;
+        left: 31px;
+        font-family: "Gotham Rounded-Bold", Helvetica;
+        font-weight: 700;
+        color: #4f4f4f;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 19.0px;
+      }
+
+      .responsive-catalogo .overlap-9 {
+        position: absolute;
+        width: 440px;
+        height: 541px;
+        top: 4026px;
+        left: 0;
+      }
+
+      .responsive-catalogo .footer {
+        position: absolute;
+        width: 440px;
+        height: 541px;
+        top: 0;
+        left: 0;
+        background-color: #0057a7;
+      }
+
+      .responsive-catalogo .text-wrapper-8 {
+        position: absolute;
+        width: 309px;
+        height: 28px;
+        top: 456px;
+        left: 39px;
+        font-family: "Inter", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 16px;
+        text-align: right;
+        letter-spacing: 0;
+        line-height: 28px;
+        white-space: nowrap;
+      }
+
+      .responsive-catalogo .gestionamos-la {
+        position: absolute;
+        width: 324px;
+        height: 255px;
+        top: 182px;
+        left: 61px;
+        font-family: "Gotham Rounded-Medium", Helvetica;
+        font-weight: 500;
+        color: #ffffff;
+        font-size: 12px;
+        text-align: justify;
+        letter-spacing: 0;
+        line-height: 18px;
+      }
+
+      .responsive-catalogo .capa-3 {
+        position: absolute;
+        width: 137px;
+        height: 45px;
+        top: 104px;
+        left: 151px;
+      }
+
+      .responsive-catalogo .images {
+        position: absolute;
+        width: 195px;
+        height: 42px;
+        top: 36px;
+        left: 123px;
+        object-fit: cover;
+      }
+
+      .responsive-catalogo .video {
+        position: absolute;
+        width: 347px;
+        height: 196px;
+        top: 3793px;
+        left: 47px;
+        object-fit: cover;
+      }
+
+
+    }
+
+    @media screen and (min-width: 769px) {
+
+      /* Estilos para dispositivos de escritorio */
+      .desktop-design {
+        display: block;
+      }
+
+      .mobile-design {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="desktop-design">
+    <!-- Contenido y estructura para PC y laptops -->
     <div class="catalogo-PRINCIPAL">
       <div class="div">
         <div class="overlap">
@@ -62,18 +664,32 @@
             <div class="list">
               <div class="div-2">
                 <div class="background"></div>
-                <div class="div-2"><div class="privacy-policy-terms">Privacy Policy &amp; Terms</div></div>
+                <div class="div-2">
+                  <div class="privacy-policy-terms">Privacy Policy &amp; Terms</div>
+                </div>
               </div>
-              <div class="item-link"><div class="text-wrapper-3">Site Credits</div></div>
+              <div class="item-link">
+                <div class="text-wrapper-3">Site Credits</div>
+              </div>
             </div>
             <p class="p">© 2024 Derechos Reservados Pronied</p>
           </div>
           <div class="list-2">
-            <div class="facebook-wrapper"><div class="facebook">Facebook</div></div>
-            <div class="div-wrapper"><div class="text-wrapper-4">Twitter</div></div>
-            <div class="item-link-2"><div class="text-wrapper-5">Instagram</div></div>
-            <div class="item-link-3"><div class="text-wrapper-6">Youtube</div></div>
-            <div class="item-link-4"><div class="text-wrapper-7">Pinterest</div></div>
+            <div class="facebook-wrapper">
+              <div class="facebook">Facebook</div>
+            </div>
+            <div class="div-wrapper">
+              <div class="text-wrapper-4">Twitter</div>
+            </div>
+            <div class="item-link-2">
+              <div class="text-wrapper-5">Instagram</div>
+            </div>
+            <div class="item-link-3">
+              <div class="text-wrapper-6">Youtube</div>
+            </div>
+            <div class="item-link-4">
+              <div class="text-wrapper-7">Pinterest</div>
+            </div>
           </div>
           <p class="gestionamos-la">
             Gestionamos la infraestructura educativa pública en beneficio de la comunidad, de manera concertada,
@@ -90,7 +706,7 @@
         <div class="overlap-3">
           <div class="group-2">
             <p class="tipos-de-bienes-que">TIPOS DE BIENES QUE PUEDES ADQUIRIR E IMPLEMENTAR</p>
-            
+
             <a href="aulas_modulares_costa.html">
               <div class="overlap-4">
                 <img class="rectangle-2" src="https://c.animaapp.com/j3in5dLk/img/rectangle-10@2x.png" />
@@ -99,8 +715,8 @@
               </div>
               <div class="escuela-modular">Escuela<br />modularrrr</div>
               <p class="son-estructuras">
-                <span class="text-wrapper-8"
-                  >Son estructuras educativas <br />prefabricadas montables y desarmables, diseñadas de acuerdo a
+                <span class="text-wrapper-8">Son estructuras educativas <br />prefabricadas montables y desarmables,
+                  diseñadas de acuerdo a
                 </span>
                 <span class="text-wrapper-9">cuatro zonas <br />bioclimáticas: costa, sierra, selva y heladas.</span>
               </p>
@@ -113,8 +729,8 @@
               </div>
               <div class="aulas-modulares">Aulas<br />modulares</div>
               <p class="son-aulas-educativas">
-                <span class="text-wrapper-8"
-                  >Son aulas educativas prefabricadas montables y desmontables, diseñadas de acuerdo a
+                <span class="text-wrapper-8">Son aulas educativas prefabricadas montables y desmontables, diseñadas de
+                  acuerdo a
                 </span>
                 <span class="text-wrapper-9">cuatro zonas bioclimáticas: costa, sierra, selva y heladas. </span>
                 <span class="text-wrapper-8">Para atenciones a mediano plazo.</span>
@@ -129,8 +745,8 @@
               </div>
               <div class="aulas-modular-tipo">Aulas modular<br />tipo domo</div>
               <p class="son-estructuras-que">
-                <span class="text-wrapper-8"
-                  >Son estructuras que se ensamblan de forma rápida y han sido diseñadas para atender emergencias de
+                <span class="text-wrapper-8">Son estructuras que se ensamblan de forma rápida y han sido diseñadas para
+                  atender emergencias de
                   infraestructura educativa en corto plazo.
                 </span>
                 <span class="text-wrapper-9">Son resistentes al viento, lluvia, frío, calor y sismos.</span>
@@ -149,56 +765,6 @@
                 <span class="text-wrapper-8"> para mejorar y adecuar los espacios de aprendizaje</span>
               </p>
             </a>
-            
-            
-            <!--div class="mobiliario-y">Mobiliario y&nbsp;&nbsp;equipamiento</div>
-            <div class="escuela-modular">Escuela<br />modular</div>
-            <div class="overlap-4">
-              <img class="rectangle-2" src="https://c.animaapp.com/Hxq9fOl9/img/rectangle-10@2x.png" />
-              <div class="ellipse-7"></div>
-              <img class="vector-2" src="https://c.animaapp.com/Hxq9fOl9/img/vector-1.svg" />
-            </div>
-            <div class="overlap-5">
-              <img class="rectangle-2" src="https://c.animaapp.com/Hxq9fOl9/img/rectangle-11@2x.png" />
-              <div class="ellipse-8"></div>
-              <img class="AULA-MODULAR" src="https://c.animaapp.com/Hxq9fOl9/img/aula-modular--1--1@2x.png" />
-            </div>
-            <div class="overlap-6">
-              <img class="rectangle-2" src="https://c.animaapp.com/Hxq9fOl9/img/rectangle-12@2x.png" />
-              <div class="ellipse-9"></div>
-              <img class="group-3" src="https://c.animaapp.com/Hxq9fOl9/img/group-4@2x.png" />
-            </div>
-            <div class="overlap-7">
-              <img class="rectangle-2" src="https://c.animaapp.com/Hxq9fOl9/img/rectangle-13@2x.png" />
-              <div class="ellipse-10"></div>
-            </div>
-            <p class="son-aulas-educativas">
-              <span class="text-wrapper-8"
-                >Son aulas educativas prefabricadas montables y desmontables, diseñadas de acuerdo a
-              </span>
-              <span class="text-wrapper-9">cuatro zonas bioclimáticas: costa, sierra, selva y heladas. </span>
-              <span class="text-wrapper-8">Para atenciones a mediano plazo.</span>
-            </p>
-            <p class="son-estructuras-que">
-              <span class="text-wrapper-8"
-                >Son estructuras que se ensamblan de forma rápida y han sido diseñadas para atender emergencias de
-                infraestructura educativa en corto plazo.
-              </span>
-              <span class="text-wrapper-9">Son resistentes al viento, lluvia, frío, calor y sismos.</span>
-            </p>
-            <p class="es-un-conjunto-de">
-              <span class="text-wrapper-8">Es un conjunto de mobiliario y equipamiento que</span>
-              <span class="text-wrapper-9"> se proveen a las instituciones educativas a nivel nacional</span>
-              <span class="text-wrapper-8"> para mejorar y adecuar los espacios de aprendizaje</span>
-            </p>
-            <div class="aulas-modular-tipo">Aulas modular<br />tipo domo</div>
-            <p class="son-estructuras">
-              <span class="text-wrapper-8"
-                >Son estructuras educativas <br />prefabricadas montables y desarmables, diseñadas de acuerdo a
-              </span>
-              <span class="text-wrapper-9">cuatro zonas <br />bioclimáticas: costa, sierra, selva y heladas.</span>
-            </p>
-            <div class="aulas-modulares">Aulas<br />modulares</div-->
 
 
           </div>
@@ -212,10 +778,8 @@
           <div class="overlap-8">
             <img class="rectangle-2" src="https://c.animaapp.com/Hxq9fOl9/img/rectangle-10-1@2x.png" />
             <div class="ellipse-11"></div>
-            <img
-              class="SERVICIOS-HIGINICOS"
-              src="https://c.animaapp.com/Hxq9fOl9/img/servicios-higi-nicos--1--1@2x.png"
-            />
+            <img class="SERVICIOS-HIGINICOS"
+              src="https://c.animaapp.com/Hxq9fOl9/img/servicios-higi-nicos--1--1@2x.png" />
           </div>
           <div class="overlap-9">
             <img class="rectangle-2" src="https://c.animaapp.com/Hxq9fOl9/img/rectangle-11-1@2x.png" />
@@ -232,23 +796,21 @@
             <span class="text-wrapper-11"> de los efectos de descargas eléctricas atmosféricas</span>
           </p>
           <p class="dise-ados-para-2">
-            <span class="text-wrapper-10"
-              >Diseñados para garantizar el suministro adecuado y seguro de agua potable</span
-            >
+            <span class="text-wrapper-10">Diseñados para garantizar el suministro adecuado y seguro de agua
+              potable</span>
             <span class="text-wrapper-11"> y disposición de residuos solidos en las instituciones educativas</span>
           </p>
           <p class="los-m-dulos-de-ba-os">
             <span class="text-wrapper-8">Los módulos de baños</span>
             <span class="text-wrapper-9">
-              son unidades prefabricadas diseñadas específicamente para proporcionar instalaciones sanitarias</span
-            >
+              son unidades prefabricadas diseñadas específicamente para proporcionar instalaciones sanitarias</span>
             <span class="text-wrapper-8"> adecuadas en instituciones educativas</span>
           </p>
           <div class="kit-de-pararrayos">Kit de<br />pararrayos</div>
           <p class="text-wrapper-12">Kit de agua y desagüe</p>
         </div>
         <!--img class="group-5" src="https://c.animaapp.com/Hxq9fOl9/img/group-30.png" /-->
-        
+
         <div class="overlap-wrapper">
           <div class="overlap-11">
             <div class="text-wrapper-13">Gobierno Regional o Local</div>
@@ -261,10 +823,8 @@
               <div class="rectangle-4"></div>
               <div class="text-wrapper-15">Bien temporal</div>
               <div class="ellipse-14"></div>
-              <img
-                class="MODULO-COSTA-ass"
-                src="https://c.animaapp.com/Hxq9fOl9/img/modulo-costa-sf2-ass-copia-1@2x.png"
-              />
+              <img class="MODULO-COSTA-ass"
+                src="https://c.animaapp.com/Hxq9fOl9/img/modulo-costa-sf2-ass-copia-1@2x.png" />
             </div>
             <div class="overlap-13">
               <div class="rectangle-5"></div>
@@ -288,28 +848,123 @@
         <div class="overlap-video">
           <div class="group-video">
             <div class="video-row">
-              <iframe
-                src="https://www.youtube.com/embed/zrPDrIWh1YA"
-                title="Video de YouTube"
+              <iframe src="https://www.youtube.com/embed/zrPDrIWh1YA" title="Video de YouTube"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-              <iframe
-                src="https://www.youtube.com/embed/zrPDrIWh1YA"
-                title="Video de YouTube"
+                allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/zrPDrIWh1YA" title="Video de YouTube"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-              <iframe
-                src="https://www.youtube.com/embed/zrPDrIWh1YA"
-                title="Video de YouTube"
+                allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/zrPDrIWh1YA" title="Video de YouTube"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+                allowfullscreen></iframe>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+
+  <div class="mobile-design">
+    <!-- Contenido y estructura para celulares -->
+    <div class="responsive-catalogo">
+      <div class="div">
+        <div class="overlap">
+          <img class="rectangle" src="https://c.animaapp.com/EmEbpiV2/img/rectangle-10@2x.png" />
+          <div class="text-wrapper">Escuelas Modulares</div>
+          <div class="ellipse"></div>
+          <img class="vector" src="https://c.animaapp.com/EmEbpiV2/img/vector-1.svg" />
+        </div>
+        <div class="overlap-group">
+          <img class="rectangle" src="https://c.animaapp.com/EmEbpiV2/img/rectangle-42@2x.png" />
+          <div class="aulas-modulares">Aulas Modulares</div>
+          <div class="ellipse-2"></div>
+          <img class="AULA-MODULAR" src="https://c.animaapp.com/EmEbpiV2/img/aula-modular--1--1@2x.png" />
+        </div>
+        <div class="overlap-2">
+          <img class="rectangle" src="https://c.animaapp.com/EmEbpiV2/img/rectangle-47@2x.png" />
+          <div class="ellipse-3"></div>
+          <img class="capa" src="https://c.animaapp.com/EmEbpiV2/img/capa-1.svg" />
+          <p class="p">Kit de agua y desagüe</p>
+        </div>
+        <div class="overlap-3">
+          <img class="collage-copia" src="https://c.animaapp.com/EmEbpiV2/img/collage-copia-1@2x.pdf" />
+          <div class="rectangle-2"></div>
+          <div class="text-wrapper-2">Catálogo PRONIED</div>
+        </div>
+        <div class="overlap-4">
+          <p class="es-una-herramienta">
+            <span class="span">Es una herramienta que detalla los bienes que los </span>
+            <span class="text-wrapper-3">Gobiernos regionales y locales</span>
+            <span class="span">
+              pueden adquirir e implementar, con recursos propios, para atender de manera temporal las necesidades de
+            </span>
+            <span class="text-wrapper-4">infraestructura educativa</span>
+            <span class="span"> en su territorio. <br /><br />El </span>
+            <span class="text-wrapper-3">PRONIED</span>
+            <span class="span">, a través de su experiencia, </span>
+            <span class="text-wrapper-3">brindará información y asistencia técnica</span>
+            <span class="span"> necesaria para una implementación exitosa.</span>
+          </p>
+          <p class="tipos-de-bienes-que">TIPOS DE BIENES QUE PUEDES ADQUIRIR E IMPLEMENTAR</p>
+        </div>
+        <div class="group">
+          <div class="overlap-group-2">
+            <div class="ver-video">Ver Video</div>
+            <img class="img" src="https://c.animaapp.com/EmEbpiV2/img/vector.svg" />
+          </div>
+        </div>
+        <div class="overlap-5">
+          <div class="text-wrapper-5">Aulas modulares tipo domo</div>
+          <img class="rectangle" src="https://c.animaapp.com/EmEbpiV2/img/rectangle-43@2x.png" />
+          <div class="ellipse-4"></div>
+          <img class="group-2" src="https://c.animaapp.com/EmEbpiV2/img/group-4@2x.png" />
+        </div>
+        <div class="overlap-6">
+          <div class="mobiliario-y">Mobiliario Y&nbsp;&nbsp;Equipamiento</div>
+          <img class="rectangle" src="https://c.animaapp.com/EmEbpiV2/img/rectangle-44@2x.png" />
+          <div class="ellipse-5"></div>
+          <img class="capa-2" src="https://c.animaapp.com/EmEbpiV2/img/capa-1-1.svg" />
+        </div>
+        <div class="overlap-7">
+          <div class="text-wrapper-6">Servicios higiénicos modulares</div>
+          <img class="rectangle-3" src="https://c.animaapp.com/EmEbpiV2/img/rectangle-45@2x.png" />
+          <div class="ellipse-6"></div>
+          <img class="SERVICIOS-HIGINICOS"
+            src="https://c.animaapp.com/EmEbpiV2/img/servicios-higi-nicos--1--1@2x.png" />
+        </div>
+        <div class="overlap-8">
+          <div class="text-wrapper-7">Kit de Pararrayos</div>
+          <img class="rectangle" src="https://c.animaapp.com/EmEbpiV2/img/rectangle-46@2x.png" />
+          <div class="ellipse-7"></div>
+          <img class="PARARRAYO" src="https://c.animaapp.com/EmEbpiV2/img/pararrayo--2--1@2x.png" />
+        </div>
+        <div class="bienes-temporales">Bienes temporales para<br />soluciones inmediatas.</div>
+        <div class="conoce-nuestra">CONOCE NUESTRA EXPERIENCIA</div>
+        <div class="overlap-9">
+          <footer class="footer">
+            <p class="text-wrapper-8">© 2024 Derechos Reservados Pronied</p>
+            <p class="gestionamos-la">
+              Gestionamos la infraestructura educativa pública en beneficio de la comunidad, de manera concertada,
+              planificada, regulada y eficiente.<br />Nuestro objetivo es ampliar, mejorar, sustituir, rehabilitar y/o
+              construir infraestructura educativa pública de educación básica y de educación superior pedagógica,
+              tecnológica y técnico-productiva, incluyendo el mantenimiento y/o equipamiento de la misma, cuando
+              corresponda.<br />Tenemos como visión ser la organización líder en la gestión de la infraestructura
+              educativa pública, altamente técnica y eficiente, que contribuya a la calidad de la educación del país,
+              brindando asistencia técnica a los actores involucrados.
+            </p>
+            <img class="capa-3" src="https://c.animaapp.com/EmEbpiV2/img/capa-1-2.svg" />
+          </footer>
+          <img class="images" src="https://c.animaapp.com/EmEbpiV2/img/images-1@2x.png" />
+        </div>
+        <img class="video" src="https://c.animaapp.com/EmEbpiV2/img/video-1@2x.png" />
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</body>
+
 </html>
