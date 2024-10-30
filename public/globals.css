@@ -17,6 +17,13 @@ button:focus-visible {
 a {
   text-decoration: none;
 }*/
+a {
+  text-decoration: none; /* opcional */
+}
+
+a:visited, a:hover, a:active {
+  color: inherit;
+}
 @font-face {
   font-family: "Gotham Rounded-Medium";
   src: url("https://anima-uploads.s3.amazonaws.com/5b59ac6041bb8600090b709d/Gotham-Rounded-Medium_21022.ttf")
