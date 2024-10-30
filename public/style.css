@@ -1,11 +1,4 @@
 
-@font-face {
-  font-family: 'Gotham Rounded-Medium'; /* Nombre que usarás en el CSS */
-  src: url('fonts/Gotham Rounded-Medium.otf') format('opentype'); /* Ruta al archivo .otf */
-  font-weight: bold; /* Peso de la fuente (puedes ajustarlo según corresponda) */
-  font-style: normal; /* Estilo de la fuente (puedes usar 'italic' si es necesario) */
-}
-
 /* Luego, puedes aplicar la fuente */
 body {
   font-family: 'Gotham Rounded-Medium', Helvetica, sans-serif;
