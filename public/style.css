@@ -1225,17 +1225,6 @@ body {
   border: none;
 }
 
-/* Diseño para pantallas grandes (PC y laptops) */
-.desktop-design {
-  display: block;
-  /* Visible en pantallas grandes */
-}
-
-.mobile-design {
-  display: none;
-  /* Oculto en pantallas grandes */
-}
-
 @media screen and (max-width: 768px) {
   .desktop-design {
     display: none !important;
