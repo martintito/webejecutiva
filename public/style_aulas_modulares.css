@@ -283,6 +283,7 @@
   text-align: center;
   letter-spacing: 0;
   line-height: 33.6px;
+  cursor: pointer;
 }
 
 .aulas-modulares-tipo .rectangle-4 {
@@ -2040,7 +2041,7 @@
   .mobile-design {
     display: block !important;
   }
-  
+
   .responsive-aulas {
     background-color: #ffffff;
     display: flex;
@@ -2282,6 +2283,7 @@
     letter-spacing: 0;
     line-height: 28px;
     white-space: nowrap;
+    cursor: pointer;
   }
 
   .responsive-aulas .gestionamos-la {
