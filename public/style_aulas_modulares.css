@@ -144,6 +144,16 @@
   border-radius: 30px;
 }
 
+.aulas-modulares-tipo .rectangle-helada {
+  position: absolute;
+  width: 232px;
+  height: 66px;
+  top: 0;
+  left: 0;
+  background-color: #558ed5;
+  border-radius: 30px;
+}
+
 .aulas-modulares-tipo .text-wrapper {
   position: absolute;
   width: 96px;
@@ -984,6 +994,16 @@
   border-radius: 15px;
 }
 
+.aulas-modulares-tipo .rectangle-7-helada {
+  position: absolute;
+  width: 359px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  background-color: #558ed5;
+  border-radius: 15px;
+}
+
 .aulas-modulares-tipo .text-wrapper-20 {
   position: absolute;
   width: 313px;
@@ -1040,6 +1060,16 @@
   top: 274px;
   left: 0;
   background-color: #00b050;
+  border-radius: 15px;
+}
+
+.aulas-modulares-tipo .rectangle-8-helada {
+  position: absolute;
+  width: 359px;
+  height: 40px;
+  top: 274px;
+  left: 0;
+  background-color: #558ed5;
   border-radius: 15px;
 }
 
@@ -1769,6 +1799,20 @@
   font-family: "Gotham Rounded-Bold", Helvetica;
   font-weight: 700;
   color: #00b050;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 38.0px;
+  white-space: nowrap;
+}
+
+.aulas-modulares-tipo .text-wrapper-35-helada {
+  position: absolute;
+  width: 254px;
+  top: 1333px;
+  left: 940px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #558ed5;
   font-size: 40px;
   letter-spacing: 0;
   line-height: 38.0px;
