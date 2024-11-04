@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Selección</title>
+    <style>
+        /* Estilos del cuerpo */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Combo en la parte superior */
+        .combo-container {
+            padding: 10px;
+            background-color: #f8f8f8;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .combo-container select {
+            width: 100%;
+            padding: 8px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+
+        /* Contenedor principal */
+        .main-container {
+            display: flex;
+            flex: 1;
+            width: 100%;
+        }
+
+        .sidebar {
+            width: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-right: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        .content {
+            width: 70%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .item {
+            cursor: pointer;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #ddd;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .item:hover {
+            background-color: #ccc;
+        }
+
+        .content h2 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Combo de selección en la parte superior -->
+    <div class="combo-container">
+        <select id="selection" onchange="showContent(this.value)">
+            <option value="">Seleccione una opción</option>
+            <option value="UGEO">UGEO</option>
+            <option value="OXI y APP">OXI y APP</option>
+            <option value="Galería Fotográfica UGEO">Galería Fotográfica UGEO</option>
+            <option value="Galería Fotográfica UGEO OXI">Galería Fotográfica UGEO OXI</option>
+            <option value="UGRD">UGRD</option>
+            <option value="UGSC">UGSC</option>
+            <!-- Agrega más opciones según sea necesario -->
+        </select>
+    </div>
+
+    <!-- Contenedor principal para el menú y el contenido -->
+    <div class="main-container">
+        <!-- Panel lateral de selección -->
+        <div class="sidebar">
+            <div class="item" onclick="showContent('UGEO')">UGEO</div>
+            <div class="item" onclick="showContent('OXI y APP')">OXI y APP</div>
+            <div class="item" onclick="showContent('Galería Fotográfica UGEO')">Galería Fotográfica UGEO</div>
+            <div class="item" onclick="showContent('Galería Fotográfica UGEO OXI')">Galería Fotográfica UGEO OXI</div>
+            <div class="item" onclick="showContent('UGRD')">UGRD</div>
+            <div class="item" onclick="showContent('UGSC')">UGSC</div>
+            <!-- Añade más elementos según sea necesario -->
+        </div>
+
+        <!-- Panel de contenido -->
+        <div class="content" id="content-panel">
+            <h2>Seleccione un área para ver el contenido</h2>
+        </div>
+    </div>
+
+    <script>
+        function showContent(value) {
+            const contentPanel = document.getElementById('content-panel');
+            contentPanel.innerHTML = `<h2>${value}</h2>`;
+        }
+    </script>
+</body>
+</html>
