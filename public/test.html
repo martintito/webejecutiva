@@ -1,37 +1,192 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <!-- Slick CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
-  </head>
-  <body>
-    <!-- Slider Section -->
-    <div class="slider">
-      <div><img src="https://c.animaapp.com/nKT6Alyc/img/image-6.png" alt="Imagen 1"></div>
-      <div><img src="https://c.animaapp.com/nKT6Alyc/img/image-7@2x.png" alt="Imagen 2"></div>
-      <div><img src="https://c.animaapp.com/nKT6Alyc/img/image-8@2x.png" alt="Imagen 3"></div>
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería Dinámica</title>
+  <style>
+    /* Estilos básicos */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Slick JS -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $('.slider').slick({
-          infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          dots: true,  /* Habilitamos los dots */
-          arrows: false /* Quitamos los botones de flechas */
-        });
-      });
-    </script>
-  </body>
+    .text-wrapper-4 {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      cursor: pointer;
+      display: inline-block;
+      border-radius: 5px;
+      margin: 20px;
+    }
+
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .slide {
+      position: relative;
+      width: 1100px;
+      height: 879.54px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .slide img {
+      width: 100%;
+      height: auto;
+    }
+
+    .close-btn, .nav-btn {
+      position: absolute;
+      color: white;
+      background: rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+      border: none;
+      padding: 8px 12px;
+    }
+
+    .close-btn {
+      top: 10px;
+      left: 10px;
+      font-size: 18px;
+    }
+
+    .nav-btn.left {
+      top: 50%;
+      left: 10px;
+      font-size: 24px;
+      transform: translateY(-50%);
+    }
+
+    .nav-btn.right {
+      top: 50%;
+      right: 10px;
+      font-size: 24px;
+      transform: translateY(-50%);
+    }
+
+    /* Ocultar todas las secciones al inicio */
+    .section {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <!-- Botones para cambiar de contenido -->
+    <button onclick="mostrarSeccion('costa')">Costa</button>
+    <button onclick="mostrarSeccion('sierra')">Sierra</button>
+    <button onclick="mostrarSeccion('selva')">Selva</button>
+    <button onclick="mostrarSeccion('helada')">Helada</button>
+  </div>
+
+  <!-- Secciones de contenido -->
+  <div id="costa" class="section">
+    <div class="overlap-2">
+      <img class="rectangle-3" src="https://c.animaapp.com/MSQKAc5P/img/rectangle-34.png" />
+      <div class="conoce-nuestra">Conoce nuestra<br>experiencia en Costa</div>
+      <div class="text-wrapper-4" id="openSlideBtnCosta">Ver Imágenes</div>
+    </div>
+  </div>
+
+  <div id="sierra" class="section">
+    <div class="overlap-2">
+      <div class="conoce-nuestra">Conoce nuestra<br>experiencia en Sierra</div>
+      <div class="text-wrapper-4" id="openSlideBtnSierra">Ver Imágenes</div>
+    </div>
+  </div>
+
+  <div id="selva" class="section">
+    <div class="overlap-2">
+      <div class="conoce-nuestra">Conoce nuestra<br>experiencia en Selva</div>
+      <div class="text-wrapper-4" id="openSlideBtnSelva">Ver Imágenes</div>
+    </div>
+  </div>
+
+  <div id="helada" class="section">
+    <div class="overlap-2">
+      <div class="conoce-nuestra">Conoce nuestra<br>experiencia en Helada</div>
+      <div class="text-wrapper-4" id="openSlideBtnHelada">Ver Imágenes</div>
+    </div>
+  </div>
+
+  <!-- Overlay para el slide de imágenes -->
+  <div id="overlay" class="overlay">
+    <div class="slide">
+      <span class="close-btn" id="closeBtn">Cerrar</span>
+      <button class="nav-btn left" id="prevBtn">&#10094;</button>
+      <img id="slideImage" src="" alt="Foto de la galería">
+      <button class="nav-btn right" id="nextBtn">&#10095;</button>
+    </div>
+  </div>
+
+  <script>
+    const images = ["static/test1.jpg", "static/test2.jpg", "static/test3.jpg"];
+    let currentIndex = 0;
+
+    function mostrarSeccion(seccion) {
+      const secciones = document.querySelectorAll('.section');
+      secciones.forEach(section => section.style.display = 'none');
+      document.getElementById(seccion).style.display = 'block';
+    }
+
+    function openSlide() {
+      document.getElementById("overlay").style.display = "flex";
+      showImage(currentIndex);
+    }
+
+    function closeSlide() {
+      document.getElementById("overlay").style.display = "none";
+    }
+
+    function showImage(index) {
+      const slideImage = document.getElementById("slideImage");
+      slideImage.src = images[index];
+    }
+
+    function nextImage() {
+      currentIndex = (currentIndex + 1) % images.length;
+      showImage(currentIndex);
+    }
+
+    function previousImage() {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      showImage(currentIndex);
+    }
+
+    // Asignar eventos después de cargar el DOM
+    document.addEventListener("DOMContentLoaded", function () {
+      mostrarSeccion('costa'); // Mostrar sección por defecto
+
+      // Asignar eventos a botones "Ver Imágenes" en cada sección
+      document.getElementById("openSlideBtnCosta").addEventListener("click", openSlide);
+      document.getElementById("openSlideBtnSierra").addEventListener("click", openSlide);
+      document.getElementById("openSlideBtnSelva").addEventListener("click", openSlide);
+      document.getElementById("openSlideBtnHelada").addEventListener("click", openSlide);
+
+      // Asignar eventos para el slide
+      document.getElementById("closeBtn").addEventListener("click", closeSlide);
+      document.getElementById("nextBtn").addEventListener("click", nextImage);
+      document.getElementById("prevBtn").addEventListener("click", previousImage);
+    });
+  </script>
+</body>
 </html>

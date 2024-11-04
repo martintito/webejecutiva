@@ -6,6 +6,83 @@
   <link rel="stylesheet" href="globals.css" />
   <link rel="stylesheet" href="style_aulas_modulares.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .text-wrapper-4 {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      cursor: pointer;
+      display: inline-block;
+      border-radius: 5px;
+      margin: 20px;
+    }
+
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .slide {
+      position: relative;
+      width: 1100px;
+      height: 879.54px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .slide img {
+      width: 100%;
+      height: auto;
+    }
+
+    .close-btn,
+    .nav-btn {
+      position: absolute;
+      color: white;
+      background: rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+      border: none;
+      padding: 8px 12px;
+    }
+
+    .close-btn {
+      top: 10px;
+      left: 10px;
+      font-size: 18px;
+    }
+
+    .nav-btn.left {
+      top: 50%;
+      left: 10px;
+      font-size: 24px;
+      transform: translateY(-50%);
+    }
+
+    .nav-btn.right {
+      top: 50%;
+      right: 10px;
+      font-size: 24px;
+      transform: translateY(-50%);
+    }
+
+    /* Ocultar todas las secciones al inicio */
+    .section {
+      display: none;
+    }
+  </style>
 </head>
 
 <body>
@@ -21,6 +98,7 @@
             </div>
             <div class="overlap-19">
               <div class="text-wrapper-23">Aulas Modulares</div>
+
               <p class="text-wrapper-24">
                 Aulas provisionales diseñadas para asegurar la funcionalidad, seguridad y durabilidad en el desarrollo
                 de actividades pedagógicas, adaptándose a las características de cada zona bioclimática.
@@ -58,41 +136,11 @@
               </div>
             </div>
           </div>
-          <!--div class="group-7">
-            <a href="./aulas_modulares_costa.html">
-              <div class="overlap-21">
-                <div class="rectangle-9"></div>
-                <div class="aula-modular-tipo">Aula Modular<br />Tipo Costa</div>
-                <img class="rectangle-10" src="https://c.animaapp.com/MSQKAc5P/img/rectangle-13@2x.png" />
-              </div>
-            </a>
-  
-            <a href="./aulas_modulares_sierra.html">
-              <div class="overlap-22">
-                <div class="rectangle-11"></div>
-                <div class="aula-modular-tipo">Aula Modular<br />Tipo Sierra</div>
-                <img class="rectangle-12" src="https://c.animaapp.com/MSQKAc5P/img/rectangle-14-1@2x.png" />
-              </div>
-            </a>
-            <a href="./aulas_modulares_selva.html">
-              <div class="overlap-23">
-                <div class="rectangle-13"></div>
-                <div class="aula-modular-tipo">Aula Modular<br />Tipo Selva</div>
-                <img class="rectangle-10" src="https://c.animaapp.com/MSQKAc5P/img/rectangle-15@2x.png" />
-              </div>
-            </a>
-            <a href="./aulas_modulares_heladas.html">
-              <div class="overlap-24">
-                <div class="rectangle-14"></div>
-                <div class="aula-modular-tipo">Aula Modular<br />Tipo Heladas</div>
-                <img class="rectangle-10" src="https://c.animaapp.com/MSQKAc5P/img/rectangle-16@2x.png" />
-              </div>
-            </a>
-          </div-->
+
 
 
           <div class="group-7">
-            <a href="javascript:void(0);" onclick="cambiarContenido('costa')">
+            <a href="javascript:void(0);" onclick="mostrarSeccion('costa')">
               <div class="overlap-21">
                 <div class="rectangle-9"></div>
                 <div class="aula-modular-tipo">Aula Modular<br />Tipo Costa</div>
@@ -100,7 +148,7 @@
               </div>
             </a>
 
-            <a href="javascript:void(0);" onclick="cambiarContenido('sierra')">
+            <a href="javascript:void(0);" onclick="mostrarSeccion('sierra')">
               <div class="overlap-22">
                 <div class="rectangle-11"></div>
                 <div class="aula-modular-tipo">Aula Modular<br />Tipo Sierra</div>
@@ -128,6 +176,202 @@
         <!--INICIO ZONA DINAMICA-->
         <div class="dinamico" id="contenidoDinamico">
 
+        </div>
+        <!-- Secciones de contenido -->
+        <div id="costa" class="section">
+
+          <!--MAPA-->
+          <div class="overlap">
+            <div class="ellipse"></div>
+            <img class="callao" src="https://c.animaapp.com/MSQKAc5P/img/callao.svg" />
+            <img class="vector" src="https://c.animaapp.com/MSQKAc5P/img/vector.svg" />
+            <img class="img" src="https://c.animaapp.com/MSQKAc5P/img/vector-1.svg" />
+            <img class="vector-2" src="https://c.animaapp.com/MSQKAc5P/img/vector-2.svg" />
+            <img class="vector-3" src="https://c.animaapp.com/MSQKAc5P/img/vector-3.svg" />
+            <img class="vector-4" src="https://c.animaapp.com/MSQKAc5P/img/vector-4.svg" />
+            <img class="callao" src="https://c.animaapp.com/MSQKAc5P/img/callao-1.svg" />
+            <img class="vector" src="https://c.animaapp.com/MSQKAc5P/img/vector-5.svg" />
+            <img class="img" src="https://c.animaapp.com/MSQKAc5P/img/vector-6.svg" />
+            <img class="vector-5" src="https://c.animaapp.com/MSQKAc5P/img/vector-4-1.svg" />
+            <img class="vector-6" src="https://c.animaapp.com/MSQKAc5P/img/vector-5-1.svg" />
+            <img class="MODULO-COSTA-ass"
+              src="https://c.animaapp.com/MSQKAc5P/img/modulo-costa-sf2-ass-copia-1@2x.png" />
+            <div class="group">
+              <div class="ALTURA">
+                <div class="overlap-group">
+                  <div class="rectangle"></div>
+                  <div class="text-wrapper">m s. n. m.</div>
+                  <div class="text-wrapper-2">0 hasta</div>
+                  <div class="text-wrapper-3">1000</div>
+                  <img class="vector-7" src="https://c.animaapp.com/MSQKAc5P/img/vector-9.svg" />
+                </div>
+              </div>
+            </div>
+            <img class="rectangle-2" src="https://c.animaapp.com/MSQKAc5P/img/rectangle-49.png" />
+          </div>
+
+
+
+
+          <div class="text-wrapper-35">Costa</div>
+
+          <!--CARACTERISTICAS TECNICAS-->
+          <div class="overlap-14">
+            <div class="rectangle-7"></div>
+            <div class="text-wrapper-20">Características técnicas</div>
+          </div>
+          <div class="text-wrapper-34">•<br />•<br />•<br />•<br />•</div>
+          <p class="evaluaci-n-de">
+            Evaluación de situación de riesgo en la infraestructura <br />Disponibilidad de terreno de acuerdo a las
+            medidas del aula <br />Título de propiedad <br />Evaluación de Defensa Civil <br />Informe de la ficha de
+            evaluación integral de infraestructura educativa para dar atención con módulos educativos.
+          </p>
+
+          <!--REQUISITOS NECESARIOS-->
+          <div class="overlap-15">
+            <div class="overlap-16">
+              <div class="rectangle-8"></div>
+              <div class="text-wrapper-21">Requisitos necesarios</div>
+              <p class="m-dulo-prefabricado">
+                Módulo prefabricado<br />Cerramientos de termopanel<br />Rampa de acceso<br />Estructura de acero
+                galvanizado<br />Sistema de ensamblaje en seco<br />El módulo puede ser montado y desmontado<br />Con
+                nivel de piso terminado a +0.50<br />Zona desértica costera<br />Aforo para 30 estudiantes y 1
+                docente.<br />Área
+                útil de 60 m2<br />Área total de 89,07 m2
+              </p>
+            </div>
+            <div class="text-wrapper-22">•<br />•<br />•<br />•<br />•<br />•<br />•<br />•<br />•<br />•<br />•</div>
+          </div>
+
+          <!--BENEFICIOS BIOCLIMÁTICOS-->
+          <div class="beneficios-bioclim">BENEFICIOS BIOCLIMÁTICOS</div>
+          <div class="group-8">
+            <div class="text-wrapper-36">Control de la radiación</div>
+            <div class="text-wrapper-37">Aislamiento térmico</div>
+            <div class="text-wrapper-38">Ventilación cruzada</div>
+            <div class="text-wrapper-39">Accesibilidad universal</div>
+            <img class="capa-3" src="https://c.animaapp.com/MSQKAc5P/img/capa-1-2.svg" />
+            <img class="capa-4" src="https://c.animaapp.com/MSQKAc5P/img/capa-1-3.svg" />
+            <img class="capa-5" src="https://c.animaapp.com/MSQKAc5P/img/capa-1-4.svg" />
+            <img class="capa-6" src="https://c.animaapp.com/MSQKAc5P/img/capa-1-5.svg" />
+          </div>
+
+          <div class="group-9">
+            <div class="overlap-group-2">
+              <div class="text-wrapper-4" id="openSlideBtnCosta">Ver Imágenessssd</div>
+
+              <img class="vector-18" src="https://c.animaapp.com/MSQKAc5P/img/vector-7.svg" />
+            </div>
+          </div>
+
+          <!--INVERSIÓN ESTIMADA DE UN (1) AULA MODULAR-->
+          <p class="inversi-n-estimada">INVERSIÓN ESTIMADA DE UN (1) AULA MODULAR</p>
+          <div class="overlap-wrapper">
+            <div class="overlap-25">
+              <img class="layer" src="https://c.animaapp.com/MSQKAc5P/img/layer-1.svg" />
+              <div class="text-wrapper-41">S/185 690,00</div>
+            </div>
+          </div>
+          <p class="text-wrapper-40">
+            *Costo referencial al 2025, (+ Inflación estimada), de acuerdo al costo de los procesos anteriores del
+            Pronied.
+          </p>
+
+
+
+          <!--CONTENEDOR GRANDE-->
+          <div class="overlap-2">
+            <img class="rectangle-3" src="https://c.animaapp.com/MSQKAc5P/img/rectangle-34.png" />
+
+            <!--CONOCE NUESTRA EXPERIENCIA-->
+            <div class="conoce-nuestra">Conoce nuestra<br />experiencia</div>
+            <div class="group-wrapper">
+              <div class="overlap-group-wrapper">
+                <div class="overlap-group-2">
+                  <div class="text-wrapper-4" id="openSlideBtnCosta">Ver Imágenesqwerty</div>
+                </div>
+              </div>
+            </div>
+
+            
+
+
+            <img class="rectangle-4" src="https://c.animaapp.com/MSQKAc5P/img/rectangle-16-1@2x.png" />
+            <p class="te-compartimos">
+              <span class="span">Te compartimos algunos resultados de nuestra experiencia en la </span>
+              <span class="text-wrapper-5">adquisición e instalación de aulas modulares.</span>
+              <span class="text-wrapper-6">&nbsp;</span>
+            </p>
+            <!--FIN CONOCE NUESTRA EXPERIENCIA-->
+
+            <!--RUTA PARA LA ADQUISICIÓN-->
+            <div class="group-3">
+              <img class="vector-9" src="https://c.animaapp.com/MSQKAc5P/img/vector-10.svg" />
+              <div class="overlap-4">
+                <div class="group-4">
+                  <div class="text-wrapper-8">Bien temporal</div>
+                  <div class="ruta-para-la">RUTA PARA LA ADQUISICIÓN</div>
+                  <p class="text-wrapper-9">
+                    Gráfico referencial de flujograma para obtención de bienes temporales por los gobiernos regionales y
+                    locales.
+                  </p>
+                  <div class="overlap-5">
+                    <p class="text-wrapper-10">Gestión Presupuestal para la adquisición de bienes</p>
+                  </div>
+                  <div class="overlap-6">
+                    <p class="text-wrapper-11">Gestión para la contratación de adquisición de bienes</p>
+                  </div>
+                  <div class="text-wrapper-12">Necesidad</div>
+                  <div class="overlap-group-3">
+                    <div class="rectangle-5"></div>
+                    <p class="mesa-de-partes-del">Mesa de Partes<br />del GORE o Municipalidad</p>
+                  </div>
+                  <img class="vector-10" src="https://c.animaapp.com/MSQKAc5P/img/vector-16.svg" />
+                  <img class="vector-11" src="https://c.animaapp.com/MSQKAc5P/img/vector-12.svg" />
+                  <img class="vector-12" src="https://c.animaapp.com/MSQKAc5P/img/vector-13.svg" />
+                  <img class="vector-13" src="https://c.animaapp.com/MSQKAc5P/img/vector-14.svg" />
+                  <img class="vector-14" src="https://c.animaapp.com/MSQKAc5P/img/vector-16.svg" />
+                  <div class="overlap-7">
+                    <img class="vector-15" src="https://c.animaapp.com/MSQKAc5P/img/vector-16.svg" />
+                    <img class="MODULO-COSTA-sf-ass"
+                      src="https://c.animaapp.com/MSQKAc5P/img/modulo-costa-sf2-ass-copia-2@2x.png" />
+                  </div>
+                  <div class="gerencia-general-del-wrapper">
+                    <p class="gerencia-general-del">Gerencia<br />General del GORE o Municipalidad</p>
+                  </div>
+                  <div class="overlap-8">
+                    <p class="text-wrapper-13">
+                      Gerencia de Infraestructura o la que haga sus veces en el del GORE o Municipalidad
+                    </p>
+                  </div>
+                  <div class="overlap-9">
+                    <p class="text-wrapper-14">Gerencia de Presupuesto del GORE o Municipalidad</p>
+                  </div>
+                  <div class="overlap-10">
+                    <p class="text-wrapper-15">Gestión de Formulación para Adquisición de Bienes</p>
+                  </div>
+                  <div class="overlap-11">
+                    <p class="text-wrapper-16">Gerencia de Logística del GORE o Municipalidad</p>
+                  </div>
+                  <div class="documentaci-n-t-wrapper">
+                    <p class="documentaci-n-t">Documentación técnica arquitectura e ingeniería<br />EE. TT</p>
+                  </div>
+                  <div class="overlap-12">
+                    <div class="text-wrapper-17">Mobiliario y Equipamiento</div>
+                  </div>
+                  <img class="mask-group" src="https://c.animaapp.com/MSQKAc5P/img/mask-group-1@2x.png" />
+                  <img class="vector-16" src="https://c.animaapp.com/MSQKAc5P/img/vector-6-1.svg" />
+                  <img class="vector-17" src="https://c.animaapp.com/MSQKAc5P/img/vector-7-1.svg" />
+                  <div class="overlap-13">
+                    <div class="rectangle-6"></div>
+                    <div class="text-wrapper-18">Asistencia técnica del PRONIED</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--FIN RUTA ADQUISICION-->
+          </div>
+          <!--FIN CONTENEDOR GRANDE-->
         </div>
 
         <!--FIN ZONA DINAMICA-->
@@ -450,7 +694,18 @@
     </div>
   </div>
 
+  <!-- Overlay para el slide de imágenes -->
+  <div id="overlay" class="overlay">
+    <div class="slide">
+      <span class="close-btn" id="closeBtn">Cerrarrrr</span>
+      <button class="nav-btn left" id="prevBtn">&#10094;</button>
+      <img id="slideImage" src="" alt="Foto de la galería">
+      <button class="nav-btn right" id="nextBtn">&#10095;</button>
+    </div>
+  </div>
+
   <script>
+
     function cambiarContenido(tipo) {
       const contenedor = document.getElementById("contenidoDinamico");
       let contenidoHTML = "";
@@ -463,192 +718,7 @@
       // Contenido específico por tipo
       const contenidoPorTipo = {
         costa: `
-        <!--MAPA-->
-        <div class="overlap">
-          <div class="ellipse"></div>
-          <img class="callao" src="https://c.animaapp.com/MSQKAc5P/img/callao.svg" />
-          <img class="vector" src="https://c.animaapp.com/MSQKAc5P/img/vector.svg" />
-          <img class="img" src="https://c.animaapp.com/MSQKAc5P/img/vector-1.svg" />
-          <img class="vector-2" src="https://c.animaapp.com/MSQKAc5P/img/vector-2.svg" />
-          <img class="vector-3" src="https://c.animaapp.com/MSQKAc5P/img/vector-3.svg" />
-          <img class="vector-4" src="https://c.animaapp.com/MSQKAc5P/img/vector-4.svg" />
-          <img class="callao" src="https://c.animaapp.com/MSQKAc5P/img/callao-1.svg" />
-          <img class="vector" src="https://c.animaapp.com/MSQKAc5P/img/vector-5.svg" />
-          <img class="img" src="https://c.animaapp.com/MSQKAc5P/img/vector-6.svg" />
-          <img class="vector-5" src="https://c.animaapp.com/MSQKAc5P/img/vector-4-1.svg" />
-          <img class="vector-6" src="https://c.animaapp.com/MSQKAc5P/img/vector-5-1.svg" />
-          <img class="MODULO-COSTA-ass" src="https://c.animaapp.com/MSQKAc5P/img/modulo-costa-sf2-ass-copia-1@2x.png" />
-          <div class="group">
-            <div class="ALTURA">
-              <div class="overlap-group">
-                <div class="rectangle"></div>
-                <div class="text-wrapper">m s. n. m.</div>
-                <div class="text-wrapper-2">0 hasta</div>
-                <div class="text-wrapper-3">1000</div>
-                <img class="vector-7" src="https://c.animaapp.com/MSQKAc5P/img/vector-9.svg" />
-              </div>
-            </div>
-          </div>
-          <img class="rectangle-2" src="https://c.animaapp.com/MSQKAc5P/img/rectangle-49.png" />
-        </div>
-
-
-
         
-        <div class="text-wrapper-35">Costa</div>
-
-        <!--CARACTERISTICAS TECNICAS-->
-        <div class="overlap-14">
-          <div class="rectangle-7"></div>
-          <div class="text-wrapper-20">Características técnicas</div>
-        </div>
-        <div class="text-wrapper-34">•<br />•<br />•<br />•<br />•</div>
-        <p class="evaluaci-n-de">
-          Evaluación de situación de riesgo en la infraestructura <br />Disponibilidad de terreno de acuerdo a las
-          medidas del aula <br />Título de propiedad <br />Evaluación de Defensa Civil <br />Informe de la ficha de
-          evaluación integral de infraestructura educativa para dar atención con módulos educativos.
-        </p>
-
-        <!--REQUISITOS NECESARIOS-->
-        <div class="overlap-15">
-          <div class="overlap-16">
-            <div class="rectangle-8"></div>
-            <div class="text-wrapper-21">Requisitos necesarios</div>
-            <p class="m-dulo-prefabricado">
-              Módulo prefabricado<br />Cerramientos de termopanel<br />Rampa de acceso<br />Estructura de acero
-              galvanizado<br />Sistema de ensamblaje en seco<br />El módulo puede ser montado y desmontado<br />Con
-              nivel de piso terminado a +0.50<br />Zona desértica costera<br />Aforo para 30 estudiantes y 1
-              docente.<br />Área
-              útil de 60 m2<br />Área total de 89,07 m2
-            </p>
-          </div>
-          <div class="text-wrapper-22">•<br />•<br />•<br />•<br />•<br />•<br />•<br />•<br />•<br />•<br />•</div>
-        </div>
-
-        <!--BENEFICIOS BIOCLIMÁTICOS-->
-        <div class="beneficios-bioclim">BENEFICIOS BIOCLIMÁTICOS</div>
-        <div class="group-8">
-          <div class="text-wrapper-36">Control de la radiación</div>
-          <div class="text-wrapper-37">Aislamiento térmico</div>
-          <div class="text-wrapper-38">Ventilación cruzada</div>
-          <div class="text-wrapper-39">Accesibilidad universal</div>
-          <img class="capa-3" src="https://c.animaapp.com/MSQKAc5P/img/capa-1-2.svg" />
-          <img class="capa-4" src="https://c.animaapp.com/MSQKAc5P/img/capa-1-3.svg" />
-          <img class="capa-5" src="https://c.animaapp.com/MSQKAc5P/img/capa-1-4.svg" />
-          <img class="capa-6" src="https://c.animaapp.com/MSQKAc5P/img/capa-1-5.svg" />
-        </div>
-
-        <div class="group-9">
-          <div class="overlap-group-2">
-            <div class="text-wrapper-4">Ver Imágenes</div>
-            <img class="vector-18" src="https://c.animaapp.com/MSQKAc5P/img/vector-7.svg" />
-          </div>
-        </div>
-
-        <!--INVERSIÓN ESTIMADA DE UN (1) AULA MODULAR-->
-        <p class="inversi-n-estimada">INVERSIÓN ESTIMADA DE UN (1) AULA MODULAR</p>
-        <div class="overlap-wrapper">
-          <div class="overlap-25">
-            <img class="layer" src="https://c.animaapp.com/MSQKAc5P/img/layer-1.svg" />
-            <div class="text-wrapper-41">S/185 690,00</div>
-          </div>
-        </div>
-        <p class="text-wrapper-40">
-          *Costo referencial al 2025, (+ Inflación estimada), de acuerdo al costo de los procesos anteriores del
-          Pronied.
-        </p>
-
-
-
-        <!--CONTENEDOR GRANDE-->
-        <div class="overlap-2">
-          <img class="rectangle-3" src="https://c.animaapp.com/MSQKAc5P/img/rectangle-34.png" />
-
-          <!--CONOCE NUESTRA EXPERIENCIA-->
-          <div class="conoce-nuestra">Conoce nuestra<br />experiencia</div>
-          <div class="group-wrapper">
-            <div class="overlap-group-wrapper">
-              <div class="overlap-group-2">
-                <div class="text-wrapper-4">Ver Imágenes</div>
-              </div>
-            </div>
-          </div>
-          <img class="rectangle-4" src="https://c.animaapp.com/MSQKAc5P/img/rectangle-16-1@2x.png" />
-          <p class="te-compartimos">
-            <span class="span">Te compartimos algunos resultados de nuestra experiencia en la </span>
-            <span class="text-wrapper-5">adquisición e instalación de aulas modulares.</span>
-            <span class="text-wrapper-6">&nbsp;</span>
-          </p>
-          <!--FIN CONOCE NUESTRA EXPERIENCIA-->
-
-          <!--RUTA PARA LA ADQUISICIÓN-->
-          <div class="group-3">
-            <img class="vector-9" src="https://c.animaapp.com/MSQKAc5P/img/vector-10.svg" />
-            <div class="overlap-4">
-              <div class="group-4">
-                <div class="text-wrapper-8">Bien temporal</div>
-                <div class="ruta-para-la">RUTA PARA LA ADQUISICIÓN</div>
-                <p class="text-wrapper-9">
-                  Gráfico referencial de flujograma para obtención de bienes temporales por los gobiernos regionales y
-                  locales.
-                </p>
-                <div class="overlap-5">
-                  <p class="text-wrapper-10">Gestión Presupuestal para la adquisición de bienes</p>
-                </div>
-                <div class="overlap-6">
-                  <p class="text-wrapper-11">Gestión para la contratación de adquisición de bienes</p>
-                </div>
-                <div class="text-wrapper-12">Necesidad</div>
-                <div class="overlap-group-3">
-                  <div class="rectangle-5"></div>
-                  <p class="mesa-de-partes-del">Mesa de Partes<br />del GORE o Municipalidad</p>
-                </div>
-                <img class="vector-10" src="https://c.animaapp.com/MSQKAc5P/img/vector-16.svg" />
-                <img class="vector-11" src="https://c.animaapp.com/MSQKAc5P/img/vector-12.svg" />
-                <img class="vector-12" src="https://c.animaapp.com/MSQKAc5P/img/vector-13.svg" />
-                <img class="vector-13" src="https://c.animaapp.com/MSQKAc5P/img/vector-14.svg" />
-                <img class="vector-14" src="https://c.animaapp.com/MSQKAc5P/img/vector-16.svg" />
-                <div class="overlap-7">
-                  <img class="vector-15" src="https://c.animaapp.com/MSQKAc5P/img/vector-16.svg" />
-                  <img class="MODULO-COSTA-sf-ass"
-                    src="https://c.animaapp.com/MSQKAc5P/img/modulo-costa-sf2-ass-copia-2@2x.png" />
-                </div>
-                <div class="gerencia-general-del-wrapper">
-                  <p class="gerencia-general-del">Gerencia<br />General del GORE o Municipalidad</p>
-                </div>
-                <div class="overlap-8">
-                  <p class="text-wrapper-13">
-                    Gerencia de Infraestructura o la que haga sus veces en el del GORE o Municipalidad
-                  </p>
-                </div>
-                <div class="overlap-9">
-                  <p class="text-wrapper-14">Gerencia de Presupuesto del GORE o Municipalidad</p>
-                </div>
-                <div class="overlap-10">
-                  <p class="text-wrapper-15">Gestión de Formulación para Adquisición de Bienes</p>
-                </div>
-                <div class="overlap-11">
-                  <p class="text-wrapper-16">Gerencia de Logística del GORE o Municipalidad</p>
-                </div>
-                <div class="documentaci-n-t-wrapper">
-                  <p class="documentaci-n-t">Documentación técnica arquitectura e ingeniería<br />EE. TT</p>
-                </div>
-                <div class="overlap-12">
-                  <div class="text-wrapper-17">Mobiliario y Equipamiento</div>
-                </div>
-                <img class="mask-group" src="https://c.animaapp.com/MSQKAc5P/img/mask-group-1@2x.png" />
-                <img class="vector-16" src="https://c.animaapp.com/MSQKAc5P/img/vector-6-1.svg" />
-                <img class="vector-17" src="https://c.animaapp.com/MSQKAc5P/img/vector-7-1.svg" />
-                <div class="overlap-13">
-                  <div class="rectangle-6"></div>
-                  <div class="text-wrapper-18">Asistencia técnica del PRONIED</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--FIN RUTA ADQUISICION-->
-        </div>
-        <!--FIN CONTENEDOR GRANDE-->
         `,
         sierra: `
         
@@ -1202,16 +1272,63 @@
         `
       };
 
-      contenidoHTML = contenidoPorTipo[tipo];
-
-      // Actualiza el contenido del contenedor
-      contenedor.innerHTML = contenidoHTML;
+      contenedor.innerHTML = contenidoPorTipo[tipo] || contenidoPorTipo.costa;
     }
+
+    const images = ["static/test1.jpg", "static/test2.jpg", "static/test1.png"];
+    let currentIndex = 0;
+
+
+
+    //Inicio Slide
+
+
+    function mostrarSeccion(seccion) {
+      const secciones = document.querySelectorAll('.section');
+      secciones.forEach(section => section.style.display = 'none');
+      document.getElementById(seccion).style.display = 'block';
+    }
+
+    function openSlide() {
+      document.getElementById("overlay").style.display = "flex";
+      showImage(currentIndex);
+    }
+
+    function closeSlide() {
+      document.getElementById("overlay").style.display = "none";
+    }
+
+    function showImage(index) {
+      const slideImage = document.getElementById("slideImage");
+      slideImage.src = images[index];
+    }
+
+    function nextImage() {
+      currentIndex = (currentIndex + 1) % images.length;
+      showImage(currentIndex);
+    }
+
+    function previousImage() {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      showImage(currentIndex);
+    }
+    //Fin Slide
 
     // Mostrar contenido por defecto al cargar la página
     document.addEventListener("DOMContentLoaded", function () {
-      cambiarContenido('costa');
+      mostrarSeccion('costa');
     });
+
+    // Asignar eventos a botones "Ver Imágenes" en cada sección
+    document.getElementById("openSlideBtnCosta").addEventListener("click", openSlide);
+    //document.getElementById("openSlideBtnSierra").addEventListener("click", openSlide);
+    //document.getElementById("openSlideBtnSelva").addEventListener("click", openSlide);
+    //document.getElementById("openSlideBtnHelada").addEventListener("click", openSlide);
+
+    // Asignar eventos para el slide
+    document.getElementById("closeBtn").addEventListener("click", closeSlide);
+    document.getElementById("nextBtn").addEventListener("click", nextImage);
+    document.getElementById("prevBtn").addEventListener("click", previousImage);
 
   </script>
 </body>
