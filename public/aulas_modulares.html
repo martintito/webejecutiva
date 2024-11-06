@@ -72,6 +72,19 @@
     .section {
       display: none;
     }
+
+
+    /**********/
+    /* Efecto en .rectangle-10 */
+    .rectangle-10, .rectangle-12 {
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    /* Efecto en .rectangle-10 */
+    .rectangle-10:hover, .rectangle-12:hover {
+      transform: scale(1.1);
+      /* Aumenta ligeramente el tamaño */
+    }
   </style>
 </head>
 
@@ -747,7 +760,8 @@
             <img class="img" src="https://c.animaapp.com/Dvh70nxW/img/vector-6.svg" />
             <img class="vector-5" src="https://c.animaapp.com/Dvh70nxW/img/vector-4-1.svg" />
             <img class="vector-6" src="https://c.animaapp.com/Dvh70nxW/img/vector-5-1.svg" />
-            <img class="MODULO-COSTA-ass" src="https://c.animaapp.com/Dvh70nxW/img/modulo-costa-sf2-ass-copia-1@2x.png" />
+            <img class="MODULO-COSTA-ass"
+              src="https://c.animaapp.com/Dvh70nxW/img/modulo-costa-sf2-ass-copia-1@2x.png" />
             <div class="group">
               <div class="ALTURA">
                 <div class="overlap-group">
@@ -1249,10 +1263,10 @@
 
   <script>
     //Inicio Slide
-    const imagesCosta = ["static/slide1.png", "static/slide2.png", "static/slide3.png"];
-    const imagesSierra = ["static/slide1.png", "static/slide2.png", "static/slide3.png"];
-    const imagesSelva = ["static/slide1.png", "static/slide2.png", "static/slide3.png"];
-    const imagesHelada = ["static/slide1.png", "static/slide2.png", "static/slide3.png"];
+    const imagesCosta = ["img/slide1.png", "img/slide2.png", "img/slide3.png"];
+    const imagesSierra = ["img/slide1.png", "img/slide2.png", "img/slide3.png"];
+    const imagesSelva = ["img/slide1.png", "img/slide2.png", "img/slide3.png"];
+    const imagesHelada = ["img/slide1.png", "img/slide2.png", "img/slide3.png"];
 
     let currentIndex = 0;
     let images = [];

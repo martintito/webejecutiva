@@ -6,6 +6,31 @@
   <link rel="stylesheet" href="css/globals.css" />
   <link rel="stylesheet" href="css/style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .rectangle-2 {
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .ellipse-7, .ellipse-8, .ellipse-9, .ellipse-10, .ellipse-11, .ellipse-12, .ellipse-13 {
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    /* Efecto al pasar el cursor por encima de .rectangle-2 */
+    .rectangle-2:hover {
+      transform: scale(1.1);
+      /* Aumenta ligeramente el tamaño */
+      opacity: 0.9;
+      /* Hace la imagen ligeramente transparente */
+    }
+
+    /* Efecto al pasar el cursor por encima de .ellipse-7 */
+    .ellipse-7:hover, .ellipse-8:hover, .ellipse-9:hover, .ellipse-10:hover, .ellipse-11:hover, .ellipse-12:hover, .ellipse-13:hover {
+      background-color: #f39c12;
+      /* Cambia el color de fondo a naranja */
+      transform: rotate(15deg) scale(1.05);
+      /* Rota y escala ligeramente el círculo */
+    }
+  </style>
 </head>
 
 <body>

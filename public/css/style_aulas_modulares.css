@@ -14,6 +14,10 @@
   position: relative;
 }
 
+.aulas-modulares-tipo .text-wrapper-25:hover {
+  color: gray; /* Cambia el color a gris */
+}
+
 .aulas-modulares-tipo .overlap {
   position: absolute;
   width: 598px;
@@ -1249,7 +1253,7 @@
 }
 
 .aulas-modulares-tipo .modo-de-aislamiento-2 {
-  top: 10px;
+  top: 2px;
   left: 171px;
   position: absolute;
   width: 8px;
@@ -1271,7 +1275,7 @@
 }
 
 .aulas-modulares-tipo .modo-de-aislamiento-3 {
-  top: 48px;
+  top: 41px;
   left: 442px;
   position: absolute;
   width: 8px;
