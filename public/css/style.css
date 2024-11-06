@@ -13,7 +13,7 @@ body {
 .catalogo-PRINCIPAL .div {
   background-color: #ffffff;
   width: 1920px;
-  height: 3491px;
+  height: 3386px;
   position: relative;
 }
 
@@ -494,11 +494,11 @@ body {
 }
 
 .catalogo-PRINCIPAL .overlap-video {
-    position: absolute;
-    width: 1245px;
-    height: 671px;
-    top: 2575px;
-    left: 347px;
+  position: absolute;
+  width: 1245px;
+  height: 671px;
+  top: 2575px;
+  left: 347px;
 }
 
 .catalogo-PRINCIPAL .group-2 {
@@ -1224,6 +1224,7 @@ body {
   height: 200px;
   border: none;
 }
+
 /*footer*/
 .text-wrapper-30-footer {
   position: absolute;
@@ -1239,6 +1240,7 @@ body {
   letter-spacing: 0;
   line-height: 20px;
 }
+
 .group-8 {
   position: absolute;
   width: 391px;
@@ -1246,6 +1248,7 @@ body {
   top: 64px;
   left: 811px;
 }
+
 .text-wrapper-32 {
   position: absolute;
   height: 27px;
@@ -1260,6 +1263,7 @@ body {
   line-height: 26.2px;
   white-space: nowrap;
 }
+
 .capa-footer {
   position: absolute;
   width: 225px;
@@ -1267,6 +1271,7 @@ body {
   top: 283px;
   left: 921px;
 }
+
 .text-wrapper-31 {
   position: absolute;
   height: 27px;
@@ -1281,6 +1286,7 @@ body {
   line-height: 26.2px;
   white-space: nowrap;
 }
+
 .text-wrapper-29 {
   position: absolute;
   width: 309px;
@@ -1296,6 +1302,7 @@ body {
   line-height: 28px;
   white-space: nowrap;
 }
+
 .text-wrapper-28 {
   position: absolute;
   width: 88px;
@@ -1327,14 +1334,14 @@ body {
     justify-content: center;
     width: 100%;
   }
-
+  
   .responsive-catalogo .div {
     background-color: #ffffff;
     width: 440px;
     height: 4567px;
     position: relative;
   }
-
+  
   .responsive-catalogo .overlap {
     position: absolute;
     width: 368px;
@@ -1342,7 +1349,7 @@ body {
     top: 636px;
     left: 36px;
   }
-
+  
   .responsive-catalogo .rectangle {
     position: absolute;
     width: 368px;
@@ -1351,22 +1358,22 @@ body {
     left: 0;
     object-fit: cover;
   }
-
-  .responsive-catalogo .text-wrapper {
-    position: absolute;
-    width: 368px;
-    height: 86px;
-    top: 375px;
-    left: 0;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #6bb4a9;
-    font-size: 23px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 25px;
-  }
-
+  
+    .responsive-catalogo .text-wrapper {
+      position: absolute;
+      width: 368px;
+      height: 86px;
+      top: 375px;
+      left: 0;
+      font-family: "Gotham Rounded-Bold", Helvetica;
+      font-weight: 700;
+      color: #6bb4a9;
+      font-size: 23px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 25px;
+    }
+  
   .responsive-catalogo .ellipse {
     width: 117px;
     left: 126px;
@@ -1376,15 +1383,15 @@ body {
     height: 116px;
     top: 255px;
   }
-
-  .responsive-catalogo .vector {
-    position: absolute;
-    width: 68px;
-    height: 63px;
-    top: 282px;
-    left: 150px;
-  }
-
+  
+    .responsive-catalogo .vector {
+      position: absolute;
+      width: 68px;
+      height: 63px;
+      top: 282px;
+      left: 150px;
+    }
+  
   .responsive-catalogo .overlap-group {
     position: absolute;
     width: 368px;
@@ -1392,22 +1399,22 @@ body {
     top: 1078px;
     left: 36px;
   }
-
-  .responsive-catalogo .aulas-modulares {
-    position: absolute;
-    width: 368px;
-    height: 86px;
-    top: 375px;
-    left: 0;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #444242;
-    font-size: 23px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 25px;
-  }
-
+  
+    .responsive-catalogo .aulas-modulares {
+      position: absolute;
+      width: 368px;
+      height: 86px;
+      top: 375px;
+      left: 0;
+      font-family: "Gotham Rounded-Bold", Helvetica;
+      font-weight: 700;
+      color: #444242;
+      font-size: 23px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 25px;
+    }
+  
   .responsive-catalogo .ellipse-2 {
     width: 116px;
     left: 126px;
@@ -1417,7 +1424,7 @@ body {
     height: 116px;
     top: 255px;
   }
-
+  
   .responsive-catalogo .AULA-MODULAR {
     position: absolute;
     width: 58px;
@@ -1426,7 +1433,7 @@ body {
     left: 155px;
     object-fit: cover;
   }
-
+  
   .responsive-catalogo .overlap-2 {
     position: absolute;
     width: 368px;
@@ -1434,7 +1441,7 @@ body {
     top: 3288px;
     left: 36px;
   }
-
+  
   .responsive-catalogo .ellipse-3 {
     width: 116px;
     left: 126px;
@@ -1444,7 +1451,7 @@ body {
     height: 116px;
     top: 255px;
   }
-
+  
   .responsive-catalogo .capa {
     position: absolute;
     width: 56px;
@@ -1452,12 +1459,12 @@ body {
     top: 279px;
     left: 156px;
   }
-
-  .responsive-catalogo .p {
+  
+    .responsive-catalogo .p {
     position: absolute;
     width: 368px;
     height: 86px;
-    top: 375px;
+      top: 375px;
     left: 0;
     font-family: "Gotham Rounded-Bold", Helvetica;
     font-weight: 700;
@@ -1467,7 +1474,7 @@ body {
     letter-spacing: 0;
     line-height: 25px;
   }
-
+  
   .responsive-catalogo .overlap-3 {
     position: absolute;
     width: 440px;
@@ -1475,7 +1482,7 @@ body {
     top: 0;
     left: 0;
   }
-
+  
   .responsive-catalogo .collage-copia {
     position: absolute;
     width: 440px;
@@ -1484,7 +1491,7 @@ body {
     left: 0;
     object-fit: cover;
   }
-
+  
   .responsive-catalogo .rectangle-2 {
     position: absolute;
     width: 292px;
@@ -1494,7 +1501,7 @@ body {
     background-color: #005bab;
     border-radius: 42px;
   }
-
+  
   .responsive-catalogo .text-wrapper-2 {
     position: absolute;
     width: 293px;
@@ -1509,7 +1516,7 @@ body {
     line-height: 28.7px;
     white-space: nowrap;
   }
-
+  
   .responsive-catalogo .overlap-4 {
     position: absolute;
     width: 431px;
@@ -1517,7 +1524,7 @@ body {
     top: 316px;
     left: 5px;
   }
-
+  
   .responsive-catalogo .es-una-herramienta {
     position: absolute;
     width: 354px;
@@ -1531,23 +1538,23 @@ body {
     letter-spacing: 0;
     line-height: 20.8px;
   }
-
+  
   .responsive-catalogo .span {
     color: #020101;
   }
-
+  
   .responsive-catalogo .text-wrapper-3 {
     font-family: "Gotham Rounded-Bold", Helvetica;
     font-weight: 700;
     color: #005bab;
   }
-
+  
   .responsive-catalogo .text-wrapper-4 {
     font-family: "Gotham Rounded-Bold", Helvetica;
     font-weight: 700;
     color: #0059aa;
   }
-
+  
   .responsive-catalogo .tipos-de-bienes-que {
     position: absolute;
     width: 431px;
@@ -1561,7 +1568,7 @@ body {
     letter-spacing: 0;
     line-height: 19.0px;
   }
-
+  
   .responsive-catalogo .group {
     width: 168px;
     top: 240px;
@@ -1569,7 +1576,7 @@ body {
     position: absolute;
     height: 46px;
   }
-
+  
   .responsive-catalogo .overlap-group-2 {
     position: relative;
     width: 166px;
@@ -1579,7 +1586,7 @@ body {
     border: 2px solid;
     border-color: #7d4393;
   }
-
+  
   .responsive-catalogo .ver-video {
     position: absolute;
     width: 117px;
@@ -1594,7 +1601,7 @@ body {
     letter-spacing: 0;
     line-height: 33.6px;
   }
-
+  
   .responsive-catalogo .img {
     position: absolute;
     width: 19px;
@@ -1602,7 +1609,7 @@ body {
     top: 14px;
     left: 124px;
   }
-
+  
   .responsive-catalogo .overlap-5 {
     position: absolute;
     width: 368px;
@@ -1610,22 +1617,22 @@ body {
     top: 1520px;
     left: 36px;
   }
-
-  .responsive-catalogo .text-wrapper-5 {
-    position: absolute;
-    width: 368px;
-    height: 86px;
-    top: 375px;
-    left: 0;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #99c4cb;
-    font-size: 23px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 25px;
-  }
-
+  
+    .responsive-catalogo .text-wrapper-5 {
+      position: absolute;
+      width: 368px;
+      height: 86px;
+      top: 375px;
+      left: 0;
+      font-family: "Gotham Rounded-Bold", Helvetica;
+      font-weight: 700;
+      color: #99c4cb;
+      font-size: 23px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 25px;
+    }
+  
   .responsive-catalogo .ellipse-4 {
     width: 116px;
     left: 126px;
@@ -1635,7 +1642,7 @@ body {
     height: 116px;
     top: 255px;
   }
-
+  
   .responsive-catalogo .group-2 {
     width: 64px;
     top: 284px;
@@ -1643,7 +1650,7 @@ body {
     position: absolute;
     height: 46px;
   }
-
+  
   .responsive-catalogo .overlap-6 {
     position: absolute;
     width: 368px;
@@ -1651,22 +1658,22 @@ body {
     top: 1962px;
     left: 36px;
   }
-
-  .responsive-catalogo .mobiliario-y {
-    position: absolute;
-    width: 368px;
-    height: 86px;
-    top: 375px;
-    left: 0;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #a4ac1c;
-    font-size: 23px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 25px;
-  }
-
+  
+    .responsive-catalogo .mobiliario-y {
+      position: absolute;
+      width: 368px;
+      height: 86px;
+      top: 375px;
+      left: 0;
+      font-family: "Gotham Rounded-Bold", Helvetica;
+      font-weight: 700;
+      color: #a4ac1c;
+      font-size: 23px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 25px;
+    }
+  
   .responsive-catalogo .ellipse-5 {
     width: 116px;
     left: 126px;
@@ -1676,15 +1683,15 @@ body {
     height: 116px;
     top: 255px;
   }
-
+  
   .responsive-catalogo .capa-2 {
-    position: absolute;
     width: 54px;
     height: 74px;
     top: 276px;
+    position: absolute;
     left: 157px;
   }
-
+  
   .responsive-catalogo .overlap-7 {
     position: absolute;
     width: 428px;
@@ -1692,22 +1699,22 @@ body {
     top: 2404px;
     left: 6px;
   }
-
-  .responsive-catalogo .text-wrapper-6 {
-    position: absolute;
-    width: 428px;
-    height: 86px;
-    top: 375px;
-    left: 0;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #4380b7;
-    font-size: 23px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 25px;
-  }
-
+  
+    .responsive-catalogo .text-wrapper-6 {
+      position: absolute;
+      width: 428px;
+      height: 86px;
+      top: 375px;
+      left: 0;
+      font-family: "Gotham Rounded-Bold", Helvetica;
+      font-weight: 700;
+      color: #4380b7;
+      font-size: 23px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 25px;
+    }
+  
   .responsive-catalogo .rectangle-3 {
     position: absolute;
     width: 368px;
@@ -1716,7 +1723,7 @@ body {
     left: 30px;
     object-fit: cover;
   }
-
+  
   .responsive-catalogo .ellipse-6 {
     width: 117px;
     left: 156px;
@@ -1726,7 +1733,7 @@ body {
     height: 116px;
     top: 255px;
   }
-
+  
   .responsive-catalogo .SERVICIOS-HIGINICOS {
     position: absolute;
     width: 71px;
@@ -1735,7 +1742,7 @@ body {
     left: 179px;
     object-fit: cover;
   }
-
+  
   .responsive-catalogo .overlap-8 {
     position: absolute;
     width: 368px;
@@ -1743,22 +1750,22 @@ body {
     top: 2846px;
     left: 36px;
   }
-
-  .responsive-catalogo .text-wrapper-7 {
-    position: absolute;
-    width: 368px;
-    height: 86px;
-    top: 375px;
-    left: 0;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #e86b45;
-    font-size: 23px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 25px;
-  }
-
+  
+    .responsive-catalogo .text-wrapper-7 {
+      position: absolute;
+      width: 368px;
+      height: 86px;
+      top: 375px;
+      left: 0;
+      font-family: "Gotham Rounded-Bold", Helvetica;
+      font-weight: 700;
+      color: #e86b45;
+      font-size: 23px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 25px;
+    }
+  
   .responsive-catalogo .ellipse-7 {
     width: 116px;
     left: 126px;
@@ -1768,7 +1775,7 @@ body {
     height: 116px;
     top: 255px;
   }
-
+  
   .responsive-catalogo .PARARRAYO {
     position: absolute;
     width: 54px;
@@ -1777,7 +1784,7 @@ body {
     left: 157px;
     object-fit: cover;
   }
-
+  
   .responsive-catalogo .bienes-temporales {
     position: absolute;
     width: 319px;
@@ -1791,7 +1798,7 @@ body {
     letter-spacing: 0;
     line-height: 27.5px;
   }
-
+  
   .responsive-catalogo .conoce-nuestra {
     position: absolute;
     width: 379px;
@@ -1805,61 +1812,205 @@ body {
     letter-spacing: 0;
     line-height: 19.0px;
   }
-
-  .responsive-catalogo .overlap-9 {
-    position: absolute;
-    width: 440px;
-    height: 541px;
-    top: 4026px;
-    left: 0;
-  }
-
+  
   .responsive-catalogo .footer {
     position: absolute;
     width: 440px;
     height: 541px;
-    top: 0;
+    top: 4026px;
     left: 0;
     background-color: #0057a7;
   }
 
   .responsive-catalogo .text-wrapper-8 {
     position: absolute;
-    width: 309px;
-    height: 28px;
-    top: 456px;
-    left: 39px;
-    font-family: "Inter", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 16px;
-    text-align: right;
-    letter-spacing: 0;
-    line-height: 28px;
-    white-space: nowrap;
-  }
-
-  .responsive-catalogo .gestionamos-la {
-    position: absolute;
-    width: 324px;
-    height: 255px;
+    width: 286px;
+    height: 106px;
     top: 182px;
-    left: 61px;
+    left: 93px;
     font-family: "Gotham Rounded-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;
     font-size: 12px;
-    text-align: justify;
+    text-align: center;
     letter-spacing: 0;
-    line-height: 18px;
+    line-height: 20px;
   }
 
   .responsive-catalogo .capa-3 {
-    position: absolute;
     width: 137px;
     height: 45px;
     top: 104px;
-    left: 151px;
+    position: absolute;
+    left: 157px;
+  }
+
+  .responsive-catalogo .vector-wrapper {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 342px;
+    left: 253px;
+    background-image: url(https://c.animaapp.com/U6kq9Jhx/img/vector-2.svg);
+    background-size: 100% 100%;
+  }
+
+  .responsive-catalogo .vector-2 {
+    position: absolute;
+    width: 26px;
+    height: 18px;
+    top: 10px;
+    left: 6px;
+  }
+
+  .responsive-catalogo .overlap-9 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 342px;
+    left: 300px;
+    background-image: url(https://c.animaapp.com/U6kq9Jhx/img/vector-4.svg);
+    background-size: 100% 100%;
+  }
+
+  .responsive-catalogo .vector-3 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 9px;
+    left: 9px;
+  }
+
+  .responsive-catalogo .vector-4 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 14px;
+    left: 14px;
+  }
+
+  .responsive-catalogo .vector-5 {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    top: 12px;
+    left: 24px;
+  }
+
+  .responsive-catalogo .overlap-10 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 342px;
+    left: 205px;
+    background-image: url(https://c.animaapp.com/U6kq9Jhx/img/vector-5.svg);
+    background-size: 100% 100%;
+  }
+
+  .responsive-catalogo .vector-6 {
+    position: absolute;
+    width: 15px;
+    height: 16px;
+    top: 14px;
+    left: 16px;
+  }
+
+  .responsive-catalogo .vector-7 {
+    position: absolute;
+    width: 5px;
+    height: 15px;
+    top: 15px;
+    left: 8px;
+  }
+
+  .responsive-catalogo .vector-8 {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 7px;
+    left: 8px;
+  }
+
+  .responsive-catalogo .img-wrapper {
+    position: absolute;
+    width: 39px;
+    height: 38px;
+    top: 342px;
+    left: 114px;
+    background-image: url(https://c.animaapp.com/U6kq9Jhx/img/vector-9.svg);
+    background-size: 100% 100%;
+  }
+
+  .responsive-catalogo .vector-9 {
+    position: absolute;
+    width: 16px;
+    height: 31px;
+    top: 8px;
+    left: 11px;
+  }
+
+  .responsive-catalogo .overlap-11 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 342px;
+    left: 158px;
+    background-image: url(https://c.animaapp.com/U6kq9Jhx/img/vector-14.svg);
+    background-size: 100% 100%;
+  }
+
+  .responsive-catalogo .vector-10 {
+    position: absolute;
+    width: 23px;
+    height: 21px;
+    top: 9px;
+    left: 8px;
+  }
+
+  .responsive-catalogo .vector-11 {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 9px;
+    left: 21px;
+  }
+
+  .responsive-catalogo .vector-12 {
+    position: absolute;
+    width: 10px;
+    height: 9px;
+    top: 20px;
+    left: 9px;
+  }
+
+  .responsive-catalogo .text-wrapper-9 {
+    position: absolute;
+    height: 27px;
+    top: 304px;
+    left: 145px;
+    font-family: "Gotham Rounded-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26.2px;
+    white-space: nowrap;
+  }
+
+  .responsive-catalogo .text-wrapper-10 {
+    position: absolute;
+    height: 27px;
+    top: 395px;
+    left: 115px;
+    font-family: "Gotham Rounded-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26.2px;
+    white-space: nowrap;
   }
 
   .responsive-catalogo .images {
@@ -1867,7 +2018,7 @@ body {
     width: 195px;
     height: 42px;
     top: 36px;
-    left: 123px;
+    left: 129px;
     object-fit: cover;
   }
 
@@ -1879,7 +2030,6 @@ body {
     left: 47px;
     object-fit: cover;
   }
-
 
 }
 
