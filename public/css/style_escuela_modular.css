@@ -8,7 +8,6 @@
 
 .escuelas-modulares .div {
   background-color: #ffffff;
-  overflow-x: hidden;
   width: 1920px;
   height: 5133px;
   position: relative;
@@ -17,79 +16,79 @@
 .escuelas-modulares .overlap {
   position: absolute;
   width: 1920px;
-  height: 344px;
-  top: 3932px;
+  height: 312px;
+  top: 3620px;
   left: 0;
-  background-image: url(https://c.animaapp.com/8EzCpDK8/img/rectangle-34.png);
+  background-image: url(https://c.animaapp.com/qs7oBvhl/img/rectangle-34.png);
   background-size: cover;
   background-position: 50% 50%;
 }
 
 .escuelas-modulares .text-wrapper {
   position: absolute;
-  width: 968px;
-  top: 103px;
-  left: 476px;
+  width: 878px;
+  top: 93px;
+  left: 521px;
   font-family: "Gotham Rounded-Medium", Helvetica;
   font-weight: 500;
   color: #010101;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 26.0px;
+  line-height: 23.4px;
   white-space: nowrap;
 }
 
 .escuelas-modulares .documentos-de-apoyo {
   position: absolute;
-  width: 407px;
-  top: 49px;
-  left: 757px;
+  width: 369px;
+  top: 44px;
+  left: 776px;
   font-family: "Gotham Rounded-Medium", Helvetica;
   font-weight: 500;
   color: #313131;
-  font-size: 26px;
+  font-size: 20px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 24.7px;
+  line-height: 19.0px;
   white-space: nowrap;
 }
 
 .escuelas-modulares .overlap-group {
   position: absolute;
-  width: 769px;
-  height: 116px;
-  top: 187px;
-  left: 677px;
+  width: 698px;
+  height: 105px;
+  top: 170px;
+  left: 703px;
 }
 
 .escuelas-modulares .group {
   position: absolute;
-  width: 769px;
-  height: 116px;
+  width: 698px;
+  height: 105px;
   top: 0;
   left: 0;
 }
 
 .escuelas-modulares .planos-esquem-ticos {
   position: absolute;
-  width: 602px;
+  width: 546px;
   top: 3px;
-  left: 163px;
+  left: 148px;
   font-family: "Gotham Rounded-Book", Helvetica;
   font-weight: 400;
   color: #020101;
-  font-size: 17px;
+  font-size: 15px;
   letter-spacing: 0;
-  line-height: 22.1px;
+  line-height: 21.8px;
 }
 
 .escuelas-modulares .text-wrapper-2 {
   top: 3px;
-  left: 135px;
+  left: 122px;
   color: #7d4393;
   position: absolute;
-  width: 18px;
+  width: 16px;
   font-family: "Gotham Rounded-Bold", Helvetica;
   font-weight: 700;
   font-size: 17px;
@@ -100,49 +99,49 @@
 
 .escuelas-modulares .group-2 {
   position: absolute;
-  width: 116px;
-  height: 116px;
+  width: 105px;
+  height: 105px;
   top: 0;
   left: 0;
   background-color: #2ead9a;
-  border-radius: 58px;
+  border-radius: 52.62px;
 }
 
 .escuelas-modulares .mask-group {
   position: absolute;
-  width: 116px;
-  height: 116px;
+  width: 105px;
+  height: 105px;
   top: 0;
   left: 0;
 }
 
 .escuelas-modulares .beneficios {
   position: absolute;
-  width: 477px;
-  top: 2275px;
-  left: 722px;
+  width: 433px;
+  top: 2117px;
+  left: 744px;
   font-family: "Gotham Rounded-Medium", Helvetica;
   font-weight: 500;
   color: #242424;
-  font-size: 23px;
+  font-size: 20px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 21.8px;
+  line-height: 19.0px;
   white-space: nowrap;
 }
 
 .escuelas-modulares .inversi-n-estimada {
   position: absolute;
-  width: 861px;
-  top: 2649px;
-  left: 530px;
+  width: 781px;
+  top: 2456px;
+  left: 570px;
   font-family: "Gotham Rounded-Medium", Helvetica;
   font-weight: 500;
   color: #242424;
-  font-size: 23px;
+  font-size: 20px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 21.8px;
+  line-height: 19.0px;
   white-space: nowrap;
 }
 
@@ -243,7 +242,7 @@
   position: absolute;
   width: 8px;
   height: 13px;
-  top: 326px;
+  top: 334px;
   left: 1066px;
 }
 
@@ -251,7 +250,7 @@
   position: absolute;
   width: 8px;
   height: 13px;
-  top: 326px;
+  top: 334px;
   left: 442px;
 }
 
@@ -283,9 +282,9 @@
 
 .escuelas-modulares .esta-soluci-n {
   position: absolute;
-  width: 1018px;
-  top: 653px;
-  left: 455px;
+  width: 923px;
+  top: 645px;
+  left: 502px;
   font-family: "Gotham Rounded-Bold", Helvetica;
   font-weight: 400;
   color: #020101;
@@ -305,25 +304,25 @@
 
 .escuelas-modulares .tipos-de-escuelas {
   position: absolute;
-  width: 473px;
-  top: 785px;
-  left: 724px;
+  width: 429px;
+  top: 765px;
+  left: 746px;
   font-family: "Gotham Rounded-Medium", Helvetica;
   font-weight: 500;
   color: #2c2c2c;
-  font-size: 23px;
+  font-size: 20px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 21.8px;
+  line-height: 19.0px;
   white-space: nowrap;
 }
 
 .escuelas-modulares .border {
   position: absolute;
-  width: 1227px;
-  height: 5px;
-  top: 839px;
-  left: 347px;
+  width: 1113px;
+  height: 4px;
+  top: 814px;
+  left: 404px;
   border-top-width: 1px;
   border-top-style: solid;
   border-bottom-width: 1px;
@@ -354,11 +353,1410 @@
   left: 36px;
 }
 
+.escuelas-modulares .text-wrapper-7 {
+  position: absolute;
+  width: 617px;
+  top: 2605px;
+  left: 652px;
+  font-family: "Gotham Rounded-Light", Helvetica;
+  font-weight: 300;
+  color: #020101;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24.2px;
+}
+
+.escuelas-modulares .group-wrapper {
+  position: absolute;
+  width: 384px;
+  height: 65px;
+  top: 2515px;
+  left: 769px;
+}
+
+.escuelas-modulares .overlap-group-wrapper {
+  width: 386px;
+  height: 65px;
+}
+
+.escuelas-modulares .overlap-group-3 {
+  position: relative;
+  width: 384px;
+  height: 65px;
+  background-color: #eeeeee;
+  border-radius: 36px;
+}
+
+.escuelas-modulares .layer {
+  position: absolute;
+  width: 39px;
+  height: 44px;
+  top: 12px;
+  left: 32px;
+}
+
+.escuelas-modulares .text-wrapper-8 {
+  position: absolute;
+  width: 286px;
+  top: 16px;
+  left: 84px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.0px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .conoce-nuestra {
+  position: absolute;
+  width: 380px;
+  top: 3343px;
+  left: 1005px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 28.6px;
+}
+
+.escuelas-modulares .overlap-wrapper {
+  position: absolute;
+  width: 193px;
+  height: 42px;
+  top: 2348px;
+  left: 865px;
+}
+
+.escuelas-modulares .overlap-3 {
+  position: relative;
+  width: 191px;
+  height: 42px;
+  background-color: #ffffff;
+  border-radius: 33px;
+  border: 2px solid;
+  border-color: #2ead9a;
+}
+
+.escuelas-modulares .text-wrapper-9 {
+  position: absolute;
+  width: 162px;
+  height: 31px;
+  top: 3px;
+  left: 2px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #2ead9a;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .vector-3 {
+  position: absolute;
+  width: 15px;
+  height: 10px;
+  top: 14px;
+  left: 159px;
+}
+
+.escuelas-modulares .rectangle-2 {
+  position: absolute;
+  width: 274px;
+  height: 249px;
+  top: 3333px;
+  left: 696px;
+  object-fit: cover;
+}
+
+.escuelas-modulares .te-compartimos {
+  position: absolute;
+  width: 342px;
+  top: 3437px;
+  left: 1005px;
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.escuelas-modulares .text-wrapper-10 {
+  color: #020101;
+}
+
+.escuelas-modulares .text-wrapper-11 {
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #2ead9a;
+}
+
+.escuelas-modulares .text-wrapper-12 {
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #020101;
+}
+
+.escuelas-modulares .overlap-4 {
+  position: absolute;
+  width: 1918px;
+  height: 598px;
+  top: 2695px;
+  left: 2px;
+  background-image: url(https://c.animaapp.com/qs7oBvhl/img/rectangle-8.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.escuelas-modulares .group-3 {
+  position: absolute;
+  width: 1420px;
+  height: 508px;
+  top: 57px;
+  left: 267px;
+}
+
+.escuelas-modulares .text-wrapper-13 {
+  position: absolute;
+  width: 112px;
+  top: 214px;
+  left: 1278px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .ruta-para-la {
+  position: absolute;
+  width: 425px;
+  top: 0;
+  left: 481px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .text-wrapper-14 {
+  position: absolute;
+  width: 1020px;
+  top: 61px;
+  left: 182px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #221e20;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .div-wrapper {
+  position: absolute;
+  width: 156px;
+  height: 89px;
+  top: 214px;
+  left: 838px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .text-wrapper-15 {
+  position: absolute;
+  width: 138px;
+  top: 9px;
+  left: 9px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.escuelas-modulares .overlap-5 {
+  position: absolute;
+  width: 154px;
+  height: 89px;
+  top: 214px;
+  left: 1053px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .text-wrapper-16 {
+  position: absolute;
+  width: 137px;
+  top: 9px;
+  left: 8px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.escuelas-modulares .text-wrapper-17 {
+  position: absolute;
+  width: 86px;
+  top: 213px;
+  left: 8px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .overlap-6 {
+  position: absolute;
+  width: 147px;
+  height: 83px;
+  top: 114px;
+  left: 158px;
+}
+
+.escuelas-modulares .rectangle-3 {
+  position: absolute;
+  width: 145px;
+  height: 83px;
+  top: 0;
+  left: 2px;
+  background-color: #2ead9a;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .mesa-de-partes-del {
+  position: absolute;
+  width: 147px;
+  top: 20px;
+  left: 0;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.escuelas-modulares .vector-4 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 796px;
+}
+
+.escuelas-modulares .vector-5 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 142px;
+  left: 318px;
+}
+
+.escuelas-modulares .vector-6 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 142px;
+  left: 116px;
+}
+
+.escuelas-modulares .vector-7 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 522px;
+}
+
+.escuelas-modulares .vector-8 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 1007px;
+}
+
+.escuelas-modulares .vector-9 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 1224px;
+}
+
+.escuelas-modulares .gerencia-general-del-wrapper {
+  position: absolute;
+  width: 145px;
+  height: 83px;
+  top: 114px;
+  left: 361px;
+  background-color: #2ead9a;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .gerencia-general-del {
+  position: absolute;
+  width: 127px;
+  top: 19px;
+  left: 9px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.escuelas-modulares .overlap-7 {
+  position: absolute;
+  width: 225px;
+  height: 83px;
+  top: 114px;
+  left: 563px;
+  background-color: #2ead9a;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .text-wrapper-18 {
+  width: 194px;
+  top: 16px;
+  left: 15px;
+  position: absolute;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.escuelas-modulares .overlap-8 {
+  position: absolute;
+  width: 156px;
+  height: 83px;
+  top: 114px;
+  left: 838px;
+  background-color: #2ead9a;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .text-wrapper-19 {
+  width: 138px;
+  height: 52px;
+  top: 17px;
+  left: 9px;
+  position: absolute;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.escuelas-modulares .overlap-9 {
+  position: absolute;
+  width: 225px;
+  height: 72px;
+  top: 214px;
+  left: 563px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .text-wrapper-20 {
+  position: absolute;
+  width: 179px;
+  top: 14px;
+  left: 23px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.escuelas-modulares .overlap-10 {
+  position: absolute;
+  width: 156px;
+  height: 83px;
+  top: 114px;
+  left: 1052px;
+  background-color: #2ead9a;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .text-wrapper-21 {
+  width: 139px;
+  height: 52px;
+  top: 17px;
+  left: 8px;
+  position: absolute;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.escuelas-modulares .documentaci-n-t-wrapper {
+  position: absolute;
+  width: 225px;
+  height: 72px;
+  top: 292px;
+  left: 563px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .documentaci-n-t {
+  position: absolute;
+  width: 179px;
+  top: 12px;
+  left: 23px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.escuelas-modulares .overlap-11 {
+  position: absolute;
+  width: 225px;
+  height: 72px;
+  top: 370px;
+  left: 563px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .text-wrapper-22 {
+  position: absolute;
+  width: 144px;
+  top: 17px;
+  left: 40px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.escuelas-modulares .mask-group-3 {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  top: 103px;
+  left: 0;
+}
+
+.escuelas-modulares .vector-10 {
+  position: absolute;
+  width: 165px;
+  height: 277px;
+  top: 213px;
+  left: 225px;
+}
+
+.escuelas-modulares .vector-11 {
+  position: absolute;
+  width: 202px;
+  height: 172px;
+  top: 318px;
+  left: 938px;
+}
+
+.escuelas-modulares .overlap-12 {
+  position: absolute;
+  width: 519px;
+  height: 36px;
+  top: 472px;
+  left: 405px;
+}
+
+.escuelas-modulares .rectangle-4 {
+  position: absolute;
+  width: 519px;
+  height: 34px;
+  top: 0;
+  left: 0;
+  background-color: #0057a7;
+  border-radius: 14px;
+}
+
+.escuelas-modulares .text-wrapper-23 {
+  position: absolute;
+  width: 441px;
+  top: 6px;
+  left: 44px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 23px;
+}
+
+.escuelas-modulares .MODULO-COSTA-ass {
+  width: 135px;
+  height: 93px;
+  top: 162px;
+  left: 1533px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.escuelas-modulares .ALCALDES-y {
+  position: absolute;
+  width: 307px;
+  height: 287px;
+  top: 3980px;
+  left: 554px;
+  object-fit: cover;
+}
+
+.escuelas-modulares .overlap-13 {
+  position: absolute;
+  width: 468px;
+  height: 43px;
+  top: 3967px;
+  left: 887px;
+}
+
+.escuelas-modulares .rectangle-5 {
+  position: absolute;
+  width: 468px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .text-wrapper-24 {
+  position: absolute;
+  width: 445px;
+  top: 8px;
+  left: 13px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 19.0px;
+}
+
+.escuelas-modulares .el-equipo-t-cnico {
+  position: absolute;
+  width: 445px;
+  top: 4026px;
+  left: 900px;
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.escuelas-modulares .text-wrapper-25 {
+  position: absolute;
+  width: 214px;
+  top: 4153px;
+  left: 964px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .text-wrapper-26 {
+  position: absolute;
+  width: 214px;
+  top: 4212px;
+  left: 964px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .img-2 {
+  position: absolute;
+  width: 73px;
+  height: 73px;
+  top: 4122px;
+  left: 887px;
+}
+
+.escuelas-modulares .elementos-de-la {
+  position: absolute;
+  width: 433px;
+  top: 1877px;
+  left: 744px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .frame {
+  position: absolute;
+  width: 45px;
+  height: 44px;
+  top: 4202px;
+  left: 899px;
+}
+
+.escuelas-modulares .group-4 {
+  position: absolute;
+  width: 1154px;
+  height: 974px;
+  top: 847px;
+  left: 378px;
+}
+
+.escuelas-modulares .overlap-14 {
+  position: absolute;
+  width: 524px;
+  height: 581px;
+  top: 394px;
+  left: 0;
+}
+
+.escuelas-modulares .ellipse-2 {
+  position: absolute;
+  width: 189px;
+  height: 189px;
+  top: 374px;
+  left: 45px;
+  background-color: #ebebeb;
+  border-radius: 94.36px;
+}
+
+.escuelas-modulares .callao {
+  position: absolute;
+  width: 5px;
+  height: 4px;
+  top: 376px;
+  left: 256px;
+}
+
+.escuelas-modulares .vector-12 {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 376px;
+  left: 256px;
+}
+
+.escuelas-modulares .vector-13 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 313px;
+  left: 240px;
+  object-fit: cover;
+}
+
+.escuelas-modulares .vector-14 {
+  position: absolute;
+  width: 97px;
+  height: 61px;
+  top: 317px;
+  left: 120px;
+}
+
+.escuelas-modulares .MODULO-COSTA-sf-ass {
+  width: 278px;
+  height: 191px;
+  top: 360px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.escuelas-modulares .ALTURA-wrapper {
+  position: absolute;
+  width: 213px;
+  height: 60px;
+  top: 11px;
+  left: 24px;
+}
+
+.escuelas-modulares .ALTURA {
+  width: 219px;
+  height: 60px;
+}
+
+.escuelas-modulares .overlap-group-4 {
+  position: relative;
+  width: 213px;
+  height: 60px;
+}
+
+.escuelas-modulares .rectangle-6 {
+  position: absolute;
+  width: 210px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color: #2ead9a;
+  border-radius: 30px;
+}
+
+.escuelas-modulares .text-wrapper-27 {
+  position: absolute;
+  width: 87px;
+  top: 33px;
+  left: 126px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .text-wrapper-28 {
+  position: absolute;
+  width: 67px;
+  top: 7px;
+  left: 62px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .text-wrapper-29 {
+  position: absolute;
+  width: 138px;
+  top: 24px;
+  left: 62px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 32.5px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .vector-15 {
+  position: absolute;
+  width: 44px;
+  height: 46px;
+  top: 7px;
+  left: 8px;
+}
+
+.escuelas-modulares .rectangle-7 {
+  position: absolute;
+  width: 394px;
+  height: 581px;
+  top: 0;
+  left: 130px;
+  object-fit: cover;
+}
+
+.escuelas-modulares .vector-16 {
+  position: absolute;
+  width: 2px;
+  height: 1px;
+  top: 524px;
+  left: 367px;
+}
+
+.escuelas-modulares .vector-17 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 509px;
+  left: 354px;
+}
+
+.escuelas-modulares .vector-18 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 509px;
+  left: 353px;
+}
+
+.escuelas-modulares .vector-19 {
+  position: absolute;
+  width: 124px;
+  height: 37px;
+  top: 508px;
+  left: 233px;
+}
+
+.escuelas-modulares .overlap-15 {
+  position: absolute;
+  width: 326px;
+  height: 43px;
+  top: 468px;
+  left: 564px;
+}
+
+.escuelas-modulares .rectangle-8 {
+  position: absolute;
+  width: 326px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .text-wrapper-30 {
+  position: absolute;
+  width: 284px;
+  top: 7px;
+  left: 24px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 20.9px;
+}
+
+.escuelas-modulares .overlap-16 {
+  position: absolute;
+  width: 575px;
+  height: 294px;
+  top: 521px;
+  left: 564px;
+}
+
+.escuelas-modulares .overlap-17 {
+  position: absolute;
+  width: 575px;
+  height: 294px;
+  top: 0;
+  left: 0;
+}
+
+.escuelas-modulares .rectangle-9 {
+  position: absolute;
+  width: 326px;
+  height: 36px;
+  top: 248px;
+  left: 0;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .dise-o-arquitect {
+  position: absolute;
+  width: 550px;
+  top: 0;
+  left: 25px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.escuelas-modulares .text-wrapper-31 {
+  position: absolute;
+  width: 293px;
+  top: 255px;
+  left: 24px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 20.9px;
+}
+
+.escuelas-modulares .text-wrapper-32 {
+  top: 0;
+  left: 0;
+  color: #2ead9a;
+  position: absolute;
+  width: 16px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.escuelas-modulares .evaluaci-n-de {
+  position: absolute;
+  width: 546px;
+  top: 824px;
+  left: 590px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.escuelas-modulares .text-wrapper-33 {
+  top: 824px;
+  left: 564px;
+  color: #2ead9a;
+  position: absolute;
+  width: 16px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.escuelas-modulares .text-wrapper-34 {
+  position: absolute;
+  width: 230px;
+  top: 416px;
+  left: 564px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffc000;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 33.2px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .group-5 {
+  position: absolute;
+  width: 1121px;
+  height: 309px;
+  top: 0;
+  left: 26px;
+}
+
+.escuelas-modulares .overlap-18 {
+  position: absolute;
+  width: 261px;
+  height: 309px;
+  top: 0;
+  left: 0;
+}
+
+.escuelas-modulares .rectangle-10 {
+  position: absolute;
+  width: 261px;
+  height: 237px;
+  top: 73px;
+  left: 0;
+  background-color: #ffc000;
+  border-radius: 18px;
+}
+
+.escuelas-modulares .escuela-modular-tipo {
+  position: absolute;
+  width: 230px;
+  top: 251px;
+  left: 15px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24.2px;
+}
+
+.escuelas-modulares .rectangle-11 {
+  position: absolute;
+  width: 261px;
+  height: 237px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.escuelas-modulares .overlap-19 {
+  position: absolute;
+  width: 261px;
+  height: 309px;
+  top: 0;
+  left: 285px;
+}
+
+.escuelas-modulares .rectangle-12 {
+  position: absolute;
+  width: 261px;
+  height: 237px;
+  top: 73px;
+  left: 0;
+  background-color: #c0504d;
+  border-radius: 18px;
+}
+
+.escuelas-modulares .overlap-group-5 {
+  position: absolute;
+  width: 261px;
+  height: 309px;
+  top: 0;
+  left: 567px;
+}
+
+.escuelas-modulares .rectangle-13 {
+  position: absolute;
+  width: 261px;
+  height: 237px;
+  top: 73px;
+  left: 0;
+  background-color: #00b050;
+  border-radius: 18px;
+}
+
+.escuelas-modulares .overlap-20 {
+  position: absolute;
+  width: 261px;
+  height: 309px;
+  top: 0;
+  left: 852px;
+}
+
+.escuelas-modulares .rectangle-14 {
+  position: absolute;
+  width: 261px;
+  height: 237px;
+  top: 73px;
+  left: 0;
+  background-color: #558ed5;
+  border-radius: 18px;
+}
+
+.escuelas-modulares .line {
+  position: absolute;
+  width: 1111px;
+  height: 1px;
+  top: 347px;
+  left: 29px;
+}
+
+.escuelas-modulares .line-2 {
+  position: absolute;
+  width: 1px;
+  height: 21px;
+  top: 326px;
+  left: 152px;
+}
+
+.escuelas-modulares .ambientes-pedag {
+  width: 139px;
+  left: 490px;
+  position: absolute;
+  top: 2009px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.escuelas-modulares .cerco-perim-trico {
+  position: absolute;
+  width: 139px;
+  top: 2009px;
+  left: 656px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.escuelas-modulares .losas-multiusos {
+  position: absolute;
+  width: 139px;
+  top: 2009px;
+  left: 816px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.escuelas-modulares .cocina-y-comedor {
+  position: absolute;
+  width: 92px;
+  top: 2009px;
+  left: 998px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.escuelas-modulares .ambientes {
+  width: 157px;
+  left: 1138px;
+  position: absolute;
+  top: 2009px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.escuelas-modulares .text-wrapper-35 {
+  position: absolute;
+  width: 104px;
+  top: 2009px;
+  left: 1325px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.escuelas-modulares .vector-20 {
+  position: absolute;
+  width: 41px;
+  height: 42px;
+  top: 1949px;
+  left: 539px;
+}
+
+.escuelas-modulares .capa {
+  position: absolute;
+  width: 41px;
+  height: 40px;
+  top: 1950px;
+  left: 705px;
+}
+
+.escuelas-modulares .capa-2 {
+  position: absolute;
+  width: 35px;
+  height: 40px;
+  top: 1950px;
+  left: 868px;
+}
+
+.escuelas-modulares .capa-3 {
+  position: absolute;
+  width: 70px;
+  height: 44px;
+  top: 1948px;
+  left: 1009px;
+}
+
+.escuelas-modulares .capa-4 {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 1945px;
+  left: 1192px;
+}
+
+.escuelas-modulares .capa-5 {
+  position: absolute;
+  width: 48px;
+  height: 44px;
+  top: 1948px;
+  left: 1353px;
+}
+
+.escuelas-modulares .group-6 {
+  position: absolute;
+  width: 193px;
+  height: 42px;
+  top: 3523px;
+  left: 1001px;
+}
+
+.escuelas-modulares .vector-21 {
+  position: absolute;
+  width: 15px;
+  height: 10px;
+  top: 14px;
+  left: 151px;
+}
+
+.escuelas-modulares .group-7 {
+  position: absolute;
+  width: 880px;
+  height: 122px;
+  top: 2175px;
+  left: 532px;
+}
+
+.escuelas-modulares .text-wrapper-36 {
+  position: absolute;
+  width: 202px;
+  top: 56px;
+  left: 0;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.escuelas-modulares .text-wrapper-37 {
+  position: absolute;
+  width: 183px;
+  top: 56px;
+  left: 249px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.escuelas-modulares .text-wrapper-38 {
+  position: absolute;
+  width: 177px;
+  top: 56px;
+  left: 484px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.escuelas-modulares .text-wrapper-39 {
+  position: absolute;
+  width: 155px;
+  top: 56px;
+  left: 717px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.escuelas-modulares .group-8 {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 0;
+  left: 77px;
+}
+
+.escuelas-modulares .group-9 {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 2px;
+  left: 318px;
+}
+
+.escuelas-modulares .group-10 {
+  position: absolute;
+  width: 43px;
+  height: 42px;
+  top: 3px;
+  left: 552px;
+}
+
+.escuelas-modulares .capa-6 {
+  position: absolute;
+  width: 54px;
+  height: 44px;
+  top: 2px;
+  left: 768px;
+}
+
 .escuelas-modulares .footer {
   position: absolute;
   width: 1920px;
-  height: 455px;
-  top: 4678px;
+  height: 532px;
+  top: 4323px;
   left: 0;
   background-color: #0057a7;
 }
@@ -423,7 +1821,7 @@
   left: 196px;
 }
 
-.escuelas-modulares .text-wrapper-7 {
+.escuelas-modulares .text-wrapper-40 {
   position: absolute;
   width: 88px;
   height: 28px;
@@ -438,7 +1836,7 @@
   white-space: nowrap;
 }
 
-.escuelas-modulares .text-wrapper-8 {
+.escuelas-modulares .text-wrapper-41 {
   position: absolute;
   width: 309px;
   height: 28px;
@@ -454,2770 +1852,193 @@
   white-space: nowrap;
 }
 
-.escuelas-modulares .list-2 {
-  position: absolute;
-  width: 190px;
-  height: 173px;
-  top: 164px;
-  left: 1415px;
-}
-
-.escuelas-modulares .facebook-wrapper {
-  width: 70px;
-  top: 1px;
-  position: absolute;
-  height: 26px;
-  left: 0;
-}
-
-.escuelas-modulares .facebook {
-  position: absolute;
-  width: 71px;
-  height: 26px;
-  top: -1px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 26.2px;
-  white-space: nowrap;
-}
-
-.escuelas-modulares .div-wrapper {
-  width: 51px;
-  top: 38px;
-  position: absolute;
-  height: 26px;
-  left: 0;
-}
-
-.escuelas-modulares .text-wrapper-9 {
-  position: absolute;
-  width: 51px;
-  height: 26px;
-  top: -1px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 26.2px;
-  white-space: nowrap;
-}
-
-.escuelas-modulares .item-link-2 {
-  width: 72px;
-  top: 74px;
-  position: absolute;
-  height: 26px;
-  left: 0;
-}
-
-.escuelas-modulares .text-wrapper-10 {
-  position: absolute;
-  width: 72px;
-  height: 26px;
-  top: -1px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 26.2px;
-  white-space: nowrap;
-}
-
-.escuelas-modulares .item-link-3 {
-  width: 60px;
-  top: 110px;
-  position: absolute;
-  height: 26px;
-  left: 0;
-}
-
-.escuelas-modulares .text-wrapper-11 {
-  position: absolute;
-  width: 60px;
-  height: 26px;
-  top: -1px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 26.2px;
-  white-space: nowrap;
-}
-
-.escuelas-modulares .item-link-4 {
-  width: 64px;
-  top: 146px;
-  position: absolute;
-  height: 26px;
-  left: 0;
-}
-
-.escuelas-modulares .text-wrapper-12 {
-  position: absolute;
-  width: 65px;
-  height: 26px;
-  top: -1px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 26.2px;
-  white-space: nowrap;
-}
-
-.escuelas-modulares .gestionamos-la {
+.escuelas-modulares .text-wrapper-42 {
   position: absolute;
   width: 508px;
-  height: 235px;
+  height: 91px;
   top: 147px;
-  left: 539px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
+  left: 779px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
   color: #ffffff;
   font-size: 12px;
-  text-align: justify;
+  text-align: center;
   letter-spacing: 0;
   line-height: 20px;
 }
 
-.escuelas-modulares .capa {
+.escuelas-modulares .group-11 {
   position: absolute;
-  width: 137px;
-  height: 45px;
-  top: 67px;
-  left: 790px;
-}
-
-.escuelas-modulares .capa-2 {
-  position: absolute;
-  width: 226px;
+  width: 391px;
   height: 50px;
   top: 64px;
-  left: 536px;
+  left: 811px;
 }
 
-.escuelas-modulares .text-wrapper-13 {
+.escuelas-modulares .vector-wrapper {
   position: absolute;
-  width: 681px;
-  top: 2813px;
-  left: 620px;
-  font-family: "Gotham Rounded-Light", Helvetica;
-  font-weight: 300;
-  color: #020101;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 24.2px;
-}
-
-.escuelas-modulares .group-wrapper {
-  position: absolute;
-  width: 423px;
-  height: 72px;
-  top: 2714px;
-  left: 749px;
-}
-
-.escuelas-modulares .overlap-group-wrapper {
-  width: 425px;
-  height: 72px;
-}
-
-.escuelas-modulares .overlap-group-3 {
-  position: relative;
-  width: 423px;
-  height: 72px;
-  background-color: #eeeeee;
-  border-radius: 36px;
-}
-
-.escuelas-modulares .layer {
-  position: absolute;
-  width: 43px;
-  height: 48px;
-  top: 13px;
-  left: 35px;
-}
-
-.escuelas-modulares .text-wrapper-14 {
-  position: absolute;
-  width: 315px;
-  top: 18px;
-  left: 93px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 35px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 38.5px;
-  white-space: nowrap;
-}
-
-.escuelas-modulares .conoce-nuestra {
-  position: absolute;
-  width: 418px;
-  top: 3627px;
-  left: 1010px;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #242424;
-  font-size: 26px;
-  letter-spacing: 0;
-  line-height: 28.6px;
-}
-
-.escuelas-modulares .overlap-wrapper {
-  position: absolute;
-  width: 212px;
-  height: 46px;
-  top: 2530px;
-  left: 855px;
-}
-
-.escuelas-modulares .overlap-3 {
-  position: relative;
-  width: 210px;
-  height: 46px;
-  background-color: #ffffff;
-  border-radius: 33px;
-  border: 2px solid;
-  border-color: #2ead9a;
-}
-
-.escuelas-modulares .text-wrapper-15 {
-  position: absolute;
-  width: 179px;
-  height: 34px;
-  top: 4px;
-  left: 2px;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #2ead9a;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 33.6px;
-}
-
-.escuelas-modulares .vector-3 {
-  position: absolute;
-  width: 16px;
-  height: 11px;
-  top: 16px;
-  left: 167px;
-}
-
-.escuelas-modulares .rectangle-2 {
-  position: absolute;
-  width: 302px;
-  height: 274px;
-  top: 3616px;
-  left: 669px;
-  object-fit: cover;
-}
-
-.escuelas-modulares .te-compartimos {
-  position: absolute;
-  width: 376px;
-  top: 3730px;
-  left: 1010px;
-  font-family: "Gotham Rounded-Regular", Helvetica;
-  font-weight: 400;
-  color: transparent;
-  font-size: 17px;
-  letter-spacing: 0;
-  line-height: 22.1px;
-}
-
-.escuelas-modulares .text-wrapper-16 {
-  color: #020101;
-}
-
-.escuelas-modulares .text-wrapper-17 {
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #2ead9a;
-}
-
-.escuelas-modulares .text-wrapper-18 {
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #020101;
-}
-
-.escuelas-modulares .overlap-4 {
-  position: absolute;
-  width: 1920px;
-  height: 660px;
-  top: 2912px;
-  left: 1px;
-}
-
-.escuelas-modulares .group-3 {
-  position: absolute;
-  width: 1920px;
-  height: 660px;
-  top: 0;
-  left: 0;
-  background-image: url(https://c.animaapp.com/8EzCpDK8/img/rectangle-8.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.escuelas-modulares .group-4 {
-  position: relative;
-  width: 1562px;
-  height: 560px;
-  top: 63px;
-  left: 197px;
-}
-
-.escuelas-modulares .text-wrapper-19 {
-  position: absolute;
-  width: 123px;
-  top: 236px;
-  left: 1409px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 17px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 22.1px;
-  white-space: nowrap;
-}
-
-.escuelas-modulares .ruta-para-la {
-  position: absolute;
-  width: 468px;
-  top: 0;
-  left: 530px;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #242424;
-  font-size: 26px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 24.7px;
-  white-space: nowrap;
-}
-
-.escuelas-modulares .text-wrapper-20 {
-  position: absolute;
-  width: 1124px;
-  top: 67px;
-  left: 201px;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #221e20;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 26.0px;
-  white-space: nowrap;
-}
-
-.escuelas-modulares .overlap-5 {
-  position: absolute;
-  width: 172px;
-  height: 98px;
-  top: 236px;
-  left: 924px;
-  background-color: #e6e6e6;
-  border-radius: 15px;
-}
-
-.escuelas-modulares .text-wrapper-21 {
-  position: absolute;
-  width: 152px;
-  top: 10px;
-  left: 10px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 15px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 19.5px;
-}
-
-.escuelas-modulares .overlap-6 {
-  position: absolute;
-  width: 170px;
-  height: 98px;
-  top: 236px;
-  left: 1161px;
-  background-color: #e6e6e6;
-  border-radius: 15px;
-}
-
-.escuelas-modulares .text-wrapper-22 {
-  position: absolute;
-  width: 151px;
-  top: 10px;
-  left: 9px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 15px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 19.5px;
-}
-
-.escuelas-modulares .text-wrapper-23 {
-  position: absolute;
-  width: 95px;
-  top: 235px;
-  left: 9px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 17px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 22.1px;
-  white-space: nowrap;
-}
-
-.escuelas-modulares .overlap-7 {
-  position: absolute;
-  width: 162px;
-  height: 92px;
-  top: 126px;
-  left: 174px;
-}
-
-.escuelas-modulares .rectangle-3 {
-  position: absolute;
-  width: 160px;
-  height: 92px;
-  top: 0;
-  left: 2px;
-  background-color: #2ead9a;
-  border-radius: 15px;
-}
-
-.escuelas-modulares .mesa-de-partes-del {
-  position: absolute;
-  width: 162px;
-  top: 22px;
-  left: 0;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 15px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 14.2px;
-}
-
-.escuelas-modulares .vector-4 {
-  position: absolute;
-  width: 32px;
-  height: 30px;
-  top: 161px;
-  left: 877px;
-}
-
-.escuelas-modulares .vector-5 {
-  position: absolute;
-  width: 32px;
-  height: 30px;
-  top: 157px;
-  left: 350px;
-}
-
-.escuelas-modulares .vector-6 {
-  position: absolute;
-  width: 32px;
-  height: 30px;
-  top: 156px;
-  left: 128px;
-}
-
-.escuelas-modulares .vector-7 {
-  position: absolute;
-  width: 32px;
-  height: 30px;
-  top: 161px;
-  left: 575px;
-}
-
-.escuelas-modulares .vector-8 {
-  position: absolute;
-  width: 32px;
-  height: 30px;
-  top: 161px;
-  left: 1110px;
-}
-
-.escuelas-modulares .vector-9 {
-  position: absolute;
-  width: 32px;
-  height: 30px;
-  top: 161px;
-  left: 1349px;
-}
-
-.escuelas-modulares .gerencia-general-del-wrapper {
-  position: absolute;
-  width: 160px;
-  height: 92px;
-  top: 126px;
-  left: 398px;
-  background-color: #2ead9a;
-  border-radius: 15px;
-}
-
-.escuelas-modulares .gerencia-general-del {
-  position: absolute;
-  width: 140px;
-  top: 21px;
-  left: 10px;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 15px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 14.2px;
-}
-
-.escuelas-modulares .overlap-8 {
-  position: absolute;
-  width: 248px;
-  height: 92px;
-  top: 126px;
-  left: 620px;
-  background-color: #2ead9a;
-  border-radius: 15px;
-}
-
-.escuelas-modulares .text-wrapper-24 {
-  width: 214px;
-  top: 18px;
-  left: 16px;
-  position: absolute;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 15px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 14.2px;
-}
-
-.escuelas-modulares .overlap-9 {
-  position: absolute;
-  width: 172px;
-  height: 92px;
-  top: 126px;
-  left: 924px;
-  background-color: #2ead9a;
-  border-radius: 15px;
-}
-
-.escuelas-modulares .text-wrapper-25 {
-  width: 152px;
-  height: 57px;
-  top: 19px;
-  left: 10px;
-  position: absolute;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 15px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 14.2px;
-}
-
-.escuelas-modulares .overlap-10 {
-  position: absolute;
-  width: 248px;
-  height: 79px;
-  top: 236px;
-  left: 620px;
-  background-color: #e6e6e6;
-  border-radius: 15px;
-}
-
-.escuelas-modulares .text-wrapper-26 {
-  position: absolute;
-  width: 197px;
-  top: 15px;
-  left: 25px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 15px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 19.5px;
-}
-
-.escuelas-modulares .overlap-group-4 {
-  position: absolute;
-  width: 172px;
-  height: 92px;
-  top: 126px;
-  left: 1160px;
-  background-color: #2ead9a;
-  border-radius: 15px;
-}
-
-.escuelas-modulares .text-wrapper-27 {
-  width: 153px;
-  height: 57px;
-  top: 19px;
-  left: 9px;
-  position: absolute;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 15px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 14.2px;
-}
-
-.escuelas-modulares .documentaci-n-t-wrapper {
-  position: absolute;
-  width: 248px;
-  height: 79px;
-  top: 322px;
-  left: 620px;
-  background-color: #e6e6e6;
-  border-radius: 15px;
-}
-
-.escuelas-modulares .documentaci-n-t {
-  position: absolute;
-  width: 197px;
-  top: 13px;
-  left: 25px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 15px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 19.5px;
-}
-
-.escuelas-modulares .overlap-11 {
-  position: absolute;
-  width: 248px;
-  height: 79px;
-  top: 408px;
-  left: 620px;
-  background-color: #e6e6e6;
-  border-radius: 15px;
-}
-
-.escuelas-modulares .text-wrapper-28 {
-  position: absolute;
-  width: 159px;
-  top: 19px;
-  left: 44px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 15px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 19.5px;
-}
-
-.escuelas-modulares .mask-group-3 {
-  position: absolute;
-  width: 112px;
-  height: 112px;
-  top: 114px;
-  left: 0;
-}
-
-.escuelas-modulares .vector-10 {
-  position: absolute;
-  width: 182px;
-  height: 305px;
-  top: 235px;
-  left: 248px;
-}
-
-.escuelas-modulares .vector-11 {
-  position: absolute;
-  width: 223px;
-  height: 190px;
-  top: 350px;
-  left: 1034px;
-}
-
-.escuelas-modulares .overlap-12 {
-  position: absolute;
-  width: 572px;
-  height: 40px;
-  top: 520px;
-  left: 446px;
-}
-
-.escuelas-modulares .rectangle-4 {
-  position: absolute;
-  width: 572px;
+  width: 38px;
   height: 38px;
-  top: 0;
-  left: 0;
-  background-color: #0057a7;
-  border-radius: 14px;
+  top: 283px;
+  left: 1060px;
+  background-image: url(https://c.animaapp.com/qs7oBvhl/img/vector-17.svg);
+  background-size: 100% 100%;
 }
 
-.escuelas-modulares .text-wrapper-29 {
+.escuelas-modulares .vector-22 {
   position: absolute;
-  width: 486px;
-  top: 7px;
-  left: 48px;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 28px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 28px;
-  white-space: nowrap;
+  width: 26px;
+  height: 18px;
+  top: 10px;
+  left: 6px;
 }
 
-.escuelas-modulares .MODULO-COSTA-ass {
-  width: 135px;
-  height: 93px;
-  top: 194px;
-  left: 1594px;
+.escuelas-modulares .overlap-21 {
   position: absolute;
-  object-fit: cover;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 1107px;
+  background-image: url(https://c.animaapp.com/qs7oBvhl/img/vector-19.svg);
+  background-size: 100% 100%;
 }
 
-.escuelas-modulares .ALCALDES-y {
+.escuelas-modulares .vector-23 {
   position: absolute;
-  width: 338px;
-  height: 316px;
-  top: 4329px;
-  left: 513px;
-  object-fit: cover;
-}
-
-.escuelas-modulares .overlap-13 {
-  position: absolute;
-  width: 516px;
-  height: 46px;
-  top: 4314px;
-  left: 879px;
-}
-
-.escuelas-modulares .rectangle-5 {
-  position: absolute;
-  width: 516px;
-  height: 40px;
-  top: 0;
-  left: 0;
-  background-color: #ffc000;
-  border-radius: 15px;
-}
-
-.escuelas-modulares .text-wrapper-30 {
-  position: absolute;
-  width: 490px;
-  top: 7px;
-  left: 15px;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 25px;
-  letter-spacing: 0;
-  line-height: 23.7px;
-}
-
-.escuelas-modulares .el-equipo-t-cnico {
-  position: absolute;
-  width: 490px;
-  top: 4380px;
-  left: 894px;
-  font-family: "Gotham Rounded-Regular", Helvetica;
-  font-weight: 400;
-  color: transparent;
-  font-size: 17px;
-  text-align: justify;
-  letter-spacing: 0;
-  line-height: 22.1px;
-}
-
-.escuelas-modulares .text-wrapper-31 {
-  position: absolute;
-  width: 236px;
-  top: 4519px;
-  left: 964px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 17px;
-  text-align: justify;
-  letter-spacing: 0;
-  line-height: 22.1px;
-  white-space: nowrap;
-}
-
-.escuelas-modulares .text-wrapper-32 {
-  position: absolute;
-  width: 236px;
-  top: 4585px;
-  left: 964px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 17px;
-  text-align: justify;
-  letter-spacing: 0;
-  line-height: 22.1px;
-  white-space: nowrap;
-}
-
-.escuelas-modulares .img-2 {
-  position: absolute;
-  width: 81px;
-  height: 81px;
-  top: 4485px;
-  left: 879px;
-}
-
-.escuelas-modulares .elementos-de-la {
-  position: absolute;
-  width: 477px;
-  top: 2011px;
-  left: 722px;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #242424;
-  font-size: 23px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 21.8px;
-  white-space: nowrap;
-}
-
-.escuelas-modulares .frame {
-  position: absolute;
-  width: 49px;
-  height: 49px;
-  top: 4573px;
-  left: 893px;
-}
-
-.escuelas-modulares .group-5 {
-  position: absolute;
-  width: 1270px;
-  height: 1074px;
-  top: 875px;
-  left: 318px;
-}
-
-.escuelas-modulares .overlap-14 {
-  position: absolute;
-  width: 577px;
-  height: 640px;
-  top: 434px;
-  left: 0;
-}
-
-.escuelas-modulares .ellipse-2 {
-  position: absolute;
-  width: 208px;
-  height: 208px;
-  top: 412px;
-  left: 50px;
-  background-color: #ebebeb;
-  border-radius: 104px;
-}
-
-.escuelas-modulares .callao {
-  position: absolute;
-  width: 5px;
-  height: 4px;
-  top: 414px;
-  left: 283px;
-}
-
-.escuelas-modulares .vector-12 {
-  position: absolute;
-  width: 5px;
-  height: 4px;
-  top: 414px;
-  left: 282px;
-}
-
-.escuelas-modulares .vector-13 {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  top: 345px;
-  left: 264px;
-  object-fit: cover;
-}
-
-.escuelas-modulares .vector-14 {
-  position: absolute;
-  width: 107px;
-  height: 67px;
-  top: 349px;
-  left: 132px;
-}
-
-.escuelas-modulares .MODULO-COSTA-sf-ass {
-  width: 307px;
-  height: 210px;
-  top: 397px;
-  left: 0;
-  position: absolute;
-  object-fit: cover;
-}
-
-.escuelas-modulares .ALTURA-wrapper {
-  position: absolute;
-  width: 235px;
-  height: 66px;
-  top: 12px;
-  left: 27px;
-}
-
-.escuelas-modulares .ALTURA {
-  width: 241px;
-  height: 66px;
-}
-
-.escuelas-modulares .overlap-group-5 {
-  position: relative;
-  width: 235px;
-  height: 66px;
-}
-
-.escuelas-modulares .rectangle-6 {
-  position: absolute;
-  width: 232px;
-  height: 66px;
-  top: 0;
-  left: 0;
-  background-color: #2ead9a;
-  border-radius: 30px;
-}
-
-.escuelas-modulares .text-wrapper-33 {
-  position: absolute;
-  width: 96px;
-  top: 36px;
-  left: 139px;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 20.8px;
-  white-space: nowrap;
-}
-
-.escuelas-modulares .text-wrapper-34 {
-  position: absolute;
-  width: 74px;
-  top: 8px;
-  left: 68px;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: 23.4px;
-  white-space: nowrap;
-}
-
-.escuelas-modulares .text-wrapper-35 {
-  position: absolute;
-  width: 152px;
-  top: 27px;
-  left: 68px;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 25px;
-  letter-spacing: 0;
-  line-height: 32.5px;
-}
-
-.escuelas-modulares .vector-15 {
-  position: absolute;
-  width: 49px;
-  height: 51px;
-  top: 8px;
+  width: 20px;
+  height: 20px;
+  top: 9px;
   left: 9px;
 }
 
-.escuelas-modulares .rectangle-7 {
+.escuelas-modulares .vector-24 {
   position: absolute;
-  width: 434px;
-  height: 640px;
-  top: 0;
-  left: 143px;
-  object-fit: cover;
+  width: 10px;
+  height: 10px;
+  top: 14px;
+  left: 14px;
 }
 
-.escuelas-modulares .vector-16 {
+.escuelas-modulares .vector-25 {
   position: absolute;
-  width: 2px;
-  height: 1px;
-  top: 577px;
-  left: 405px;
+  width: 3px;
+  height: 3px;
+  top: 12px;
+  left: 24px;
 }
 
-.escuelas-modulares .vector-17 {
+.escuelas-modulares .overlap-22 {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  top: 561px;
-  left: 390px;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 1012px;
+  background-image: url(https://c.animaapp.com/qs7oBvhl/img/vector-20.svg);
+  background-size: 100% 100%;
 }
 
-.escuelas-modulares .vector-18 {
+.escuelas-modulares .vector-26 {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  top: 561px;
-  left: 389px;
-}
-
-.escuelas-modulares .vector-19 {
-  position: absolute;
-  width: 137px;
-  height: 41px;
-  top: 560px;
-  left: 257px;
-}
-
-.escuelas-modulares .overlap-15 {
-  position: absolute;
-  width: 359px;
-  height: 47px;
-  top: 516px;
-  left: 622px;
-}
-
-.escuelas-modulares .rectangle-8 {
-  position: absolute;
-  width: 359px;
-  height: 40px;
-  top: 0;
-  left: 0;
-  background-color: #ffc000;
-  border-radius: 15px;
-}
-
-.escuelas-modulares .text-wrapper-36 {
-  position: absolute;
-  width: 313px;
-  top: 8px;
-  left: 26px;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 25px;
-  letter-spacing: 0;
-  line-height: 23.7px;
-}
-
-.escuelas-modulares .overlap-16 {
-  position: absolute;
-  width: 634px;
-  height: 324px;
-  top: 574px;
-  left: 622px;
-}
-
-.escuelas-modulares .overlap-17 {
-  position: absolute;
-  width: 634px;
-  height: 324px;
-  top: 0;
-  left: 0;
-}
-
-.escuelas-modulares .rectangle-9 {
-  position: absolute;
-  width: 359px;
-  height: 40px;
-  top: 273px;
-  left: 0;
-  background-color: #ffc000;
-  border-radius: 15px;
-}
-
-.escuelas-modulares .dise-o-arquitect {
-  position: absolute;
-  width: 606px;
-  top: 0;
-  left: 28px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 17px;
-  text-align: justify;
-  letter-spacing: 0;
-  line-height: 22.1px;
-}
-
-.escuelas-modulares .text-wrapper-37 {
-  position: absolute;
-  width: 323px;
-  top: 281px;
-  left: 26px;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 25px;
-  letter-spacing: 0;
-  line-height: 23.7px;
-}
-
-.escuelas-modulares .text-wrapper-38 {
-  top: 0;
-  left: 0;
-  color: #2ead9a;
-  position: absolute;
-  width: 18px;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  font-size: 17px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 22.1px;
-}
-
-.escuelas-modulares .evaluaci-n-de {
-  position: absolute;
-  width: 602px;
-  top: 908px;
-  left: 650px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 17px;
-  text-align: justify;
-  letter-spacing: 0;
-  line-height: 22.1px;
-}
-
-.escuelas-modulares .text-wrapper-39 {
-  top: 908px;
-  left: 622px;
-  color: #2ead9a;
-  position: absolute;
-  width: 18px;
-  font-family: "Gotham Rounded-Bold", Helvetica;
-  font-weight: 700;
-  font-size: 17px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 22.1px;
-}
-
-.escuelas-modulares .text-wrapper-40 {
-  position: absolute;
-  width: 254px;
-  top: 459px;
-  left: 622px;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffc000;
-  font-size: 35px;
-  letter-spacing: 0;
-  line-height: 33.2px;
-  white-space: nowrap;
-}
-
-.escuelas-modulares .group-6 {
-  position: absolute;
-  width: 1235px;
-  height: 341px;
-  top: 0;
-  left: 29px;
-}
-
-.escuelas-modulares .overlap-18 {
-  position: absolute;
-  width: 288px;
-  height: 341px;
-  top: 0;
-  left: 0;
-}
-
-.escuelas-modulares .rectangle-10 {
-  position: absolute;
-  width: 288px;
-  height: 261px;
-  top: 80px;
-  left: 0;
-  background-color: #ffc000;
-  border-radius: 18px;
-}
-
-.escuelas-modulares .escuela-modular-tipo {
-  position: absolute;
-  width: 254px;
-  top: 277px;
-  left: 17px;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 24.2px;
-}
-
-.escuelas-modulares .rectangle-11 {
-  position: absolute;
-  width: 288px;
-  height: 261px;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-}
-
-.escuelas-modulares .overlap-19 {
-  position: absolute;
-  width: 288px;
-  height: 341px;
-  top: 0;
-  left: 314px;
-}
-
-.escuelas-modulares .rectangle-12 {
-  position: absolute;
-  width: 288px;
-  height: 261px;
-  top: 80px;
-  left: 0;
-  background-color: #c0504d;
-  border-radius: 18px;
-}
-
-.escuelas-modulares .escuela-modular-tipo-2 {
-  position: absolute;
-  width: 254px;
-  top: 277px;
+  width: 15px;
+  height: 16px;
+  top: 14px;
   left: 16px;
-  font-family: "Gotham Rounded-Medium", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 24.2px;
 }
 
-.escuelas-modulares .overlap-20 {
+.escuelas-modulares .vector-27 {
   position: absolute;
-  width: 288px;
-  height: 341px;
-  top: 0;
-  left: 625px;
+  width: 5px;
+  height: 15px;
+  top: 15px;
+  left: 8px;
 }
 
-.escuelas-modulares .rectangle-13 {
+.escuelas-modulares .vector-28 {
   position: absolute;
-  width: 288px;
-  height: 261px;
-  top: 80px;
-  left: 0;
-  background-color: #00b050;
-  border-radius: 18px;
+  width: 5px;
+  height: 5px;
+  top: 7px;
+  left: 8px;
 }
 
-.escuelas-modulares .overlap-group-6 {
-  position: absolute;
-  width: 288px;
-  height: 341px;
-  top: 0;
-  left: 939px;
-}
-
-.escuelas-modulares .rectangle-14 {
-  position: absolute;
-  width: 288px;
-  height: 261px;
-  top: 80px;
-  left: 0;
-  background-color: #558ed5;
-  border-radius: 18px;
-}
-
-.escuelas-modulares .line {
-  position: absolute;
-  width: 1224px;
-  height: 1px;
-  top: 382px;
-  left: 32px;
-}
-
-.escuelas-modulares .line-2 {
-  position: absolute;
-  width: 1px;
-  height: 23px;
-  top: 359px;
-  left: 167px;
-}
-
-.escuelas-modulares .ambientes-pedag {
-  width: 153px;
-  left: 442px;
-  position: absolute;
-  top: 2156px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 24.2px;
-}
-
-.escuelas-modulares .cerco-perim-trico {
-  position: absolute;
-  width: 153px;
-  top: 2156px;
-  left: 625px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 24.2px;
-}
-
-.escuelas-modulares .losas-multiusos {
-  position: absolute;
-  width: 153px;
-  top: 2156px;
-  left: 801px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 24.2px;
-}
-
-.escuelas-modulares .cocina-y-comedor {
-  position: absolute;
-  width: 101px;
-  top: 2156px;
-  left: 1002px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 24.2px;
-}
-
-.escuelas-modulares .ambientes {
-  width: 173px;
-  left: 1156px;
-  position: absolute;
-  top: 2156px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 24.2px;
-}
-
-.escuelas-modulares .text-wrapper-41 {
-  position: absolute;
-  width: 115px;
-  top: 2156px;
-  left: 1362px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 24.2px;
-}
-
-.escuelas-modulares .vector-20 {
-  position: absolute;
-  width: 45px;
-  height: 46px;
-  top: 2090px;
-  left: 496px;
-}
-
-.escuelas-modulares .capa-3 {
-  position: absolute;
-  width: 45px;
-  height: 44px;
-  top: 2091px;
-  left: 679px;
-}
-
-.escuelas-modulares .capa-4 {
+.escuelas-modulares .img-wrapper {
   position: absolute;
   width: 39px;
-  height: 44px;
-  top: 2091px;
-  left: 858px;
+  height: 38px;
+  top: 283px;
+  left: 921px;
+  background-image: url(https://c.animaapp.com/qs7oBvhl/img/vector-24.svg);
+  background-size: 100% 100%;
 }
 
-.escuelas-modulares .capa-5 {
+.escuelas-modulares .vector-29 {
   position: absolute;
-  width: 77px;
-  height: 48px;
-  top: 2089px;
-  left: 1014px;
+  width: 16px;
+  height: 31px;
+  top: 8px;
+  left: 11px;
 }
 
-.escuelas-modulares .capa-6 {
+.escuelas-modulares .overlap-23 {
   position: absolute;
-  width: 54px;
-  height: 54px;
-  top: 2086px;
-  left: 1216px;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 965px;
+  background-image: url(https://c.animaapp.com/qs7oBvhl/img/vector-29.svg);
+  background-size: 100% 100%;
 }
 
-.escuelas-modulares .capa-7 {
+.escuelas-modulares .vector-30 {
   position: absolute;
-  width: 53px;
-  height: 49px;
-  top: 2089px;
-  left: 1393px;
+  width: 23px;
+  height: 21px;
+  top: 9px;
+  left: 8px;
 }
 
-.escuelas-modulares .group-7 {
+.escuelas-modulares .vector-31 {
   position: absolute;
-  width: 212px;
-  height: 46px;
-  top: 3825px;
-  left: 1005px;
+  width: 9px;
+  height: 9px;
+  top: 9px;
+  left: 21px;
 }
 
-.escuelas-modulares .group-8 {
+.escuelas-modulares .vector-32 {
   position: absolute;
-  width: 969px;
-  height: 135px;
-  top: 2339px;
-  left: 488px;
-}
-
-.escuelas-modulares .text-wrapper-42 {
-  position: absolute;
-  width: 223px;
-  top: 62px;
-  left: 0;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 24.2px;
+  width: 10px;
+  height: 9px;
+  top: 20px;
+  left: 9px;
 }
 
 .escuelas-modulares .text-wrapper-43 {
   position: absolute;
-  width: 202px;
-  top: 62px;
-  left: 274px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 22px;
+  height: 27px;
+  top: 245px;
+  left: 952px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 24.2px;
+  line-height: 26.2px;
+  white-space: nowrap;
 }
 
 .escuelas-modulares .text-wrapper-44 {
   position: absolute;
-  width: 195px;
-  top: 62px;
-  left: 534px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 22px;
+  height: 27px;
+  top: 336px;
+  left: 922px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 24.2px;
-}
-
-.escuelas-modulares .text-wrapper-45 {
-  position: absolute;
-  width: 171px;
-  top: 62px;
-  left: 790px;
-  font-family: "Gotham Rounded-Book", Helvetica;
-  font-weight: 400;
-  color: #020101;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 24.2px;
-}
-
-.escuelas-modulares .group-9 {
-  position: absolute;
-  width: 52px;
-  height: 52px;
-  top: 0;
-  left: 85px;
-}
-
-.escuelas-modulares .group-10 {
-  position: absolute;
-  width: 49px;
-  height: 49px;
-  top: 2px;
-  left: 350px;
-}
-
-.escuelas-modulares .group-11 {
-  position: absolute;
-  width: 47px;
-  height: 46px;
-  top: 3px;
-  left: 608px;
-}
-
-.escuelas-modulares .capa-8 {
-  position: absolute;
-  width: 60px;
-  height: 49px;
-  top: 2px;
-  left: 846px;
-}
-
-@media screen and (max-width: 768px) {
-  .desktop-design {
-    display: none !important;
-  }
-
-  .mobile-design {
-    display: block !important;
-  }
-
-  .responsive-aulas {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .responsive-aulas .div {
-    background-color: #ffffff;
-    overflow-x: hidden;
-    width: 440px;
-    height: 5808px;
-    position: relative;
-  }
-
-  .responsive-aulas .overlap {
-    position: absolute;
-    width: 440px;
-    height: 350px;
-    top: 170px;
-    left: 0;
-    background-image: url(https://c.animaapp.com/Aj3Rr3p9/img/rectangle-24@2x.png);
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-
-  .responsive-aulas .overlap-group {
-    position: absolute;
-    width: 376px;
-    height: 30px;
-    top: 29px;
-    left: 42px;
-  }
-
-  .responsive-aulas .cat-logo-pronied {
-    position: absolute;
-    width: 376px;
-    height: 30px;
-    top: 0;
-    left: 0;
-    font-family: "Gotham Rounded-Book", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 16px;
-  }
-
-  .responsive-aulas .modo-de-aislamiento {
-    position: absolute;
-    width: 8px;
-    height: 13px;
-    top: 10px;
-    left: 156px;
-  }
-
-  .responsive-aulas .group {
-    position: absolute;
-    width: 265px;
-    height: 69px;
-    top: 92px;
-    left: 79px;
-  }
-
-  .responsive-aulas .text-wrapper {
-    width: 184px;
-    top: 3px;
-    font-size: 35px;
-    line-height: 33.2px;
-    position: absolute;
-    left: 79px;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    letter-spacing: 0;
-  }
-
-  .responsive-aulas .AULA-MODULAR-wrapper {
-    position: absolute;
-    width: 69px;
-    height: 69px;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-    border-radius: 34.5px;
-  }
-
-  .responsive-aulas .AULA-MODULAR {
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    top: 16px;
-    left: 17px;
-    object-fit: cover;
-  }
-
-  .responsive-aulas .p {
-    width: 280px;
-    top: 196px;
-    font-size: 15px;
-    line-height: 19.5px;
-    position: absolute;
-    left: 79px;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    letter-spacing: 0;
-  }
-
-  .responsive-aulas .rectangle {
-    position: absolute;
-    width: 444px;
-    height: 170px;
-    top: 0;
-    left: -4px;
-    object-fit: cover;
-  }
-
-  .responsive-aulas .estas-aulas-est-n {
-    position: absolute;
-    width: 323px;
-    top: 553px;
-    left: 65px;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 400;
-    color: #020101;
-    font-size: 15px;
-    text-align: justify;
-    letter-spacing: 0;
-    line-height: 19.5px;
-  }
-
-  .responsive-aulas .span {
-    font-weight: 700;
-  }
-
-  .responsive-aulas .text-wrapper-2 {
-    font-family: "Gotham Rounded-Regular", Helvetica;
-  }
-
-  .responsive-aulas .tipos-de-aulas {
-    position: absolute;
-    width: 439px;
-    top: 769px;
-    left: 1px;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #2c2c2c;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 17.1px;
-  }
-
-  .responsive-aulas .div-wrapper {
-    position: absolute;
-    width: 358px;
-    height: 62px;
-    top: 811px;
-    left: 42px;
-    background-color: #ffc000;
-    border-radius: 12px;
-  }
-
-  .responsive-aulas .text-wrapper-3 {
-    position: absolute;
-    width: 318px;
-    top: 18px;
-    left: 20px;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 24px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 22.8px;
-    white-space: nowrap;
-  }
-
-  .responsive-aulas .overlap-2 {
-    position: absolute;
-    width: 358px;
-    height: 62px;
-    top: 885px;
-    left: 42px;
-    background-color: #c0504d;
-    border-radius: 12px;
-  }
-
-  .responsive-aulas .overlap-3 {
-    position: absolute;
-    width: 358px;
-    height: 62px;
-    top: 959px;
-    left: 42px;
-    background-color: #00b050;
-    border-radius: 12px;
-  }
-
-  .responsive-aulas .overlap-4 {
-    position: absolute;
-    width: 358px;
-    height: 62px;
-    top: 1033px;
-    left: 42px;
-    background-color: #558ed5;
-    border-radius: 12px;
-  }
-
-  .responsive-aulas .overlap-5 {
-    position: absolute;
-    width: 440px;
-    height: 541px;
-    top: 5267px;
-    left: 0;
-  }
-
-  .responsive-aulas .footer {
-    position: absolute;
-    width: 440px;
-    height: 541px;
-    top: 0;
-    left: 0;
-    background-color: #0057a7;
-  }
-
-  .responsive-aulas .text-wrapper-4 {
-    position: absolute;
-    width: 309px;
-    height: 28px;
-    top: 456px;
-    left: 39px;
-    font-family: "Inter", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 16px;
-    text-align: right;
-    letter-spacing: 0;
-    line-height: 28px;
-    white-space: nowrap;
-    cursor: pointer;
-  }
-
-  .responsive-aulas .gestionamos-la {
-    position: absolute;
-    width: 324px;
-    height: 255px;
-    top: 182px;
-    left: 61px;
-    font-family: "Gotham Rounded-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 12px;
-    text-align: justify;
-    letter-spacing: 0;
-    line-height: 18px;
-  }
-
-  .responsive-aulas .capa {
-    position: absolute;
-    width: 137px;
-    height: 45px;
-    top: 104px;
-    left: 151px;
-  }
-
-  .responsive-aulas .images {
-    position: absolute;
-    width: 195px;
-    height: 42px;
-    top: 36px;
-    left: 123px;
-    object-fit: cover;
-  }
-
-  .responsive-aulas .img {
-    position: absolute;
-    width: 302px;
-    height: 274px;
-    top: 3243px;
-    left: 74px;
-    object-fit: cover;
-  }
-
-  .responsive-aulas .overlap-6 {
-    position: absolute;
-    width: 359px;
-    height: 45px;
-    top: 1852px;
-    left: 41px;
-  }
-
-  .responsive-aulas .rectangle-2 {
-    position: absolute;
-    width: 359px;
-    height: 40px;
-    top: 0;
-    left: 0;
-    background-color: #ffc000;
-    border-radius: 15px;
-  }
-
-  .responsive-aulas .text-wrapper-5 {
-    position: absolute;
-    width: 313px;
-    top: 6px;
-    left: 26px;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 25px;
-    letter-spacing: 0;
-    line-height: 23.7px;
-  }
-
-  .responsive-aulas .overlap-7 {
-    position: absolute;
-    width: 359px;
-    height: 333px;
-    top: 1914px;
-    left: 41px;
-  }
-
-  .responsive-aulas .overlap-8 {
-    position: absolute;
-    width: 359px;
-    height: 333px;
-    top: 0;
-    left: 0;
-  }
-
-  .responsive-aulas .rectangle-3 {
-    position: absolute;
-    width: 359px;
-    height: 40px;
-    top: 287px;
-    left: 0;
-    background-color: #ffc000;
-    border-radius: 15px;
-  }
-
-  .responsive-aulas .m-dulo-prefabricado {
-    position: absolute;
-    width: 331px;
-    top: 0;
-    left: 28px;
-    font-family: "Gotham Rounded-Book", Helvetica;
-    font-weight: 400;
-    color: #020101;
-    font-size: 17px;
-    text-align: justify;
-    letter-spacing: 0;
-    line-height: 22.1px;
-  }
-
-  .responsive-aulas .text-wrapper-6 {
-    position: absolute;
-    width: 323px;
-    top: 294px;
-    left: 26px;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 25px;
-    letter-spacing: 0;
-    line-height: 23.7px;
-  }
-
-  .responsive-aulas .vector {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    top: 165px;
-    left: 155px;
-    object-fit: cover;
-  }
-
-  .responsive-aulas .vector-2 {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    top: 74px;
-    left: 125px;
-    object-fit: cover;
-  }
-
-  .responsive-aulas .text-wrapper-7 {
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 18px;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #7d4393;
-    font-size: 17px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 22.1px;
-  }
-
-  .responsive-aulas .evaluaci-n-de {
-    position: absolute;
-    width: 327px;
-    top: 2261px;
-    left: 69px;
-    font-family: "Gotham Rounded-Book", Helvetica;
-    font-weight: 400;
-    color: #020101;
-    font-size: 17px;
-    text-align: justify;
-    letter-spacing: 0;
-    line-height: 22.1px;
-  }
-
-  .responsive-aulas .text-wrapper-8 {
-    top: 2261px;
-    left: 41px;
-    position: absolute;
-    width: 18px;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #7d4393;
-    font-size: 17px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 22.1px;
-  }
-
-  .responsive-aulas .text-wrapper-9 {
-    position: absolute;
-    width: 254px;
-    top: 1135px;
-    left: 93px;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffc000;
-    font-size: 35px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 33.2px;
-    white-space: nowrap;
-  }
-
-  .responsive-aulas .overlap-9 {
-    position: absolute;
-    width: 355px;
-    height: 624px;
-    top: 1187px;
-    left: 33px;
-  }
-
-  .responsive-aulas .overlap-wrapper {
-    position: absolute;
-    width: 191px;
-    height: 160px;
-    top: 464px;
-    left: 0;
-  }
-
-  .responsive-aulas .overlap-10 {
-    position: relative;
-    height: 160px;
-  }
-
-  .responsive-aulas .ellipse {
-    position: absolute;
-    width: 112px;
-    height: 111px;
-    top: 41px;
-    left: 40px;
-    background-color: #ebebeb;
-    border-radius: 55.84px / 55.37px;
-  }
-
-  .responsive-aulas .vector-3 {
-    position: absolute;
-    width: 60px;
-    height: 25px;
-    top: 135px;
-    left: 130px;
-  }
-
-  .responsive-aulas .vector-4 {
-    position: absolute;
-    width: 42px;
-    height: 45px;
-    top: 0;
-    left: 82px;
-  }
-
-  .responsive-aulas .MODULO-COSTA-ass {
-    position: absolute;
-    width: 163px;
-    height: 83px;
-    top: 57px;
-    left: 0;
-    object-fit: cover;
-  }
-
-  .responsive-aulas .group-wrapper {
-    position: absolute;
-    width: 235px;
-    height: 294px;
-    top: 0;
-    left: 79px;
-  }
-
-  .responsive-aulas .ALTURA-wrapper {
-    height: 294px;
-  }
-
-  .responsive-aulas .ALTURA {
-    position: relative;
-    width: 241px;
-    height: 294px;
-  }
-
-  .responsive-aulas .overlap-group-2 {
-    position: absolute;
-    width: 235px;
-    height: 66px;
-    top: 0;
-    left: 0;
-  }
-
-  .responsive-aulas .rectangle-4 {
-    position: absolute;
-    width: 232px;
-    height: 66px;
-    top: 0;
-    left: 0;
-    background-color: #7d4393;
-    border-radius: 30px;
-  }
-
-  .responsive-aulas .text-wrapper-10 {
-    position: absolute;
-    width: 96px;
-    top: 36px;
-    left: 139px;
-    font-family: "Gotham Rounded-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 20.8px;
-    white-space: nowrap;
-  }
-
-  .responsive-aulas .text-wrapper-11 {
-    position: absolute;
-    width: 74px;
-    top: 8px;
-    left: 68px;
-    font-family: "Gotham Rounded-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: 23.4px;
-    white-space: nowrap;
-  }
-
-  .responsive-aulas .text-wrapper-12 {
-    position: absolute;
-    width: 152px;
-    top: 27px;
-    left: 68px;
-    font-family: "Gotham Rounded-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 25px;
-    letter-spacing: 0;
-    line-height: 32.5px;
-  }
-
-  .responsive-aulas .vector-5 {
-    position: absolute;
-    width: 49px;
-    height: 60px;
-    top: 233px;
-    left: 9px;
-  }
-
-  .responsive-aulas .rectangle-5 {
-    position: absolute;
-    width: 347px;
-    height: 525px;
-    top: 87px;
-    left: 8px;
-  }
-
-  .responsive-aulas .beneficios-bioclim {
-    position: absolute;
-    width: 440px;
-    top: 2519px;
-    left: 0;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #242424;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 17.1px;
-  }
-
-  .responsive-aulas .group-2 {
-    position: absolute;
-    width: 145px;
-    height: 43px;
-    top: 2798px;
-    left: 64px;
-  }
-
-  .responsive-aulas .text-wrapper-13 {
-    position: absolute;
-    width: 143px;
-    top: 0;
-    left: 0;
-    font-family: "Gotham Rounded-Book", Helvetica;
-    font-weight: 400;
-    color: #020101;
-    font-size: 22px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 24.2px;
-  }
-
-  .responsive-aulas .capa-2 {
-    position: absolute;
-    width: 53px;
-    height: 41px;
-    top: 2745px;
-    left: 112px;
-  }
-
-  .responsive-aulas .group-3 {
-    position: absolute;
-    width: 147px;
-    height: 43px;
-    top: 2798px;
-    left: 242px;
-  }
-
-  .responsive-aulas .text-wrapper-14 {
-    position: absolute;
-    width: 145px;
-    top: 0;
-    left: 0;
-    font-family: "Gotham Rounded-Book", Helvetica;
-    font-weight: 400;
-    color: #020101;
-    font-size: 22px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 24.2px;
-  }
-
-  .responsive-aulas .capa-3 {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 2740px;
-    left: 289px;
-  }
-
-  .responsive-aulas .inversi-n-estimada {
-    position: absolute;
-    width: 238px;
-    top: 2927px;
-    left: 101px;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #242424;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 17.1px;
-  }
-
-  .responsive-aulas .costo-referencial-al {
-    position: absolute;
-    width: 316px;
-    top: 3116px;
-    left: 62px;
-    font-family: "Gotham Rounded-Light", Helvetica;
-    font-weight: 300;
-    color: #020101;
-    font-size: 19px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 20.9px;
-  }
-
-  .responsive-aulas .overlap-11 {
-    position: absolute;
-    width: 318px;
-    height: 72px;
-    top: 3013px;
-    left: 62px;
-  }
-
-  .responsive-aulas .group-4 {
-    position: absolute;
-    width: 43px;
-    height: 47px;
-    top: 8px;
-    left: 231px;
-  }
-
-  .responsive-aulas .overlap-group-wrapper {
-    position: absolute;
-    width: 318px;
-    height: 72px;
-    top: 0;
-    left: 0;
-  }
-
-  .responsive-aulas .overlap-12 {
-    position: relative;
-    width: 316px;
-    height: 72px;
-    background-color: #eeeeee;
-    border-radius: 36px;
-  }
-
-  .responsive-aulas .layer {
-    position: absolute;
-    width: 43px;
-    height: 48px;
-    top: 13px;
-    left: 15px;
-  }
-
-  .responsive-aulas .text-wrapper-15 {
-    position: absolute;
-    width: 206px;
-    top: 23px;
-    left: 69px;
-    font-family: "Gotham Rounded-Book", Helvetica;
-    font-weight: 400;
-    color: #020101;
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 33.0px;
-    white-space: nowrap;
-  }
-
-  .responsive-aulas .group-5 {
-    position: absolute;
-    width: 145px;
-    height: 43px;
-    top: 2644px;
-    left: 242px;
-  }
-
-  .responsive-aulas .group-6 {
-    height: 43px;
-  }
-
-  .responsive-aulas .group-7 {
-    width: 145px;
-    height: 43px;
-  }
-
-  .responsive-aulas .group-8 {
-    position: relative;
-    width: 147px;
-    height: 43px;
-  }
-
-  .responsive-aulas .text-wrapper-16 {
-    position: absolute;
-    width: 141px;
-    top: 2643px;
-    left: 65px;
-    font-family: "Gotham Rounded-Book", Helvetica;
-    font-weight: 400;
-    color: #020101;
-    font-size: 22px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 24.2px;
-  }
-
-  .responsive-aulas .capa-4 {
-    position: absolute;
-    width: 52px;
-    height: 40px;
-    top: 2594px;
-    left: 282px;
-  }
-
-  .responsive-aulas .capa-5 {
-    position: absolute;
-    width: 46px;
-    height: 57px;
-    top: 2581px;
-    left: 110px;
-  }
-
-  .responsive-aulas .conoce-nuestra {
-    position: absolute;
-    width: 418px;
-    top: 3548px;
-    left: 18px;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #242424;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 19.8px;
-  }
-
-  .responsive-aulas .group-9 {
-    position: absolute;
-    width: 210px;
-    height: 46px;
-    top: 3731px;
-    left: 122px;
-  }
-
-  .responsive-aulas .group-10 {
-    width: 212px;
-    height: 46px;
-  }
-
-  .responsive-aulas .ver-im-genes-wrapper {
-    position: relative;
-    width: 210px;
-    height: 46px;
-    background-color: #ffffff;
-    border-radius: 33px;
-    border: 2px solid;
-    border-color: #7d4393;
-  }
-
-  .responsive-aulas .ver-im-genes {
-    position: absolute;
-    width: 179px;
-    height: 34px;
-    top: 4px;
-    left: 2px;
-    font-family: "Gotham Rounded-Medium", Helvetica;
-    font-weight: 500;
-    color: #7d4393;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 33.6px;
-  }
-
-  .responsive-aulas .te-compartimos {
-    position: absolute;
-    width: 284px;
-    top: 3623px;
-    left: 85px;
-    font-family: "Gotham Rounded-Regular", Helvetica;
-    font-weight: 400;
-    color: transparent;
-    font-size: 17px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 22.1px;
-  }
-
-  .responsive-aulas .text-wrapper-17 {
-    color: #020101;
-  }
-
-  .responsive-aulas .text-wrapper-18 {
-    font-family: "Gotham Rounded-Medium", Helvetica;
-    font-weight: 500;
-    color: #7d4393;
-  }
-
-  .responsive-aulas .text-wrapper-19 {
-    font-family: "Gotham Rounded-Medium", Helvetica;
-    font-weight: 500;
-    color: #020101;
-  }
-
-  .responsive-aulas .overlap-13 {
-    position: absolute;
-    width: 440px;
-    height: 586px;
-    top: 3813px;
-    left: 0;
-    background-image: url(https://c.animaapp.com/Aj3Rr3p9/img/rectangle-34.png);
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-
-  .responsive-aulas .text-wrapper-20 {
-    position: absolute;
-    width: 335px;
-    top: 125px;
-    left: 52px;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #010101;
-    font-size: 17px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 22.1px;
-  }
-
-  .responsive-aulas .documentos-de-apoyo {
-    position: absolute;
-    width: 438px;
-    top: 71px;
-    left: 0;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #313131;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 17.1px;
-  }
-
-  .responsive-aulas .group-11 {
-    position: absolute;
-    width: 116px;
-    height: 116px;
-    top: 235px;
-    left: 162px;
-    background-color: #0057a7;
-    border-radius: 58px;
-    background-image: url(https://c.animaapp.com/Aj3Rr3p9/img/mask-group@2x.png);
-    background-size: 100% 100%;
-  }
-
-  .responsive-aulas .planos-esquem-ticos {
-    position: absolute;
-    width: 297px;
-    top: 380px;
-    left: 85px;
-    font-family: "Gotham Rounded-Book", Helvetica;
-    font-weight: 400;
-    color: #020101;
-    font-size: 17px;
-    text-align: justify;
-    letter-spacing: 0;
-    line-height: 22.1px;
-  }
-
-  .responsive-aulas .text-wrapper-21 {
-    top: 380px;
-    left: 57px;
-    position: absolute;
-    width: 18px;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #7d4393;
-    font-size: 17px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 22.1px;
-  }
-
-  .responsive-aulas .group-12 {
-    position: absolute;
-    width: 339px;
-    height: 69px;
-    top: 4520px;
-    left: 50px;
-  }
-
-  .responsive-aulas .overlap-14 {
-    position: relative;
-    width: 341px;
-    height: 69px;
-  }
-
-  .responsive-aulas .group-13 {
-    position: absolute;
-    width: 341px;
-    height: 69px;
-    top: 0;
-    left: 0;
-  }
-
-  .responsive-aulas .gu-a-de-wrapper {
-    position: relative;
-    width: 339px;
-    height: 69px;
-    background-color: #ffffff;
-    border-radius: 20px;
-    border: 2px solid;
-    border-color: #7d4393;
-  }
-
-  .responsive-aulas .gu-a-de {
-    position: absolute;
-    width: 275px;
-    height: 55px;
-    top: 5px;
-    left: 19px;
-    font-family: "Gotham Rounded-Medium", Helvetica;
-    font-weight: 500;
-    color: #7d4393;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: 20px;
-  }
-
-  .responsive-aulas .vector-6 {
-    position: absolute;
-    width: 16px;
-    height: 12px;
-    top: 29px;
-    left: 304px;
-  }
-
-  .responsive-aulas .overlap-15 {
-    position: absolute;
-    width: 339px;
-    height: 69px;
-    top: 4433px;
-    left: 50px;
-    border-radius: 20px;
-  }
-
-  .responsive-aulas .vector-wrapper {
-    position: absolute;
-    width: 339px;
-    height: 69px;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-    border-radius: 20px;
-    border: 2px solid;
-    border-color: #7d4393;
-  }
-
-  .responsive-aulas .vector-7 {
-    position: absolute;
-    width: 16px;
-    height: 12px;
-    top: 27px;
-    left: 302px;
-  }
-
-  .responsive-aulas .text-wrapper-22 {
-    position: absolute;
-    width: 259px;
-    height: 55px;
-    top: 6px;
-    left: 25px;
-    font-family: "Gotham Rounded-Medium", Helvetica;
-    font-weight: 500;
-    color: #7d4393;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: 20px;
-  }
-
-  .responsive-aulas .ALCALDES-y {
-    position: absolute;
-    width: 266px;
-    height: 249px;
-    top: 4623px;
-    left: 88px;
-    object-fit: cover;
-  }
-
-  .responsive-aulas .text-wrapper-23 {
-    position: absolute;
-    width: 236px;
-    top: 5127px;
-    left: 148px;
-    font-family: "Gotham Rounded-Book", Helvetica;
-    font-weight: 400;
-    color: #020101;
-    font-size: 17px;
-    text-align: justify;
-    letter-spacing: 0;
-    line-height: 22.1px;
-    white-space: nowrap;
-  }
-
-  .responsive-aulas .text-wrapper-24 {
-    position: absolute;
-    width: 236px;
-    top: 5193px;
-    left: 148px;
-    font-family: "Gotham Rounded-Book", Helvetica;
-    font-weight: 400;
-    color: #020101;
-    font-size: 17px;
-    text-align: justify;
-    letter-spacing: 0;
-    line-height: 22.1px;
-    white-space: nowrap;
-  }
-
-  .responsive-aulas .frame {
-    position: absolute;
-    width: 49px;
-    height: 49px;
-    top: 5181px;
-    left: 77px;
-  }
-
-  .responsive-aulas .overlap-16 {
-    position: absolute;
-    width: 49px;
-    height: 49px;
-    top: 5113px;
-    left: 77px;
-    background-image: url(https://c.animaapp.com/Aj3Rr3p9/img/vector-3.svg);
-    background-size: 100% 100%;
-  }
-
-  .responsive-aulas .vector-8 {
-    position: absolute;
-    width: 32px;
-    height: 24px;
-    top: 12px;
-    left: 9px;
-  }
-
-  .responsive-aulas .vector-9 {
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    top: 25px;
-    left: 27px;
-  }
-
-  .responsive-aulas .vector-10 {
-    position: absolute;
-    width: 20px;
-    height: 8px;
-    top: 18px;
-    left: 15px;
-  }
-
-  .responsive-aulas .el-equipo-t-cnico {
-    position: absolute;
-    width: 334px;
-    top: 4969px;
-    left: 59px;
-    font-family: "Gotham Rounded-Regular", Helvetica;
-    font-weight: 400;
-    color: transparent;
-    font-size: 17px;
-    text-align: justify;
-    letter-spacing: 0;
-    line-height: 22.1px;
-  }
-
-  .responsive-aulas .overlap-17 {
-    position: absolute;
-    width: 346px;
-    height: 67px;
-    top: 4887px;
-    left: 47px;
-    background-color: #ffc000;
-    border-radius: 15px;
-  }
-
-  .responsive-aulas .text-wrapper-25 {
-    position: absolute;
-    width: 325px;
-    top: 10px;
-    left: 11px;
-    font-family: "Gotham Rounded-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 25px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 23.7px;
-  }
-}
-
-@media screen and (min-width: 769px) {
-
-  /* Estilos para dispositivos de escritorio */
-  .desktop-design {
-    display: block;
-  }
-
-  .mobile-design {
-    display: none;
-  }
+  line-height: 26.2px;
+  white-space: nowrap;
 }
