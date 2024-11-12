@@ -1,0 +1,534 @@
+.responsive-catalogo {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.responsive-catalogo .div {
+  background-color: #ffffff;
+  width: 540px;
+  height: 4567px;
+  position: relative;
+}
+
+.responsive-catalogo .overlap {
+  position: absolute;
+  width: 438px;
+  height: 441px;
+  top: 662px;
+  left: 51px;
+}
+
+.responsive-catalogo .rectangle {
+  position: absolute;
+  width: 438px;
+  height: 343px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.responsive-catalogo .text-wrapper {
+  position: absolute;
+  width: 368px;
+  height: 86px;
+  top: 355px;
+  left: 35px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #6bb4a9;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.responsive-catalogo .ellipse {
+  width: 117px;
+  background-color: #6bb4a9;
+  border-radius: 58.5px / 58px;
+  position: absolute;
+  height: 116px;
+  top: 255px;
+  left: 161px;
+}
+
+.responsive-catalogo .vector {
+  position: absolute;
+  width: 83px;
+  height: 63px;
+  top: 282px;
+  left: 178px;
+}
+
+.responsive-catalogo .overlap-group {
+  position: absolute;
+  width: 438px;
+  height: 441px;
+  top: 1104px;
+  left: 51px;
+}
+
+.responsive-catalogo .aulas-modulares {
+  position: absolute;
+  width: 368px;
+  height: 86px;
+  top: 355px;
+  left: 35px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #444242;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.responsive-catalogo .ellipse-2 {
+  width: 116px;
+  background-color: #444242;
+  border-radius: 58px;
+  position: absolute;
+  height: 116px;
+  top: 255px;
+  left: 161px;
+}
+
+.responsive-catalogo .AULA-MODULAR {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  top: 282px;
+  left: 190px;
+  object-fit: cover;
+}
+
+.responsive-catalogo .overlap-2 {
+  position: absolute;
+  width: 438px;
+  height: 441px;
+  top: 3314px;
+  left: 51px;
+}
+
+.responsive-catalogo .ellipse-3 {
+  width: 116px;
+  background-color: #214286;
+  border-radius: 58px;
+  position: absolute;
+  height: 116px;
+  top: 255px;
+  left: 161px;
+}
+
+.responsive-catalogo .capa {
+  position: absolute;
+  width: 56px;
+  height: 68px;
+  top: 279px;
+  left: 191px;
+}
+
+.responsive-catalogo .p {
+  position: absolute;
+  width: 368px;
+  height: 86px;
+  top: 355px;
+  left: 35px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #214286;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.responsive-catalogo .overlap-3 {
+  position: absolute;
+  width: 540px;
+  height: 174px;
+  top: 0;
+  left: 0;
+  background-image: url(https://c.animaapp.com/eVRYHGDj/img/collage-copia-1.pdf);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.responsive-catalogo .rectangle-2 {
+  position: absolute;
+  width: 354px;
+  height: 53px;
+  top: 98px;
+  left: 93px;
+  background-color: #005bab;
+  border-radius: 42px;
+}
+
+.responsive-catalogo .text-wrapper-2 {
+  position: absolute;
+  width: 293px;
+  top: 107px;
+  left: 124px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 34.5px;
+}
+
+.responsive-catalogo .overlap-4 {
+  position: absolute;
+  width: 431px;
+  height: 284px;
+  top: 342px;
+  left: 55px;
+}
+
+.responsive-catalogo .es-una-herramienta {
+  position: absolute;
+  width: 388px;
+  top: 0;
+  left: 21px;
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 20.8px;
+}
+
+.responsive-catalogo .span {
+  color: #020101;
+}
+
+.responsive-catalogo .text-wrapper-3 {
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #005bab;
+}
+
+.responsive-catalogo .text-wrapper-4 {
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #0059aa;
+}
+
+.responsive-catalogo .tipos-de-bienes-que {
+  position: absolute;
+  width: 431px;
+  top: 260px;
+  left: 0;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #4f4f4f;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+}
+
+.responsive-catalogo .group {
+  width: 168px;
+  top: 266px;
+  left: 187px;
+  position: absolute;
+  height: 46px;
+}
+
+.responsive-catalogo .overlap-group-2 {
+  position: relative;
+  width: 166px;
+  height: 46px;
+  background-color: #ffffff;
+  border-radius: 33px;
+  border: 2px solid;
+  border-color: #7d4393;
+}
+
+.responsive-catalogo .ver-video {
+  position: absolute;
+  width: 117px;
+  height: 34px;
+  top: 4px;
+  left: 8px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #7d4393;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.6px;
+}
+
+.responsive-catalogo .img {
+  position: absolute;
+  width: 16px;
+  height: 14px;
+  top: 14px;
+  left: 128px;
+}
+
+.responsive-catalogo .overlap-5 {
+  position: absolute;
+  width: 438px;
+  height: 441px;
+  top: 1546px;
+  left: 51px;
+}
+
+.responsive-catalogo .text-wrapper-5 {
+  position: absolute;
+  width: 368px;
+  height: 86px;
+  top: 355px;
+  left: 35px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #99c4cb;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.responsive-catalogo .ellipse-4 {
+  width: 116px;
+  background-color: #99c4cb;
+  border-radius: 58px;
+  position: absolute;
+  height: 116px;
+  top: 255px;
+  left: 161px;
+}
+
+.responsive-catalogo .group-2 {
+  width: 78px;
+  top: 284px;
+  left: 180px;
+  position: absolute;
+  height: 46px;
+}
+
+.responsive-catalogo .overlap-6 {
+  position: absolute;
+  width: 438px;
+  height: 441px;
+  top: 1988px;
+  left: 51px;
+}
+
+.responsive-catalogo .mobiliario-y {
+  position: absolute;
+  width: 368px;
+  height: 86px;
+  top: 355px;
+  left: 35px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #a4ac1c;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.responsive-catalogo .ellipse-5 {
+  width: 116px;
+  background-color: #a4ac1c;
+  border-radius: 58px;
+  position: absolute;
+  height: 116px;
+  top: 255px;
+  left: 161px;
+}
+
+.responsive-catalogo .capa-2 {
+  position: absolute;
+  width: 54px;
+  height: 74px;
+  top: 276px;
+  left: 192px;
+}
+
+.responsive-catalogo .overlap-7 {
+  position: absolute;
+  width: 438px;
+  height: 441px;
+  top: 2430px;
+  left: 51px;
+}
+
+.responsive-catalogo .text-wrapper-6 {
+  position: absolute;
+  width: 428px;
+  height: 86px;
+  top: 355px;
+  left: 5px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #4380b7;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.responsive-catalogo .ellipse-6 {
+  width: 117px;
+  background-color: #4380b7;
+  border-radius: 58.5px / 58px;
+  position: absolute;
+  height: 116px;
+  top: 255px;
+  left: 161px;
+}
+
+.responsive-catalogo .SERVICIOS-HIGINICOS {
+  position: absolute;
+  width: 71px;
+  height: 71px;
+  top: 277px;
+  left: 184px;
+  object-fit: cover;
+}
+
+.responsive-catalogo .overlap-8 {
+  position: absolute;
+  width: 438px;
+  height: 441px;
+  top: 2872px;
+  left: 51px;
+}
+
+.responsive-catalogo .text-wrapper-7 {
+  position: absolute;
+  width: 368px;
+  height: 86px;
+  top: 355px;
+  left: 35px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #e86b45;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.responsive-catalogo .ellipse-7 {
+  width: 116px;
+  background-color: #e86b45;
+  border-radius: 58px;
+  position: absolute;
+  height: 116px;
+  top: 255px;
+  left: 161px;
+}
+
+.responsive-catalogo .PARARRAYO {
+  position: absolute;
+  width: 54px;
+  height: 82px;
+  top: 274px;
+  left: 192px;
+  object-fit: cover;
+}
+
+.responsive-catalogo .bienes-temporales {
+  position: absolute;
+  width: 319px;
+  top: 186px;
+  left: 111px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #626262;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 32.5px;
+}
+
+.responsive-catalogo .conoce-nuestra {
+  position: absolute;
+  width: 465px;
+  top: 3785px;
+  left: 38px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #4f4f4f;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+}
+
+.responsive-catalogo .footer {
+  position: absolute;
+  width: 540px;
+  height: 482px;
+  top: 4110px;
+  left: 0;
+  background-color: #0057a7;
+}
+
+.responsive-catalogo .text-wrapper-8 {
+  position: absolute;
+  width: 309px;
+  height: 28px;
+  top: 395px;
+  left: 52px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.responsive-catalogo .gestionamos-la {
+  position: absolute;
+  width: 409px;
+  height: 211px;
+  top: 140px;
+  left: 66px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.responsive-catalogo .capa-3 {
+  position: absolute;
+  width: 137px;
+  height: 45px;
+  top: 33px;
+  left: 315px;
+}
+
+.responsive-catalogo .capa-4 {
+  position: absolute;
+  width: 226px;
+  height: 50px;
+  top: 30px;
+  left: 61px;
+}
+
+.responsive-catalogo .video {
+  position: absolute;
+  width: 397px;
+  height: 224px;
+  top: 3826px;
+  left: 71px;
+  object-fit: cover;
+}
