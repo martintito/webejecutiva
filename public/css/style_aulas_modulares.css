@@ -149,6 +149,16 @@
   border-radius: 30px;
 }
 
+.aulas-modulares-tipo .rectangle-selva {
+  position: absolute;
+  width: 232px;
+  height: 66px;
+  top: 0;
+  left: 0;
+  background-color: #00b050;
+  border-radius: 30px;
+}
+
 .aulas-modulares-tipo .rectangle-helada {
   position: absolute;
   width: 232px;
@@ -225,11 +235,19 @@
   left: 0;
 }
 
+.aulas-modulares-tipo .overlap-222 {
+  position: absolute;
+  width: 1921px;
+  height: 1437px;
+  top: 3700px;
+  left: 0;
+}
+
 .aulas-modulares-tipo .rectangle-3 {
   position: absolute;
   width: 1920px;
   height: 471px;
-  top: 1040px;
+  top: 0px;
   left: 0;
   object-fit: cover;
 }
@@ -237,7 +255,7 @@
 .aulas-modulares-tipo .p {
   position: absolute;
   width: 968px;
-  top: 1143px;
+  top: 103px;
   left: 476px;
   font-family: "Gotham Rounded-Bold", Helvetica;
   font-weight: 700;
@@ -343,7 +361,7 @@
   position: absolute;
   width: 630px;
   height: 69px;
-  top: 1378px;
+  top: 338px;
   left: 646px;
 }
 
@@ -374,6 +392,14 @@
   height: 12px;
   top: 27px;
   left: 205px;
+}
+
+.aulas-modulares-tipo .vector-88 {
+  position: absolute;
+  width: 16px;
+  height: 12px;
+  top: 27px;
+  left: 299px;
 }
 
 .aulas-modulares-tipo .text-wrapper-7 {
@@ -425,7 +451,7 @@
 .aulas-modulares-tipo .documentos-de-apoyo {
   position: absolute;
   width: 407px;
-  top: 1089px;
+  top: 49px;
   left: 757px;
   font-family: "Gotham Rounded-Bold", Helvetica;
   font-weight: 700;
@@ -440,7 +466,7 @@
 .aulas-modulares-tipo .group-3 {
   position: absolute;
   width: 1920px;
-  height: 1419px;
+  /*height: 1419px;*/
   top: 0;
   left: 1px;
 }
@@ -918,7 +944,7 @@
   position: absolute;
   width: 769px;
   height: 129px;
-  top: 1227px;
+  top: 187px;
   left: 677px;
 }
 
@@ -1168,10 +1194,10 @@
 .aulas-modulares-tipo .overlap-18 {
   position: absolute;
   width: 1920px;
-  height: 769px;
-  top: -465px;
+  height: 304px;
+  /* top: -465px; */
   left: 0;
-  background-image: url(https://c.animaapp.com/MSQKAc5P/img/rectangle-14.png);
+  background-image: url(../img/aula-modular.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -2572,6 +2598,16 @@
     border-radius: 15px;
   }
 
+  .responsive-aulas .rectangle-333 {
+    position: absolute;
+    width: 359px;
+    height: 40px;
+    top: 287px;
+    left: 0;
+    background-color: #ffc000;
+    border-radius: 15px;
+  }
+
   .responsive-aulas .m-dulo-prefabricado {
     position: absolute;
     width: 331px;
@@ -3500,7 +3536,7 @@
     height: 38px;
     top: 342px;
     left: 205px;
-    background-image: url(https://c.animaapp.com/SuhGoIY1/img/vector-12.svg);
+    background-image: url(../img/aula-modular.png);
     background-size: 100% 100%;
   }
 

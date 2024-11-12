@@ -9,7 +9,7 @@
 .escuelas-modulares .div {
   background-color: #ffffff;
   width: 1920px;
-  height: 5133px;
+  height: 4858px;
   position: relative;
 }
 
@@ -242,7 +242,7 @@
   position: absolute;
   width: 8px;
   height: 13px;
-  top: 334px;
+  top: 326px;
   left: 1066px;
 }
 
@@ -250,7 +250,7 @@
   position: absolute;
   width: 8px;
   height: 13px;
-  top: 334px;
+  top: 326px;
   left: 442px;
 }
 
@@ -442,6 +442,26 @@
   border-color: #2ead9a;
 }
 
+.escuelas-modulares .overlap-3-sierra {
+  position: relative;
+  width: 191px;
+  height: 42px;
+  background-color: #ffffff;
+  border-radius: 33px;
+  border: 2px solid;
+  border-color: #c0504d;
+}
+
+.escuelas-modulares .overlap-3-helada {
+  position: relative;
+  width: 191px;
+  height: 42px;
+  background-color: #ffffff;
+  border-radius: 33px;
+  border: 2px solid;
+  border-color: #558ed5;
+}
+
 .escuelas-modulares .text-wrapper-9 {
   position: absolute;
   width: 162px;
@@ -451,6 +471,38 @@
   font-family: "Gotham Rounded-Medium", Helvetica;
   font-weight: 500;
   color: #2ead9a;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .text-wrapper-9-sierra {
+  position: absolute;
+  width: 162px;
+  height: 31px;
+  top: 3px;
+  left: 2px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #c0504d;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .text-wrapper-9-helada {
+  position: absolute;
+  width: 162px;
+  height: 31px;
+  top: 3px;
+  left: 2px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #558ed5;
   font-size: 20px;
   text-align: center;
   letter-spacing: 0;
@@ -1061,11 +1113,19 @@
   left: 899px;
 }
 
+.escuelas-modulares .group-44 {
+  position: absolute;
+  width: 1154px;
+  height: 309px;
+  top: 847px;
+  left: 378px;
+}
+
 .escuelas-modulares .group-4 {
   position: absolute;
   width: 1154px;
   height: 974px;
-  top: 847px;
+  top: 1241px;
   left: 378px;
 }
 
@@ -1073,7 +1133,7 @@
   position: absolute;
   width: 524px;
   height: 581px;
-  top: 394px;
+  top: 0px;
   left: 0;
 }
 
@@ -1155,6 +1215,36 @@
   top: 0;
   left: 0;
   background-color: #2ead9a;
+  border-radius: 30px;
+}
+
+.escuelas-modulares .rectangle-6-sierra {
+  position: absolute;
+  width: 210px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color: #c0504d;
+  border-radius: 30px;
+}
+
+.escuelas-modulares .rectangle-6-selva {
+  position: absolute;
+  width: 210px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color: #00b050;
+  border-radius: 30px;
+}
+
+.escuelas-modulares .rectangle-6-helada {
+  position: absolute;
+  width: 210px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color: #558ed5;
   border-radius: 30px;
 }
 
@@ -1253,7 +1343,7 @@
   position: absolute;
   width: 326px;
   height: 43px;
-  top: 468px;
+  top: 74px;
   left: 564px;
 }
 
@@ -1264,6 +1354,36 @@
   top: 0;
   left: 0;
   background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .rectangle-8-sierra {
+  position: absolute;
+  width: 326px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  background-color: #c0504d;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .rectangle-8-selva {
+  position: absolute;
+  width: 326px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  background-color: #00b050;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .rectangle-8-helada {
+  position: absolute;
+  width: 326px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  background-color: #558ed5;
   border-radius: 15px;
 }
 
@@ -1284,7 +1404,7 @@
   position: absolute;
   width: 575px;
   height: 294px;
-  top: 521px;
+  top: 127px;
   left: 564px;
 }
 
@@ -1303,6 +1423,36 @@
   top: 248px;
   left: 0;
   background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .rectangle-9-sierra {
+  position: absolute;
+  width: 326px;
+  height: 36px;
+  top: 248px;
+  left: 0;
+  background-color: #c0504d;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .rectangle-9-selva {
+  position: absolute;
+  width: 326px;
+  height: 36px;
+  top: 248px;
+  left: 0;
+  background-color: #00b050;
+  border-radius: 15px;
+}
+
+.escuelas-modulares .rectangle-9-helada {
+  position: absolute;
+  width: 326px;
+  height: 36px;
+  top: 248px;
+  left: 0;
+  background-color: #558ed5;
   border-radius: 15px;
 }
 
@@ -1350,7 +1500,7 @@
 .escuelas-modulares .evaluaci-n-de {
   position: absolute;
   width: 546px;
-  top: 824px;
+  top: 425px;
   left: 590px;
   font-family: "Gotham Rounded-Book", Helvetica;
   font-weight: 400;
@@ -1362,7 +1512,7 @@
 }
 
 .escuelas-modulares .text-wrapper-33 {
-  top: 824px;
+  top: 425px;
   left: 564px;
   color: #2ead9a;
   position: absolute;
@@ -1378,11 +1528,55 @@
 .escuelas-modulares .text-wrapper-34 {
   position: absolute;
   width: 230px;
-  top: 416px;
+  top: 22px;
   left: 564px;
   font-family: "Gotham Rounded-Medium", Helvetica;
   font-weight: 500;
   color: #ffc000;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 33.2px;
+  white-space: nowrap;
+}
+
+
+
+.escuelas-modulares .text-wrapper-34-sierra {
+  position: absolute;
+  width: 230px;
+  top: 22px;
+  left: 564px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #c0504d;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 33.2px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .text-wrapper-34-selva {
+  position: absolute;
+  width: 230px;
+  top: 22px;
+  left: 564px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #00b050;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 33.2px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .text-wrapper-34-helada {
+  position: absolute;
+  width: 230px;
+  top: 22px;
+  left: 564px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #558ed5;
   font-size: 35px;
   letter-spacing: 0;
   line-height: 33.2px;
@@ -1653,7 +1847,7 @@
   width: 15px;
   height: 10px;
   top: 14px;
-  left: 151px;
+  left: 158px;
 }
 
 .escuelas-modulares .group-7 {

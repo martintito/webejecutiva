@@ -19,7 +19,7 @@
   height: 312px;
   top: 3620px;
   left: 0;
-  background-image: url(https://c.animaapp.com/Z0pqFoRG/img/rectangle-34.png);
+  background-image: url(https://c.animaapp.com/e6464RpD/img/rectangle-34.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -439,7 +439,7 @@
   background-color: #ffffff;
   border-radius: 33px;
   border: 2px solid;
-  border-color: #558ed5;
+  border-color: #00b050;
 }
 
 .escuelas-modulares .text-wrapper-9 {
@@ -450,7 +450,7 @@
   left: 2px;
   font-family: "Gotham Rounded-Medium", Helvetica;
   font-weight: 500;
-  color: #558ed5;
+  color: #00b050;
   font-size: 20px;
   text-align: center;
   letter-spacing: 0;
@@ -510,7 +510,7 @@
   height: 598px;
   top: 2695px;
   left: 2px;
-  background-image: url(https://c.animaapp.com/Z0pqFoRG/img/rectangle-8.png);
+  background-image: url(https://c.animaapp.com/e6464RpD/img/rectangle-8.png);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -645,7 +645,7 @@
   height: 83px;
   top: 0;
   left: 2px;
-  background-color: #558ed5;
+  background-color: #00b050;
   border-radius: 15px;
 }
 
@@ -717,7 +717,7 @@
   height: 83px;
   top: 114px;
   left: 361px;
-  background-color: #558ed5;
+  background-color: #00b050;
   border-radius: 15px;
 }
 
@@ -741,7 +741,7 @@
   height: 83px;
   top: 114px;
   left: 563px;
-  background-color: #558ed5;
+  background-color: #00b050;
   border-radius: 15px;
 }
 
@@ -765,7 +765,7 @@
   height: 83px;
   top: 114px;
   left: 838px;
-  background-color: #558ed5;
+  background-color: #00b050;
   border-radius: 15px;
 }
 
@@ -814,7 +814,7 @@
   height: 83px;
   top: 114px;
   left: 1052px;
-  background-color: #558ed5;
+  background-color: #00b050;
   border-radius: 15px;
 }
 
@@ -1063,7 +1063,7 @@
 
 .escuelas-modulares .overlap-14 {
   position: absolute;
-  width: 1153px;
+  width: 1157px;
   height: 974px;
   top: 847px;
   left: 378px;
@@ -1071,7 +1071,7 @@
 
 .escuelas-modulares .group-4 {
   position: absolute;
-  width: 1153px;
+  width: 1157px;
   height: 964px;
   top: 0;
   left: 0;
@@ -1166,7 +1166,7 @@
   height: 36px;
   top: 0;
   left: 0;
-  background-color: #558ed5;
+  background-color: #00b050;
   border-radius: 15px;
 }
 
@@ -1185,13 +1185,63 @@
 
 .escuelas-modulares .overlap-17 {
   position: absolute;
+  width: 367px;
+  height: 35px;
+  top: 333px;
+  left: 594px;
+  background-image: url(https://c.animaapp.com/e6464RpD/img/subtract.svg);
+  background-size: 100% 100%;
+}
+
+.escuelas-modulares .text-wrapper-28 {
+  position: absolute;
+  width: 339px;
+  top: 10px;
+  left: 14px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20.9px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .overlap-18 {
+  position: absolute;
+  width: 367px;
+  height: 35px;
+  top: 333px;
+  left: 204px;
+  background-image: url(https://c.animaapp.com/e6464RpD/img/subtract-1.svg);
+  background-size: 100% 100%;
+}
+
+.escuelas-modulares .text-wrapper-29 {
+  position: absolute;
+  width: 262px;
+  top: 10px;
+  left: 53px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20.9px;
+  white-space: nowrap;
+}
+
+.escuelas-modulares .overlap-19 {
+  position: absolute;
   width: 575px;
   height: 294px;
   top: 521px;
   left: 564px;
 }
 
-.escuelas-modulares .overlap-18 {
+.escuelas-modulares .overlap-20 {
   position: absolute;
   width: 575px;
   height: 294px;
@@ -1205,7 +1255,7 @@
   height: 36px;
   top: 248px;
   left: 0;
-  background-color: #558ed5;
+  background-color: #00b050;
   border-radius: 15px;
 }
 
@@ -1223,7 +1273,7 @@
   line-height: 19.5px;
 }
 
-.escuelas-modulares .text-wrapper-28 {
+.escuelas-modulares .text-wrapper-30 {
   position: absolute;
   width: 293px;
   top: 255px;
@@ -1236,7 +1286,7 @@
   line-height: 20.9px;
 }
 
-.escuelas-modulares .text-wrapper-29 {
+.escuelas-modulares .text-wrapper-31 {
   top: 0;
   left: 0;
   color: #2ead9a;
@@ -1264,7 +1314,7 @@
   line-height: 19.5px;
 }
 
-.escuelas-modulares .text-wrapper-30 {
+.escuelas-modulares .text-wrapper-32 {
   top: 824px;
   left: 564px;
   color: #2ead9a;
@@ -1278,14 +1328,14 @@
   line-height: 22.1px;
 }
 
-.escuelas-modulares .text-wrapper-31 {
+.escuelas-modulares .text-wrapper-33 {
   position: absolute;
   width: 298px;
   top: 416px;
   left: 564px;
   font-family: "Gotham Rounded-Medium", Helvetica;
   font-weight: 500;
-  color: #558ed5;
+  color: #00b050;
   font-size: 35px;
   letter-spacing: 0;
   line-height: 33.2px;
@@ -1300,7 +1350,7 @@
   left: 26px;
 }
 
-.escuelas-modulares .overlap-19 {
+.escuelas-modulares .overlap-21 {
   position: absolute;
   width: 261px;
   height: 309px;
@@ -1341,7 +1391,7 @@
   object-fit: cover;
 }
 
-.escuelas-modulares .overlap-20 {
+.escuelas-modulares .overlap-22 {
   position: absolute;
   width: 261px;
   height: 309px;
@@ -1377,7 +1427,7 @@
   border-radius: 18px;
 }
 
-.escuelas-modulares .overlap-21 {
+.escuelas-modulares .overlap-23 {
   position: absolute;
   width: 261px;
   height: 309px;
@@ -1410,7 +1460,7 @@
   height: 1px;
   top: 917px;
   left: 367px;
-  background-image: url(https://c.animaapp.com/Z0pqFoRG/img/vector-10.svg);
+  background-image: url(https://c.animaapp.com/e6464RpD/img/vector-10.svg);
   background-size: 100% 100%;
 }
 
@@ -1420,6 +1470,15 @@
   height: 1px;
   top: 0;
   left: 0;
+}
+
+.escuelas-modulares .rectangle-13 {
+  position: absolute;
+  width: 394px;
+  height: 581px;
+  top: 393px;
+  left: 129px;
+  object-fit: cover;
 }
 
 .escuelas-modulares .ALTURA-wrapper {
@@ -1441,17 +1500,17 @@
   height: 60px;
 }
 
-.escuelas-modulares .rectangle-13 {
+.escuelas-modulares .rectangle-14 {
   position: absolute;
   width: 210px;
   height: 60px;
   top: 0;
   left: 0;
-  background-color: #558ed5;
+  background-color: #00b050;
   border-radius: 30px;
 }
 
-.escuelas-modulares .text-wrapper-32 {
+.escuelas-modulares .text-wrapper-34 {
   position: absolute;
   width: 87px;
   top: 33px;
@@ -1465,7 +1524,7 @@
   white-space: nowrap;
 }
 
-.escuelas-modulares .text-wrapper-33 {
+.escuelas-modulares .text-wrapper-35 {
   position: absolute;
   width: 138px;
   top: 7px;
@@ -1479,7 +1538,7 @@
   white-space: nowrap;
 }
 
-.escuelas-modulares .text-wrapper-34 {
+.escuelas-modulares .text-wrapper-36 {
   position: absolute;
   width: 138px;
   top: 24px;
@@ -1507,15 +1566,6 @@
   height: 1px;
   top: 369px;
   left: 22px;
-}
-
-.escuelas-modulares .rectangle-14 {
-  position: absolute;
-  width: 394px;
-  height: 581px;
-  top: 393px;
-  left: 129px;
-  object-fit: cover;
 }
 
 .escuelas-modulares .ambientes-pedag {
@@ -1588,7 +1638,7 @@
   line-height: 19.8px;
 }
 
-.escuelas-modulares .text-wrapper-35 {
+.escuelas-modulares .text-wrapper-37 {
   position: absolute;
   width: 104px;
   top: 2009px;
@@ -1658,7 +1708,7 @@
   left: 1001px;
 }
 
-.escuelas-modulares .overlap-22 {
+.escuelas-modulares .overlap-24 {
   position: relative;
   width: 191px;
   height: 42px;
@@ -1668,7 +1718,7 @@
   border-color: #2ead9a;
 }
 
-.escuelas-modulares .text-wrapper-36 {
+.escuelas-modulares .text-wrapper-38 {
   position: absolute;
   width: 162px;
   height: 31px;
@@ -1700,7 +1750,7 @@
   left: 532px;
 }
 
-.escuelas-modulares .text-wrapper-37 {
+.escuelas-modulares .text-wrapper-39 {
   position: absolute;
   width: 202px;
   top: 56px;
@@ -1714,7 +1764,7 @@
   line-height: 19.8px;
 }
 
-.escuelas-modulares .text-wrapper-38 {
+.escuelas-modulares .text-wrapper-40 {
   position: absolute;
   width: 183px;
   top: 56px;
@@ -1728,7 +1778,7 @@
   line-height: 19.8px;
 }
 
-.escuelas-modulares .text-wrapper-39 {
+.escuelas-modulares .text-wrapper-41 {
   position: absolute;
   width: 177px;
   top: 56px;
@@ -1742,7 +1792,7 @@
   line-height: 19.8px;
 }
 
-.escuelas-modulares .text-wrapper-40 {
+.escuelas-modulares .text-wrapper-42 {
   position: absolute;
   width: 155px;
   top: 56px;
@@ -1857,7 +1907,7 @@
   left: 196px;
 }
 
-.escuelas-modulares .text-wrapper-41 {
+.escuelas-modulares .text-wrapper-43 {
   position: absolute;
   width: 88px;
   height: 28px;
@@ -1872,7 +1922,7 @@
   white-space: nowrap;
 }
 
-.escuelas-modulares .text-wrapper-42 {
+.escuelas-modulares .text-wrapper-44 {
   position: absolute;
   width: 309px;
   height: 28px;
@@ -1888,7 +1938,7 @@
   white-space: nowrap;
 }
 
-.escuelas-modulares .text-wrapper-43 {
+.escuelas-modulares .text-wrapper-45 {
   position: absolute;
   width: 508px;
   height: 91px;
@@ -1917,7 +1967,7 @@
   height: 38px;
   top: 283px;
   left: 1060px;
-  background-image: url(https://c.animaapp.com/Z0pqFoRG/img/vector-16.svg);
+  background-image: url(https://c.animaapp.com/e6464RpD/img/vector-16.svg);
   background-size: 100% 100%;
 }
 
@@ -1929,13 +1979,13 @@
   left: 6px;
 }
 
-.escuelas-modulares .overlap-23 {
+.escuelas-modulares .overlap-25 {
   position: absolute;
   width: 38px;
   height: 38px;
   top: 283px;
   left: 1107px;
-  background-image: url(https://c.animaapp.com/Z0pqFoRG/img/vector-18.svg);
+  background-image: url(https://c.animaapp.com/e6464RpD/img/vector-18.svg);
   background-size: 100% 100%;
 }
 
@@ -1963,13 +2013,13 @@
   left: 24px;
 }
 
-.escuelas-modulares .overlap-24 {
+.escuelas-modulares .overlap-26 {
   position: absolute;
   width: 38px;
   height: 38px;
   top: 283px;
   left: 1012px;
-  background-image: url(https://c.animaapp.com/Z0pqFoRG/img/vector-19.svg);
+  background-image: url(https://c.animaapp.com/e6464RpD/img/vector-19.svg);
   background-size: 100% 100%;
 }
 
@@ -1997,13 +2047,13 @@
   left: 8px;
 }
 
-.escuelas-modulares .overlap-25 {
+.escuelas-modulares .overlap-27 {
   position: absolute;
   width: 39px;
   height: 38px;
   top: 283px;
   left: 921px;
-  background-image: url(https://c.animaapp.com/Z0pqFoRG/img/vector-23.svg);
+  background-image: url(https://c.animaapp.com/e6464RpD/img/vector-23.svg);
   background-size: 100% 100%;
 }
 
@@ -2015,13 +2065,13 @@
   left: 11px;
 }
 
-.escuelas-modulares .overlap-26 {
+.escuelas-modulares .overlap-28 {
   position: absolute;
   width: 38px;
   height: 38px;
   top: 283px;
   left: 965px;
-  background-image: url(https://c.animaapp.com/Z0pqFoRG/img/vector-28.svg);
+  background-image: url(https://c.animaapp.com/e6464RpD/img/vector-28.svg);
   background-size: 100% 100%;
 }
 
@@ -2049,7 +2099,7 @@
   left: 9px;
 }
 
-.escuelas-modulares .text-wrapper-44 {
+.escuelas-modulares .text-wrapper-46 {
   position: absolute;
   height: 27px;
   top: 245px;
@@ -2064,7 +2114,7 @@
   white-space: nowrap;
 }
 
-.escuelas-modulares .text-wrapper-45 {
+.escuelas-modulares .text-wrapper-47 {
   position: absolute;
   height: 27px;
   top: 336px;
