@@ -2375,7 +2375,7 @@
     position: absolute;
     width: 8px;
     height: 13px;
-    top: 10px;
+    top: 0px;
     left: 156px;
   }
 
@@ -2559,6 +2559,36 @@
     border-radius: 15px;
   }
 
+  .responsive-aulas .rectangle-2-sierra {
+    position: absolute;
+    width: 359px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background-color: #c0504d;
+    border-radius: 15px;
+  }
+
+  .responsive-aulas .rectangle-2-selva {
+    position: absolute;
+    width: 359px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background-color: #00b050;
+    border-radius: 15px;
+  }
+
+  .responsive-aulas .rectangle-2-helada {
+    position: absolute;
+    width: 359px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background-color: #558ed5;
+    border-radius: 15px;
+  }
+
   .responsive-aulas .text-wrapper-4 {
     position: absolute;
     width: 313px;
@@ -2595,6 +2625,36 @@
     top: 287px;
     left: 0;
     background-color: #ffc000;
+    border-radius: 15px;
+  }
+
+  .responsive-aulas .rectangle-3-sierra {
+    position: absolute;
+    width: 359px;
+    height: 40px;
+    top: 287px;
+    left: 0;
+    background-color: #c0504d;
+    border-radius: 15px;
+  }
+
+  .responsive-aulas .rectangle-3-selva {
+    position: absolute;
+    width: 359px;
+    height: 40px;
+    top: 287px;
+    left: 0;
+    background-color: #00b050;
+    border-radius: 15px;
+  }
+
+  .responsive-aulas .rectangle-3-helada {
+    position: absolute;
+    width: 359px;
+    height: 40px;
+    top: 287px;
+    left: 0;
+    background-color: #558ed5;
     border-radius: 15px;
   }
 
@@ -2710,6 +2770,51 @@
     white-space: nowrap;
   }
 
+  .responsive-aulas .text-wrapper-8-sierra {
+    position: absolute;
+    width: 254px;
+    top: 1135px;
+    left: 93px;
+    font-family: "Gotham Rounded-Bold", Helvetica;
+    font-weight: 700;
+    color: #c0504d;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 33.2px;
+    white-space: nowrap;
+  }
+
+  .responsive-aulas .text-wrapper-8-selva {
+    position: absolute;
+    width: 254px;
+    top: 1135px;
+    left: 93px;
+    font-family: "Gotham Rounded-Bold", Helvetica;
+    font-weight: 700;
+    color: #00b050;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 33.2px;
+    white-space: nowrap;
+  }
+
+  .responsive-aulas .text-wrapper-8-helada {
+    position: absolute;
+    width: 254px;
+    top: 1135px;
+    left: 93px;
+    font-family: "Gotham Rounded-Bold", Helvetica;
+    font-weight: 700;
+    color: #558ed5;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 33.2px;
+    white-space: nowrap;
+  }
+
   .responsive-aulas .overlap-8 {
     position: absolute;
     width: 355px;
@@ -2802,6 +2907,16 @@
     border-radius: 30px;
   }
 
+  .responsive-aulas .rectangle-4-sierra {
+    position: absolute;
+    width: 232px;
+    height: 66px;
+    top: 0;
+    left: 0;
+    background-color: #c0504d;
+    border-radius: 30px;
+  }
+
   .responsive-aulas .text-wrapper-9 {
     position: absolute;
     width: 96px;
@@ -2847,7 +2962,7 @@
     position: absolute;
     width: 49px;
     height: 60px;
-    top: 233px;
+    top: 2px;
     left: 9px;
   }
 
