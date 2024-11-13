@@ -68,6 +68,7 @@
       font-size: 24px;
       transform: translateY(-50%);
     }
+
     /*FIN SLIDE*/
 
     /**********/
@@ -175,9 +176,6 @@
         </div>
 
         <!--INICIO ZONA DINAMICA-->
-        <div class="dinamico" id="contenidoDinamico">
-
-        </div>
         <!-- Secciones de contenido -->
         <!--COSTA-->
         <div id="costa" class="section">
@@ -662,7 +660,7 @@
             <div class="group-wrapper">
               <div class="overlap-group-wrapper">
                 <div class="overlap-group-2">
-                  <div class="text-wrapper-4"  id="openSlideBtnSelva2">Ver Imágenes</div>
+                  <div class="text-wrapper-4" id="openSlideBtnSelva2">Ver Imágenes</div>
                 </div>
               </div>
             </div>
@@ -1291,6 +1289,18 @@
   </div>
 
   <script>
+
+    function mostrarSeccion(seccion) {
+      const secciones = document.querySelectorAll('.section');
+      secciones.forEach(section => section.style.display = 'none');
+      document.getElementById(seccion).style.display = 'block';
+    }
+
+    // Mostrar contenido por defecto al cargar la página
+    document.addEventListener("DOMContentLoaded", function () {
+      mostrarSeccion('costa');
+    });
+
     //INICIO SLIDE
     const imagesCosta = ["img/aulas_m_costa/1.jpg", "img/aulas_m_costa/2.jpg", "img/aulas_m_costa/3.jpg", "img/aulas_m_costa/4.jpg", "img/aulas_m_costa/5.jpg"];
     const imagesSierra = ["img/aulas_m_sierra/1.jpg", "img/aulas_m_sierra/2.jpg", "img/aulas_m_sierra/3.jpg"];
@@ -1299,12 +1309,6 @@
 
     let currentIndex = 0;
     let images = [];
-
-    function mostrarSeccion(seccion) {
-      const secciones = document.querySelectorAll('.section');
-      secciones.forEach(section => section.style.display = 'none');
-      document.getElementById(seccion).style.display = 'block';
-    }
 
     function closeSlide() {
       document.getElementById("overlay").style.display = "none";
@@ -1333,11 +1337,6 @@
       currentIndex = (currentIndex - 1 + images.length) % images.length;
       showImage(currentIndex);
     }
-
-    // Mostrar contenido por defecto al cargar la página
-    document.addEventListener("DOMContentLoaded", function () {
-      mostrarSeccion('costa');
-    });
 
     // Botones que abren diferentes sets de imágenes
     document.getElementById("openSlideBtnCosta1").addEventListener("click", () => openSlide(imagesCosta));

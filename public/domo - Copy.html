@@ -5,72 +5,6 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" href="css/globals.css" />
   <link rel="stylesheet" href="css/style_domo.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    /*INICIO SLIDE*/
-    .overlay {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.8);
-      justify-content: center;
-      align-items: center;
-      z-index: 1000;
-    }
-
-    .slide {
-      position: relative;
-      width: 1100px;
-      height: 879.54px;
-      background-color: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-    }
-
-    .slide img {
-      width: 100%;
-      height: auto;
-    }
-
-    .close-btn,
-    .nav-btn {
-      position: absolute;
-      font-family: "Gotham Rounded-Medium", Helvetica;
-      font-weight: 500;
-      color: white;
-      background: rgba(0, 0, 0, 0.5);
-      cursor: pointer;
-      border: none;
-      padding: 8px 12px;
-    }
-
-    .close-btn {
-      top: 10px;
-      left: 10px;
-      font-size: 18px;
-    }
-
-    .nav-btn.left {
-      top: 50%;
-      left: 10px;
-      font-size: 24px;
-      transform: translateY(-50%);
-    }
-
-    .nav-btn.right {
-      top: 50%;
-      right: 10px;
-      font-size: 24px;
-      transform: translateY(-50%);
-    }
-
-    /*FIN SLIDE*/
-  </style>
 </head>
 
 <body>
@@ -152,7 +86,7 @@
       <div class="conoce-nuestra">Conoce nuestra<br />experiencia</div>
       <div class="overlap-wrapper">
         <div class="overlap-3">
-          <div class="text-wrapper-7" id="openSlideBtnDomo1">Ver Imágenes</div>
+          <div class="text-wrapper-7">Ver Imágenes</div>
           <img class="vector-3" src="https://c.animaapp.com/pTvsPwj7/img/vector.svg" />
         </div>
       </div>
@@ -356,75 +290,12 @@
       <img class="capa-2" src="https://c.animaapp.com/pTvsPwj7/img/capa-1-1.svg" />
       <div class="group-8">
         <div class="overlap-3">
-          <div class="text-wrapper-7" id="openSlideBtnDomo2">Ver Imágenes</div>
+          <div class="text-wrapper-7">Ver Imágenes</div>
           <img class="vector-3" src="https://c.animaapp.com/pTvsPwj7/img/vector-31.svg" />
         </div>
       </div>
     </div>
   </div>
-
-  <!-- Overlay para el slide de imágenes -->
-  <div id="overlay" class="overlay">
-    <div class="slide">
-      <span class="close-btn" id="closeBtn">Cerrar</span>
-      <button class="nav-btn left" id="prevBtn">&#10094;</button>
-      <img id="slideImage" src="" alt="Foto de la galería">
-      <button class="nav-btn right" id="nextBtn">&#10095;</button>
-    </div>
-  </div>
-
-  <script>
-    //INICIO SLIDE
-    const imagesDomo = ["img/aulas_m_costa/1.jpg", "img/aulas_m_costa/2.jpg", "img/aulas_m_costa/3.jpg", "img/aulas_m_costa/4.jpg", "img/aulas_m_costa/5.jpg"];
-
-    let currentIndex = 0;
-    let images = [];
-
-    function mostrarSeccion(seccion) {
-      const secciones = document.querySelectorAll('.section');
-      secciones.forEach(section => section.style.display = 'none');
-      document.getElementById(seccion).style.display = 'block';
-    }
-
-    function closeSlide() {
-      document.getElementById("overlay").style.display = "none";
-    }
-
-    // Función para abrir el slide con imágenes específicas
-    function openSlide(imageSet) {
-      images = imageSet;
-      currentIndex = 0;
-      document.getElementById("overlay").style.display = "flex";
-      showImage(currentIndex);
-    }
-
-    // Muestra la imagen actual
-    function showImage(index) {
-      const slideImage = document.getElementById("slideImage");
-      slideImage.src = images[index];
-    }
-
-    function nextImage() {
-      currentIndex = (currentIndex + 1) % images.length;
-      showImage(currentIndex);
-    }
-
-    function previousImage() {
-      currentIndex = (currentIndex - 1 + images.length) % images.length;
-      showImage(currentIndex);
-    }
-
-    // Botones que abren diferentes sets de imágenes
-    document.getElementById("openSlideBtnDomo1").addEventListener("click", () => openSlide(imagesDomo));
-    document.getElementById("openSlideBtnDomo2").addEventListener("click", () => openSlide(imagesDomo));
-
-    // Asignar eventos para el slide
-    document.getElementById("closeBtn").addEventListener("click", closeSlide);
-    document.getElementById("nextBtn").addEventListener("click", nextImage);
-    document.getElementById("prevBtn").addEventListener("click", previousImage);
-    //FIN SLIDE
-
-  </script>
 </body>
 
 </html>

@@ -1,0 +1,1822 @@
+.servicios-higienicos {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.servicios-higienicos .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 4598px;
+  position: relative;
+}
+
+.servicios-higienicos .overlap {
+  position: absolute;
+  width: 1920px;
+  height: 312px;
+  top: 3371px;
+  left: 0;
+  background-image: url(https://c.animaapp.com/HgLDjYAZ/img/rectangle-34.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.servicios-higienicos .text-wrapper {
+  position: absolute;
+  width: 878px;
+  top: 93px;
+  left: 521px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #010101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .documentos-de-apoyo {
+  position: absolute;
+  width: 369px;
+  top: 44px;
+  left: 776px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #313131;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .overlap-group {
+  position: absolute;
+  width: 698px;
+  height: 105px;
+  top: 170px;
+  left: 703px;
+}
+
+.servicios-higienicos .group {
+  position: absolute;
+  width: 698px;
+  height: 105px;
+  top: 0;
+  left: 0;
+}
+
+.servicios-higienicos .planos-esquem-ticos {
+  position: absolute;
+  width: 546px;
+  top: 3px;
+  left: 148px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 21.8px;
+}
+
+.servicios-higienicos .text-wrapper-2 {
+  top: 3px;
+  left: 122px;
+  color: #7d4393;
+  font-size: 17px;
+  line-height: 22.1px;
+  position: absolute;
+  width: 16px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.servicios-higienicos .group-2 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  top: 0;
+  left: 0;
+  background-color: #2ead9a;
+  border-radius: 52.62px;
+}
+
+.servicios-higienicos .mask-group {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  top: 0;
+  left: 0;
+}
+
+.servicios-higienicos .rectangle {
+  position: absolute;
+  width: 62px;
+  height: 5px;
+  top: 56px;
+  left: 459px;
+  background-color: #d9d9d9;
+}
+
+.servicios-higienicos .overlap-2 {
+  position: absolute;
+  width: 1595px;
+  height: 740px;
+  top: 1256px;
+  left: 218px;
+}
+
+.servicios-higienicos .overlap-3 {
+  position: absolute;
+  width: 959px;
+  height: 740px;
+  top: 0;
+  left: 0;
+}
+
+.servicios-higienicos .beneficios {
+  position: absolute;
+  width: 433px;
+  top: 635px;
+  left: 526px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .overlap-4 {
+  position: absolute;
+  width: 683px;
+  height: 693px;
+  top: 0;
+  left: 0;
+}
+
+.servicios-higienicos .ellipse {
+  position: absolute;
+  width: 341px;
+  height: 318px;
+  top: 360px;
+  left: 63px;
+  background-color: #ebebeb;
+  border-radius: 170.5px / 159.17px;
+}
+
+.servicios-higienicos .callao {
+  position: absolute;
+  width: 5px;
+  height: 4px;
+  top: 376px;
+  left: 416px;
+}
+
+.servicios-higienicos .vector {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 376px;
+  left: 416px;
+}
+
+.servicios-higienicos .img {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 313px;
+  left: 399px;
+  object-fit: cover;
+}
+
+.servicios-higienicos .vector-2 {
+  position: absolute;
+  width: 97px;
+  height: 61px;
+  top: 317px;
+  left: 280px;
+}
+
+.servicios-higienicos .MODULO-COSTA-ass {
+  width: 405px;
+  height: 297px;
+  top: 396px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.servicios-higienicos .vector-3 {
+  position: absolute;
+  width: 2px;
+  height: 1px;
+  top: 524px;
+  left: 527px;
+}
+
+.servicios-higienicos .vector-4 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 509px;
+  left: 514px;
+}
+
+.servicios-higienicos .vector-5 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 510px;
+  left: 513px;
+}
+
+.servicios-higienicos .vector-6 {
+  position: absolute;
+  width: 124px;
+  height: 37px;
+  top: 508px;
+  left: 393px;
+}
+
+.servicios-higienicos .rectangle-2 {
+  position: absolute;
+  width: 394px;
+  height: 581px;
+  top: 0;
+  left: 289px;
+  object-fit: cover;
+}
+
+.servicios-higienicos .ALTURA-wrapper {
+  position: absolute;
+  width: 229px;
+  height: 60px;
+  top: 6px;
+  left: 175px;
+}
+
+.servicios-higienicos .ALTURA {
+  width: 235px;
+  height: 60px;
+}
+
+.servicios-higienicos .overlap-group-2 {
+  position: relative;
+  width: 229px;
+  height: 60px;
+  background-color: #4380b7;
+  border-radius: 30px;
+}
+
+.servicios-higienicos .overlap-5 {
+  position: absolute;
+  width: 162px;
+  height: 46px;
+  top: 7px;
+  left: 62px;
+}
+
+.servicios-higienicos .text-wrapper-3 {
+  position: absolute;
+  width: 87px;
+  top: 25px;
+  left: 75px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .text-wrapper-4 {
+  position: absolute;
+  width: 138px;
+  top: 0;
+  left: 0;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .text-wrapper-5 {
+  position: absolute;
+  width: 138px;
+  top: 17px;
+  left: 0;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 32.5px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .vector-7 {
+  position: absolute;
+  width: 44px;
+  height: 46px;
+  top: 7px;
+  left: 8px;
+}
+
+.servicios-higienicos .group-3 {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 693px;
+  left: 589px;
+}
+
+.servicios-higienicos .overlap-6 {
+  position: absolute;
+  width: 326px;
+  height: 42px;
+  top: 107px;
+  left: 724px;
+}
+
+.servicios-higienicos .rectangle-3 {
+  position: absolute;
+  width: 326px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  background-color: #4380b7;
+  border-radius: 15px;
+}
+
+.servicios-higienicos .text-wrapper-6 {
+  position: absolute;
+  width: 284px;
+  top: 6px;
+  left: 24px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 20.9px;
+}
+
+.servicios-higienicos .overlap-7 {
+  position: absolute;
+  width: 326px;
+  height: 42px;
+  top: 438px;
+  left: 724px;
+}
+
+.servicios-higienicos .text-wrapper-7 {
+  position: absolute;
+  width: 293px;
+  top: 6px;
+  left: 24px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 20.9px;
+}
+
+.servicios-higienicos .overlap-8 {
+  position: absolute;
+  width: 846px;
+  height: 256px;
+  top: 158px;
+  left: 749px;
+}
+
+.servicios-higienicos .SERVICIOS-HIGI-NICOS {
+  position: absolute;
+  width: 534px;
+  top: 0;
+  left: 0;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.servicios-higienicos .image {
+  width: 490px;
+  height: 81px;
+  top: 175px;
+  left: 356px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.servicios-higienicos .p {
+  top: 159px;
+  left: 724px;
+  color: #4380b7;
+  font-size: 15px;
+  line-height: 19.5px;
+  position: absolute;
+  width: 16px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.servicios-higienicos .span {
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #4380b7;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.servicios-higienicos .text-wrapper-8 {
+  font-size: 17px;
+  line-height: 22.1px;
+}
+
+.servicios-higienicos .evaluaci-n-de {
+  position: absolute;
+  width: 525px;
+  top: 480px;
+  left: 749px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.servicios-higienicos .text-wrapper-9 {
+  top: 480px;
+  left: 724px;
+  color: #4380b7;
+  font-size: 15px;
+  line-height: 19.5px;
+  position: absolute;
+  width: 16px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.servicios-higienicos .servicio-higi-nico {
+  position: absolute;
+  width: 569px;
+  top: 6px;
+  left: 724px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #4380b7;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 40.2px;
+}
+
+.servicios-higienicos .capa {
+  position: absolute;
+  width: 53px;
+  height: 41px;
+  top: 698px;
+  left: 857px;
+}
+
+.servicios-higienicos .inversi-n-estimada {
+  position: absolute;
+  width: 781px;
+  top: 2198px;
+  left: 570px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .overlap-9 {
+  position: absolute;
+  width: 1920px;
+  height: 597px;
+  top: 0;
+  left: 0;
+}
+
+.servicios-higienicos .rectangle-4 {
+  position: absolute;
+  width: 1920px;
+  height: 385px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.servicios-higienicos .rectangle-5 {
+  position: absolute;
+  width: 1920px;
+  height: 293px;
+  top: 304px;
+  left: 0;
+  object-fit: cover;
+}
+
+.servicios-higienicos .servicios-higi-nicos {
+  position: absolute;
+  width: 336px;
+  top: 408px;
+  left: 559px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: 42.7px;
+}
+
+.servicios-higienicos .text-wrapper-10 {
+  position: absolute;
+  width: 819px;
+  top: 422px;
+  left: 895px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.servicios-higienicos .cat-logo-pronied {
+  position: absolute;
+  width: 622px;
+  height: 30px;
+  top: 324px;
+  left: 895px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.servicios-higienicos .text-wrapper-11 {
+  position: absolute;
+  width: 54px;
+  height: 30px;
+  top: 324px;
+  left: 459px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.servicios-higienicos .modo-de-aislamiento {
+  position: absolute;
+  width: 8px;
+  height: 13px;
+  top: 326px;
+  left: 1066px;
+}
+
+.servicios-higienicos .modo-de-aislamiento-2 {
+  position: absolute;
+  width: 8px;
+  height: 13px;
+  top: 326px;
+  left: 442px;
+}
+
+.servicios-higienicos .ellipse-2 {
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  top: 432px;
+  left: 442px;
+  background-color: #ffffff;
+  border-radius: 45.5px;
+}
+
+.servicios-higienicos .capa-2 {
+  position: absolute;
+  width: 35px;
+  height: 57px;
+  top: 449px;
+  left: 470px;
+}
+
+.servicios-higienicos .vector-8 {
+  position: absolute;
+  width: 59px;
+  height: 45px;
+  top: 466px;
+  left: 456px;
+}
+
+.servicios-higienicos .text-wrapper-12 {
+  position: absolute;
+  width: 1125px;
+  top: 645px;
+  left: 401px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.servicios-higienicos .servicios-higi-nicos-2 {
+  position: absolute;
+  width: 497px;
+  top: 765px;
+  left: 712px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #2c2c2c;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .border {
+  position: absolute;
+  width: 1113px;
+  height: 4px;
+  top: 814px;
+  left: 404px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dfdfdf;
+}
+
+.servicios-higienicos .overlap-group-3 {
+  position: relative;
+  width: 46px;
+  height: 6px;
+}
+
+.servicios-higienicos .background {
+  position: absolute;
+  width: 40px;
+  height: 5px;
+  top: 0;
+  left: 0;
+  background-color: #363636;
+}
+
+.servicios-higienicos .mask-group-2 {
+  position: absolute;
+  width: 10px;
+  height: 6px;
+  top: 0;
+  left: 36px;
+}
+
+.servicios-higienicos .overlap-10 {
+  position: absolute;
+  width: 1028px;
+  height: 151px;
+  top: 2230px;
+  left: 241px;
+}
+
+.servicios-higienicos .text-wrapper-13 {
+  position: absolute;
+  width: 617px;
+  top: 117px;
+  left: 411px;
+  font-family: "Gotham Rounded-Light", Helvetica;
+  font-weight: 300;
+  color: #020101;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24.2px;
+}
+
+.servicios-higienicos .group-4 {
+  position: absolute;
+  width: 911px;
+  height: 121px;
+  top: 0;
+  left: 0;
+}
+
+.servicios-higienicos .overlap-group-wrapper {
+  position: absolute;
+  width: 386px;
+  height: 65px;
+  top: 27px;
+  left: 528px;
+}
+
+.servicios-higienicos .overlap-group-4 {
+  position: relative;
+  width: 384px;
+  height: 65px;
+  background-color: #eeeeee;
+  border-radius: 36px;
+}
+
+.servicios-higienicos .layer {
+  position: absolute;
+  width: 39px;
+  height: 44px;
+  top: 12px;
+  left: 32px;
+}
+
+.servicios-higienicos .text-wrapper-14 {
+  position: absolute;
+  width: 286px;
+  top: 14px;
+  left: 90px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.0px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .image-2 {
+  width: 463px;
+  height: 121px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.servicios-higienicos .conoce-nuestra {
+  position: absolute;
+  width: 380px;
+  top: 3094px;
+  left: 1005px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 28.6px;
+}
+
+.servicios-higienicos .overlap-wrapper {
+  position: absolute;
+  width: 193px;
+  height: 42px;
+  top: 2095px;
+  left: 865px;
+}
+
+.servicios-higienicos .overlap-11 {
+  position: relative;
+  width: 191px;
+  height: 42px;
+  background-color: #ffffff;
+  border-radius: 33px;
+  border: 2px solid;
+  border-color: #4380b7;
+}
+
+.servicios-higienicos .text-wrapper-15 {
+  position: absolute;
+  width: 162px;
+  height: 31px;
+  top: 3px;
+  left: 2px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #4380b7;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.servicios-higienicos .vector-9 {
+  position: absolute;
+  width: 15px;
+  height: 10px;
+  top: 14px;
+  left: 158px;
+}
+
+.servicios-higienicos .rectangle-6 {
+  position: absolute;
+  width: 274px;
+  height: 249px;
+  top: 3084px;
+  left: 696px;
+  object-fit: cover;
+}
+
+.servicios-higienicos .te-compartimos {
+  position: absolute;
+  width: 342px;
+  top: 3188px;
+  left: 1005px;
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.servicios-higienicos .text-wrapper-16 {
+  color: #020101;
+}
+
+.servicios-higienicos .text-wrapper-17 {
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #83b2b9;
+}
+
+.servicios-higienicos .text-wrapper-18 {
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #020101;
+}
+
+.servicios-higienicos .overlap-12 {
+  position: absolute;
+  width: 1918px;
+  height: 598px;
+  top: 2446px;
+  left: 2px;
+  background-image: url(https://c.animaapp.com/HgLDjYAZ/img/rectangle-8.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.servicios-higienicos .group-5 {
+  position: absolute;
+  width: 1420px;
+  height: 508px;
+  top: 57px;
+  left: 267px;
+}
+
+.servicios-higienicos .text-wrapper-19 {
+  position: absolute;
+  width: 112px;
+  top: 214px;
+  left: 1278px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .ruta-para-la {
+  position: absolute;
+  width: 425px;
+  top: 0;
+  left: 481px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .text-wrapper-20 {
+  position: absolute;
+  width: 1020px;
+  top: 61px;
+  left: 182px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #221e20;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .div-wrapper {
+  position: absolute;
+  width: 156px;
+  height: 89px;
+  top: 214px;
+  left: 838px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.servicios-higienicos .text-wrapper-21 {
+  position: absolute;
+  width: 138px;
+  top: 9px;
+  left: 9px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.servicios-higienicos .overlap-13 {
+  position: absolute;
+  width: 154px;
+  height: 89px;
+  top: 214px;
+  left: 1053px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.servicios-higienicos .text-wrapper-22 {
+  position: absolute;
+  width: 137px;
+  top: 9px;
+  left: 8px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.servicios-higienicos .text-wrapper-23 {
+  position: absolute;
+  width: 86px;
+  top: 213px;
+  left: 8px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .overlap-14 {
+  position: absolute;
+  width: 147px;
+  height: 83px;
+  top: 114px;
+  left: 158px;
+}
+
+.servicios-higienicos .rectangle-7 {
+  position: absolute;
+  width: 145px;
+  height: 83px;
+  top: 0;
+  left: 2px;
+  background-color: #4380b7;
+  border-radius: 15px;
+}
+
+.servicios-higienicos .mesa-de-partes-del {
+  position: absolute;
+  width: 147px;
+  top: 20px;
+  left: 0;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.servicios-higienicos .vector-10 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 796px;
+}
+
+.servicios-higienicos .vector-11 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 142px;
+  left: 318px;
+}
+
+.servicios-higienicos .vector-12 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 142px;
+  left: 116px;
+}
+
+.servicios-higienicos .vector-13 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 522px;
+}
+
+.servicios-higienicos .vector-14 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 1007px;
+}
+
+.servicios-higienicos .vector-15 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 1224px;
+}
+
+.servicios-higienicos .gerencia-general-del-wrapper {
+  position: absolute;
+  width: 145px;
+  height: 83px;
+  top: 114px;
+  left: 361px;
+  background-color: #4380b7;
+  border-radius: 15px;
+}
+
+.servicios-higienicos .gerencia-general-del {
+  position: absolute;
+  width: 127px;
+  top: 19px;
+  left: 9px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.servicios-higienicos .overlap-15 {
+  position: absolute;
+  width: 225px;
+  height: 83px;
+  top: 114px;
+  left: 563px;
+  background-color: #4380b7;
+  border-radius: 15px;
+}
+
+.servicios-higienicos .text-wrapper-24 {
+  width: 194px;
+  top: 16px;
+  left: 15px;
+  position: absolute;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.servicios-higienicos .overlap-16 {
+  position: absolute;
+  width: 156px;
+  height: 83px;
+  top: 114px;
+  left: 838px;
+  background-color: #4380b7;
+  border-radius: 15px;
+}
+
+.servicios-higienicos .text-wrapper-25 {
+  width: 138px;
+  height: 52px;
+  top: 17px;
+  left: 9px;
+  position: absolute;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.servicios-higienicos .overlap-17 {
+  position: absolute;
+  width: 225px;
+  height: 72px;
+  top: 214px;
+  left: 563px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.servicios-higienicos .text-wrapper-26 {
+  position: absolute;
+  width: 179px;
+  top: 14px;
+  left: 23px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.servicios-higienicos .overlap-18 {
+  position: absolute;
+  width: 156px;
+  height: 83px;
+  top: 114px;
+  left: 1052px;
+  background-color: #4380b7;
+  border-radius: 15px;
+}
+
+.servicios-higienicos .text-wrapper-27 {
+  width: 139px;
+  height: 52px;
+  top: 17px;
+  left: 8px;
+  position: absolute;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.servicios-higienicos .documentaci-n-t-wrapper {
+  position: absolute;
+  width: 225px;
+  height: 72px;
+  top: 292px;
+  left: 563px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.servicios-higienicos .documentaci-n-t {
+  position: absolute;
+  width: 179px;
+  top: 12px;
+  left: 23px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.servicios-higienicos .overlap-19 {
+  position: absolute;
+  width: 225px;
+  height: 72px;
+  top: 370px;
+  left: 563px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.servicios-higienicos .text-wrapper-28 {
+  position: absolute;
+  width: 144px;
+  top: 17px;
+  left: 40px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.servicios-higienicos .mask-group-3 {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  top: 103px;
+  left: 0;
+}
+
+.servicios-higienicos .vector-16 {
+  position: absolute;
+  width: 165px;
+  height: 277px;
+  top: 213px;
+  left: 225px;
+}
+
+.servicios-higienicos .vector-17 {
+  position: absolute;
+  width: 202px;
+  height: 172px;
+  top: 318px;
+  left: 938px;
+}
+
+.servicios-higienicos .overlap-20 {
+  position: absolute;
+  width: 519px;
+  height: 36px;
+  top: 472px;
+  left: 405px;
+}
+
+.servicios-higienicos .rectangle-8 {
+  position: absolute;
+  width: 519px;
+  height: 34px;
+  top: 0;
+  left: 0;
+  background-color: #0057a7;
+  border-radius: 14px;
+}
+
+.servicios-higienicos .text-wrapper-29 {
+  position: absolute;
+  width: 441px;
+  top: 6px;
+  left: 44px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 23px;
+}
+
+.servicios-higienicos .MODULO-COSTA-sf-ass {
+  width: 135px;
+  height: 109px;
+  top: 158px;
+  left: 1522px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.servicios-higienicos .ALCALDES-y {
+  position: absolute;
+  width: 307px;
+  height: 287px;
+  top: 3731px;
+  left: 554px;
+  object-fit: cover;
+}
+
+.servicios-higienicos .overlap-21 {
+  position: absolute;
+  width: 468px;
+  height: 43px;
+  top: 3718px;
+  left: 887px;
+}
+
+.servicios-higienicos .rectangle-9 {
+  position: absolute;
+  width: 468px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.servicios-higienicos .text-wrapper-30 {
+  position: absolute;
+  width: 445px;
+  top: 8px;
+  left: 13px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 19.0px;
+}
+
+.servicios-higienicos .el-equipo-t-cnico {
+  position: absolute;
+  width: 445px;
+  top: 3777px;
+  left: 900px;
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.servicios-higienicos .text-wrapper-31 {
+  position: absolute;
+  width: 214px;
+  top: 3904px;
+  left: 964px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .text-wrapper-32 {
+  position: absolute;
+  width: 214px;
+  top: 3963px;
+  left: 964px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .img-2 {
+  position: absolute;
+  width: 73px;
+  height: 73px;
+  top: 3873px;
+  left: 887px;
+}
+
+.servicios-higienicos .frame {
+  position: absolute;
+  width: 45px;
+  height: 44px;
+  top: 3953px;
+  left: 899px;
+}
+
+.servicios-higienicos .overlap-22 {
+  position: absolute;
+  width: 378px;
+  height: 309px;
+  top: 860px;
+  left: 772px;
+}
+
+.servicios-higienicos .rectangle-10 {
+  position: absolute;
+  width: 378px;
+  height: 237px;
+  top: 72px;
+  left: 0;
+  background-color: #3a77b0;
+  border-radius: 18px;
+}
+
+.servicios-higienicos .servicio-higi-nico-2 {
+  position: absolute;
+  width: 345px;
+  top: 250px;
+  left: 15px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24.2px;
+}
+
+.servicios-higienicos .rectangle-11 {
+  position: absolute;
+  width: 378px;
+  height: 236px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.servicios-higienicos .text-wrapper-33 {
+  position: absolute;
+  width: 202px;
+  top: 2004px;
+  left: 730px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.servicios-higienicos .text-wrapper-34 {
+  position: absolute;
+  width: 242px;
+  top: 2004px;
+  left: 977px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.servicios-higienicos .footer {
+  position: absolute;
+  width: 1920px;
+  height: 532px;
+  top: 4063px;
+  left: 0;
+  background-color: #0057a7;
+}
+
+.servicios-higienicos .horizontal-border {
+  position: absolute;
+  width: 1920px;
+  height: 99px;
+  top: 437px;
+  left: 0;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: #202e3f;
+}
+
+.servicios-higienicos .list {
+  position: absolute;
+  width: 630px;
+  height: 28px;
+  top: 36px;
+  left: 315px;
+}
+
+.servicios-higienicos .div-2 {
+  position: absolute;
+  width: 171px;
+  height: 28px;
+  top: 0;
+  left: 0;
+}
+
+.servicios-higienicos .background-2 {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 12px;
+  left: 181px;
+  background-color: #7c91aa;
+  border-radius: 2px;
+}
+
+.servicios-higienicos .privacy-policy-terms {
+  position: absolute;
+  width: 171px;
+  height: 28px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .item-link {
+  position: absolute;
+  width: 88px;
+  height: 28px;
+  top: 0;
+  left: 196px;
+}
+
+.servicios-higienicos .text-wrapper-35 {
+  position: absolute;
+  width: 88px;
+  height: 28px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .text-wrapper-36 {
+  position: absolute;
+  width: 309px;
+  height: 28px;
+  top: 35px;
+  left: 1296px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .text-wrapper-37 {
+  position: absolute;
+  width: 508px;
+  height: 91px;
+  top: 147px;
+  left: 779px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.servicios-higienicos .group-6 {
+  position: absolute;
+  width: 391px;
+  height: 50px;
+  top: 64px;
+  left: 811px;
+}
+
+.servicios-higienicos .vector-wrapper {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 1060px;
+  background-image: url(https://c.animaapp.com/HgLDjYAZ/img/vector-14.svg);
+  background-size: 100% 100%;
+}
+
+.servicios-higienicos .vector-18 {
+  position: absolute;
+  width: 26px;
+  height: 18px;
+  top: 10px;
+  left: 6px;
+}
+
+.servicios-higienicos .overlap-23 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 1107px;
+  background-image: url(https://c.animaapp.com/HgLDjYAZ/img/vector-16.svg);
+  background-size: 100% 100%;
+}
+
+.servicios-higienicos .vector-19 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 9px;
+  left: 9px;
+}
+
+.servicios-higienicos .vector-20 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 14px;
+  left: 14px;
+}
+
+.servicios-higienicos .vector-21 {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  top: 12px;
+  left: 24px;
+}
+
+.servicios-higienicos .overlap-24 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 1012px;
+  background-image: url(https://c.animaapp.com/HgLDjYAZ/img/vector-17.svg);
+  background-size: 100% 100%;
+}
+
+.servicios-higienicos .vector-22 {
+  position: absolute;
+  width: 15px;
+  height: 16px;
+  top: 14px;
+  left: 16px;
+}
+
+.servicios-higienicos .vector-23 {
+  position: absolute;
+  width: 5px;
+  height: 15px;
+  top: 15px;
+  left: 8px;
+}
+
+.servicios-higienicos .vector-24 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 7px;
+  left: 8px;
+}
+
+.servicios-higienicos .img-wrapper {
+  position: absolute;
+  width: 39px;
+  height: 38px;
+  top: 283px;
+  left: 921px;
+  background-image: url(https://c.animaapp.com/HgLDjYAZ/img/vector-21.svg);
+  background-size: 100% 100%;
+}
+
+.servicios-higienicos .vector-25 {
+  position: absolute;
+  width: 16px;
+  height: 31px;
+  top: 8px;
+  left: 11px;
+}
+
+.servicios-higienicos .overlap-25 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 965px;
+  background-image: url(https://c.animaapp.com/HgLDjYAZ/img/vector-26.svg);
+  background-size: 100% 100%;
+}
+
+.servicios-higienicos .vector-26 {
+  position: absolute;
+  width: 23px;
+  height: 21px;
+  top: 9px;
+  left: 8px;
+}
+
+.servicios-higienicos .vector-27 {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 9px;
+  left: 21px;
+}
+
+.servicios-higienicos .vector-28 {
+  position: absolute;
+  width: 10px;
+  height: 9px;
+  top: 20px;
+  left: 9px;
+}
+
+.servicios-higienicos .text-wrapper-38 {
+  position: absolute;
+  height: 27px;
+  top: 245px;
+  left: 952px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 26.2px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .text-wrapper-39 {
+  position: absolute;
+  height: 27px;
+  top: 336px;
+  left: 922px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 26.2px;
+  white-space: nowrap;
+}
+
+.servicios-higienicos .line {
+  position: absolute;
+  width: 1111px;
+  height: 1px;
+  top: 1216px;
+  left: 400px;
+}
+
+.servicios-higienicos .group-7 {
+  position: absolute;
+  width: 193px;
+  height: 42px;
+  top: 3274px;
+  left: 1000px;
+}
+
+.servicios-higienicos .overlap-26 {
+  position: relative;
+  width: 191px;
+  height: 42px;
+  background-color: #ffffff;
+  border-radius: 33px;
+  border: 2px solid;
+  border-color: #83b2b9;
+}
+
+.servicios-higienicos .text-wrapper-40 {
+  position: absolute;
+  width: 162px;
+  height: 31px;
+  top: 3px;
+  left: 2px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #83b2b9;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+  cursor: pointer;
+}

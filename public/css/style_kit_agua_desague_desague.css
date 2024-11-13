@@ -1,0 +1,1845 @@
+.kit-de-desague {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.kit-de-desague .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 5133px;
+  position: relative;
+}
+
+.kit-de-desague .overlap {
+  position: absolute;
+  width: 1920px;
+  height: 312px;
+  top: 3412px;
+  left: 0;
+  background-image: url(https://c.animaapp.com/XUGAlb6v/img/rectangle-34.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.kit-de-desague .text-wrapper {
+  position: absolute;
+  width: 878px;
+  top: 93px;
+  left: 521px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #010101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .documentos-de-apoyo {
+  position: absolute;
+  width: 369px;
+  top: 44px;
+  left: 776px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #313131;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .overlap-group {
+  position: absolute;
+  width: 698px;
+  height: 105px;
+  top: 170px;
+  left: 703px;
+}
+
+.kit-de-desague .group {
+  position: absolute;
+  width: 698px;
+  height: 105px;
+  top: 0;
+  left: 0;
+}
+
+.kit-de-desague .planos-esquem-ticos {
+  position: absolute;
+  width: 546px;
+  top: 3px;
+  left: 148px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 21.8px;
+}
+
+.kit-de-desague .text-wrapper-2 {
+  top: 3px;
+  left: 122px;
+  color: #7d4393;
+  font-size: 17px;
+  line-height: 22.1px;
+  position: absolute;
+  width: 16px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.kit-de-desague .group-2 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  top: 0;
+  left: 0;
+  background-color: #2ead9a;
+  border-radius: 52.62px;
+}
+
+.kit-de-desague .mask-group {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  top: 0;
+  left: 0;
+}
+
+.kit-de-desague .beneficios {
+  position: absolute;
+  width: 433px;
+  top: 1942px;
+  left: 744px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .inversi-n-estimada {
+  position: absolute;
+  width: 781px;
+  top: 2239px;
+  left: 570px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .overlap-2 {
+  position: absolute;
+  width: 1920px;
+  height: 597px;
+  top: 0;
+  left: 0;
+}
+
+.kit-de-desague .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 409px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.kit-de-desague .img {
+  position: absolute;
+  width: 1920px;
+  height: 293px;
+  top: 304px;
+  left: 0;
+  object-fit: cover;
+}
+
+.kit-de-desague .kit-de-agua-y-desag {
+  position: absolute;
+  width: 336px;
+  top: 436px;
+  left: 559px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: 42.7px;
+}
+
+.kit-de-desague .p {
+  position: absolute;
+  width: 468px;
+  top: 422px;
+  left: 895px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 17px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.kit-de-desague .cat-logo-pronied-kit {
+  position: absolute;
+  width: 622px;
+  height: 30px;
+  top: 324px;
+  left: 895px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.kit-de-desague .text-wrapper-3 {
+  position: absolute;
+  width: 54px;
+  height: 30px;
+  top: 324px;
+  left: 459px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.kit-de-desague .modo-de-aislamiento {
+  position: absolute;
+  width: 8px;
+  height: 13px;
+  top: 334px;
+  left: 1066px;
+}
+
+.kit-de-desague .modo-de-aislamiento-2 {
+  position: absolute;
+  width: 8px;
+  height: 13px;
+  top: 334px;
+  left: 442px;
+}
+
+.kit-de-desague .ellipse {
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  top: 432px;
+  left: 442px;
+  background-color: #ffffff;
+  border-radius: 45.5px;
+}
+
+.kit-de-desague .vector {
+  position: absolute;
+  width: 59px;
+  height: 45px;
+  top: 466px;
+  left: 456px;
+}
+
+.kit-de-desague .vector-2 {
+  position: absolute;
+  width: 42px;
+  height: 51px;
+  top: 449px;
+  left: 468px;
+}
+
+.kit-de-desague .kit-de-agua-es-un-m {
+  position: absolute;
+  width: 1113px;
+  top: 645px;
+  left: 404px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.kit-de-desague .span {
+  font-weight: 700;
+}
+
+.kit-de-desague .text-wrapper-4 {
+  font-family: "Gotham Rounded-Regular", Helvetica;
+}
+
+.kit-de-desague .kit-de-agua-y-desag-2 {
+  position: absolute;
+  width: 497px;
+  top: 816px;
+  left: 712px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #2c2c2c;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .border {
+  position: absolute;
+  width: 1113px;
+  height: 4px;
+  top: 865px;
+  left: 404px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dfdfdf;
+}
+
+.kit-de-desague .overlap-group-2 {
+  position: relative;
+  width: 46px;
+  height: 6px;
+}
+
+.kit-de-desague .background {
+  position: absolute;
+  width: 40px;
+  height: 5px;
+  top: 0;
+  left: 0;
+  background-color: #363636;
+}
+
+.kit-de-desague .mask-group-2 {
+  position: absolute;
+  width: 10px;
+  height: 6px;
+  top: 0;
+  left: 36px;
+}
+
+.kit-de-desague .text-wrapper-5 {
+  position: absolute;
+  width: 617px;
+  top: 2388px;
+  left: 652px;
+  font-family: "Gotham Rounded-Light", Helvetica;
+  font-weight: 300;
+  color: #020101;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24.2px;
+}
+
+.kit-de-desague .group-wrapper {
+  position: absolute;
+  width: 384px;
+  height: 65px;
+  top: 2298px;
+  left: 769px;
+}
+
+.kit-de-desague .overlap-group-wrapper {
+  width: 386px;
+  height: 65px;
+}
+
+.kit-de-desague .overlap-group-3 {
+  position: relative;
+  width: 384px;
+  height: 65px;
+  background-color: #eeeeee;
+  border-radius: 36px;
+}
+
+.kit-de-desague .layer {
+  position: absolute;
+  width: 39px;
+  height: 44px;
+  top: 12px;
+  left: 32px;
+}
+
+.kit-de-desague .text-wrapper-6 {
+  position: absolute;
+  width: 286px;
+  top: 16px;
+  left: 84px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.0px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .conoce-nuestra {
+  position: absolute;
+  width: 380px;
+  top: 3135px;
+  left: 1005px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 28.6px;
+}
+
+.kit-de-desague .overlap-wrapper {
+  position: absolute;
+  width: 193px;
+  height: 42px;
+  top: 2146px;
+  left: 865px;
+}
+
+.kit-de-desague .overlap-3 {
+  position: relative;
+  width: 191px;
+  height: 42px;
+  background-color: #ffffff;
+  border-radius: 33px;
+  border: 2px solid;
+  border-color: #0b978a;
+}
+
+.kit-de-desague .text-wrapper-7 {
+  position: absolute;
+  width: 162px;
+  height: 31px;
+  top: 3px;
+  left: 2px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #0b978a;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .vector-3 {
+  position: absolute;
+  width: 15px;
+  height: 10px;
+  top: 14px;
+  left: 158px;
+}
+
+.kit-de-desague .rectangle-2 {
+  position: absolute;
+  width: 274px;
+  height: 249px;
+  top: 3125px;
+  left: 696px;
+  object-fit: cover;
+}
+
+.kit-de-desague .te-compartimos {
+  position: absolute;
+  width: 342px;
+  top: 3229px;
+  left: 1005px;
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.kit-de-desague .text-wrapper-8 {
+  color: #020101;
+}
+
+.kit-de-desague .text-wrapper-9 {
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #214287;
+}
+
+.kit-de-desague .overlap-4 {
+  position: absolute;
+  width: 1918px;
+  height: 598px;
+  top: 2487px;
+  left: 2px;
+  background-image: url(https://c.animaapp.com/XUGAlb6v/img/rectangle-8.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.kit-de-desague .group-3 {
+  position: absolute;
+  width: 1420px;
+  height: 508px;
+  top: 57px;
+  left: 267px;
+}
+
+.kit-de-desague .text-wrapper-10 {
+  position: absolute;
+  width: 112px;
+  top: 214px;
+  left: 1278px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .ruta-para-la {
+  position: absolute;
+  width: 425px;
+  top: 0;
+  left: 481px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .text-wrapper-11 {
+  position: absolute;
+  width: 1020px;
+  top: 61px;
+  left: 182px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #221e20;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .div-wrapper {
+  position: absolute;
+  width: 156px;
+  height: 89px;
+  top: 214px;
+  left: 838px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.kit-de-desague .text-wrapper-12 {
+  position: absolute;
+  width: 138px;
+  top: 9px;
+  left: 9px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.kit-de-desague .overlap-5 {
+  position: absolute;
+  width: 154px;
+  height: 89px;
+  top: 214px;
+  left: 1053px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.kit-de-desague .text-wrapper-13 {
+  position: absolute;
+  width: 137px;
+  top: 9px;
+  left: 8px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.kit-de-desague .text-wrapper-14 {
+  position: absolute;
+  width: 86px;
+  top: 213px;
+  left: 8px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .overlap-6 {
+  position: absolute;
+  width: 147px;
+  height: 83px;
+  top: 114px;
+  left: 158px;
+}
+
+.kit-de-desague .rectangle-3 {
+  position: absolute;
+  width: 145px;
+  height: 83px;
+  top: 0;
+  left: 2px;
+  background-color: #0b978a;
+  border-radius: 15px;
+}
+
+.kit-de-desague .mesa-de-partes-del {
+  position: absolute;
+  width: 147px;
+  top: 20px;
+  left: 0;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.kit-de-desague .vector-4 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 796px;
+}
+
+.kit-de-desague .vector-5 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 142px;
+  left: 318px;
+}
+
+.kit-de-desague .vector-6 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 142px;
+  left: 116px;
+}
+
+.kit-de-desague .vector-7 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 522px;
+}
+
+.kit-de-desague .vector-8 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 1007px;
+}
+
+.kit-de-desague .vector-9 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 1224px;
+}
+
+.kit-de-desague .gerencia-general-del-wrapper {
+  position: absolute;
+  width: 145px;
+  height: 83px;
+  top: 114px;
+  left: 361px;
+  background-color: #0b978a;
+  border-radius: 15px;
+}
+
+.kit-de-desague .gerencia-general-del {
+  position: absolute;
+  width: 127px;
+  top: 19px;
+  left: 9px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.kit-de-desague .overlap-7 {
+  position: absolute;
+  width: 225px;
+  height: 83px;
+  top: 114px;
+  left: 563px;
+  background-color: #0b978a;
+  border-radius: 15px;
+}
+
+.kit-de-desague .text-wrapper-15 {
+  width: 194px;
+  top: 16px;
+  left: 15px;
+  position: absolute;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.kit-de-desague .overlap-8 {
+  position: absolute;
+  width: 156px;
+  height: 83px;
+  top: 114px;
+  left: 838px;
+  background-color: #0b978a;
+  border-radius: 15px;
+}
+
+.kit-de-desague .text-wrapper-16 {
+  width: 138px;
+  height: 52px;
+  top: 17px;
+  left: 9px;
+  position: absolute;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.kit-de-desague .overlap-9 {
+  position: absolute;
+  width: 225px;
+  height: 72px;
+  top: 214px;
+  left: 563px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.kit-de-desague .text-wrapper-17 {
+  position: absolute;
+  width: 179px;
+  top: 14px;
+  left: 23px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.kit-de-desague .overlap-10 {
+  position: absolute;
+  width: 156px;
+  height: 83px;
+  top: 114px;
+  left: 1052px;
+  background-color: #0b978a;
+  border-radius: 15px;
+}
+
+.kit-de-desague .text-wrapper-18 {
+  width: 139px;
+  height: 52px;
+  top: 17px;
+  left: 8px;
+  position: absolute;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.kit-de-desague .documentaci-n-t-wrapper {
+  position: absolute;
+  width: 225px;
+  height: 72px;
+  top: 292px;
+  left: 563px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.kit-de-desague .documentaci-n-t {
+  position: absolute;
+  width: 179px;
+  top: 12px;
+  left: 23px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.kit-de-desague .overlap-11 {
+  position: absolute;
+  width: 225px;
+  height: 72px;
+  top: 370px;
+  left: 563px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.kit-de-desague .text-wrapper-19 {
+  position: absolute;
+  width: 144px;
+  top: 17px;
+  left: 40px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.kit-de-desague .mask-group-3 {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  top: 103px;
+  left: 0;
+}
+
+.kit-de-desague .vector-10 {
+  position: absolute;
+  width: 165px;
+  height: 277px;
+  top: 213px;
+  left: 225px;
+}
+
+.kit-de-desague .vector-11 {
+  position: absolute;
+  width: 202px;
+  height: 172px;
+  top: 318px;
+  left: 938px;
+}
+
+.kit-de-desague .overlap-12 {
+  position: absolute;
+  width: 519px;
+  height: 36px;
+  top: 472px;
+  left: 405px;
+}
+
+.kit-de-desague .rectangle-4 {
+  position: absolute;
+  width: 519px;
+  height: 34px;
+  top: 0;
+  left: 0;
+  background-color: #0057a7;
+  border-radius: 14px;
+}
+
+.kit-de-desague .text-wrapper-20 {
+  position: absolute;
+  width: 441px;
+  top: 6px;
+  left: 44px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 23px;
+}
+
+.kit-de-desague .MODULO-COSTA-ass {
+  width: 153px;
+  height: 77px;
+  top: 179px;
+  left: 1533px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.kit-de-desague .ALCALDES-y {
+  position: absolute;
+  width: 307px;
+  height: 287px;
+  top: 3772px;
+  left: 554px;
+  object-fit: cover;
+}
+
+.kit-de-desague .overlap-13 {
+  position: absolute;
+  width: 468px;
+  height: 43px;
+  top: 3759px;
+  left: 887px;
+}
+
+.kit-de-desague .rectangle-5 {
+  position: absolute;
+  width: 468px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.kit-de-desague .text-wrapper-21 {
+  position: absolute;
+  width: 445px;
+  top: 8px;
+  left: 13px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 19.0px;
+}
+
+.kit-de-desague .el-equipo-t-cnico {
+  position: absolute;
+  width: 445px;
+  top: 3818px;
+  left: 900px;
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.kit-de-desague .text-wrapper-22 {
+  color: #214287;
+}
+
+.kit-de-desague .text-wrapper-23 {
+  position: absolute;
+  width: 214px;
+  top: 3945px;
+  left: 964px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .text-wrapper-24 {
+  position: absolute;
+  width: 214px;
+  top: 4004px;
+  left: 964px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .img-2 {
+  position: absolute;
+  width: 73px;
+  height: 73px;
+  top: 3914px;
+  left: 887px;
+}
+
+.kit-de-desague .frame {
+  position: absolute;
+  width: 45px;
+  height: 44px;
+  top: 3994px;
+  left: 899px;
+}
+
+.kit-de-desague .overlap-14 {
+  position: absolute;
+  width: 508px;
+  height: 581px;
+  top: 1307px;
+  left: 393px;
+}
+
+.kit-de-desague .ellipse-2 {
+  position: absolute;
+  width: 189px;
+  height: 189px;
+  top: 374px;
+  left: 30px;
+  background-color: #ebebeb;
+  border-radius: 94.36px;
+}
+
+.kit-de-desague .callao {
+  position: absolute;
+  width: 5px;
+  height: 4px;
+  top: 376px;
+  left: 241px;
+}
+
+.kit-de-desague .vector-12 {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 376px;
+  left: 241px;
+}
+
+.kit-de-desague .vector-13 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 313px;
+  left: 224px;
+  object-fit: cover;
+}
+
+.kit-de-desague .vector-14 {
+  position: absolute;
+  width: 97px;
+  height: 61px;
+  top: 317px;
+  left: 104px;
+}
+
+.kit-de-desague .MODULO-COSTA-sf-ass {
+  width: 235px;
+  height: 91px;
+  top: 404px;
+  left: 3px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.kit-de-desague .vector-15 {
+  position: absolute;
+  width: 2px;
+  height: 1px;
+  top: 524px;
+  left: 352px;
+}
+
+.kit-de-desague .vector-16 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 509px;
+  left: 338px;
+}
+
+.kit-de-desague .vector-17 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 510px;
+  left: 337px;
+}
+
+.kit-de-desague .vector-18 {
+  position: absolute;
+  width: 124px;
+  height: 37px;
+  top: 508px;
+  left: 218px;
+}
+
+.kit-de-desague .rectangle-6 {
+  position: absolute;
+  width: 394px;
+  height: 581px;
+  top: 0;
+  left: 114px;
+  object-fit: cover;
+}
+
+.kit-de-desague .ALTURA-wrapper {
+  position: absolute;
+  width: 229px;
+  height: 60px;
+  top: 6px;
+  left: 0;
+}
+
+.kit-de-desague .ALTURA {
+  width: 235px;
+  height: 60px;
+}
+
+.kit-de-desague .overlap-group-4 {
+  position: relative;
+  width: 229px;
+  height: 60px;
+  background-color: #0b978a;
+  border-radius: 30px;
+}
+
+.kit-de-desague .overlap-15 {
+  position: absolute;
+  width: 162px;
+  height: 46px;
+  top: 7px;
+  left: 62px;
+}
+
+.kit-de-desague .text-wrapper-25 {
+  position: absolute;
+  width: 87px;
+  top: 25px;
+  left: 75px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .text-wrapper-26 {
+  position: absolute;
+  width: 138px;
+  top: 0;
+  left: 0;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .text-wrapper-27 {
+  position: absolute;
+  width: 138px;
+  top: 17px;
+  left: 0;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 32.5px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .vector-19 {
+  position: absolute;
+  width: 44px;
+  height: 46px;
+  top: 7px;
+  left: 8px;
+}
+
+.kit-de-desague .overlap-16 {
+  position: absolute;
+  width: 326px;
+  height: 42px;
+  top: 1410px;
+  left: 942px;
+}
+
+.kit-de-desague .rectangle-7 {
+  position: absolute;
+  width: 326px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  background-color: #0b978a;
+  border-radius: 15px;
+}
+
+.kit-de-desague .text-wrapper-28 {
+  position: absolute;
+  width: 284px;
+  top: 6px;
+  left: 24px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 20.9px;
+}
+
+.kit-de-desague .overlap-17 {
+  position: absolute;
+  width: 425px;
+  height: 230px;
+  top: 1461px;
+  left: 942px;
+}
+
+.kit-de-desague .overlap-18 {
+  position: absolute;
+  width: 326px;
+  height: 229px;
+  top: 1px;
+  left: 0;
+}
+
+.kit-de-desague .rectangle-8 {
+  position: absolute;
+  width: 326px;
+  height: 36px;
+  top: 188px;
+  left: 0;
+  background-color: #0b978a;
+  border-radius: 15px;
+}
+
+.kit-de-desague .div-2 {
+  top: 0;
+  left: 0;
+  color: #4380b7;
+  font-size: 15px;
+  line-height: 19.5px;
+  position: absolute;
+  width: 16px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.kit-de-desague .text-wrapper-29 {
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #4380b7;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.kit-de-desague .text-wrapper-30 {
+  font-size: 17px;
+  line-height: 22.1px;
+}
+
+.kit-de-desague .text-wrapper-31 {
+  position: absolute;
+  width: 293px;
+  top: 194px;
+  left: 24px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 20.9px;
+}
+
+.kit-de-desague .redes-sanitarias {
+  position: absolute;
+  width: 400px;
+  top: 0;
+  left: 25px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.kit-de-desague .evaluaci-n-de {
+  position: absolute;
+  width: 400px;
+  top: 1703px;
+  left: 967px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.kit-de-desague .text-wrapper-32 {
+  top: 1704px;
+  left: 942px;
+  color: #4380b7;
+  font-size: 15px;
+  line-height: 19.5px;
+  position: absolute;
+  width: 16px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.kit-de-desague .kit-de-desag-e-costa {
+  position: absolute;
+  width: 569px;
+  top: 1313px;
+  left: 942px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #0b978a;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 40.2px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .overlap-19 {
+  position: absolute;
+  width: 378px;
+  height: 310px;
+  top: 911px;
+  left: 966px;
+}
+
+.kit-de-desague .rectangle-9 {
+  position: absolute;
+  width: 378px;
+  height: 237px;
+  top: 72px;
+  left: 0;
+  background-color: #0b978a;
+  border-radius: 18px;
+}
+
+.kit-de-desague .text-wrapper-33 {
+  position: absolute;
+  width: 345px;
+  top: 258px;
+  left: 15px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24.2px;
+}
+
+.kit-de-desague .rectangle-10 {
+  position: absolute;
+  width: 378px;
+  height: 236px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.kit-de-desague .overlap-20 {
+  position: absolute;
+  width: 378px;
+  height: 310px;
+  top: 911px;
+  left: 560px;
+}
+
+.kit-de-desague .rectangle-11 {
+  position: absolute;
+  width: 378px;
+  height: 237px;
+  top: 72px;
+  left: 0;
+  background-color: #0852b5;
+  border-radius: 18px;
+}
+
+.kit-de-desague .text-wrapper-34 {
+  position: absolute;
+  width: 202px;
+  top: 2055px;
+  left: 550px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.kit-de-desague .text-wrapper-35 {
+  position: absolute;
+  width: 158px;
+  top: 2055px;
+  left: 788px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.kit-de-desague .text-wrapper-36 {
+  position: absolute;
+  width: 243px;
+  top: 2055px;
+  left: 951px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.kit-de-desague .text-wrapper-37 {
+  position: absolute;
+  width: 149px;
+  top: 2055px;
+  left: 1220px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.kit-de-desague .footer {
+  position: absolute;
+  width: 1920px;
+  height: 532px;
+  top: 4104px;
+  left: 0;
+  background-color: #0057a7;
+}
+
+.kit-de-desague .horizontal-border {
+  position: absolute;
+  width: 1920px;
+  height: 99px;
+  top: 437px;
+  left: 0;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: #202e3f;
+}
+
+.kit-de-desague .list {
+  position: absolute;
+  width: 630px;
+  height: 28px;
+  top: 36px;
+  left: 315px;
+}
+
+.kit-de-desague .div-3 {
+  position: absolute;
+  width: 171px;
+  height: 28px;
+  top: 0;
+  left: 0;
+}
+
+.kit-de-desague .background-2 {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 12px;
+  left: 181px;
+  background-color: #7c91aa;
+  border-radius: 2px;
+}
+
+.kit-de-desague .privacy-policy-terms {
+  position: absolute;
+  width: 171px;
+  height: 28px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .item-link {
+  position: absolute;
+  width: 88px;
+  height: 28px;
+  top: 0;
+  left: 196px;
+}
+
+.kit-de-desague .text-wrapper-38 {
+  position: absolute;
+  width: 88px;
+  height: 28px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .text-wrapper-39 {
+  position: absolute;
+  width: 309px;
+  height: 28px;
+  top: 35px;
+  left: 1296px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .text-wrapper-40 {
+  position: absolute;
+  width: 508px;
+  height: 91px;
+  top: 147px;
+  left: 779px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.kit-de-desague .group-4 {
+  position: absolute;
+  width: 391px;
+  height: 50px;
+  top: 64px;
+  left: 811px;
+}
+
+.kit-de-desague .vector-wrapper {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 1060px;
+  background-image: url(https://c.animaapp.com/XUGAlb6v/img/vector-14.svg);
+  background-size: 100% 100%;
+}
+
+.kit-de-desague .vector-20 {
+  position: absolute;
+  width: 26px;
+  height: 18px;
+  top: 10px;
+  left: 6px;
+}
+
+.kit-de-desague .overlap-21 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 1107px;
+  background-image: url(https://c.animaapp.com/XUGAlb6v/img/vector-16.svg);
+  background-size: 100% 100%;
+}
+
+.kit-de-desague .vector-21 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 9px;
+  left: 9px;
+}
+
+.kit-de-desague .vector-22 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 14px;
+  left: 14px;
+}
+
+.kit-de-desague .vector-23 {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  top: 12px;
+  left: 24px;
+}
+
+.kit-de-desague .overlap-22 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 1012px;
+  background-image: url(https://c.animaapp.com/XUGAlb6v/img/vector-17.svg);
+  background-size: 100% 100%;
+}
+
+.kit-de-desague .vector-24 {
+  position: absolute;
+  width: 15px;
+  height: 16px;
+  top: 14px;
+  left: 16px;
+}
+
+.kit-de-desague .vector-25 {
+  position: absolute;
+  width: 5px;
+  height: 15px;
+  top: 15px;
+  left: 8px;
+}
+
+.kit-de-desague .vector-26 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 7px;
+  left: 8px;
+}
+
+.kit-de-desague .img-wrapper {
+  position: absolute;
+  width: 39px;
+  height: 38px;
+  top: 283px;
+  left: 921px;
+  background-image: url(https://c.animaapp.com/XUGAlb6v/img/vector-21.svg);
+  background-size: 100% 100%;
+}
+
+.kit-de-desague .vector-27 {
+  position: absolute;
+  width: 16px;
+  height: 31px;
+  top: 8px;
+  left: 11px;
+}
+
+.kit-de-desague .overlap-23 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 965px;
+  background-image: url(https://c.animaapp.com/XUGAlb6v/img/vector-26.svg);
+  background-size: 100% 100%;
+}
+
+.kit-de-desague .vector-28 {
+  position: absolute;
+  width: 23px;
+  height: 21px;
+  top: 9px;
+  left: 8px;
+}
+
+.kit-de-desague .vector-29 {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 9px;
+  left: 21px;
+}
+
+.kit-de-desague .vector-30 {
+  position: absolute;
+  width: 10px;
+  height: 9px;
+  top: 20px;
+  left: 9px;
+}
+
+.kit-de-desague .text-wrapper-41 {
+  position: absolute;
+  height: 27px;
+  top: 245px;
+  left: 952px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 26.2px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .text-wrapper-42 {
+  position: absolute;
+  height: 27px;
+  top: 336px;
+  left: 922px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 26.2px;
+  white-space: nowrap;
+}
+
+.kit-de-desague .line {
+  position: absolute;
+  width: 1111px;
+  height: 1px;
+  top: 1267px;
+  left: 400px;
+}
+
+.kit-de-desague .capa {
+  position: absolute;
+  width: 53px;
+  height: 41px;
+  top: 2005px;
+  left: 844px;
+}
+
+.kit-de-desague .capa-2 {
+  left: 625px;
+  position: absolute;
+  width: 53px;
+  height: 41px;
+  top: 2005px;
+}
+
+.kit-de-desague .capa-3 {
+  left: 1048px;
+  position: absolute;
+  width: 53px;
+  height: 41px;
+  top: 2005px;
+}
+
+.kit-de-desague .capa-4 {
+  left: 1270px;
+  position: absolute;
+  width: 53px;
+  height: 41px;
+  top: 2005px;
+}
+
+.kit-de-desague .group-5 {
+  position: absolute;
+  width: 193px;
+  height: 42px;
+  top: 3315px;
+  left: 1000px;
+}
+
+.kit-de-desague .overlap-24 {
+  position: relative;
+  width: 191px;
+  height: 42px;
+  background-color: #ffffff;
+  border-radius: 33px;
+  border: 2px solid;
+  border-color: #214287;
+}
+
+.kit-de-desague .text-wrapper-43 {
+  position: absolute;
+  width: 162px;
+  height: 31px;
+  top: 3px;
+  left: 2px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #214287;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
