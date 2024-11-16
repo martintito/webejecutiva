@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/globals.css" />
+  <link rel="stylesheet" href="css/style_mobiliario_equipamiento.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /*INICIO SLIDE*/
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .slide {
+      position: relative;
+      width: 1100px;
+      height: 879.54px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .slide img {
+      width: 100%;
+      height: auto;
+    }
+
+    .close-btn,
+    .nav-btn {
+      position: absolute;
+      font-family: "Gotham Rounded-Medium", Helvetica;
+      font-weight: 500;
+      color: white;
+      background: rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+      border: none;
+      padding: 8px 12px;
+    }
+
+    .close-btn {
+      top: 10px;
+      left: 10px;
+      font-size: 18px;
+    }
+
+    .nav-btn.left {
+      top: 50%;
+      left: 10px;
+      font-size: 24px;
+      transform: translateY(-50%);
+    }
+
+    .nav-btn.right {
+      top: 50%;
+      right: 10px;
+      font-size: 24px;
+      transform: translateY(-50%);
+    }
+
+    /*FIN SLIDE*/
+  </style>
+</head>
+
+<body>
+  <div class="desktop-design">
+    <div class="mobiliario-y">
+      <div class="div">
+        <div class="overlap">
+          <p class="text-wrapper">
+            El Pronied brinda los siguiente documentos en apoyo a los gobiernos regionales y locales para<br />su
+            implementación de aulas modulares
+          </p>
+          <div class="documentos-de-apoyo">DOCUMENTOS DE APOYO</div>
+          <div class="overlap-group">
+            <div class="group">
+              <p class="planos-esquem-ticos">
+                Planos esquemáticos<br />Criterios de emplazamiento<br />Esquemas de emplazamiento de Kit de Agua y
+                Desagüe<br />Imágenes referenciales por tipología.
+              </p>
+              <div class="text-wrapper-2">•<br />•<br />•<br />•</div>
+              <div class="group-2"></div>
+            </div>
+            <img class="mask-group" src="https://c.animaapp.com/CDvKIg9R/img/mask-group-1@2x.png" />
+          </div>
+        </div>
+        <div class="beneficios">BENEFICIOS</div>
+        <p class="inversi-n-estimada">INVERSIÓN ESTIMADA DE UN (1) KIT DE DESAGÜE</p>
+        <div class="overlap-2">
+          <img class="rectangle" src="https://c.animaapp.com/CDvKIg9R/img/rectangle-14.png" />
+          <img class="img" src="https://c.animaapp.com/CDvKIg9R/img/rectangle-24.png" />
+          <div class="text-wrapper-3">Mobiliario y<br />Equipamiento</div>
+          <p class="p">
+            Equipamiento y mobiliario de las instituciones educativas públicas. Asimismo, dota de módulos educativos
+            provisionales en casos de necesidad.
+          </p>
+          <div class="cat-logo-pronied-kit">
+            Catálogo Pronied&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kit de Parrarayos
+          </div>
+          <div class="text-wrapper-4">Volver</div>
+          <img class="modo-de-aislamiento" src="https://c.animaapp.com/CDvKIg9R/img/modo-de-aislamiento.svg" />
+          <img class="modo-de-aislamiento-2" src="https://c.animaapp.com/CDvKIg9R/img/modo-de-aislamiento-1.svg" />
+          <div class="ellipse"></div>
+          <img class="vector" src="https://c.animaapp.com/CDvKIg9R/img/vector.svg" />
+          <img class="vector-2" src="https://c.animaapp.com/CDvKIg9R/img/vector-1.svg" />
+          <img class="vector-3" src="img/image.svg" />
+        </div>
+        <p class="text-wrapper-5">
+          *Costo referencial al 2025, (+ Inflación estimada), de acuerdo al costo de los procesos anteriores del
+          Pronied.
+        </p>
+        <div class="group-wrapper">
+          <div class="overlap-group-wrapper">
+            <div class="overlap-group-2">
+              <img class="layer" src="https://c.animaapp.com/CDvKIg9R/img/layer-1.svg" />
+              <div class="text-wrapper-6">S/ 31 000,00</div>
+            </div>
+          </div>
+        </div>
+        <div class="conoce-nuestra">Conoce nuestra<br />experiencia</div>
+        <div class="overlap-wrapper">
+          <div class="overlap-3">
+            <div class="text-wrapper-7" id="openSlideBtnMobiliario1">Ver Imágenes</div>
+            <img class="vector-4" src="https://c.animaapp.com/CDvKIg9R/img/vector-2.svg" />
+          </div>
+        </div>
+        <img class="rectangle-2" src="https://c.animaapp.com/CDvKIg9R/img/rectangle-16@2x.png" />
+        <p class="te-compartimos">
+          <span class="span">Te compartimos algunos resultados de nuestra experiencia en la </span>
+          <span class="text-wrapper-8">adquisición e instalación de un Kit de Parrarayos.</span>
+          <span class="text-wrapper-9">&nbsp;</span>
+        </p>
+        <div class="overlap-4">
+          <div class="group-3">
+            <div class="text-wrapper-10">Bien temporal</div>
+            <div class="ruta-para-la">RUTA PARA LA ADQUISICIÓN</div>
+            <p class="text-wrapper-11">
+              Gráfico referencial de flujograma para obtención de bienes temporales por los gobiernos regionales y
+              locales.
+            </p>
+            <div class="div-wrapper">
+              <p class="text-wrapper-12">Gestión Presupuestal para la adquisición de bienes</p>
+            </div>
+            <div class="overlap-5">
+              <p class="text-wrapper-13">Gestión para la contratación de adquisición de bienes</p>
+            </div>
+            <div class="text-wrapper-14">Necesidad</div>
+            <div class="overlap-6">
+              <div class="rectangle-3"></div>
+              <p class="mesa-de-partes-del">Mesa de Partes<br />del GORE o Municipalidad</p>
+            </div>
+            <img class="vector-5" src="https://c.animaapp.com/CDvKIg9R/img/vector-3.svg" />
+            <img class="vector-6" src="https://c.animaapp.com/CDvKIg9R/img/vector-4.svg" />
+            <img class="vector-7" src="https://c.animaapp.com/CDvKIg9R/img/vector-5.svg" />
+            <img class="vector-8" src="https://c.animaapp.com/CDvKIg9R/img/vector-6.svg" />
+            <img class="vector-9" src="https://c.animaapp.com/CDvKIg9R/img/vector-7.svg" />
+            <img class="vector-10" src="https://c.animaapp.com/CDvKIg9R/img/vector-8.svg" />
+            <div class="gerencia-general-del-wrapper">
+              <p class="gerencia-general-del">Gerencia<br />General del GORE o Gerencia Municipal</p>
+            </div>
+            <div class="overlap-7">
+              <p class="text-wrapper-15">
+                Gerencia de Infraestructura o la que haga sus veces en el del GORE o Municipalidad
+              </p>
+            </div>
+            <div class="overlap-8">
+              <p class="text-wrapper-16">Gerencia de Presupuesto del GORE o Municipalidad</p>
+            </div>
+            <div class="overlap-9">
+              <p class="text-wrapper-17">Gestión de Formulación para Adquisición de Bienes</p>
+            </div>
+            <div class="overlap-10">
+              <p class="text-wrapper-18">Gerencia de Logística del GORE o Municipalidad</p>
+            </div>
+            <div class="documentaci-n-t-wrapper">
+              <p class="documentaci-n-t">Documentación técnica arquitectura e ingeniería<br />EE. TT</p>
+            </div>
+            <div class="overlap-11">
+              <div class="text-wrapper-19">Mobiliario y Equipamiento</div>
+            </div>
+            <img class="mask-group-2" src="https://c.animaapp.com/CDvKIg9R/img/mask-group@2x.png" />
+            <img class="vector-11" src="https://c.animaapp.com/CDvKIg9R/img/vector-6-1.svg" />
+            <img class="vector-12" src="https://c.animaapp.com/CDvKIg9R/img/vector-7-1.svg" />
+            <div class="overlap-12">
+              <div class="rectangle-4"></div>
+              <div class="text-wrapper-20">Asistencia técnica del PRONIED</div>
+            </div>
+          </div>
+          <img class="MODULO-COSTA-ass" src="https://c.animaapp.com/CDvKIg9R/img/modulo-costa-sf2-ass-copia-4@2x.png" />
+        </div>
+        <img class="ALCALDES-y" src="https://c.animaapp.com/CDvKIg9R/img/alcaldes-y-gobernadores-1@2x.png" />
+        <div class="overlap-13">
+          <div class="rectangle-5"></div>
+          <p class="text-wrapper-21">Solicitar asistencia técnica al Pronied</p>
+        </div>
+        <p class="el-equipo-t-cnico">
+          <span class="span">El equipo técnico del Pronied le brindará la orientación necesaria para que </span>
+          <span class="text-wrapper-8">usted y su equipo de trabajo puedan realizar la adquisición e instalación de un
+            Kit
+            de Parrarayos
+          </span>
+          <span class="span">que sus comunidades educativas necesitan</span>
+        </p>
+        <div class="text-wrapper-22">XXXXXX@pronied.gob.pe</div>
+        <div class="text-wrapper-23">+51 999 245 986</div>
+        <img class="img-2" src="https://c.animaapp.com/CDvKIg9R/img/-.svg" />
+        <img class="frame" src="https://c.animaapp.com/CDvKIg9R/img/frame.svg" />
+        <div class="overlap-14">
+          <div class="ellipse-2"></div>
+          <img class="callao" src="https://c.animaapp.com/CDvKIg9R/img/callao.svg" />
+          <img class="vector-13" src="https://c.animaapp.com/CDvKIg9R/img/vector-9.svg" />
+          <img class="vector-14" src="img/vector.svg" />
+          <img class="callao" src="https://c.animaapp.com/CDvKIg9R/img/callao-1.svg" />
+          <img class="vector-13" src="https://c.animaapp.com/CDvKIg9R/img/vector-10.svg" />
+          <img class="vector-15" src="https://c.animaapp.com/CDvKIg9R/img/vector-5-1.svg" />
+          <img class="MODULO-COSTA-sf-ass"
+            src="https://c.animaapp.com/CDvKIg9R/img/modulo-costa-sf2-ass-copia-1@2x.png" />
+          <img class="vector-16" src="https://c.animaapp.com/CDvKIg9R/img/vector-11.svg" />
+          <img class="vector-17" src="https://c.animaapp.com/CDvKIg9R/img/vector-12.svg" />
+          <img class="vector-18" src="https://c.animaapp.com/CDvKIg9R/img/vector-13.svg" />
+          <img class="vector-16" src="https://c.animaapp.com/CDvKIg9R/img/vector-14.svg" />
+          <img class="vector-19" src="https://c.animaapp.com/CDvKIg9R/img/vector-4-1.svg" />
+          <img class="rectangle-6" src="https://c.animaapp.com/CDvKIg9R/img/rectangle-50.png" />
+          <div class="ALTURA-wrapper">
+            <div class="ALTURA">
+              <div class="overlap-group-3">
+                <div class="overlap-15">
+                  <div class="text-wrapper-24">m s. n. m.</div>
+                  <div class="text-wrapper-25">0 hasta</div>
+                  <div class="text-wrapper-26">3500</div>
+                </div>
+                <img class="vector-20" src="https://c.animaapp.com/CDvKIg9R/img/vector-32.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlap-16">
+          <div class="rectangle-7"></div>
+          <div class="text-wrapper-27">Características técnicas</div>
+        </div>
+        <div class="overlap-17">
+          <div class="rectangle-7"></div>
+          <div class="text-wrapper-28">Requisitos necesarios</div>
+        </div>
+        <p class="m-stil-tiene-una">
+          Mástil tiene una altura de 13mts.<br />Tipo de soldadura por pozo a tierra<br />Cimentación.<br />Cerco
+          perimétrico metálico. 2.50m x 250m x 1.79m<br />RADIO DE PROTECCION ES DE 90MTS A LA REDONDA<br />Equipo
+          captor PDC (cabezal).<br />Adaptador de Captor PDC.<br />Contador de Rayos.<br />Seccionador para conductor de
+          cobre.<br />Grapa de fijación.<br />Riel, pernos, abrazaderas, tuercas, etc.<br />Pozos a tierra (03un).
+        </p>
+        <p class="div-2">
+          <span
+            class="text-wrapper-29">•<br />•<br />•<br />•<br /><br />•<br />•<br />•<br />•<br />•<br />•<br />•<br /><br /></span>
+          <span class="text-wrapper-30"><br /></span>
+        </p>
+        <p class="text-wrapper-31">
+          Evaluación de la institución educativa  según su ubación dentro del mapa  isoderaunico
+        </p>
+        <div class="text-wrapper-32">•</div>
+        <p class="kit-de-parrarayos">Kit de Parrarayos<br />Costa - Sierra - Selva - Helada</p>
+        <div class="text-wrapper-33">Protección contra descargas eléctricas</div>
+        <p class="reduce-el-riesgo-de">Reduce el riesgo de daños estructurales, incendios o accidentes  graves</p>
+        <p class="text-wrapper-34">Mayor durabilidad de la infraestructura</p>
+        <p class="text-wrapper-35">Prevención de daños en sistemas de  energía eléctrica externa.</p>
+        <footer class="footer">
+          <div class="horizontal-border">
+            <div class="list">
+              <div class="div-3">
+                <div class="background"></div>
+                <div class="div-3">
+                  <div class="privacy-policy-terms">Privacy Policy &amp; Terms</div>
+                </div>
+              </div>
+              <div class="item-link">
+                <div class="text-wrapper-36">Site Credits</div>
+              </div>
+            </div>
+            <p class="text-wrapper-37">© 2024 Derechos Reservados Pronied</p>
+          </div>
+          <p class="text-wrapper-38">
+            Somos una institución comprometida con el desarrollo de infraestructura educativa pública a nivel nacional,
+            que permita una educación de calidad y que brinde una experiencia positiva para la comunidad educativa.
+          </p>
+          <img class="group-4" src="https://c.animaapp.com/CDvKIg9R/img/group-56@2x.png" />
+          <div class="vector-wrapper">
+            <img class="vector-21" src="https://c.animaapp.com/CDvKIg9R/img/vector-16.svg" />
+          </div>
+          <div class="overlap-18">
+            <img class="vector-22" src="https://c.animaapp.com/CDvKIg9R/img/vector-24.svg" />
+            <img class="vector-23" src="https://c.animaapp.com/CDvKIg9R/img/vector-25.svg" />
+            <img class="vector-24" src="https://c.animaapp.com/CDvKIg9R/img/vector-26.svg" />
+          </div>
+          <div class="overlap-19">
+            <img class="vector-25" src="https://c.animaapp.com/CDvKIg9R/img/vector-19.svg" />
+            <img class="vector-26" src="https://c.animaapp.com/CDvKIg9R/img/vector-20.svg" />
+            <img class="vector-27" src="https://c.animaapp.com/CDvKIg9R/img/vector-21.svg" />
+          </div>
+          <div class="img-wrapper">
+            <img class="vector-28" src="https://c.animaapp.com/CDvKIg9R/img/vector-23.svg" />
+          </div>
+          <div class="overlap-20">
+            <img class="vector-29" src="https://c.animaapp.com/CDvKIg9R/img/vector-28.svg" />
+            <img class="vector-30" src="https://c.animaapp.com/CDvKIg9R/img/vector-29.svg" />
+            <img class="vector-31" src="https://c.animaapp.com/CDvKIg9R/img/vector-30.svg" />
+          </div>
+          <div class="text-wrapper-39">www.gob.pe/pronied</div>
+          <div class="text-wrapper-40">Búscanos como Pronied Perú</div>
+        </footer>
+        <img class="line" src="img/line-11.svg" />
+        <img class="capa" src="https://c.animaapp.com/CDvKIg9R/img/capa-1.svg" />
+        <img class="capa-2" src="https://c.animaapp.com/CDvKIg9R/img/capa-1-1.svg" />
+        <img class="capa-3" src="https://c.animaapp.com/CDvKIg9R/img/capa-1-2.svg" />
+        <img class="capa-4" src="https://c.animaapp.com/CDvKIg9R/img/capa-1-3.svg" />
+        <div class="group-5">
+          <div class="overlap-3">
+            <div class="text-wrapper-7" id="openSlideBtnMobiliario2">Ver Imágenes</div>
+            <img class="vector-4" src="https://c.animaapp.com/CDvKIg9R/img/vector-31.svg" />
+          </div>
+        </div>
+        <div class="overlap-21">
+          <div class="kit-de-parrarayos-2">KIT DE PARRARAYOS</div>
+          <div class="rectangle-8"></div>
+          <p class="kit-de-parrarayos-3">Kit de Parrarayos<br />Costa - Sierra - Selva - Helada</p>
+          <img class="rectangle-9" src="https://c.animaapp.com/CDvKIg9R/img/rectangle-13@2x.png" />
+        </div>
+        <div class="text-wrapper-41">MOBILIARIO Y EQUIPAMIENTO</div>
+        <div class="border">
+          <div class="overlap-22">
+            <div class="background-2"></div>
+            <img class="mask-group-3" src="https://c.animaapp.com/CDvKIg9R/img/mask-group-2.svg" />
+          </div>
+        </div>
+        <p class="funciones-del">
+          <span class="text-wrapper-42">Funciones del PRONIED: <br /></span>
+          <span class="text-wrapper-43"><br />Implementar el equipamiento educativo en todos los niveles y modalidades
+            de
+            educación básica (regular
+            y especial) y de la educación superior pedagógica, tecnológica y técnico productiva.<br /><br /></span>
+          <span class="text-wrapper-42">FUNCIONES DE LA UGME: <br /></span>
+          <span class="text-wrapper-43"><br />Ejecutar acciones que aseguren la dotación de mobiliario, equipamiento e
+            instalaciones provisionales
+            necesarias para el funcionamiento de las instituciones educativas públicas.<br /><br />Atender las acciones,
+            intervenciones o proyectos, que impliquen demandas de equipamiento y mobiliario.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-design">
+
+  </div>
+
+
+
+  <!-- Overlay para el slide de imágenes -->
+  <div id="overlay" class="overlay">
+    <div class="slide">
+      <span class="close-btn" id="closeBtn">Cerrar</span>
+      <button class="nav-btn left" id="prevBtn">&#10094;</button>
+      <img id="slideImage" src="" alt="Foto de la galería">
+      <button class="nav-btn right" id="nextBtn">&#10095;</button>
+    </div>
+  </div>
+
+  <script>
+    //INICIO SLIDE
+    const imagesMobiliario = ["img/aulas_m_costa/1.jpg", "img/aulas_m_costa/2.jpg", "img/aulas_m_costa/3.jpg", "img/aulas_m_costa/4.jpg", "img/aulas_m_costa/5.jpg"];
+
+    let currentIndex = 0;
+    let images = [];
+
+    function mostrarSeccion(seccion) {
+      const secciones = document.querySelectorAll('.section');
+      secciones.forEach(section => section.style.display = 'none');
+      document.getElementById(seccion).style.display = 'block';
+    }
+
+    function closeSlide() {
+      document.getElementById("overlay").style.display = "none";
+    }
+
+    // Función para abrir el slide con imágenes específicas
+    function openSlide(imageSet) {
+      images = imageSet;
+      currentIndex = 0;
+      document.getElementById("overlay").style.display = "flex";
+      showImage(currentIndex);
+    }
+
+    // Muestra la imagen actual
+    function showImage(index) {
+      const slideImage = document.getElementById("slideImage");
+      slideImage.src = images[index];
+    }
+
+    function nextImage() {
+      currentIndex = (currentIndex + 1) % images.length;
+      showImage(currentIndex);
+    }
+
+    function previousImage() {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      showImage(currentIndex);
+    }
+
+    // Botones que abren diferentes sets de imágenes
+    document.getElementById("openSlideBtnMobiliario1").addEventListener("click", () => openSlide(imagesDomo));
+    document.getElementById("openSlideBtnMobiliario2").addEventListener("click", () => openSlide(imagesDomo));
+
+    // Asignar eventos para el slide
+    document.getElementById("closeBtn").addEventListener("click", closeSlide);
+    document.getElementById("nextBtn").addEventListener("click", nextImage);
+    document.getElementById("prevBtn").addEventListener("click", previousImage);
+    //FIN SLIDE
+
+  </script>
+</body>
+
+</html>

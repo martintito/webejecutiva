@@ -1,0 +1,1832 @@
+.mobiliario-y {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.mobiliario-y .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 5133px;
+  position: relative;
+}
+
+.mobiliario-y .overlap {
+  position: absolute;
+  width: 1920px;
+  height: 312px;
+  top: 3713px;
+  left: 0;
+  background-image: url(https://c.animaapp.com/CDvKIg9R/img/rectangle-34.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.mobiliario-y .text-wrapper {
+  position: absolute;
+  width: 878px;
+  top: 93px;
+  left: 521px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #010101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .documentos-de-apoyo {
+  position: absolute;
+  width: 369px;
+  top: 44px;
+  left: 776px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #313131;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .overlap-group {
+  position: absolute;
+  width: 698px;
+  height: 105px;
+  top: 170px;
+  left: 703px;
+}
+
+.mobiliario-y .group {
+  position: absolute;
+  width: 698px;
+  height: 105px;
+  top: 0;
+  left: 0;
+}
+
+.mobiliario-y .planos-esquem-ticos {
+  position: absolute;
+  width: 546px;
+  top: 3px;
+  left: 148px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 21.8px;
+}
+
+.mobiliario-y .text-wrapper-2 {
+  top: 3px;
+  left: 122px;
+  color: #7d4393;
+  font-size: 17px;
+  line-height: 22.1px;
+  position: absolute;
+  width: 16px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.mobiliario-y .group-2 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  top: 0;
+  left: 0;
+  background-color: #2ead9a;
+  border-radius: 52.62px;
+}
+
+.mobiliario-y .mask-group {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  top: 0;
+  left: 0;
+}
+
+.mobiliario-y .beneficios {
+  position: absolute;
+  width: 433px;
+  top: 2234px;
+  left: 744px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .inversi-n-estimada {
+  position: absolute;
+  width: 781px;
+  top: 2540px;
+  left: 570px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .overlap-2 {
+  position: absolute;
+  width: 1920px;
+  height: 597px;
+  top: 0;
+  left: 0;
+}
+
+.mobiliario-y .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 409px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.mobiliario-y .img {
+  position: absolute;
+  width: 1920px;
+  height: 293px;
+  top: 304px;
+  left: 0;
+  object-fit: cover;
+}
+
+.mobiliario-y .text-wrapper-3 {
+  width: 336px;
+  top: 436px;
+  left: 559px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 45px;
+  line-height: 42.7px;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.mobiliario-y .p {
+  position: absolute;
+  width: 348px;
+  top: 422px;
+  left: 929px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 17px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.mobiliario-y .cat-logo-pronied-kit {
+  position: absolute;
+  width: 622px;
+  height: 30px;
+  top: 324px;
+  left: 895px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.mobiliario-y .text-wrapper-4 {
+  position: absolute;
+  width: 54px;
+  height: 30px;
+  top: 324px;
+  left: 459px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.mobiliario-y .modo-de-aislamiento {
+  position: absolute;
+  width: 8px;
+  height: 13px;
+  top: 326px;
+  left: 1066px;
+}
+
+.mobiliario-y .modo-de-aislamiento-2 {
+  position: absolute;
+  width: 8px;
+  height: 13px;
+  top: 326px;
+  left: 442px;
+}
+
+.mobiliario-y .ellipse {
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  top: 432px;
+  left: 442px;
+  background-color: #ffffff;
+  border-radius: 45.5px;
+}
+
+.mobiliario-y .vector {
+  position: absolute;
+  width: 42px;
+  height: 58px;
+  top: 449px;
+  left: 467px;
+}
+
+.mobiliario-y .vector-2 {
+  position: absolute;
+  width: 22px;
+  height: 16px;
+  top: 451px;
+  left: 477px;
+}
+
+.mobiliario-y .vector-3 {
+  position: absolute;
+  width: 59px;
+  height: 45px;
+  top: 466px;
+  left: 456px;
+}
+
+.mobiliario-y .text-wrapper-5 {
+  position: absolute;
+  width: 617px;
+  top: 2689px;
+  left: 652px;
+  font-family: "Gotham Rounded-Light", Helvetica;
+  font-weight: 300;
+  color: #020101;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24.2px;
+}
+
+.mobiliario-y .group-wrapper {
+  position: absolute;
+  width: 384px;
+  height: 65px;
+  top: 2599px;
+  left: 769px;
+}
+
+.mobiliario-y .overlap-group-wrapper {
+  width: 386px;
+  height: 65px;
+}
+
+.mobiliario-y .overlap-group-2 {
+  position: relative;
+  width: 384px;
+  height: 65px;
+  background-color: #eeeeee;
+  border-radius: 36px;
+}
+
+.mobiliario-y .layer {
+  position: absolute;
+  width: 39px;
+  height: 44px;
+  top: 12px;
+  left: 32px;
+}
+
+.mobiliario-y .text-wrapper-6 {
+  position: absolute;
+  width: 286px;
+  top: 16px;
+  left: 84px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.0px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .conoce-nuestra {
+  position: absolute;
+  width: 380px;
+  top: 3436px;
+  left: 1005px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 28.6px;
+}
+
+.mobiliario-y .overlap-wrapper {
+  position: absolute;
+  width: 193px;
+  height: 42px;
+  top: 2447px;
+  left: 865px;
+}
+
+.mobiliario-y .overlap-3 {
+  position: relative;
+  width: 191px;
+  height: 42px;
+  background-color: #ffffff;
+  border-radius: 33px;
+  border: 2px solid;
+  border-color: #e86b45;
+}
+
+.mobiliario-y .text-wrapper-7 {
+  position: absolute;
+  width: 162px;
+  height: 31px;
+  top: 3px;
+  left: 2px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #e86b45;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .vector-4 {
+  position: absolute;
+  width: 15px;
+  height: 10px;
+  top: 14px;
+  left: 158px;
+}
+
+.mobiliario-y .rectangle-2 {
+  position: absolute;
+  width: 274px;
+  height: 249px;
+  top: 3426px;
+  left: 696px;
+  object-fit: cover;
+}
+
+.mobiliario-y .te-compartimos {
+  position: absolute;
+  width: 342px;
+  top: 3530px;
+  left: 1005px;
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.mobiliario-y .span {
+  color: #020101;
+}
+
+.mobiliario-y .text-wrapper-8 {
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #e86b45;
+}
+
+.mobiliario-y .text-wrapper-9 {
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #214287;
+}
+
+.mobiliario-y .overlap-4 {
+  position: absolute;
+  width: 1918px;
+  height: 598px;
+  top: 2788px;
+  left: 2px;
+  background-image: url(https://c.animaapp.com/CDvKIg9R/img/rectangle-8.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.mobiliario-y .group-3 {
+  position: absolute;
+  width: 1420px;
+  height: 508px;
+  top: 57px;
+  left: 267px;
+}
+
+.mobiliario-y .text-wrapper-10 {
+  position: absolute;
+  width: 112px;
+  top: 214px;
+  left: 1278px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .ruta-para-la {
+  position: absolute;
+  width: 425px;
+  top: 0;
+  left: 481px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .text-wrapper-11 {
+  position: absolute;
+  width: 1020px;
+  top: 61px;
+  left: 182px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #221e20;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .div-wrapper {
+  position: absolute;
+  width: 156px;
+  height: 89px;
+  top: 214px;
+  left: 838px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.mobiliario-y .text-wrapper-12 {
+  position: absolute;
+  width: 138px;
+  top: 9px;
+  left: 9px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.mobiliario-y .overlap-5 {
+  position: absolute;
+  width: 154px;
+  height: 89px;
+  top: 214px;
+  left: 1053px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.mobiliario-y .text-wrapper-13 {
+  position: absolute;
+  width: 137px;
+  top: 9px;
+  left: 8px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.mobiliario-y .text-wrapper-14 {
+  position: absolute;
+  width: 86px;
+  top: 213px;
+  left: 8px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .overlap-6 {
+  position: absolute;
+  width: 147px;
+  height: 83px;
+  top: 114px;
+  left: 158px;
+}
+
+.mobiliario-y .rectangle-3 {
+  position: absolute;
+  width: 145px;
+  height: 83px;
+  top: 0;
+  left: 2px;
+  background-color: #e86b45;
+  border-radius: 15px;
+}
+
+.mobiliario-y .mesa-de-partes-del {
+  position: absolute;
+  width: 147px;
+  top: 20px;
+  left: 0;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.mobiliario-y .vector-5 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 796px;
+}
+
+.mobiliario-y .vector-6 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 142px;
+  left: 318px;
+}
+
+.mobiliario-y .vector-7 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 142px;
+  left: 116px;
+}
+
+.mobiliario-y .vector-8 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 522px;
+}
+
+.mobiliario-y .vector-9 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 1007px;
+}
+
+.mobiliario-y .vector-10 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 1224px;
+}
+
+.mobiliario-y .gerencia-general-del-wrapper {
+  position: absolute;
+  width: 145px;
+  height: 83px;
+  top: 114px;
+  left: 361px;
+  background-color: #e86b45;
+  border-radius: 15px;
+}
+
+.mobiliario-y .gerencia-general-del {
+  position: absolute;
+  width: 127px;
+  top: 19px;
+  left: 9px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.mobiliario-y .overlap-7 {
+  position: absolute;
+  width: 225px;
+  height: 83px;
+  top: 114px;
+  left: 563px;
+  background-color: #e86b45;
+  border-radius: 15px;
+}
+
+.mobiliario-y .text-wrapper-15 {
+  width: 194px;
+  top: 16px;
+  left: 15px;
+  position: absolute;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.mobiliario-y .overlap-8 {
+  position: absolute;
+  width: 156px;
+  height: 83px;
+  top: 114px;
+  left: 838px;
+  background-color: #e86b45;
+  border-radius: 15px;
+}
+
+.mobiliario-y .text-wrapper-16 {
+  width: 138px;
+  height: 52px;
+  top: 17px;
+  left: 9px;
+  position: absolute;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.mobiliario-y .overlap-9 {
+  position: absolute;
+  width: 225px;
+  height: 72px;
+  top: 214px;
+  left: 563px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.mobiliario-y .text-wrapper-17 {
+  position: absolute;
+  width: 179px;
+  top: 14px;
+  left: 23px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.mobiliario-y .overlap-10 {
+  position: absolute;
+  width: 156px;
+  height: 83px;
+  top: 114px;
+  left: 1052px;
+  background-color: #e86b45;
+  border-radius: 15px;
+}
+
+.mobiliario-y .text-wrapper-18 {
+  width: 139px;
+  height: 52px;
+  top: 17px;
+  left: 8px;
+  position: absolute;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.mobiliario-y .documentaci-n-t-wrapper {
+  position: absolute;
+  width: 225px;
+  height: 72px;
+  top: 292px;
+  left: 563px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.mobiliario-y .documentaci-n-t {
+  position: absolute;
+  width: 179px;
+  top: 12px;
+  left: 23px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.mobiliario-y .overlap-11 {
+  position: absolute;
+  width: 225px;
+  height: 72px;
+  top: 370px;
+  left: 563px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.mobiliario-y .text-wrapper-19 {
+  width: 144px;
+  top: 17px;
+  left: 40px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  line-height: 18.2px;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.mobiliario-y .mask-group-2 {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  top: 103px;
+  left: 0;
+}
+
+.mobiliario-y .vector-11 {
+  position: absolute;
+  width: 165px;
+  height: 277px;
+  top: 213px;
+  left: 225px;
+}
+
+.mobiliario-y .vector-12 {
+  position: absolute;
+  width: 202px;
+  height: 172px;
+  top: 318px;
+  left: 938px;
+}
+
+.mobiliario-y .overlap-12 {
+  position: absolute;
+  width: 519px;
+  height: 36px;
+  top: 472px;
+  left: 405px;
+}
+
+.mobiliario-y .rectangle-4 {
+  position: absolute;
+  width: 519px;
+  height: 34px;
+  top: 0;
+  left: 0;
+  background-color: #0057a7;
+  border-radius: 14px;
+}
+
+.mobiliario-y .text-wrapper-20 {
+  position: absolute;
+  width: 441px;
+  top: 6px;
+  left: 44px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 23px;
+}
+
+.mobiliario-y .MODULO-COSTA-ass {
+  width: 52px;
+  height: 192px;
+  top: 68px;
+  left: 1575px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.mobiliario-y .ALCALDES-y {
+  position: absolute;
+  width: 307px;
+  height: 287px;
+  top: 4073px;
+  left: 554px;
+  object-fit: cover;
+}
+
+.mobiliario-y .overlap-13 {
+  position: absolute;
+  width: 468px;
+  height: 43px;
+  top: 4060px;
+  left: 887px;
+}
+
+.mobiliario-y .rectangle-5 {
+  position: absolute;
+  width: 468px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.mobiliario-y .text-wrapper-21 {
+  position: absolute;
+  width: 445px;
+  top: 8px;
+  left: 13px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 19.0px;
+}
+
+.mobiliario-y .el-equipo-t-cnico {
+  position: absolute;
+  width: 445px;
+  top: 4119px;
+  left: 900px;
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.mobiliario-y .text-wrapper-22 {
+  position: absolute;
+  width: 214px;
+  top: 4246px;
+  left: 964px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .text-wrapper-23 {
+  position: absolute;
+  width: 214px;
+  top: 4305px;
+  left: 964px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .img-2 {
+  position: absolute;
+  width: 73px;
+  height: 73px;
+  top: 4215px;
+  left: 887px;
+}
+
+.mobiliario-y .frame {
+  position: absolute;
+  width: 45px;
+  height: 44px;
+  top: 4295px;
+  left: 899px;
+}
+
+.mobiliario-y .overlap-14 {
+  position: absolute;
+  width: 519px;
+  height: 581px;
+  top: 1608px;
+  left: 393px;
+}
+
+.mobiliario-y .ellipse-2 {
+  position: absolute;
+  width: 189px;
+  height: 189px;
+  top: 374px;
+  left: 30px;
+  background-color: #ebebeb;
+  border-radius: 94.36px;
+}
+
+.mobiliario-y .callao {
+  position: absolute;
+  width: 5px;
+  height: 4px;
+  top: 376px;
+  left: 241px;
+}
+
+.mobiliario-y .vector-13 {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 376px;
+  left: 241px;
+}
+
+.mobiliario-y .vector-14 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 313px;
+  left: 224px;
+  object-fit: cover;
+}
+
+.mobiliario-y .vector-15 {
+  position: absolute;
+  width: 41px;
+  height: 83px;
+  top: 317px;
+  left: 160px;
+}
+
+.mobiliario-y .MODULO-COSTA-sf-ass {
+  width: 78px;
+  height: 283px;
+  top: 259px;
+  left: 86px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.mobiliario-y .vector-16 {
+  position: absolute;
+  width: 2px;
+  height: 1px;
+  top: 524px;
+  left: 352px;
+}
+
+.mobiliario-y .vector-17 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 509px;
+  left: 338px;
+}
+
+.mobiliario-y .vector-18 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 510px;
+  left: 337px;
+}
+
+.mobiliario-y .vector-19 {
+  position: absolute;
+  width: 124px;
+  height: 37px;
+  top: 508px;
+  left: 218px;
+}
+
+.mobiliario-y .rectangle-6 {
+  position: absolute;
+  width: 394px;
+  height: 581px;
+  top: 0;
+  left: 125px;
+  object-fit: cover;
+}
+
+.mobiliario-y .ALTURA-wrapper {
+  position: absolute;
+  width: 229px;
+  height: 60px;
+  top: 6px;
+  left: 0;
+}
+
+.mobiliario-y .ALTURA {
+  width: 235px;
+  height: 60px;
+}
+
+.mobiliario-y .overlap-group-3 {
+  position: relative;
+  width: 229px;
+  height: 60px;
+  background-color: #e86b45;
+  border-radius: 30px;
+}
+
+.mobiliario-y .overlap-15 {
+  position: absolute;
+  width: 162px;
+  height: 46px;
+  top: 7px;
+  left: 62px;
+}
+
+.mobiliario-y .text-wrapper-24 {
+  position: absolute;
+  width: 87px;
+  top: 25px;
+  left: 75px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .text-wrapper-25 {
+  position: absolute;
+  width: 138px;
+  top: 0;
+  left: 0;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .text-wrapper-26 {
+  position: absolute;
+  width: 138px;
+  top: 17px;
+  left: 0;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 32.5px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .vector-20 {
+  position: absolute;
+  width: 44px;
+  height: 46px;
+  top: 7px;
+  left: 8px;
+}
+
+.mobiliario-y .overlap-16 {
+  position: absolute;
+  width: 326px;
+  height: 42px;
+  top: 1711px;
+  left: 942px;
+}
+
+.mobiliario-y .rectangle-7 {
+  position: absolute;
+  width: 326px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  background-color: #e86b45;
+  border-radius: 15px;
+}
+
+.mobiliario-y .text-wrapper-27 {
+  position: absolute;
+  width: 284px;
+  top: 6px;
+  left: 24px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 20.9px;
+}
+
+.mobiliario-y .overlap-17 {
+  position: absolute;
+  width: 326px;
+  height: 42px;
+  top: 2038px;
+  left: 942px;
+}
+
+.mobiliario-y .text-wrapper-28 {
+  position: absolute;
+  width: 293px;
+  top: 6px;
+  left: 24px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 20.9px;
+}
+
+.mobiliario-y .m-stil-tiene-una {
+  position: absolute;
+  width: 521px;
+  top: 1762px;
+  left: 967px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.mobiliario-y .div-2 {
+  top: 1763px;
+  left: 942px;
+  color: #e86b45;
+  font-size: 15px;
+  line-height: 19.5px;
+  position: absolute;
+  width: 16px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.mobiliario-y .text-wrapper-29 {
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #e86b45;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.mobiliario-y .text-wrapper-30 {
+  font-size: 17px;
+  line-height: 22.1px;
+}
+
+.mobiliario-y .text-wrapper-31 {
+  position: absolute;
+  width: 400px;
+  top: 2092px;
+  left: 967px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.mobiliario-y .text-wrapper-32 {
+  top: 2092px;
+  left: 942px;
+  color: #e86b45;
+  font-size: 15px;
+  line-height: 19.5px;
+  position: absolute;
+  width: 16px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.mobiliario-y .kit-de-parrarayos {
+  position: absolute;
+  width: 569px;
+  top: 1614px;
+  left: 942px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #e86b45;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 40.2px;
+}
+
+.mobiliario-y .text-wrapper-33 {
+  position: absolute;
+  width: 160px;
+  top: 2347px;
+  left: 499px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.mobiliario-y .reduce-el-riesgo-de {
+  position: absolute;
+  width: 237px;
+  top: 2347px;
+  left: 699px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.mobiliario-y .text-wrapper-34 {
+  position: absolute;
+  width: 155px;
+  top: 2347px;
+  left: 981px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.mobiliario-y .text-wrapper-35 {
+  position: absolute;
+  width: 211px;
+  top: 2347px;
+  left: 1185px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.mobiliario-y .footer {
+  position: absolute;
+  width: 1920px;
+  height: 532px;
+  top: 4405px;
+  left: 0;
+  background-color: #0057a7;
+}
+
+.mobiliario-y .horizontal-border {
+  position: absolute;
+  width: 1920px;
+  height: 99px;
+  top: 437px;
+  left: 0;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: #202e3f;
+}
+
+.mobiliario-y .list {
+  position: absolute;
+  width: 630px;
+  height: 28px;
+  top: 36px;
+  left: 315px;
+}
+
+.mobiliario-y .div-3 {
+  position: absolute;
+  width: 171px;
+  height: 28px;
+  top: 0;
+  left: 0;
+}
+
+.mobiliario-y .background {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 12px;
+  left: 181px;
+  background-color: #7c91aa;
+  border-radius: 2px;
+}
+
+.mobiliario-y .privacy-policy-terms {
+  position: absolute;
+  width: 171px;
+  height: 28px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .item-link {
+  position: absolute;
+  width: 88px;
+  height: 28px;
+  top: 0;
+  left: 196px;
+}
+
+.mobiliario-y .text-wrapper-36 {
+  position: absolute;
+  width: 88px;
+  height: 28px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .text-wrapper-37 {
+  position: absolute;
+  width: 309px;
+  height: 28px;
+  top: 35px;
+  left: 1296px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .text-wrapper-38 {
+  position: absolute;
+  width: 508px;
+  height: 91px;
+  top: 147px;
+  left: 779px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.mobiliario-y .group-4 {
+  position: absolute;
+  width: 391px;
+  height: 50px;
+  top: 64px;
+  left: 811px;
+}
+
+.mobiliario-y .vector-wrapper {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 1060px;
+  background-image: url(https://c.animaapp.com/CDvKIg9R/img/vector-15.svg);
+  background-size: 100% 100%;
+}
+
+.mobiliario-y .vector-21 {
+  position: absolute;
+  width: 26px;
+  height: 18px;
+  top: 10px;
+  left: 6px;
+}
+
+.mobiliario-y .overlap-18 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 1107px;
+  background-image: url(https://c.animaapp.com/CDvKIg9R/img/vector-17.svg);
+  background-size: 100% 100%;
+}
+
+.mobiliario-y .vector-22 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 9px;
+  left: 9px;
+}
+
+.mobiliario-y .vector-23 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 14px;
+  left: 14px;
+}
+
+.mobiliario-y .vector-24 {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  top: 12px;
+  left: 24px;
+}
+
+.mobiliario-y .overlap-19 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 1012px;
+  background-image: url(https://c.animaapp.com/CDvKIg9R/img/vector-18.svg);
+  background-size: 100% 100%;
+}
+
+.mobiliario-y .vector-25 {
+  position: absolute;
+  width: 15px;
+  height: 16px;
+  top: 14px;
+  left: 16px;
+}
+
+.mobiliario-y .vector-26 {
+  position: absolute;
+  width: 5px;
+  height: 15px;
+  top: 15px;
+  left: 8px;
+}
+
+.mobiliario-y .vector-27 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 7px;
+  left: 8px;
+}
+
+.mobiliario-y .img-wrapper {
+  position: absolute;
+  width: 39px;
+  height: 38px;
+  top: 283px;
+  left: 921px;
+  background-image: url(https://c.animaapp.com/CDvKIg9R/img/vector-22.svg);
+  background-size: 100% 100%;
+}
+
+.mobiliario-y .vector-28 {
+  position: absolute;
+  width: 16px;
+  height: 31px;
+  top: 8px;
+  left: 11px;
+}
+
+.mobiliario-y .overlap-20 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 965px;
+  background-image: url(https://c.animaapp.com/CDvKIg9R/img/vector-27.svg);
+  background-size: 100% 100%;
+}
+
+.mobiliario-y .vector-29 {
+  position: absolute;
+  width: 23px;
+  height: 21px;
+  top: 9px;
+  left: 8px;
+}
+
+.mobiliario-y .vector-30 {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 9px;
+  left: 21px;
+}
+
+.mobiliario-y .vector-31 {
+  position: absolute;
+  width: 10px;
+  height: 9px;
+  top: 20px;
+  left: 9px;
+}
+
+.mobiliario-y .text-wrapper-39 {
+  position: absolute;
+  height: 27px;
+  top: 245px;
+  left: 952px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 26.2px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .text-wrapper-40 {
+  position: absolute;
+  height: 27px;
+  top: 336px;
+  left: 922px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 26.2px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .line {
+  position: absolute;
+  width: 1111px;
+  height: 1px;
+  top: 1562px;
+  left: 400px;
+}
+
+.mobiliario-y .capa {
+  position: absolute;
+  width: 53px;
+  height: 41px;
+  top: 2297px;
+  left: 791px;
+}
+
+.mobiliario-y .capa-2 {
+  left: 553px;
+  position: absolute;
+  width: 53px;
+  height: 41px;
+  top: 2297px;
+}
+
+.mobiliario-y .capa-3 {
+  left: 1032px;
+  position: absolute;
+  width: 53px;
+  height: 41px;
+  top: 2297px;
+}
+
+.mobiliario-y .capa-4 {
+  left: 1264px;
+  position: absolute;
+  width: 53px;
+  height: 41px;
+  top: 2297px;
+}
+
+.mobiliario-y .group-5 {
+  position: absolute;
+  width: 193px;
+  height: 42px;
+  top: 3616px;
+  left: 1000px;
+}
+
+.mobiliario-y .overlap-21 {
+  position: absolute;
+  width: 497px;
+  height: 309px;
+  top: 1207px;
+  left: 712px;
+}
+
+.mobiliario-y .kit-de-parrarayos-2 {
+  position: absolute;
+  width: 497px;
+  top: 144px;
+  left: 0;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #2c2c2c;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.mobiliario-y .rectangle-8 {
+  position: absolute;
+  width: 378px;
+  height: 237px;
+  top: 72px;
+  left: 59px;
+  background-color: #e86b45;
+  border-radius: 18px;
+}
+
+.mobiliario-y .kit-de-parrarayos-3 {
+  position: absolute;
+  width: 345px;
+  top: 250px;
+  left: 74px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24.2px;
+}
+
+.mobiliario-y .rectangle-9 {
+  position: absolute;
+  width: 378px;
+  height: 236px;
+  top: 0;
+  left: 59px;
+  object-fit: cover;
+}
+
+.mobiliario-y .text-wrapper-41 {
+  width: 497px;
+  top: 1112px;
+  left: 711px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #2c2c2c;
+  font-size: 20px;
+  text-align: center;
+  line-height: 19.0px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.mobiliario-y .border {
+  position: absolute;
+  width: 1113px;
+  height: 4px;
+  top: 1161px;
+  left: 403px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dfdfdf;
+}
+
+.mobiliario-y .overlap-22 {
+  position: relative;
+  width: 46px;
+  height: 6px;
+}
+
+.mobiliario-y .background-2 {
+  position: absolute;
+  width: 40px;
+  height: 5px;
+  top: 0;
+  left: 0;
+  background-color: #363636;
+}
+
+.mobiliario-y .mask-group-3 {
+  position: absolute;
+  width: 10px;
+  height: 6px;
+  top: 0;
+  left: 36px;
+}
+
+.mobiliario-y .funciones-del {
+  position: absolute;
+  width: 1113px;
+  top: 645px;
+  left: 404px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.mobiliario-y .text-wrapper-42 {
+  font-weight: 700;
+}
+
+.mobiliario-y .text-wrapper-43 {
+  font-family: "Gotham Rounded-Regular", Helvetica;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop-design {
+    display: none !important;
+  }
+
+  .mobile-design {
+    display: block !important;
+  }
+
+
+
+}
+
+@media screen and (min-width: 769px) {
+
+  /* Estilos para dispositivos de escritorio */
+  .desktop-design {
+    display: block;
+  }
+
+  .mobile-design {
+    display: none;
+  }
+}
