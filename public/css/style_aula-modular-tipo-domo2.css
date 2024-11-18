@@ -1,0 +1,1826 @@
+.aula-modular-tipo {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.aula-modular-tipo .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 5133px;
+  position: relative;
+}
+
+.aula-modular-tipo .overlap {
+  position: absolute;
+  width: 1920px;
+  height: 312px;
+  top: 3371px;
+  left: 0;
+  background-image: url(https://c.animaapp.com/Hx2w84pw/img/rectangle-34.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.aula-modular-tipo .text-wrapper {
+  position: absolute;
+  width: 878px;
+  top: 93px;
+  left: 521px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #010101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .documentos-de-apoyo {
+  position: absolute;
+  width: 369px;
+  top: 44px;
+  left: 776px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #313131;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .overlap-group {
+  position: absolute;
+  width: 698px;
+  height: 105px;
+  top: 170px;
+  left: 703px;
+}
+
+.aula-modular-tipo .group {
+  position: absolute;
+  width: 698px;
+  height: 105px;
+  top: 0;
+  left: 0;
+}
+
+.aula-modular-tipo .planos-esquem-ticos {
+  position: absolute;
+  width: 546px;
+  top: 3px;
+  left: 148px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 21.8px;
+}
+
+.aula-modular-tipo .text-wrapper-2 {
+  top: 3px;
+  left: 122px;
+  color: #7d4393;
+  font-size: 17px;
+  line-height: 22.1px;
+  position: absolute;
+  width: 16px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.aula-modular-tipo .group-2 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  top: 0;
+  left: 0;
+  background-color: #2ead9a;
+  border-radius: 52.62px;
+}
+
+.aula-modular-tipo .mask-group {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  top: 0;
+  left: 0;
+}
+
+.aula-modular-tipo .beneficios {
+  position: absolute;
+  width: 433px;
+  top: 1891px;
+  left: 744px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .inversi-n-estimada {
+  position: absolute;
+  width: 781px;
+  top: 2198px;
+  left: 570px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .overlap-2 {
+  position: absolute;
+  width: 1920px;
+  height: 597px;
+  top: 0;
+  left: 0;
+}
+
+.aula-modular-tipo .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 489px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.aula-modular-tipo .img {
+  position: absolute;
+  width: 1920px;
+  height: 293px;
+  top: 304px;
+  left: 0;
+  object-fit: cover;
+}
+
+.aula-modular-tipo .aula-de-emergencia {
+  position: absolute;
+  width: 336px;
+  top: 408px;
+  left: 559px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: 42.7px;
+}
+
+.aula-modular-tipo .p {
+  position: absolute;
+  width: 503px;
+  top: 422px;
+  left: 895px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.aula-modular-tipo .cat-logo-pronied {
+  position: absolute;
+  width: 622px;
+  height: 30px;
+  top: 324px;
+  left: 895px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.aula-modular-tipo .text-wrapper-3 {
+  position: absolute;
+  width: 54px;
+  height: 30px;
+  top: 324px;
+  left: 459px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.aula-modular-tipo .modo-de-aislamiento {
+  position: absolute;
+  width: 8px;
+  height: 13px;
+  top: 334px;
+  left: 1066px;
+}
+
+.aula-modular-tipo .modo-de-aislamiento-2 {
+  position: absolute;
+  width: 8px;
+  height: 13px;
+  top: 334px;
+  left: 442px;
+}
+
+.aula-modular-tipo .ellipse {
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  top: 432px;
+  left: 442px;
+  background-color: #ffffff;
+  border-radius: 45.5px;
+}
+
+.aula-modular-tipo .vector {
+  position: absolute;
+  width: 59px;
+  height: 45px;
+  top: 466px;
+  left: 456px;
+}
+
+.aula-modular-tipo .vector-2 {
+  position: absolute;
+  width: 64px;
+  height: 38px;
+  top: 455px;
+  left: 456px;
+}
+
+.aula-modular-tipo .estas-aulas-tipo {
+  position: absolute;
+  width: 1209px;
+  top: 621px;
+  left: 359px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.aula-modular-tipo .aulas-de-emergencia {
+  position: absolute;
+  width: 497px;
+  top: 765px;
+  left: 712px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #2c2c2c;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .border {
+  position: absolute;
+  width: 1113px;
+  height: 4px;
+  top: 814px;
+  left: 404px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dfdfdf;
+}
+
+.aula-modular-tipo .overlap-group-2 {
+  position: relative;
+  width: 46px;
+  height: 6px;
+}
+
+.aula-modular-tipo .background {
+  position: absolute;
+  width: 40px;
+  height: 5px;
+  top: 0;
+  left: 0;
+  background-color: #363636;
+}
+
+.aula-modular-tipo .mask-group-2 {
+  position: absolute;
+  width: 10px;
+  height: 6px;
+  top: 0;
+  left: 36px;
+}
+
+.aula-modular-tipo .text-wrapper-4 {
+  position: absolute;
+  width: 617px;
+  top: 2347px;
+  left: 652px;
+  font-family: "Gotham Rounded-Light", Helvetica;
+  font-weight: 300;
+  color: #020101;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24.2px;
+}
+
+.aula-modular-tipo .group-wrapper {
+  position: absolute;
+  width: 384px;
+  height: 65px;
+  top: 2257px;
+  left: 769px;
+}
+
+.aula-modular-tipo .overlap-group-wrapper {
+  width: 386px;
+  height: 65px;
+}
+
+.aula-modular-tipo .overlap-group-3 {
+  position: relative;
+  width: 384px;
+  height: 65px;
+  background-color: #eeeeee;
+  border-radius: 36px;
+}
+
+.aula-modular-tipo .layer {
+  position: absolute;
+  width: 39px;
+  height: 44px;
+  top: 12px;
+  left: 32px;
+}
+
+.aula-modular-tipo .text-wrapper-5 {
+  position: absolute;
+  width: 286px;
+  top: 16px;
+  left: 84px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.0px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .conoce-nuestra {
+  position: absolute;
+  width: 380px;
+  top: 3094px;
+  left: 1005px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 28.6px;
+}
+
+.aula-modular-tipo .overlap-wrapper {
+  position: absolute;
+  width: 193px;
+  height: 42px;
+  top: 2095px;
+  left: 865px;
+}
+
+.aula-modular-tipo .overlap-3 {
+  position: relative;
+  width: 191px;
+  height: 42px;
+  background-color: #ffffff;
+  border-radius: 33px;
+  border: 2px solid;
+  border-color: #83b2b9;
+}
+
+.aula-modular-tipo .text-wrapper-6 {
+  position: absolute;
+  width: 162px;
+  height: 31px;
+  top: 3px;
+  left: 2px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #83b2b9;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .vector-3 {
+  position: absolute;
+  width: 15px;
+  height: 10px;
+  top: 14px;
+  left: 158px;
+}
+
+.aula-modular-tipo .rectangle-2 {
+  position: absolute;
+  width: 274px;
+  height: 249px;
+  top: 3084px;
+  left: 696px;
+  object-fit: cover;
+}
+
+.aula-modular-tipo .te-compartimos {
+  position: absolute;
+  width: 342px;
+  top: 3188px;
+  left: 1005px;
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 22.1px;
+}
+
+.aula-modular-tipo .span {
+  color: #020101;
+}
+
+.aula-modular-tipo .text-wrapper-7 {
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #83b2b9;
+}
+
+.aula-modular-tipo .text-wrapper-8 {
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #020101;
+}
+
+.aula-modular-tipo .overlap-4 {
+  position: absolute;
+  width: 1918px;
+  height: 598px;
+  top: 2446px;
+  left: 2px;
+  background-image: url(https://c.animaapp.com/Hx2w84pw/img/rectangle-8.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.aula-modular-tipo .group-3 {
+  position: absolute;
+  width: 1420px;
+  height: 508px;
+  top: 57px;
+  left: 267px;
+}
+
+.aula-modular-tipo .text-wrapper-9 {
+  position: absolute;
+  width: 112px;
+  top: 214px;
+  left: 1278px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .ruta-para-la {
+  position: absolute;
+  width: 425px;
+  top: 0;
+  left: 481px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #242424;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.0px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .text-wrapper-10 {
+  position: absolute;
+  width: 1020px;
+  top: 61px;
+  left: 182px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #221e20;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .div-wrapper {
+  position: absolute;
+  width: 156px;
+  height: 89px;
+  top: 214px;
+  left: 838px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.aula-modular-tipo .text-wrapper-11 {
+  position: absolute;
+  width: 138px;
+  top: 9px;
+  left: 9px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.aula-modular-tipo .overlap-5 {
+  position: absolute;
+  width: 154px;
+  height: 89px;
+  top: 214px;
+  left: 1053px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.aula-modular-tipo .text-wrapper-12 {
+  position: absolute;
+  width: 137px;
+  top: 9px;
+  left: 8px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.aula-modular-tipo .text-wrapper-13 {
+  position: absolute;
+  width: 86px;
+  top: 213px;
+  left: 8px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.1px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .overlap-6 {
+  position: absolute;
+  width: 147px;
+  height: 83px;
+  top: 114px;
+  left: 158px;
+}
+
+.aula-modular-tipo .rectangle-3 {
+  position: absolute;
+  width: 145px;
+  height: 83px;
+  top: 0;
+  left: 2px;
+  background-color: #83b2b9;
+  border-radius: 15px;
+}
+
+.aula-modular-tipo .mesa-de-partes-del {
+  position: absolute;
+  width: 147px;
+  top: 20px;
+  left: 0;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.aula-modular-tipo .vector-4 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 796px;
+}
+
+.aula-modular-tipo .vector-5 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 142px;
+  left: 318px;
+}
+
+.aula-modular-tipo .vector-6 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 142px;
+  left: 116px;
+}
+
+.aula-modular-tipo .vector-7 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 522px;
+}
+
+.aula-modular-tipo .vector-8 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 1007px;
+}
+
+.aula-modular-tipo .vector-9 {
+  position: absolute;
+  width: 29px;
+  height: 27px;
+  top: 146px;
+  left: 1224px;
+}
+
+.aula-modular-tipo .gerencia-general-del-wrapper {
+  position: absolute;
+  width: 145px;
+  height: 83px;
+  top: 114px;
+  left: 361px;
+  background-color: #83b2b9;
+  border-radius: 15px;
+}
+
+.aula-modular-tipo .gerencia-general-del {
+  position: absolute;
+  width: 127px;
+  top: 19px;
+  left: 9px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.aula-modular-tipo .overlap-7 {
+  position: absolute;
+  width: 225px;
+  height: 83px;
+  top: 114px;
+  left: 563px;
+  background-color: #83b2b9;
+  border-radius: 15px;
+}
+
+.aula-modular-tipo .text-wrapper-14 {
+  width: 194px;
+  top: 16px;
+  left: 15px;
+  position: absolute;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.aula-modular-tipo .overlap-8 {
+  position: absolute;
+  width: 156px;
+  height: 83px;
+  top: 114px;
+  left: 838px;
+  background-color: #83b2b9;
+  border-radius: 15px;
+}
+
+.aula-modular-tipo .text-wrapper-15 {
+  width: 138px;
+  height: 52px;
+  top: 17px;
+  left: 9px;
+  position: absolute;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.aula-modular-tipo .overlap-9 {
+  position: absolute;
+  width: 225px;
+  height: 72px;
+  top: 214px;
+  left: 563px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.aula-modular-tipo .text-wrapper-16 {
+  position: absolute;
+  width: 179px;
+  top: 14px;
+  left: 23px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.aula-modular-tipo .overlap-10 {
+  position: absolute;
+  width: 156px;
+  height: 83px;
+  top: 114px;
+  left: 1052px;
+  background-color: #83b2b9;
+  border-radius: 15px;
+}
+
+.aula-modular-tipo .text-wrapper-17 {
+  width: 139px;
+  height: 52px;
+  top: 17px;
+  left: 8px;
+  position: absolute;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 13.3px;
+}
+
+.aula-modular-tipo .documentaci-n-t-wrapper {
+  position: absolute;
+  width: 225px;
+  height: 72px;
+  top: 292px;
+  left: 563px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.aula-modular-tipo .documentaci-n-t {
+  position: absolute;
+  width: 179px;
+  top: 12px;
+  left: 23px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.aula-modular-tipo .overlap-11 {
+  position: absolute;
+  width: 225px;
+  height: 72px;
+  top: 370px;
+  left: 563px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+}
+
+.aula-modular-tipo .text-wrapper-18 {
+  position: absolute;
+  width: 144px;
+  top: 17px;
+  left: 40px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.aula-modular-tipo .mask-group-3 {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  top: 103px;
+  left: 0;
+}
+
+.aula-modular-tipo .vector-10 {
+  position: absolute;
+  width: 165px;
+  height: 277px;
+  top: 213px;
+  left: 225px;
+}
+
+.aula-modular-tipo .vector-11 {
+  position: absolute;
+  width: 202px;
+  height: 172px;
+  top: 318px;
+  left: 938px;
+}
+
+.aula-modular-tipo .overlap-12 {
+  position: absolute;
+  width: 519px;
+  height: 36px;
+  top: 472px;
+  left: 405px;
+}
+
+.aula-modular-tipo .rectangle-4 {
+  position: absolute;
+  width: 519px;
+  height: 34px;
+  top: 0;
+  left: 0;
+  background-color: #0057a7;
+  border-radius: 14px;
+}
+
+.aula-modular-tipo .text-wrapper-19 {
+  position: absolute;
+  width: 441px;
+  top: 6px;
+  left: 44px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 23px;
+}
+
+.aula-modular-tipo .MODULO-COSTA-ass {
+  width: 135px;
+  height: 93px;
+  top: 162px;
+  left: 1533px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.aula-modular-tipo .ALCALDES-y {
+  position: absolute;
+  width: 307px;
+  height: 287px;
+  top: 3731px;
+  left: 554px;
+  object-fit: cover;
+}
+
+.aula-modular-tipo .overlap-13 {
+  position: absolute;
+  width: 468px;
+  height: 43px;
+  top: 3718px;
+  left: 887px;
+}
+
+.aula-modular-tipo .rectangle-5 {
+  position: absolute;
+  width: 468px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  background-color: #ffc000;
+  border-radius: 15px;
+}
+
+.aula-modular-tipo .text-wrapper-20 {
+  position: absolute;
+  width: 445px;
+  top: 8px;
+  left: 13px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 19.0px;
+}
+
+.aula-modular-tipo .el-equipo-t-cnico {
+  position: absolute;
+  width: 445px;
+  top: 3777px;
+  left: 900px;
+  font-family: "Gotham Rounded-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.aula-modular-tipo .text-wrapper-21 {
+  position: absolute;
+  width: 214px;
+  top: 3904px;
+  left: 964px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .text-wrapper-22 {
+  position: absolute;
+  width: 214px;
+  top: 3963px;
+  left: 964px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 14px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .img-2 {
+  position: absolute;
+  width: 73px;
+  height: 73px;
+  top: 3873px;
+  left: 887px;
+}
+
+.aula-modular-tipo .frame {
+  position: absolute;
+  width: 45px;
+  height: 44px;
+  top: 3953px;
+  left: 899px;
+}
+
+.aula-modular-tipo .overlap-14 {
+  position: absolute;
+  width: 508px;
+  height: 581px;
+  top: 1256px;
+  left: 393px;
+}
+
+.aula-modular-tipo .ellipse-2 {
+  position: absolute;
+  width: 189px;
+  height: 189px;
+  top: 374px;
+  left: 30px;
+  background-color: #ebebeb;
+  border-radius: 94.36px;
+}
+
+.aula-modular-tipo .callao {
+  position: absolute;
+  width: 5px;
+  height: 4px;
+  top: 376px;
+  left: 241px;
+}
+
+.aula-modular-tipo .vector-12 {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 376px;
+  left: 241px;
+}
+
+.aula-modular-tipo .vector-13 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 313px;
+  left: 224px;
+  object-fit: cover;
+}
+
+.aula-modular-tipo .vector-14 {
+  position: absolute;
+  width: 97px;
+  height: 61px;
+  top: 317px;
+  left: 104px;
+}
+
+.aula-modular-tipo .MODULO-COSTA-sf-ass {
+  width: 212px;
+  height: 145px;
+  top: 386px;
+  left: 29px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.aula-modular-tipo .vector-15 {
+  position: absolute;
+  width: 2px;
+  height: 1px;
+  top: 524px;
+  left: 352px;
+}
+
+.aula-modular-tipo .vector-16 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 509px;
+  left: 338px;
+}
+
+.aula-modular-tipo .vector-17 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 510px;
+  left: 337px;
+}
+
+.aula-modular-tipo .vector-18 {
+  position: absolute;
+  width: 124px;
+  height: 37px;
+  top: 508px;
+  left: 218px;
+}
+
+.aula-modular-tipo .rectangle-6 {
+  position: absolute;
+  width: 394px;
+  height: 581px;
+  top: 0;
+  left: 114px;
+  object-fit: cover;
+}
+
+.aula-modular-tipo .ALTURA-wrapper {
+  position: absolute;
+  width: 229px;
+  height: 60px;
+  top: 6px;
+  left: 0;
+}
+
+.aula-modular-tipo .ALTURA {
+  width: 235px;
+  height: 60px;
+}
+
+.aula-modular-tipo .overlap-group-4 {
+  position: relative;
+  width: 229px;
+  height: 60px;
+  background-color: #c0504d;
+  border-radius: 30px;
+}
+
+.aula-modular-tipo .overlap-15 {
+  position: absolute;
+  width: 162px;
+  height: 46px;
+  top: 7px;
+  left: 62px;
+}
+
+.aula-modular-tipo .text-wrapper-23 {
+  position: absolute;
+  width: 87px;
+  top: 25px;
+  left: 75px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .text-wrapper-24 {
+  position: absolute;
+  width: 138px;
+  top: 0;
+  left: 0;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .text-wrapper-25 {
+  position: absolute;
+  width: 138px;
+  top: 17px;
+  left: 0;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 32.5px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .vector-19 {
+  position: absolute;
+  width: 44px;
+  height: 46px;
+  top: 7px;
+  left: 8px;
+}
+
+.aula-modular-tipo .overlap-16 {
+  position: absolute;
+  width: 326px;
+  height: 42px;
+  top: 1315px;
+  left: 942px;
+}
+
+.aula-modular-tipo .rectangle-7 {
+  position: absolute;
+  width: 326px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  background-color: #83b2b9;
+  border-radius: 15px;
+}
+
+.aula-modular-tipo .text-wrapper-26 {
+  position: absolute;
+  width: 284px;
+  top: 6px;
+  left: 24px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 20.9px;
+}
+
+.aula-modular-tipo .overlap-17 {
+  position: absolute;
+  width: 575px;
+  height: 294px;
+  top: 1366px;
+  left: 942px;
+}
+
+.aula-modular-tipo .overlap-18 {
+  position: absolute;
+  width: 575px;
+  height: 294px;
+  top: 0;
+  left: 0;
+}
+
+.aula-modular-tipo .rectangle-8 {
+  position: absolute;
+  width: 326px;
+  height: 36px;
+  top: 249px;
+  left: 0;
+  background-color: #83b2b9;
+  border-radius: 15px;
+}
+
+.aula-modular-tipo .cobertor-exterior {
+  position: absolute;
+  width: 550px;
+  top: 0;
+  left: 25px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.aula-modular-tipo .text-wrapper-27 {
+  position: absolute;
+  width: 293px;
+  top: 255px;
+  left: 24px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 20.9px;
+}
+
+.aula-modular-tipo .div-2 {
+  top: 0;
+  left: 0;
+  color: #83b2b9;
+  font-size: 15px;
+  line-height: 19.5px;
+  position: absolute;
+  width: 16px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.aula-modular-tipo .text-wrapper-28 {
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #83b2b9;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.aula-modular-tipo .text-wrapper-29 {
+  font-size: 17px;
+  line-height: 22.1px;
+}
+
+.aula-modular-tipo .evaluaci-n-de {
+  position: absolute;
+  width: 546px;
+  top: 1669px;
+  left: 967px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 19.5px;
+}
+
+.aula-modular-tipo .text-wrapper-30 {
+  top: 1669px;
+  left: 942px;
+  color: #83b2b9;
+  font-size: 15px;
+  line-height: 19.5px;
+  position: absolute;
+  width: 16px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.aula-modular-tipo .text-wrapper-31 {
+  position: absolute;
+  width: 569px;
+  top: 1262px;
+  left: 942px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #83b2b9;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 33.2px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .overlap-19 {
+  position: absolute;
+  width: 378px;
+  height: 309px;
+  top: 847px;
+  left: 772px;
+}
+
+.aula-modular-tipo .rectangle-9 {
+  position: absolute;
+  width: 378px;
+  height: 237px;
+  top: 72px;
+  left: 0;
+  background-color: #83b2b9;
+  border-radius: 18px;
+}
+
+.aula-modular-tipo .text-wrapper-32 {
+  position: absolute;
+  width: 345px;
+  top: 250px;
+  left: 15px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24.2px;
+}
+
+.aula-modular-tipo .rectangle-10 {
+  position: absolute;
+  width: 378px;
+  height: 236px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.aula-modular-tipo .overlap-20 {
+  position: absolute;
+  width: 356px;
+  height: 66px;
+  top: 2004px;
+  left: 505px;
+}
+
+.aula-modular-tipo .text-wrapper-33 {
+  position: absolute;
+  width: 202px;
+  top: 0;
+  left: 0;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.aula-modular-tipo .text-wrapper-34 {
+  position: absolute;
+  width: 164px;
+  top: 0;
+  left: 192px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.aula-modular-tipo .text-wrapper-35 {
+  position: absolute;
+  width: 126px;
+  top: 2004px;
+  left: 893px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.aula-modular-tipo .text-wrapper-36 {
+  position: absolute;
+  width: 126px;
+  top: 2004px;
+  left: 1252px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.aula-modular-tipo .text-wrapper-37 {
+  position: absolute;
+  width: 155px;
+  top: 2004px;
+  left: 1059px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
+.aula-modular-tipo .footer {
+  position: absolute;
+  width: 1920px;
+  height: 532px;
+  top: 4063px;
+  left: 0;
+  background-color: #0057a7;
+}
+
+.aula-modular-tipo .horizontal-border {
+  position: absolute;
+  width: 1920px;
+  height: 99px;
+  top: 437px;
+  left: 0;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: #202e3f;
+}
+
+.aula-modular-tipo .list {
+  position: absolute;
+  width: 630px;
+  height: 28px;
+  top: 36px;
+  left: 315px;
+}
+
+.aula-modular-tipo .div-3 {
+  position: absolute;
+  width: 171px;
+  height: 28px;
+  top: 0;
+  left: 0;
+}
+
+.aula-modular-tipo .background-2 {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 12px;
+  left: 181px;
+  background-color: #7c91aa;
+  border-radius: 2px;
+}
+
+.aula-modular-tipo .privacy-policy-terms {
+  position: absolute;
+  width: 171px;
+  height: 28px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .item-link {
+  position: absolute;
+  width: 88px;
+  height: 28px;
+  top: 0;
+  left: 196px;
+}
+
+.aula-modular-tipo .text-wrapper-38 {
+  position: absolute;
+  width: 88px;
+  height: 28px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .text-wrapper-39 {
+  position: absolute;
+  width: 309px;
+  height: 28px;
+  top: 35px;
+  left: 1296px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .text-wrapper-40 {
+  position: absolute;
+  width: 508px;
+  height: 91px;
+  top: 147px;
+  left: 779px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.aula-modular-tipo .group-4 {
+  position: absolute;
+  width: 391px;
+  height: 50px;
+  top: 64px;
+  left: 811px;
+}
+
+.aula-modular-tipo .vector-wrapper {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 1060px;
+  background-image: url(https://c.animaapp.com/Hx2w84pw/img/vector-14.svg);
+  background-size: 100% 100%;
+}
+
+.aula-modular-tipo .vector-20 {
+  position: absolute;
+  width: 26px;
+  height: 18px;
+  top: 10px;
+  left: 6px;
+}
+
+.aula-modular-tipo .overlap-21 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 1107px;
+  background-image: url(https://c.animaapp.com/Hx2w84pw/img/vector-16.svg);
+  background-size: 100% 100%;
+}
+
+.aula-modular-tipo .vector-21 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 9px;
+  left: 9px;
+}
+
+.aula-modular-tipo .vector-22 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 14px;
+  left: 14px;
+}
+
+.aula-modular-tipo .vector-23 {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  top: 12px;
+  left: 24px;
+}
+
+.aula-modular-tipo .overlap-22 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 1012px;
+  background-image: url(https://c.animaapp.com/Hx2w84pw/img/vector-17.svg);
+  background-size: 100% 100%;
+}
+
+.aula-modular-tipo .vector-24 {
+  position: absolute;
+  width: 15px;
+  height: 16px;
+  top: 14px;
+  left: 16px;
+}
+
+.aula-modular-tipo .vector-25 {
+  position: absolute;
+  width: 5px;
+  height: 15px;
+  top: 15px;
+  left: 8px;
+}
+
+.aula-modular-tipo .vector-26 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 7px;
+  left: 8px;
+}
+
+.aula-modular-tipo .img-wrapper {
+  position: absolute;
+  width: 39px;
+  height: 38px;
+  top: 283px;
+  left: 921px;
+  background-image: url(https://c.animaapp.com/Hx2w84pw/img/vector-21.svg);
+  background-size: 100% 100%;
+}
+
+.aula-modular-tipo .vector-27 {
+  position: absolute;
+  width: 16px;
+  height: 31px;
+  top: 8px;
+  left: 11px;
+}
+
+.aula-modular-tipo .overlap-23 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 283px;
+  left: 965px;
+  background-image: url(https://c.animaapp.com/Hx2w84pw/img/vector-26.svg);
+  background-size: 100% 100%;
+}
+
+.aula-modular-tipo .vector-28 {
+  position: absolute;
+  width: 23px;
+  height: 21px;
+  top: 9px;
+  left: 8px;
+}
+
+.aula-modular-tipo .vector-29 {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 9px;
+  left: 21px;
+}
+
+.aula-modular-tipo .vector-30 {
+  position: absolute;
+  width: 10px;
+  height: 9px;
+  top: 20px;
+  left: 9px;
+}
+
+.aula-modular-tipo .text-wrapper-41 {
+  position: absolute;
+  height: 27px;
+  top: 245px;
+  left: 952px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 26.2px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .text-wrapper-42 {
+  position: absolute;
+  height: 27px;
+  top: 336px;
+  left: 922px;
+  font-family: "Gotham Rounded-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 26.2px;
+  white-space: nowrap;
+}
+
+.aula-modular-tipo .line {
+  position: absolute;
+  width: 1111px;
+  height: 1px;
+  top: 1216px;
+  left: 400px;
+}
+
+.aula-modular-tipo .group-5 {
+  position: absolute;
+  width: 52px;
+  height: 40px;
+  top: 1953px;
+  left: 1289px;
+}
+
+.aula-modular-tipo .capa {
+  position: absolute;
+  width: 53px;
+  height: 41px;
+  top: 1954px;
+  left: 756px;
+}
+
+.aula-modular-tipo .capa-2 {
+  position: absolute;
+  width: 46px;
+  height: 57px;
+  top: 1936px;
+  left: 1109px;
+}
+
+.aula-modular-tipo .group-6 {
+  position: absolute;
+  width: 193px;
+  height: 42px;
+  top: 3274px;
+  left: 1000px;
+}
+
+.aula-modular-tipo .group-7 {
+  position: absolute;
+  width: 56px;
+  height: 52px;
+  top: 1948px;
+  left: 575px;
+}
+
+.aula-modular-tipo .group-8 {
+  position: absolute;
+  width: 49px;
+  height: 39px;
+  top: 1954px;
+  left: 931px;
+}

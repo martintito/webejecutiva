@@ -443,6 +443,16 @@
   border-color: #214287;
 }
 
+.kit-de-agua .overlap-3-desague {
+  position: relative;
+  width: 191px;
+  height: 42px;
+  background-color: #ffffff;
+  border-radius: 33px;
+  border: 2px solid;
+  border-color: #0b978a;
+}
+
 .kit-de-agua .text-wrapper-7 {
   position: absolute;
   width: 162px;
@@ -452,6 +462,22 @@
   font-family: "Gotham Rounded-Medium", Helvetica;
   font-weight: 500;
   color: #214287;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+
+.kit-de-agua .text-wrapper-7-desague {
+  position: absolute;
+  width: 162px;
+  height: 31px;
+  top: 3px;
+  left: 2px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #0b978a;
   font-size: 20px;
   text-align: center;
   letter-spacing: 0;
@@ -1707,6 +1733,20 @@
   white-space: nowrap;
 }
 
+.kit-de-agua .text-wrapper-37 {
+  position: absolute;
+  width: 149px;
+  top: 2055px;
+  left: 1220px;
+  font-family: "Gotham Rounded-Book", Helvetica;
+  font-weight: 400;
+  color: #020101;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.8px;
+}
+
 .kit-de-agua .text-wrapper-38 {
   position: absolute;
   width: 309px;
@@ -2247,6 +2287,16 @@
     background-color: #0852b5;
     border-radius: 15px;
   }
+
+  .responsive-kit-de .rectangle-5-desague {
+    position: absolute;
+    width: 359px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background-color: #0b978a;
+    border-radius: 15px;
+  }
   
   .responsive-kit-de .text-wrapper-3 {
     position: absolute;
@@ -2372,6 +2422,20 @@
     font-family: "Gotham Rounded-Medium", Helvetica;
     font-weight: 500;
     color: #0852b5;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 40.2px;
+  }
+
+  .responsive-kit-de .text-wrapper-7-desague {
+    position: absolute;
+    width: 304px;
+    top: 1434px;
+    left: 68px;
+    font-family: "Gotham Rounded-Medium", Helvetica;
+    font-weight: 500;
+    color: #0b978a;
     font-size: 35px;
     text-align: center;
     letter-spacing: 0;
@@ -2986,6 +3050,14 @@
     width: 229px;
     height: 60px;
     background-color: #0852b5;
+    border-radius: 30px;
+  }
+
+  .responsive-kit-de .overlap-group-2-desague {
+    position: relative;
+    width: 229px;
+    height: 60px;
+    background-color: #0b978a;
     border-radius: 30px;
   }
   

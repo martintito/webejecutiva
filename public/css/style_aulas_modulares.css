@@ -303,6 +303,36 @@
   border-color: #7d4393;
 }
 
+.aulas-modulares-tipo .overlap-group-2-sierra {
+  position: relative;
+  width: 210px;
+  height: 46px;
+  background-color: #ffffff;
+  border-radius: 33px;
+  border: 2px solid;
+  border-color: #c0504d;
+}
+
+.aulas-modulares-tipo .overlap-group-2-selva {
+  position: relative;
+  width: 210px;
+  height: 46px;
+  background-color: #ffffff;
+  border-radius: 33px;
+  border: 2px solid;
+  border-color: #00b050;
+}
+
+.aulas-modulares-tipo .overlap-group-2-helada {
+  position: relative;
+  width: 210px;
+  height: 46px;
+  background-color: #ffffff;
+  border-radius: 33px;
+  border: 2px solid;
+  border-color: #558ed5;
+}
+
 .aulas-modulares-tipo .text-wrapper-4 {
   position: absolute;
   width: 179px;
@@ -312,6 +342,54 @@
   font-family: "Gotham Rounded-Medium", Helvetica;
   font-weight: 500;
   color: #7d4393;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  cursor: pointer;
+}
+
+.aulas-modulares-tipo .text-wrapper-4-sierra {
+  position: absolute;
+  width: 179px;
+  height: 34px;
+  top: 4px;
+  left: 2px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #c0504d;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  cursor: pointer;
+}
+
+.aulas-modulares-tipo .text-wrapper-4-selva {
+  position: absolute;
+  width: 179px;
+  height: 34px;
+  top: 4px;
+  left: 2px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #00b050;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  cursor: pointer;
+}
+
+.aulas-modulares-tipo .text-wrapper-4-helada {
+  position: absolute;
+  width: 179px;
+  height: 34px;
+  top: 4px;
+  left: 2px;
+  font-family: "Gotham Rounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #558ed5;
   font-size: 20px;
   text-align: center;
   letter-spacing: 0;
@@ -708,7 +786,7 @@
   width: 163px;
   height: 82px;
   top: 0;
-  left: 20px;
+  left: 35px;
   position: absolute;
   object-fit: cover;
 }
